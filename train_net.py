@@ -172,12 +172,12 @@ if __name__ == '__main__':
     for key in relation_index.keys() :
         value = relation_index[key]
         relation_index_r[value] = key
-    '''           
+          
     word_embedding = bilstm.state_dict()['word_embedding.weight'].cpu().numpy()
     word_embedding = load_pretrain_vector(word_index,word_embedding)
     pretrained_weight = np.array(word_embedding)
     bilstm.word_embedding.weight.data.copy_(torch.from_numpy(pretrained_weight))
-     
+    '''      
     for p in bilstm.fixed_embedding.parameters():
 	p.requires_grad = False
     '''
