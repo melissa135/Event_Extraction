@@ -462,7 +462,7 @@ if __name__ == '__main__':
                 for k in range(0,ensemble):
                     char_cnn_list[k].load_state_dict(torch.load(path_+'/char_cnn_%d_%d.pth'%(m,k)))
                     bilstm_list[k].load_state_dict(torch.load(path_+'/bilstm_%d_%d.pth'%(m,k)))
-                    tr_list[k].load_state_dict(torch.load(path_+'/ner_%d_%d.pth'%(m,k)))
+                    tr_list[k].load_state_dict(torch.load(path_+'/tr_%d_%d.pth'%(m,k)))
                     rc_list[k].load_state_dict(torch.load(path_+'/rc_%d_%d.pth'%(m,k)))
                     
                 f = file(path_+'/event_index', 'r')
