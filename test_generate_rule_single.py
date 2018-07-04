@@ -428,7 +428,7 @@ def incomplete_event_assert(etype,argus):
 if __name__ == '__main__':
 
     path_ = os.path.abspath('.')
-    folder = '/home/zhu/event_extraction_old/table_test/'
+    folder = path_+'/table_test/'
 
     first_load = True
 
@@ -460,11 +460,11 @@ if __name__ == '__main__':
                 tr = Trigger_Recognition(event_dim).cuda()
                 rc = Relation_ClassificationC(relation_dim).cuda()
 
-                epoch = 40
+                epoch = 50
                 number = 0
                 char_cnn.load_state_dict(torch.load(path_+'/char_cnn_%d_%d.pth'%(epoch,number)))
                 bilstm.load_state_dict(torch.load(path_+'/bilstm_%d_%d.pth'%(epoch,number)))
-                tr.load_state_dict(torch.load(path_+'/ner_%d_%d.pth'%(epoch,number)))
+                tr.load_state_dict(torch.load(path_+'/tr_%d_%d.pth'%(epoch,number)))
                 rc.load_state_dict(torch.load(path_+'/rc_%d_%d.pth'%(epoch,number)))
 
                 f = file(path_+'/event_index', 'r')
