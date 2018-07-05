@@ -1,0 +1,5 @@
+event_id,event_type,src,relation,dst
+E1,Positive_regulation,T29,Theme,T3
+E2,Negative_regulation,T30,Theme,T19
+E3,Positive_regulation,T31,Theme,T21
+E4,Catabolism,T32,Theme,T22

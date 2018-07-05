@@ -1,0 +1,17 @@
+event_id,event_type,src,relation,dst
+E1,Metastasis,T30
+E2,Metastasis,T31
+E3,Negative_regulation,T32,Theme,E6
+E3,Negative_regulation,T32,Cause,T7
+E4,Negative_regulation,T32,Theme,E6
+E4,Negative_regulation,T32,Cause,T5
+E5,Negative_regulation,T32,Theme,E6
+E5,Negative_regulation,T32,Cause,T3
+E6,Development,T33,Theme,T9
+E7,Binding,T34,Theme,T19
+E8,Binding,T35,Theme,T24
+E9,Planned_process,T36,Theme,T26
+E10,Planned_process,T37,Theme,T28
+E11,Metastasis,T38
+E12,Metastasis,T39
+E13,Metastasis,T40

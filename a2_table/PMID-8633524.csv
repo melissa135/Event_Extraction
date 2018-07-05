@@ -1,0 +1,7 @@
+event_id,event_type,src,relation,dst
+E1,Localization,T14,Theme,T2
+E2,Metastasis,T15,Theme,T3
+E2,Metastasis,T15,ToLoc,T4
+E3,Metastasis,T16,ToLoc,T7
+E3,Metastasis,T16,Theme,T5
+E4,Positive_regulation,T17,Theme,T11

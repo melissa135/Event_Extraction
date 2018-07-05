@@ -1,0 +1,17 @@
+event_id,event_type,src,relation,dst
+E1,Regulation,T24,Theme,E2
+E2,Localization,T25,Theme,T1
+E3,Localization,T26,Theme,T2
+E4,Regulation,T27,Cause,E3
+E4,Regulation,T27,Theme,E5
+E5,Remodeling,T28,Theme,T4
+E6,Localization,T29,Theme,T7
+E7,Planned_process,T30,Theme,T8
+E8,Localization,T31,Theme,T14
+E9,Localization,T32,Theme,T18
+E10,Positive_regulation,T33,Theme,E11
+E11,Localization,T34,Theme,T19
+E12,Regulation,T35,Theme,E13
+E13,Localization,T36,Theme,T21
+E14,Localization,T37,Theme,T22
+E15,Blood_vessel_development,T38

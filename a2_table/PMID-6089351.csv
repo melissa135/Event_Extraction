@@ -1,0 +1,15 @@
+event_id,event_type,src,relation,dst
+E1,Cell_transformation,T23
+E2,Cell_transformation,T24
+E3,Cell_transformation,T25,Theme,T7
+E4,Regulation,T26,Theme,T10
+E4,Regulation,T26,Cause,T4
+E5,Regulation,T26,Theme,T11
+E5,Regulation,T26,Cause,T3
+E6,Regulation,T26,Theme,T11
+E6,Regulation,T26,Cause,T4
+E7,Regulation,T26,Theme,T10
+E7,Regulation,T26,Cause,T3
+E8,Regulation,T27,Theme,E9
+E8,Regulation,T27,Cause,T17
+E9,Cell_transformation,T28

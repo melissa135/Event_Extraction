@@ -1,0 +1,13 @@
+event_id,event_type,src,relation,dst
+E1,Regulation,T26,Cause,T10
+E1,Regulation,T26,Theme,T11
+E2,Planned_process,T27,Theme,T13
+E3,Metastasis,T28,ToLoc,T16
+E3,Metastasis,T28,Theme,T14
+E4,Death,T29,Theme,T13
+E5,Gene_expression,T30,Theme,T17
+E6,Gene_expression,T31,Theme,T18
+E7,Metastasis,T32,ToLoc,T19
+E8,Gene_expression,T33,Theme,T20
+E9,Gene_expression,T34,Theme,T21
+E10,Positive_regulation,T35,Theme,E9

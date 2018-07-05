@@ -1,0 +1,15 @@
+event_id,event_type,src,relation,dst
+E1,Positive_regulation,T42,Theme,T2
+E2,Blood_vessel_development,T43
+E3,Positive_regulation,T44,Cause,E2
+E3,Positive_regulation,T44,Theme,E4
+E4,Growth,T45,Theme,T5
+E5,Regulation,T46,Theme,E2
+E6,Blood_vessel_development,T47
+E7,Positive_regulation,T48,Cause,T6
+E7,Positive_regulation,T48,Theme,E8
+E8,Blood_vessel_development,T49
+E9,Metastasis,T50
+E10,Localization,T51,Theme,T38
+E10,Localization,T51,ToLoc,T39
+E10,Localization,T51,FromLoc,T36

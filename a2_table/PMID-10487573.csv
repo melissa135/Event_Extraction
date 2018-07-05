@@ -1,0 +1,17 @@
+event_id,event_type,src,relation,dst
+E1,Blood_vessel_development,T19,AtLoc,T1
+E2,Breakdown,T20,Theme,T2
+E3,Regulation,T21,Theme,E4
+E4,Blood_vessel_development,T22,AtLoc,T3
+E5,Blood_vessel_development,T23
+E6,Breakdown,T24,Theme,T4
+E7,Blood_vessel_development,T25
+E8,Planned_process,T26,Instrument,T7
+E9,Planned_process,T27,Theme,T8
+E10,Planned_process,T28,Theme,T9
+E11,Planned_process,T29,Theme,T14
+E12,Blood_vessel_development,T30
+E13,Planned_process,T31,Theme,T15
+E14,Planned_process,T32,Theme,T16
+E15,Planned_process,T33,Theme,T17
+E16,Planned_process,T34,Theme,T17

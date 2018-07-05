@@ -1,0 +1,17 @@
+event_id,event_type,src,relation,dst
+E1,Planned_process,T38,Theme,T5
+E2,Planned_process,T39,Theme,T10
+E3,Planned_process,T40,Theme,T14
+E4,Planned_process,T41,Theme,T16
+E5,Localization,T42,ToLoc,T22
+E5,Localization,T42,Theme,T23
+E6,Localization,T42,ToLoc,T22
+E6,Localization,T42,Theme,T24
+E7,Gene_expression,T43,Theme,T27
+E8,Positive_regulation,T44,Theme,E7
+E9,Mutation,T45,Theme,T32
+E10,Regulation,T46,Theme,E11
+E10,Regulation,T46,Cause,E9
+E11,Growth,T47,Theme,T33
+E12,Infection,T48,Participant,T35
+E13,Carcinogenesis,T49,Theme,T37

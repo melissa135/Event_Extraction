@@ -1,0 +1,15 @@
+event_id,event_type,src,relation,dst
+E1,Metabolism,T22,Theme,T1
+E2,Metabolism,T22,Theme,T2
+E3,Metabolism,T23,Theme,T4
+E4,Metabolism,T24,Theme,T8
+E5,Metabolism,T24,Theme,T9
+E6,Planned_process,T25,Instrument,T11
+E7,Planned_process,T26,Theme,T12
+E7,Planned_process,T26,Instrument,T13
+E7,Planned_process,T26,Instrument2,T14
+E8,Planned_process,T27,Theme,T15
+E9,Planned_process,T27,Theme,T16
+E10,Metabolism,T28,Theme,T17
+E11,Metabolism,T29,Theme,T20
+E12,Glycolysis,T30

@@ -1,0 +1,10 @@
+event_id,event_type,src,relation,dst
+E1,Gene_expression,T23,Theme,T1
+E2,Metastasis,T24
+E3,Metastasis,T25,Theme,T4
+E4,Transcription,T26,Theme,T5
+E5,Metastasis,T27
+E6,Planned_process,T28,Instrument,T13
+E7,Transcription,T29,Theme,T17
+E8,Metastasis,T30,Theme,T19
+E9,Transcription,T31,Theme,T20

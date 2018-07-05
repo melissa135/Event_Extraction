@@ -1,0 +1,14 @@
+event_id,event_type,src,relation,dst
+E1,Cell_transformation,T12
+E2,Positive_regulation,T13,Cause,T6
+E2,Positive_regulation,T13,Theme,E3
+E3,Cell_transformation,T14,Theme,T7
+E4,Cell_transformation,T15
+E5,Positive_regulation,T16,Theme,E4
+E5,Positive_regulation,T16,Cause,T9
+E6,Gene_expression,T17,Theme,T10
+E7,Localization,T18,Theme,T10
+E8,Regulation,T19,Cause,T11
+E8,Regulation,T19,Theme,E7
+E9,Regulation,T19,Cause,T11
+E9,Regulation,T19,Theme,E6

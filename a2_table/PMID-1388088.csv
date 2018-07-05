@@ -1,0 +1,17 @@
+event_id,event_type,src,relation,dst
+E1,Negative_regulation,T22,Theme,E2
+E1,Negative_regulation,T22,Cause,T1
+E2,Breakdown,T23,Theme,T2
+E3,Gene_expression,T24,Theme,T4
+E4,Positive_regulation,T25,Theme,E3
+E5,Blood_vessel_development,T26
+E6,Death,T27,Theme,T8
+E7,Negative_regulation,T28,Theme,E6
+E8,Planned_process,T29,Instrument,T12
+E8,Planned_process,T29,Theme,T11
+E9,Planned_process,T30,Instrument,T16
+E10,Planned_process,T31,Instrument,T17
+E11,Regulation,T32,Cause,T18
+E11,Regulation,T32,Theme,E12
+E12,Breakdown,T33,Theme,T19
+E13,Death,T34,Theme,T21

@@ -1,0 +1,15 @@
+event_id,event_type,src,relation,dst
+E1,Planned_process,T19,Theme,T4
+E2,Localization,T20,Theme,T5
+E2,Localization,T20,Theme2,T6
+E3,Localization,T21,Theme,T10
+E3,Localization,T21,Theme2,T11
+E4,Localization,T22,Theme,T12
+E5,Regulation,T23,Theme,T14
+E6,Negative_regulation,T24,Cause,T17
+E6,Negative_regulation,T24,Theme,E7
+E7,Metabolism,T25,Theme,T18
+E8,Amino_acid_catabolism,T26
+E9,Negative_regulation,T27,Cause,E8
+E9,Negative_regulation,T27,Theme,E10
+E10,Glycolysis,T28

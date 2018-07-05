@@ -1,0 +1,14 @@
+event_id,event_type,src,relation,dst
+E1,Cell_transformation,T26,Theme,T9
+E2,Positive_regulation,T27,Cause,T8
+E2,Positive_regulation,T27,Theme,E1
+E3,Cell_transformation,T28,Theme,T11
+E4,Positive_regulation,T29,Cause,T10
+E4,Positive_regulation,T29,Theme,E3
+E5,Positive_regulation,T30,Theme,T12
+E6,Planned_process,T31,Theme,T13
+E6,Planned_process,T31,Instrument,T14
+E7,Infection,T32,Theme,T16
+E8,Infection,T33,Theme,T16
+E9,Infection,T34,Theme,T16
+E10,Translation,T35,Theme,T19

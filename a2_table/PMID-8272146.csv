@@ -1,0 +1,10 @@
+event_id,event_type,src,relation,dst
+E1,Synthesis,T19,Theme,T4
+E2,Metabolism,T20,Theme,T7
+E3,Metabolism,T21,Theme,T8
+E4,Metabolism,T22,Theme,T9
+E5,Planned_process,T23,Theme,T10
+E6,Planned_process,T24,Theme,T13
+E6,Planned_process,T24,Instrument,T11
+E7,Negative_regulation,T25,Theme,T14
+E8,Negative_regulation,T26,Theme,T16

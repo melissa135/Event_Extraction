@@ -1,0 +1,14 @@
+event_id,event_type,src,relation,dst
+E1,Cell_transformation,T21
+E2,Carcinogenesis,T22
+E3,Planned_process,T23,Instrument,T3
+E3,Planned_process,T23,Theme,T2
+E4,Transcription,T24,Theme,T9
+E5,Transcription,T25,Theme,T17
+E6,Pathway,T26
+E7,Regulation,T27,Cause,E6
+E7,Regulation,T27,Theme,E9
+E8,Regulation,T27,Cause,E6
+E8,Regulation,T27,Theme,E10
+E9,Cell_proliferation,T28,Theme,T20
+E10,Cell_differentiation,T29,Theme,T20
