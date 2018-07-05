@@ -142,8 +142,9 @@ def get_event(file_path,position2word):
 
 
 if __name__ == '__main__':
-        
-    txt_path = 'E:/corpus/tmp2/txt'
+    
+    path_ = os.path.abspath('.')
+    txt_path = path_.replace('preprocess','txt')
 
     for fpath,_,files in os.walk(txt_path):
         for fl in files:
