@@ -1,0 +1,36 @@
+T1	Cellular_component 23 26	DNA
+T2	Gene_or_gene_product 58 92	vascular endothelial growth factor
+T3	Multi-tissue_structure 104 114	collateral
+T4	Gene_or_gene_product 136 170	Vascular endothelial growth factor
+T5	Gene_or_gene_product 172 176	VEGF
+T6	Cell 202 218	endothelial cell
+T7	Cellular_component 279 282	DNA
+T8	Gene_or_gene_product 296 300	VEGF
+T9	Multi-tissue_structure 332 340	arterial
+T10	Multi-tissue_structure 367 384	collateral artery
+T11	Cellular_component 398 409	Plasmid DNA
+T12	Organism 447 452	human
+T13	Gene_or_gene_product 453 457	VEGF
+T14	Gene_or_gene_product 468 477	phVEGF121
+T15	Gene_or_gene_product 479 488	phVEGF165
+T16	Gene_or_gene_product 493 502	phVEGF189
+T17	Multi-tissue_structure 610 622	iliac artery
+T18	Organism 626 633	rabbits
+T19	Organism_subdivision 659 667	hindlimb
+T20	Gene_or_gene_product 725 729	LacZ
+T21	Gene_or_gene_product 761 767	phVEGF
+T22	Multi-tissue_structure 790 807	collateral vessel
+T23	Organism_subdivision 873 877	calf
+T24	Organism_substance 878 883	blood
+T25	Organism_subdivision 900 908	ischemic
+T26	Organism_subdivision 912 923	normal limb
+T27	Organism_substance 946 951	blood
+T28	Tissue 962 971	capillary
+T29	Cell 975 982	myocyte
+T30	Gene_or_gene_product 1025 1034	phVEGF121
+T31	Gene_or_gene_product 1036 1045	phVEGF165
+T32	Gene_or_gene_product 1051 1060	phVEGF189
+T33	Cell 1362 1367	cells
+T34	Multi-tissue_structure 1381 1389	Arterial
+T35	Cellular_component 1413 1416	DNA
+T36	Multi-tissue_structure 1557 1574	collateral vessel

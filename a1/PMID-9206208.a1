@@ -1,0 +1,22 @@
+T1	Gene_or_gene_product 42 46	nm23
+T2	Organism 50 55	human
+T3	Cancer 56 80	hepatocellular carcinoma
+T4	Cancer 174 179	tumor
+T5	Gene_or_gene_product 209 216	nm23-H1
+T6	Cell 283 288	cells
+T7	Cancer 290 295	tumor
+T8	Gene_or_gene_product 323 330	nm23-H1
+T9	Organism 334 339	human
+T10	Cancer 340 364	hepatocellular carcinoma
+T11	Multi-tissue_structure 374 392	nonneoplastic area
+T12	Cancer 409 414	tumor
+T13	Simple_chemical 460 471	digoxiginin
+T14	Gene_or_gene_product 480 487	nm23-H1
+T15	Cellular_component 615 623	granules
+T16	Organism_substance 641 650	cytoplasm
+T17	Gene_or_gene_product 680 687	nm23-H1
+T18	Organism 728 733	human
+T19	Cancer 734 758	hepatocellular carcinoma
+T20	Gene_or_gene_product 791 798	nm23-H1
+T21	Cancer 855 860	tumor
+T22	Organ 894 899	liver

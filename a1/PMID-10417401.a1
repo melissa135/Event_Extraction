@@ -1,0 +1,30 @@
+T1	Multi-tissue_structure 20 28	coronary
+T2	Gene_or_gene_product 58 92	vascular endothelial growth factor
+T3	Multi-tissue_structure 103 111	coronary
+T4	Gene_or_gene_product 199 233	vascular endothelial growth factor
+T5	Gene_or_gene_product 235 239	VEGF
+T6	Cell 245 261	endothelial cell
+T7	Organ 343 348	heart
+T8	Organism 424 428	rats
+T9	Simple_chemical 467 476	alinidine
+T10	Organism_subdivision 486 490	body
+T11	Organ 512 517	Heart
+T12	Multi-tissue_structure 680 688	Arterial
+T13	Organ 702 709	cardiac
+T14	Tissue 733 759	Left ventricular capillary
+T15	Simple_chemical 811 820	alinidine
+T16	Simple_chemical 902 911	alinidine
+T17	Multi-tissue_structure 939 955	Left ventricular
+T18	Organism_subdivision 964 968	body
+T19	Simple_chemical 1027 1036	alinidine
+T20	Tissue 1097 1106	capillary
+T21	Gene_or_gene_product 1123 1127	VEGF
+T22	Gene_or_gene_product 1228 1232	VEGF
+T23	Simple_chemical 1255 1264	alinidine
+T24	Organism 1273 1277	rats
+T25	Gene_or_gene_product 1372 1376	VEGF
+T26	Simple_chemical 1441 1450	alinidine
+T27	Gene_or_gene_product 1489 1493	bFGF
+T28	Simple_chemical 1518 1527	alinidine
+T29	Gene_or_gene_product 1563 1567	VEGF
+T30	Gene_or_gene_product 1680 1684	VEGF

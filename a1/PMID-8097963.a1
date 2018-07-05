@@ -1,0 +1,57 @@
+T1	Gene_or_gene_product 33 62	protein tyrosine phosphatases
+T2	Organism 66 71	human
+T3	Cell 72 95	breast epithelial cells
+T4	Gene_or_gene_product 130 133	neu
+T5	Amino_acid 153 161	tyrosine
+T6	Cell 244 248	cell
+T7	Gene_or_gene_product 360 384	protein tyrosine kinases
+T8	Gene_or_gene_product 389 418	protein tyrosine phosphatases
+T9	Gene_or_gene_product 420 427	PTPases
+T10	Gene_or_gene_product 448 472	protein tyrosine kinases
+T11	Organism 506 511	human
+T12	Organism_subdivision 512 518	breast
+T13	Gene_or_gene_product 546 553	PTPases
+T14	Gene_or_gene_product 628 631	neu
+T15	Organism 692 697	human
+T16	Cell 698 725	breast epithelial cell line
+T17	Cell 727 732	184B5
+T18	Gene_or_gene_product 778 785	P185neu
+T19	Cancer 850 860	carcinomas
+T20	Cell 872 877	cells
+T21	Organism 907 916	nude mice
+T22	Gene_or_gene_product 981 988	PTPases
+T23	Gene_or_gene_product 990 993	LAR
+T24	Gene_or_gene_product 998 1003	PTP1B
+T25	Gene_or_gene_product 1037 1040	neu
+T26	Cell 1053 1063	cell lines
+T27	Cancer 1082 1088	tumors
+T28	Gene_or_gene_product 1155 1168	TC-PTP PTPase
+T29	Gene_or_gene_product 1217 1220	neu
+T30	Cell 1233 1238	cells
+T31	Gene_or_gene_product 1261 1272	CD45 PTPase
+T32	Gene_or_gene_product 1300 1303	neu
+T33	Gene_or_gene_product 1363 1370	P185neu
+T34	Gene_or_gene_product 1375 1378	LAR
+T35	Gene_or_gene_product 1379 1384	PTP1B
+T36	Organism 1440 1443	rat
+T37	Cancer 1444 1462	mammary carcinomas
+T38	Gene_or_gene_product 1477 1480	neu
+T39	Gene_or_gene_product 1493 1496	neu
+T40	Gene_or_gene_product 1532 1542	LAR-PTPase
+T41	Organism 1571 1574	rat
+T42	Cancer 1575 1593	mammary carcinomas
+T43	Gene_or_gene_product 1612 1615	neu
+T44	Simple_chemical 1628 1655	7,12-dimethylbenzanthracene
+T45	Gene_or_gene_product 1693 1703	LAR PTPase
+T46	Gene_or_gene_product 1746 1749	neu
+T47	Organism 1816 1821	human
+T48	Cell 1822 1844	breast carcinoma cells
+T49	Organism 1852 1855	rat
+T50	Cancer 1856 1874	mammary carcinomas
+T51	Gene_or_gene_product 1908 1911	neu
+T52	Gene_or_gene_product 1992 1999	PTPases
+T53	Gene_or_gene_product 2033 2040	P185neu
+T54	Gene_or_gene_product 2041 2064	protein tyrosine kinase
+T55	Gene_or_gene_product 2089 2095	PTPase
+T56	Organism 2135 2140	human
+T57	Organism_subdivision 2141 2147	breast

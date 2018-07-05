@@ -1,0 +1,79 @@
+T1	Gene_or_gene_product 0 7	VEGF165
+T2	Organism 57 67	adenovirus
+T3	Organism 288 298	adenovirus
+T4	Organism 300 302	Ad
+T5	Organism 311 324	AdCMV.VEGF165
+T6	Gene_or_gene_product 317 324	VEGF165
+T7	Organism 332 335	CMV
+T8	Organism 339 354	cytomegalovirus
+T9	Gene_or_gene_product 359 363	VEGF
+T10	Gene_or_gene_product 367 401	vascular endothelial growth factor
+T11	Cellular_component 418 422	cDNA
+T12	Organism 427 432	human
+T13	Gene_or_gene_product 433 440	VEGF165
+T14	Cell 453 469	endothelial cell
+T15	Cell 522 560	Human umbilical vein endothelial cells
+T16	Cell 562 568	HUVECs
+T17	Cell 574 603	rat aorta smooth muscle cells
+T18	Cell 605 611	RASMCs
+T19	Organism 627 640	AdCMV.VEGF165
+T20	Gene_or_gene_product 633 640	VEGF165
+T21	Cell 682 686	cell
+T22	Gene_or_gene_product 701 705	VEGF
+T23	Cell 813 818	cells
+T24	Multi-tissue_structure 828 836	vascular
+T25	Gene_or_gene_product 880 884	VEGF
+T26	Cell 935 941	HUVECs
+T27	Cell 945 951	RASMCs
+T28	Cell 958 963	cells
+T29	Organism 997 1011	AdCMV.beta gal
+T30	Gene_or_gene_product 1003 1011	beta gal
+T31	Gene_or_gene_product 1019 1027	beta gal
+T32	Gene_or_gene_product 1031 1049	beta-galactosidase
+T33	Cell 1074 1080	HUVECs
+T34	Cell 1118 1123	cells
+T35	Organism 1128 1141	AdCMV.VEGF165
+T36	Gene_or_gene_product 1134 1141	VEGF165
+T37	Cell 1151 1157	HUVECs
+T38	Cell 1170 1174	cell
+T39	Cell 1223 1228	cells
+T40	Cell 1230 1235	RASMC
+T41	Organism 1283 1296	AdCMV.VEGF165
+T42	Gene_or_gene_product 1289 1296	VEGF165
+T43	Organism_substance 1316 1321	serum
+T44	Cellular_component 1361 1378	basement membrane
+T45	Cell 1391 1397	HUVECs
+T46	Organism 1412 1425	AdCMV.VEGF165
+T47	Gene_or_gene_product 1418 1425	VEGF165
+T48	Cell 1438 1442	cell
+T49	Tissue 1464 1489	capillary-like structures
+T50	Cell 1533 1539	HUVECs
+T51	Cell 1544 1550	HUVECs
+T52	Organism 1565 1579	AdCMV.beta gal
+T53	Gene_or_gene_product 1571 1579	beta gal
+T54	Organism 1630 1643	AdCMV.VEGF165
+T55	Gene_or_gene_product 1636 1643	VEGF165
+T56	Organism 1672 1686	AdCMV. VEGF165
+T57	Gene_or_gene_product 1679 1686	VEGF165
+T58	Organism 1690 1704	AdCMV.beta gal
+T59	Gene_or_gene_product 1696 1704	beta gal
+T60	Organism 1790 1794	mice
+T61	Gene_or_gene_product 1838 1842	VEGF
+T62	Tissue 1850 1857	tissues
+T63	Organism 1900 1913	AdCMV.VEGF165
+T64	Gene_or_gene_product 1906 1913	VEGF165
+T65	Gene_or_gene_product 1956 1960	VEGF
+T66	Organism 1997 2011	AdCMV.beta gal
+T67	Gene_or_gene_product 2003 2011	beta gal
+T68	Tissue 2101 2108	tissues
+T69	Organism 2145 2158	AdCMV.VEGF165
+T70	Gene_or_gene_product 2151 2158	VEGF165
+T71	Organism 2224 2238	AdCMV.beta gal
+T72	Gene_or_gene_product 2230 2238	beta gal
+T73	Organism 2277 2290	AdCMV.VEGF165
+T74	Gene_or_gene_product 2283 2290	VEGF165
+T75	Gene_or_gene_product 2304 2314	hemoglobin
+T76	Organism 2359 2373	AdCMV.beta gal
+T77	Gene_or_gene_product 2365 2373	beta gal
+T78	Organism 2457 2459	Ad
+T79	Gene_or_gene_product 2530 2537	VEGF165

@@ -1,0 +1,27 @@
+T1	Cell 0 5	Cells
+T2	Organism 21 39	Rous sarcoma virus
+T3	Gene_or_gene_product 48 75	transforming growth factors
+T4	Organism 78 85	Chicken
+T5	Cell 86 104	embryo fibroblasts
+T6	Cell 109 126	hamster BHK cells
+T7	Organism 142 160	Rous sarcoma virus
+T8	Organism 162 165	RSV
+T9	Organism 347 354	chicken
+T10	Cell 355 373	embryo fibroblasts
+T11	Cell 375 378	CEF
+T12	Organism 392 395	RSV
+T13	Gene_or_gene_product 430 433	src
+T14	Cell 484 487	CEF
+T15	Gene_or_gene_product 553 556	src
+T16	Cell 576 581	cells
+T17	Gene_or_gene_product 647 674	transforming growth factors
+T18	Gene_or_gene_product 676 680	TGFs
+T19	Simple_chemical 780 794	dithiothreitol
+T20	Gene_or_gene_product 826 829	EGF
+T21	Gene_or_gene_product 849 862	EGF receptors
+T22	Cellular_component 870 878	membrane
+T23	Cell 882 892	A431 cells
+T24	Organism 897 904	chicken
+T25	Cell 905 923	embryo fibroblasts
+T26	Gene_or_gene_product 938 951	EGF receptors
+T27	Gene_or_gene_product 990 993	EGF

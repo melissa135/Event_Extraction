@@ -1,0 +1,22 @@
+T1	Gene_or_gene_product 10 42	epidermal growth factor receptor
+T2	Gene_or_gene_product 138 170	epidermal growth factor receptor
+T3	Gene_or_gene_product 172 176	EGFR
+T4	Cancer 219 226	gliomas
+T5	Gene_or_gene_product 241 245	EGFR
+T6	Cell 351 375	A-172 human glioma cells
+T7	Gene_or_gene_product 399 403	EGFR
+T20	Protein_domain_or_region 442 457	tyrosine kinase
+T21	Protein_domain_or_region 459 461	TK
+T8	Simple_chemical 467 474	calcium
+T22	Protein_domain_or_region 484 514	internalization (CAIN) domains
+T9	Cell 596 598	KE
+T10	Cell 603 622	A-1235 glioma cells
+T11	Cell 719 721	KE
+T12	Cell 726 738	A-1235 cells
+T25	DNA_domain_or_region 815 834	exons 18 through 25
+T27	DNA_domain_or_region 937 951	TK/CAIN region
+T28	DNA_domain_or_region 953 964	exons 18-26
+T13	Cell 969 980	A-172 cells
+T30	DNA_domain_or_region 997 1008	exons 18-25
+T14	Gene_or_gene_product 1205 1226	T lymphocyte receptor
+T15	Gene_or_gene_product 1378 1382	EGFR

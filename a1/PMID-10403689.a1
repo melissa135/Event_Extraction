@@ -1,0 +1,30 @@
+T1	Gene_or_gene_product 32 39	nm23-H1
+T2	Multi-tissue_structure 56 60	node
+T3	Cancer 70 81	lung cancer
+T4	Multi-tissue_structure 86 97	lymph nodes
+T5	Gene_or_gene_product 104 111	nm23-H1
+T6	Cancer 282 289	cancers
+T7	Gene_or_gene_product 318 325	nm23-H1
+T8	Multi-tissue_structure 357 362	sites
+T9	Gene_or_gene_product 426 433	nm23-H1
+T10	Cancer 490 502	lung cancers
+T11	Multi-tissue_structure 518 529	lymph nodes
+T12	Gene_or_gene_product 580 587	nm23-H1
+T13	Cancer 604 619	primary cancers
+T14	Multi-tissue_structure 635 646	lymph nodes
+T15	Gene_or_gene_product 715 722	nm23-H1
+T16	Cancer 755 770	primary cancers
+T17	Multi-tissue_structure 786 797	lymph nodes
+T18	Gene_or_gene_product 860 867	nm23-H1
+T19	Cancer 895 907	lung cancers
+T20	Organism 916 924	patients
+T21	Gene_or_gene_product 988 995	nm23-H1
+T22	Multi-tissue_structure 1023 1034	lymph nodes
+T23	Organism 1043 1051	patients
+T24	Gene_or_gene_product 1130 1137	nm23-H1
+T25	Organism 1170 1178	patients
+T26	Gene_or_gene_product 1217 1224	nm23-H1
+T27	Cancer 1299 1325	node-positive lung cancers
+T28	Gene_or_gene_product 1341 1348	nm23-H1
+T29	Multi-tissue_structure 1376 1387	lymph nodes
+T30	Organism 1410 1418	patients

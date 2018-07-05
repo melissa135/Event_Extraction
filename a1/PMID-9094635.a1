@@ -1,0 +1,46 @@
+T1	Gene_or_gene_product 14 17	p53
+T2	Cell 71 75	cell
+T3	Gene_or_gene_product 131 134	E1B
+T4	Organism 146 169	human adenovirus type 5
+T5	Organism 176 193	adenovirus type 5
+T6	Gene_or_gene_product 201 204	E1B
+T7	Gene_or_gene_product 214 217	E1B
+T8	Gene_or_gene_product 241 244	E1A
+T9	Cell 269 273	cell
+T10	Gene_or_gene_product 290 293	E1A
+T11	Cellular_component 313 316	DNA
+T12	Cell 331 335	cell
+T13	Cell 382 386	cell
+T14	Gene_or_gene_product 396 399	p53
+T15	Gene_or_gene_product 414 417	p53
+T16	Gene_or_gene_product 477 480	E1B
+T17	Gene_or_gene_product 535 538	p53
+T18	Gene_or_gene_product 590 593	p53
+T19	Gene_or_gene_product 633 639	55-kDa
+T20	Gene_or_gene_product 662 665	p53
+T21	Gene_or_gene_product 721 724	p53
+T22	Gene_or_gene_product 762 765	E1A
+T23	Gene_or_gene_product 866 869	E1B
+T24	Amino_acid 887 894	Ser-490
+T25	Amino_acid 899 906	Ser-491
+T26	Gene_or_gene_product 925 941	casein kinase II
+T27	Amino_acid 992 999	alanine
+T28	Gene_or_gene_product 1072 1078	55-kDa
+T29	Gene_or_gene_product 1114 1117	p53
+T30	Gene_or_gene_product 1181 1184	p53
+T31	Amino_acid 1248 1255	Thr-495
+T32	Gene_or_gene_product 1335 1341	55-kDa
+T33	Gene_or_gene_product 1367 1370	E1A
+T34	Gene_or_gene_product 1379 1382	p53
+T35	Cell 1412 1417	cells
+T36	Organism 1430 1447	mutant pm490/1/5A
+T37	Amino_acid 1464 1471	alanine
+T38	Cellular_component 1537 1540	DNA
+T39	Cell 1577 1581	cell
+T40	Gene_or_gene_product 1593 1596	E1B
+T41	Gene_or_gene_product 1739 1743	GAL4
+T42	Cellular_component 1744 1747	DNA
+T43	Gene_or_gene_product 1787 1790	p53
+T44	Gene_or_gene_product 1900 1903	p53
+T45	Gene_or_gene_product 1985 1991	55-kDa
+T96	Protein_domain_or_region 2057 2073	carboxy terminus

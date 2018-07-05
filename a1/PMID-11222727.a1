@@ -1,0 +1,37 @@
+T1	Gene_or_gene_product 0 5	TRADD
+T2	Organism 16 34	Epstein-Barr virus
+T3	Gene_or_gene_product 56 60	LMP1
+T4	Organism 141 147	rodent
+T5	Cell 148 159	fibroblasts
+T6	Gene_or_gene_product 183 208	latent membrane protein 1
+T7	Gene_or_gene_product 210 214	LMP1
+T8	Organism 219 237	Epstein-Barr virus
+T9	Organism 239 242	EBV
+T10	Cell 252 258	B-cell
+T40	Protein_domain_or_region 319 323	TES1
+T41	Protein_domain_or_region 328 332	TES2
+T42	Protein_domain_or_region 334 338	TES2
+T11	Gene_or_gene_product 369 423	tumor necrosis factor receptor-associated death domain
+T12	Gene_or_gene_product 433 438	TRADD
+T13	Gene_or_gene_product 480 490	NF-kappa B
+T14	Gene_or_gene_product 495 499	AP-1
+T15	Organism 513 516	EBV
+T16	Gene_or_gene_product 528 532	LMP1
+T46	Protein_domain_or_region 538 542	TES2
+T17	Cell 586 593	B cells
+T18	Gene_or_gene_product 641 645	LMP1
+T52	Protein_domain_or_region 672 676	TES2
+T19	Gene_or_gene_product 678 682	LMP1
+T20	Gene_or_gene_product 683 688	TRADD
+T21	Cell 712 716	cell
+T22	Cell 767 770	MEF
+T23	Cell 829 832	MEF
+T24	Cell 838 859	MEF-LMP1(TRADD) cells
+T25	Gene_or_gene_product 842 846	LMP1
+T26	Gene_or_gene_product 847 852	TRADD
+T27	Gene_or_gene_product 931 935	LMP1
+T28	Gene_or_gene_product 936 941	TRADD
+T29	Cell 952 956	cell
+T30	Cancer 1040 1045	tumor
+T31	Gene_or_gene_product 1057 1060	p16
+T32	Gene_or_gene_product 1061 1066	Ink4a

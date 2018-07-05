@@ -1,0 +1,44 @@
+T1	Gene_or_gene_product 14 19	PAI-1
+T2	Organism 67 72	human
+T3	Cell 73 85	tumour cells
+T4	Gene_or_gene_product 144 177	plasminogen activator inhibitor-1
+T5	Gene_or_gene_product 179 184	PAI-1
+T6	Cancer 204 210	tumour
+T7	Gene_or_gene_product 282 287	PAI-1
+T8	Gene_or_gene_product 358 362	PA-1
+T9	Organism 450 455	human
+T10	Cell 456 481	HT1080 fibrosarcoma cells
+T11	Gene_or_gene_product 505 508	uPA
+T12	Gene_or_gene_product 517 524	plasmin
+T13	Gene_or_gene_product 535 544	aprotinin
+T14	Organism 562 567	human
+T15	Cell 568 586	melanoma cell line
+T16	Cell 588 591	BLM
+T17	Gene_or_gene_product 625 630	PAI-1
+T18	Organism 676 681	human
+T19	Cell 682 700	melanoma cell line
+T20	Cell 702 705	IF6
+T21	Gene_or_gene_product 730 733	uPA
+T22	Gene_or_gene_product 768 773	PAI-1
+T23	Gene_or_gene_product 778 781	uPA
+T24	Gene_or_gene_product 816 819	uPA
+T25	Cell 826 835	cell line
+T26	Gene_or_gene_product 929 934	PAI-1
+T27	Cell 966 978	HT1080 cells
+T28	Gene_or_gene_product 982 993	vitronectin
+T29	Gene_or_gene_product 1011 1014	uPA
+T30	Gene_or_gene_product 1063 1068	PAI-1
+T31	Cell 1089 1100	HT1080 cell
+T32	Cell 1137 1141	cell
+T33	Gene_or_gene_product 1158 1169	vitronectin
+T34	Cell 1183 1197	melanoma cells
+T35	Gene_or_gene_product 1217 1220	uPA
+T36	Gene_or_gene_product 1269 1274	PAI-1
+T37	Gene_or_gene_product 1322 1333	vitronectin
+T38	Gene_or_gene_product 1432 1437	PAI-1
+T39	Gene_or_gene_product 1506 1509	uPA
+T40	Gene_or_gene_product 1514 1519	PAI-1
+T41	Gene_or_gene_product 1640 1651	vitronectin
+T42	Cellular_component 1659 1679	extracellular matrix
+T43	Gene_or_gene_product 1757 1762	PAI-1
+T44	Cancer 1823 1829	cancer

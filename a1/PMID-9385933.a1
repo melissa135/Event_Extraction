@@ -1,0 +1,53 @@
+T1	Gene_or_gene_product 0 4	CD56
+T2	Cancer 15 44	natural killer cell lymphomas
+T3	Cell 111 121	tumor cell
+T4	Cell 167 171	cell
+T5	Cell 203 217	natural killer
+T6	Cell 219 221	NK
+T7	Cell 226 243	cytotoxic T cells
+T8	Cell 265 269	cell
+T9	Immaterial_anatomical_entity 335 348	intracellular
+T10	Cancer 475 492	NK-cell lymphomas
+T11	Cell 537 547	tumor cell
+T12	Cancer 563 569	tumors
+T13	Gene_or_gene_product 609 617	perforin
+T14	Gene_or_gene_product 619 630	granzyme B9
+T15	Cellular_component 640 656	granule membrane
+T16	Gene_or_gene_product 665 669	TIA1
+T17	Cancer 699 716	NK-cell lymphomas
+T18	Cancer 732 748	T-cell lymphomas
+T19	Gene_or_gene_product 759 762	CD8
+T20	Cancer 759 769	CD8+ CD56+
+T21	Gene_or_gene_product 764 768	CD56
+T22	Cancer 780 811	anaplastic large cell lymphomas
+T23	Cancer 813 817	ALCL
+T24	Cancer 826 851	T-lymphoblastic lymphomas
+T25	Cancer 860 876	B-cell lymphomas
+T26	Cancer 902 919	NK-cell lymphomas
+T27	Gene_or_gene_product 930 938	perforin
+T28	Gene_or_gene_product 967 978	granzyme B9
+T29	Gene_or_gene_product 983 987	TIA1
+T30	Gene_or_gene_product 998 1001	CD8
+T31	Cancer 998 1035	CD8+ CD56+ postthymic T-cell lymphoma
+T32	Gene_or_gene_product 1003 1007	CD56
+T33	Gene_or_gene_product 1084 1087	CD8
+T34	Cancer 1084 1093	CD8- ALCL
+T35	Gene_or_gene_product 1104 1108	TIA1
+T36	Cancer 1116 1133	postthymic T-cell
+T37	Cancer 1135 1150	T-lymphoblastic
+T38	Cancer 1156 1172	B-cell lymphomas
+T39	Gene_or_gene_product 1249 1257	perforin
+T40	Cell 1267 1272	cells
+T41	Cell 1277 1293	zonal tumor cell
+T42	Cancer 1377 1386	lymphomas
+T43	Cell 1426 1436	tumor cell
+T44	Cell 1527 1529	NK
+T45	Gene_or_gene_product 1539 1542	CD8
+T46	Cancer 1539 1577	CD8+ CD56+ postthymic T-cell lymphomas
+T47	Gene_or_gene_product 1544 1548	CD56
+T48	Cell 1645 1655	tumor cell
+T49	Gene_or_gene_product 1728 1731	CD2
+T50	Cancer 1728 1778	CD2+ surface CD3- CD56+ putative NK-cell lymphomas
+T51	Gene_or_gene_product 1741 1744	CD3
+T52	Gene_or_gene_product 1746 1750	CD56
+T53	Cell 1819 1826	NK cell

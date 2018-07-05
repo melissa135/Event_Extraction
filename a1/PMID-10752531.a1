@@ -1,0 +1,39 @@
+T1	Multi-tissue_structure 0 8	Vascular
+T2	Gene_or_gene_product 50 83	endothelial nitric oxide synthase
+T3	Organism 87 92	human
+T4	Multi-tissue_structure 93 103	peritoneum
+T5	Multi-tissue_structure 125 135	peritoneal
+T6	Multi-tissue_structure 156 166	peritoneal
+T7	Multi-tissue_structure 215 225	peritoneal
+T8	Immaterial_anatomical_entity 307 330	peritoneal surface area
+T9	Gene_or_gene_product 469 490	nitric oxide synthase
+T10	Gene_or_gene_product 492 495	NOS
+T11	Simple_chemical 581 593	nitric oxide
+T12	Gene_or_gene_product 621 624	NOS
+T13	Multi-tissue_structure 679 698	peritoneal biopsies
+T14	Organism 741 749	patients
+T15	Organism 800 808	patients
+T16	Multi-tissue_structure 894 904	Peritoneal
+T17	Gene_or_gene_product 905 908	NOS
+T18	Organism 956 964	patients
+T19	Organism 1007 1015	patients
+T20	Gene_or_gene_product 1017 1020	NOS
+T21	Gene_or_gene_product 1090 1093	NOS
+T22	Gene_or_gene_product 1142 1145	NOS
+T23	Gene_or_gene_product 1198 1213	endothelial NOS
+T24	Gene_or_gene_product 1251 1254	NOS
+T25	Simple_chemical 1300 1313	nitrotyrosine
+T26	Multi-tissue_structure 1361 1369	vascular
+T27	Tissue 1382 1398	endothelial area
+T28	Multi-tissue_structure 1406 1416	peritoneum
+T29	Gene_or_gene_product 1492 1526	vascular endothelial growth factor
+T30	Gene_or_gene_product 1528 1532	VEGF
+T31	Tissue 1551 1562	endothelium
+T32	Multi-tissue_structure 1570 1594	peritoneal blood vessels
+T33	Organism 1611 1619	patients
+T34	Gene_or_gene_product 1636 1640	VEGF
+T35	Simple_chemical 1693 1704	pentosidine
+T36	Tissue 1776 1792	endothelial area
+T37	Gene_or_gene_product 1818 1821	NOS
+T38	Gene_or_gene_product 1835 1850	endothelial NOS
+T39	Gene_or_gene_product 2038 2042	VEGF

@@ -1,0 +1,28 @@
+T1	Cellular_component 22 43	long terminal repeats
+T2	Organism 49 66	murine retrovirus
+T3	Cell 103 111	cellular
+T4	Organism 133 138	human
+T5	Organism 142 148	murine
+T6	Cell 149 154	cells
+T7	Organism 160 183	murine leukemia viruses
+T8	Gene_or_gene_product 257 271	immunoglobulin
+T9	Cell 304 316	T-lymphocyte
+T10	Gene_or_gene_product 343 392	class I major histocompatibility complex antigens
+T11	Cellular_component 429 449	long terminal repeat
+T12	Cellular_component 451 454	LTR
+T13	Organism 459 488	Moloney murine leukemia virus
+T14	Gene_or_gene_product 561 601	class I major histocompatibility complex
+T15	Gene_or_gene_product 620 628	cytokine
+T16	Cellular_component 655 658	LTR
+T17	Cellular_component 902 905	LTR
+T18	Gene_or_gene_product 963 981	RNA polymerase III
+T19	Cellular_component 1071 1074	LTR
+T20	Gene_or_gene_product 1098 1101	let
+T21	Gene_or_gene_product 1103 1130	LTR-encoded trans activator
+T22	Gene_or_gene_product 1149 1167	RNA polymerase III
+T23	Organism 1192 1212	RNA leukemia viruses
+T24	Cancer 1219 1237	lymphoid neoplasia
+T25	Cellular_component 1348 1351	LTR
+T26	Organism 1498 1527	Moloney murine leukemia virus
+T27	Organism 1573 1583	retrovirus
+T28	Cell 1606 1614	cellular

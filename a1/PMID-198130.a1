@@ -1,0 +1,35 @@
+T1	Simple_chemical 13 71	malate-aspartate reduced nicotinamide adenine dinucleotide
+T2	Cell 109 120	tumor cells
+T3	Simple_chemical 151 154	CO2
+T4	Simple_chemical 159 166	lactate
+T5	Simple_chemical 263 281	tricarboxylic acid
+T6	Organism 315 321	rodent
+T7	Cell 322 341	ascites tumor cells
+T8	Cell 358 385	Ehrlich ascites tumor cells
+T9	Cell 387 405	Krebs II carcinoma
+T10	Cell 407 423	AS-30D carcinoma
+T11	Cell 429 440	L1210 cells
+T12	Simple_chemical 501 515	D-[14C]glucose
+T13	Simple_chemical 593 626	nicotinamide adenine dinucleotide
+T14	Simple_chemical 628 632	NADH
+T15	Cell 651 656	cells
+T16	Simple_chemical 716 722	malate
+T17	Simple_chemical 723 732	aspartate
+T18	Cell 869 879	cell lines
+T19	Simple_chemical 939 957	tricarboxylic acid
+T20	Simple_chemical 965 973	electron
+T21	Simple_chemical 993 999	malate
+T22	Simple_chemical 1000 1009	aspartate
+T23	Cancer 1027 1033	tumors
+T24	Simple_chemical 1062 1066	NADH
+T25	Cellular_component 1088 1101	mitochondrial
+T26	Simple_chemical 1128 1132	NADH
+T27	Simple_chemical 1228 1234	oxygen
+T28	Cancer 1244 1250	tumors
+T29	Simple_chemical 1294 1316	adenosine triphosphate
+T30	Simple_chemical 1392 1414	adenosine triphosphate
+T31	Simple_chemical 1431 1439	electron
+T32	Cellular_component 1462 1471	cytosolic
+T33	Simple_chemical 1472 1476	NADH
+T34	Simple_chemical 1485 1491	malate
+T35	Simple_chemical 1492 1501	aspartate

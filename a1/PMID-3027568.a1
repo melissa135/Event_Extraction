@@ -1,0 +1,34 @@
+T1	Simple_chemical 19 33	diacylglycerol
+T2	Simple_chemical 48 61	phorbol ester
+T3	Gene_or_gene_product 77 80	ras
+T4	Cell 93 104	fibroblasts
+T5	Simple_chemical 107 121	Diacylglycerol
+T6	Simple_chemical 123 125	DG
+T7	Simple_chemical 151 163	phospholipid
+T8	Gene_or_gene_product 209 225	protein kinase C
+T9	Cell 335 340	cells
+T10	Gene_or_gene_product 346 349	ras
+T11	Gene_or_gene_product 393 403	G-proteins
+T12	Gene_or_gene_product 439 448	G-protein
+T13	Simple_chemical 464 484	phosphatidylinositol
+T14	Simple_chemical 486 488	PI
+T15	Simple_chemical 515 535	polyphosphoinositide
+T16	Gene_or_gene_product 570 573	ras
+T17	Cell 586 591	cells
+T18	Cell 675 685	cell lines
+T19	Gene_or_gene_product 733 736	ras
+T20	Cell 793 812	NIH 3T3 fibroblasts
+T21	Gene_or_gene_product 837 843	Ha-ras
+T22	Gene_or_gene_product 847 853	Ki-ras
+T23	Simple_chemical 871 873	DG
+T24	Simple_chemical 944 964	polyphosphoinositide
+T25	Gene_or_gene_product 1007 1023	protein kinase C
+T26	Gene_or_gene_product 1117 1120	ras
+T27	Cell 1133 1143	cell lines
+T28	Simple_chemical 1223 1236	phorbol ester
+T29	Gene_or_gene_product 1258 1264	Ha-ras
+T30	Cell 1258 1270	Ha-ras cells
+T31	Simple_chemical 1297 1310	phorbol ester
+T32	Cell 1324 1329	cells
+T33	Simple_chemical 1360 1362	DG
+T34	Gene_or_gene_product 1423 1439	protein kinase C

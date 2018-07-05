@@ -1,0 +1,58 @@
+T1	Gene_or_gene_product 0 7	Insulin
+T2	Gene_or_gene_product 16 50	vascular endothelial growth factor
+T3	Multi-tissue_structure 65 71	retina
+T4	Gene_or_gene_product 132 139	insulin
+T5	Gene_or_gene_product 231 238	insulin
+T6	Multi-tissue_structure 264 271	retinal
+T7	Organism 282 290	patients
+T8	Gene_or_gene_product 321 355	Vascular endothelial growth factor
+T9	Gene_or_gene_product 357 361	VEGF
+T10	Gene_or_gene_product 495 502	insulin
+T11	Multi-tissue_structure 506 513	retinal
+T12	Gene_or_gene_product 514 518	VEGF
+T13	Gene_or_gene_product 580 587	insulin
+T14	Gene_or_gene_product 591 595	VEGF
+T15	Organism 664 667	rat
+T16	Multi-tissue_structure 668 675	retinal
+T17	Gene_or_gene_product 676 680	VEGF
+T18	Gene_or_gene_product 729 736	insulin
+T19	Gene_or_gene_product 747 751	VEGF
+T20	Organism 764 769	human
+T21	Cell 770 808	retinal pigment epithelial (RPE) cells
+T22	Gene_or_gene_product 825 832	insulin
+T23	Gene_or_gene_product 838 842	VEGF
+T24	Gene_or_gene_product 876 881	RNase
+T25	Gene_or_gene_product 931 938	insulin
+T26	Cell 947 956	RPE cells
+T27	Gene_or_gene_product 974 978	VEGF
+T28	Cell 991 1017	capillary endothelial cell
+T29	Gene_or_gene_product 1049 1056	insulin
+T30	Gene_or_gene_product 1074 1078	VEGF
+T73	DNA_domain_or_region 1079 1087	promoter
+T31	Gene_or_gene_product 1100 1110	luciferase
+T32	Gene_or_gene_product 1186 1193	Insulin
+T33	Gene_or_gene_product 1204 1208	VEGF
+T34	Tissue 1228 1236	ganglion
+T35	Tissue 1238 1251	inner nuclear
+T36	Tissue 1257 1272	RPE cell layers
+T37	Gene_or_gene_product 1284 1291	insulin
+T38	Gene_or_gene_product 1302 1306	VEGF
+T39	Organism 1322 1327	human
+T40	Cell 1328 1337	RPE cells
+T41	Gene_or_gene_product 1351 1355	VEGF
+T78	DNA_domain_or_region 1356 1364	promoter
+T42	Gene_or_gene_product 1414 1421	Insulin
+T43	Gene_or_gene_product 1447 1451	VEGF
+T44	Cell 1482 1490	RPE cell
+T45	Gene_or_gene_product 1575 1582	insulin
+T46	Cell 1595 1603	RPE cell
+T47	Cell 1621 1647	capillary endothelial cell
+T48	Gene_or_gene_product 1709 1713	VEGF
+T49	Gene_or_gene_product 1750 1757	Insulin
+T50	Gene_or_gene_product 1768 1772	VEGF
+T51	Cell 1809 1818	RPE cells
+T52	Gene_or_gene_product 1857 1861	VEGF
+T53	Gene_or_gene_product 1878 1885	insulin
+T54	Organism 1944 1952	patients
+T55	Multi-tissue_structure 1985 1992	retinal
+T56	Gene_or_gene_product 1993 1997	VEGF

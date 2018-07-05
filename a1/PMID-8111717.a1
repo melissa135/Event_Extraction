@@ -1,0 +1,55 @@
+T1	Gene_or_gene_product 19 26	insulin
+T2	Cancer 30 35	tumor
+T3	Tissue 40 55	skeletal muscle
+T4	Simple_chemical 56 63	glucose
+T5	Organism 78 86	patients
+T6	Cancer 92 100	lymphoma
+T7	Gene_or_gene_product 142 149	insulin
+T8	Cancer 218 224	cancer
+T9	Cancer 239 244	tumor
+T10	Gene_or_gene_product 262 269	insulin
+T11	Organism 325 332	patient
+T12	Gene_or_gene_product 364 371	insulin
+T13	Cancer 383 388	tumor
+T14	Tissue 393 408	skeletal muscle
+T15	Simple_chemical 425 457	2-[18F]-fluoro-2-deoxy-D-glucose
+T16	Simple_chemical 459 467	[18F]FDG
+T17	Organism 522 530	patients
+T18	Cancer 536 544	lymphoma
+T19	Simple_chemical 561 569	[18F]FDG
+T20	Simple_chemical 689 696	glucose
+T21	Simple_chemical 706 714	[18F]FDG
+T22	Multi-tissue_structure 731 745	diseased nodes
+T23	Organism_subdivision 750 759	upper arm
+T24	Tissue 760 775	skeletal muscle
+T25	Simple_chemical 806 814	[18F]FDG
+T26	Organ 825 831	muscle
+T27	Organism_subdivision 846 850	body
+T28	Simple_chemical 851 858	glucose
+T29	Tissue 1013 1032	lymphomatous tissue
+T30	Simple_chemical 1034 1042	[18F]FDG
+T31	Simple_chemical 1201 1208	glucose
+T32	Organ 1219 1234	skeletal muscle
+T33	Gene_or_gene_product 1252 1259	insulin
+T34	Gene_or_gene_product 1383 1390	insulin
+T35	Multi-tissue_structure 1446 1465	skeletal arm muscle
+T36	Simple_chemical 1466 1473	glucose
+T37	Organism 1527 1535	patients
+T38	Organism_subdivision 1543 1547	body
+T39	Simple_chemical 1548 1555	glucose
+T40	Organism 1577 1585	patients
+T41	Organism 1594 1610	control subjects
+T42	Gene_or_gene_product 1698 1705	insulin
+T43	Cancer 1720 1726	cancer
+T44	Gene_or_gene_product 1755 1762	insulin
+T45	Simple_chemical 1796 1803	glucose
+T46	Tissue 1814 1833	lymphomatous tissue
+T47	Gene_or_gene_product 1844 1851	insulin
+T48	Organ 1867 1882	skeletal muscle
+T49	Organism 1903 1911	patients
+T50	Cancer 1917 1925	lymphoma
+T51	Gene_or_gene_product 1935 1942	insulin
+T52	Simple_chemical 1983 1990	glucose
+T53	Cancer 2001 2006	tumor
+T54	Organ 2011 2017	muscle
+T55	Cancer 2107 2113	cancer

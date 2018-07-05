@@ -1,0 +1,45 @@
+T1	Gene_or_gene_product 0 4	LMP1
+T2	Organism 8 26	Epstein-Barr virus
+T3	Organism 60 65	mouse
+T4	Cell 66 87	embryonic fibroblasts
+T5	Cell 121 126	cells
+T6	Gene_or_gene_product 134 137	p16
+T7	Gene_or_gene_product 150 154	CDK4
+T8	Gene_or_gene_product 194 198	LMP1
+T9	Organism 202 220	Epstein-Barr virus
+T10	Organism 222 225	EBV
+T11	Organism 247 250	EBV
+T12	Cancer 262 274	malignancies
+T13	Cancer 285 309	nasopharyngeal carcinoma
+T14	Cancer 314 332	Hodgkin's lymphoma
+T15	Gene_or_gene_product 370 374	LMP1
+T16	Organism 383 386	EBV
+T17	Cell 441 462	fibroblast cell lines
+T18	Organism 504 509	human
+T19	Cell 510 531	epithelial cell lines
+T20	Gene_or_gene_product 546 550	LMP1
+T21	Cell 578 582	cell
+T22	Cell 672 677	cells
+T23	Gene_or_gene_product 703 707	LMP1
+T24	Cell 711 715	cell
+T25	Cell 755 776	primary culture cells
+T26	Organism 807 817	retrovirus
+T27	Gene_or_gene_product 832 836	LMP1
+T28	Organism 853 863	retrovirus
+T29	Gene_or_gene_product 865 869	LMP1
+T30	Organism 922 927	mouse
+T31	Cell 928 949	embryonic fibroblasts
+T32	Cell 951 960	MEF cells
+T33	Cell 995 1004	MEF cells
+T34	Cell 1051 1055	cell
+T35	Cell 1131 1140	MEF cells
+T36	Organism 1163 1173	retroviral
+T37	Cell 1226 1235	MEF cells
+T38	Gene_or_gene_product 1250 1254	LMP1
+T39	Gene_or_gene_product 1273 1276	p16
+T40	Gene_or_gene_product 1289 1293	CDK4
+T41	Cell 1325 1334	MEF cells
+T42	Gene_or_gene_product 1399 1403	LMP1
+T43	Cell 1475 1484	MEF cells
+T44	Cell 1523 1531	cellular
+T45	Cell 1565 1570	cells

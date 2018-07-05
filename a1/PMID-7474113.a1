@@ -1,0 +1,37 @@
+T1	Cell 27 35	myoblast
+T2	Organism 59 74	simian virus 40
+T3	Gene_or_gene_product 75 90	large T antigen
+T4	Gene_or_gene_product 104 112	myogenin
+T5	Gene_or_gene_product 128 130	Rb
+T6	Organism_substance 192 203	cytoplasmic
+T7	Organism 262 277	simian virus 40
+T8	Gene_or_gene_product 278 293	large T antigen
+T9	Gene_or_gene_product 295 299	SVLT
+T10	Cell 340 352	C2 myoblasts
+T11	Gene_or_gene_product 354 358	SVLT
+T12	Gene_or_gene_product 392 394	Rb
+T13	Gene_or_gene_product 470 473	p53
+T14	Gene_or_gene_product 655 659	SVLT
+T15	Organism 711 716	mouse
+T16	Cell 717 729	C2 myoblasts
+T17	Gene_or_gene_product 784 792	myogenin
+T18	Gene_or_gene_product 893 897	MyoD
+T19	Gene_or_gene_product 928 932	SVLT
+T20	Cell 943 956	transformants
+T21	Gene_or_gene_product 1004 1006	Rb
+T22	Cell 1042 1050	C2 cells
+T23	Gene_or_gene_product 1055 1059	SVLT
+T24	Gene_or_gene_product 1130 1132	Rb
+T25	Cellular_component 1154 1161	nuclear
+T26	Organism_substance 1308 1319	cytoplasmic
+T27	Gene_or_gene_product 1320 1324	SVLT
+T28	Cell 1394 1402	C2 cells
+T29	Gene_or_gene_product 1571 1575	SVLT
+T30	Tissue 1681 1687	tissue
+T31	Cell 1708 1721	transformants
+T32	Gene_or_gene_product 1762 1764	Rb
+T33	Gene_or_gene_product 1825 1827	Rb
+T34	Cell 1880 1885	cells
+T35	Organism_substance 1889 1900	cytoplasmic
+T36	Gene_or_gene_product 1901 1905	SVLT
+T37	Cell 1906 1919	transformants

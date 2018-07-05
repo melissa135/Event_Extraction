@@ -1,0 +1,37 @@
+T1	Gene_or_gene_product 0 8	c-erb B2
+T2	Simple_chemical 58 67	tamoxifen
+T3	Cancer 71 96	early-stage breast cancer
+T4	Multi-tissue_structure 105 124	axillary lymph node
+T5	Gene_or_gene_product 198 205	c-erbB2
+T6	Simple_chemical 234 243	tomoxifen
+T7	Multi-tissue_structure 247 251	node
+T8	Cancer 261 274	breast cancer
+T9	Organism 275 283	patients
+T10	Gene_or_gene_product 371 378	c-erbB2
+T11	Organism 428 436	patients
+T12	Simple_chemical 474 483	tamoxifen
+T13	Cell 563 568	cells
+T14	Cellular_component 585 593	membrane
+T15	Gene_or_gene_product 876 883	c-erbB2
+T16	Organism 915 923	patients
+T17	Cancer 964 969	tumor
+T18	Gene_or_gene_product 994 1011	estrogen receptor
+T19	Gene_or_gene_product 1013 1015	ER
+T20	Gene_or_gene_product 1066 1073	c-erbB2
+T21	Simple_chemical 1108 1117	tamoxifen
+T22	Gene_or_gene_product 1201 1208	c-erbB2
+T23	Cancer 1271 1276	tumor
+T24	Cellular_component 1283 1290	nuclear
+T25	Gene_or_gene_product 1443 1450	c-erbB2
+T26	Simple_chemical 1455 1464	tamoxifen
+T27	Gene_or_gene_product 1571 1573	ER
+T28	Gene_or_gene_product 1585 1587	ER
+T29	Simple_chemical 1588 1597	tamoxifen
+T30	Simple_chemical 1628 1637	tamoxifen
+T31	Gene_or_gene_product 1677 1684	c-erbB2
+T32	Gene_or_gene_product 1744 1751	c-erbB2
+T33	Organism 1761 1769	patients
+T34	Cancer 1798 1811	breast cancer
+T35	Organism 1812 1820	patients
+T36	Gene_or_gene_product 1840 1847	c-erbB2
+T37	Simple_chemical 1892 1901	tamoxifen

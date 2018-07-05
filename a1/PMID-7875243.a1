@@ -1,0 +1,46 @@
+T1	Organism 27 32	human
+T2	Cell 33 55	myeloid leukemic cells
+T3	Gene_or_gene_product 59 65	GM-CSF
+T4	Cell 90 94	cell
+T5	Cell 112 116	cell
+T6	Gene_or_gene_product 170 198	hematopoietic growth factors
+T7	Gene_or_gene_product 200 204	HGFs
+T8	Organism 228 233	human
+T9	Cell 234 256	myeloid leukemic cells
+T10	Cell 376 394	leukemic TF1 cells
+T11	Organism_substance 396 403	Lysates
+T12	Cell 407 412	cells
+T13	Gene_or_gene_product 422 470	granulocyte-macrophage colony-stimulating factor
+T14	Gene_or_gene_product 472 478	GM-CSF
+T15	Cell 490 520	myeloid leukemic cell line TF1
+T16	Cellular_component 587 590	DNA
+T17	Cellular_component 635 638	DNA
+T18	Cellular_component 648 651	DNA
+T19	Gene_or_gene_product 721 727	GM-CSF
+T20	Organism_substance 732 750	fetal bovine serum
+T21	Organism_substance 752 755	FBS
+T22	Cellular_component 769 772	DNA
+T23	Simple_chemical 868 875	agarose
+T24	Cellular_component 979 982	DNA
+T25	Cell 1001 1006	cells
+T26	Gene_or_gene_product 1022 1028	GM-CSF
+T27	Organism_substance 1034 1037	FBS
+T28	Gene_or_gene_product 1041 1047	GM-CSF
+T29	Gene_or_gene_product 1075 1081	GM-CSF
+T30	Organism_substance 1091 1094	FBS
+T31	Cell 1128 1133	cells
+T32	Cellular_component 1193 1196	DNA
+T33	Simple_chemical 1243 1256	cycloheximide
+T34	Simple_chemical 1258 1261	CHX
+T35	Simple_chemical 1266 1279	actinomycin D
+T36	Simple_chemical 1281 1286	Act D
+T37	Gene_or_gene_product 1331 1337	GM-CSF
+T38	Organism_substance 1342 1345	FBS
+T39	Gene_or_gene_product 1404 1410	GM-CSF
+T40	Organism_substance 1414 1417	FBS
+T41	Simple_chemical 1459 1462	CHX
+T42	Simple_chemical 1466 1471	Act D
+T43	Simple_chemical 1532 1535	CHX
+T44	Cell 1633 1655	myeloid leukemic cells
+T45	Gene_or_gene_product 1703 1706	HGF
+T46	Cell 1717 1725	cellular

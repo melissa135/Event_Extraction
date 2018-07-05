@@ -1,0 +1,25 @@
+T1	Gene_or_gene_product 75 87	ICP4 homolog
+T2	Organism 96 117	Marek's disease virus
+T3	Gene_or_gene_product 160 198	Marek's disease virus (MDV) small RNAs
+T4	Gene_or_gene_product 200 204	MSRs
+T5	Organism 257 260	MDV
+T6	Gene_or_gene_product 261 273	ICP4 homolog
+T7	Cell 310 319	MDCC-MSB1
+T8	Organism 320 323	MDV
+T9	Cell 336 358	T-lymphoblastoid cells
+T10	Organism 394 421	reticuloendotheliosis virus
+T11	Cell 434 441	T cells
+T12	Organism 448 451	MDV
+T13	Cell 484 504	lymphoblastoid cells
+T14	Simple_chemical 527 543	iododeoxyuridine
+T15	Organism 688 695	chicken
+T16	Cell 696 714	embryo fibroblasts
+T17	Gene_or_gene_product 817 822	RNase
+T18	Gene_or_gene_product 877 881	MSRs
+T19	Gene_or_gene_product 964 976	ICP4 homolog
+T20	Gene_or_gene_product 1044 1048	MSRs
+T21	Gene_or_gene_product 1223 1227	ICP4
+T22	Gene_or_gene_product 1372 1376	MSRs
+T23	Gene_or_gene_product 1461 1473	ICP4 homolog
+T24	Gene_or_gene_product 1545 1557	ICP4 homolog
+T25	Organism 1602 1605	MDV

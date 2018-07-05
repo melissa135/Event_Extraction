@@ -1,0 +1,62 @@
+T1	Simple_chemical 0 13	Ciprofloxacin
+T2	Cell 23 27	cell
+T3	Cell 54 58	cell
+T4	Organism 92 97	human
+T5	Cancer 98 125	transitional cell carcinoma
+T6	Cell 133 150	bladder cell line
+T7	Cancer 179 200	urological malignancy
+T8	Organism 228 231	men
+T9	Cancer 235 249	bladder cancer
+T10	Cancer 279 307	transitional cell carcinomas
+T11	Simple_chemical 386 395	cisplatin
+T12	Simple_chemical 397 405	thiotepa
+T13	Simple_chemical 407 417	Adriamycin
+T14	Simple_chemical 419 430	mitomycin C
+T15	Organism 436 460	bacillus Calmette-Guerin
+T16	Organism_subdivision 579 592	urinary tract
+T17	Organism 664 671	patient
+T18	Simple_chemical 673 687	Fluroquinolone
+T19	Simple_chemical 708 721	ciprofloxacin
+T20	Cancer 785 799	bladder cancer
+T21	Cell 867 878	tumor cells
+T22	Cancer 892 919	transitional cell carcinoma
+T23	Organ 927 934	bladder
+T24	Cell 990 994	cell
+T25	Simple_chemical 1005 1018	ciprofloxacin
+T26	Organism_substance 1071 1076	urine
+T27	Organism 1080 1088	patients
+T28	Simple_chemical 1125 1138	ciprofloxacin
+T29	Cell 1173 1193	bladder cancer cells
+T30	Cell 1286 1290	cell
+T31	Cancer 1316 1343	transitional cell carcinoma
+T32	Cell 1351 1373	bladder cell line HTB9
+T33	Cell 1410 1414	cell
+T34	Gene_or_gene_product 1496 1504	cyclin B
+T35	Gene_or_gene_product 1506 1514	cyclin E
+T36	Gene_or_gene_product 1541 1545	cdk2
+T37	Simple_chemical 1549 1562	ciprofloxacin
+T38	Cell 1571 1590	bladder tumor cells
+T39	Gene_or_gene_product 1627 1630	Bax
+T40	Gene_or_gene_product 1650 1653	Bax
+T41	Gene_or_gene_product 1654 1659	Bcl-2
+T42	Cellular_component 1696 1709	mitochondrial
+T43	Gene_or_gene_product 1790 1813	cyclin-dependent kinase
+T44	Gene_or_gene_product 1824 1831	p21WAF1
+T45	Simple_chemical 1879 1892	ciprofloxacin
+T46	Cell 1935 1945	HTB9 cells
+T47	Simple_chemical 1978 1991	ciprofloxacin
+T48	Gene_or_gene_product 2025 2032	p21WAF1
+T49	Gene_or_gene_product 2057 2084	poly(ADP-ribose) polymerase
+T50	Gene_or_gene_product 2098 2103	CPP32
+T51	Gene_or_gene_product 2145 2152	p21WAF1
+T52	Cell 2162 2167	cells
+T53	Gene_or_gene_product 2228 2241	pro-caspase-3
+T54	Gene_or_gene_product 2343 2350	p21WAF1
+T55	Gene_or_gene_product 2385 2388	Bax
+T56	Gene_or_gene_product 2393 2397	cdk2
+T57	Simple_chemical 2464 2477	ciprofloxacin
+T58	Cell 2487 2497	tumor cell
+T59	Cell 2527 2531	cell
+T60	Simple_chemical 2626 2639	ciprofloxacin
+T61	Cancer 2713 2740	transitional cell carcinoma
+T62	Organ 2748 2755	bladder

@@ -1,0 +1,21 @@
+T1	Simple_chemical 0 7	Glucose
+T2	Simple_chemical 12 19	lactate
+T3	Cell 34 49	C6 glioma cells
+T4	Simple_chemical 96 103	lactate
+T5	Cell 108 112	cell
+T6	Simple_chemical 135 138	13C
+T7	Simple_chemical 143 145	1H
+T8	Simple_chemical 234 243	L-lactate
+T9	Simple_chemical 248 257	D-glucose
+T10	Cell 261 276	C6 glioma cells
+T11	Simple_chemical 282 285	13C
+T12	Cell 300 304	cell
+T13	Simple_chemical 380 387	glucose
+T14	Simple_chemical 398 405	lactate
+T15	Simple_chemical 464 480	[1-13C]D-glucose
+T16	Simple_chemical 484 500	[3-13C]L-lactate
+T17	Simple_chemical 539 546	lactate
+T18	Simple_chemical 671 678	lactate
+T19	Simple_chemical 683 691	pyruvate
+T20	Simple_chemical 746 753	lactate
+T21	Gene_or_gene_product 963 995	lactate dehydrogenase isoenzymes

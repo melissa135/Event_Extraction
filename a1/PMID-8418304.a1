@@ -1,0 +1,56 @@
+T1	Gene_or_gene_product 10 17	nm23-H1
+T2	Gene_or_gene_product 22 29	nm23-H2
+T3	Cancer 83 99	colon carcinomas
+T4	Organism 155 161	murine
+T5	Gene_or_gene_product 162 166	nm23
+T6	Cell 210 238	malignant rodent tumor lines
+T7	Gene_or_gene_product 252 256	nm23
+T8	Multi-tissue_structure 308 318	lymph node
+T9	Organism 333 338	human
+T10	Cancer 339 353	breast cancers
+T11	Organism 411 416	human
+T12	Gene_or_gene_product 417 421	nm23
+T13	Gene_or_gene_product 439 446	nm23-H1
+T14	Gene_or_gene_product 451 458	nm23-H2
+T15	Gene_or_gene_product 492 499	nm23-H1
+T16	Cancer 523 539	colon carcinomas
+T17	Gene_or_gene_product 600 607	nm23-H1
+T18	Cancer 635 650	colon carcinoma
+T19	Gene_or_gene_product 715 719	nm23
+T20	Cancer 786 798	colon tumors
+T21	Gene_or_gene_product 936 943	nm23-H1
+T22	Organism 964 969	human
+T23	Cancer 970 983	colon cancers
+T24	Organism 1043 1048	human
+T25	Cancer 1049 1062	colon cancers
+T26	Gene_or_gene_product 1126 1133	nm23-H1
+T27	Gene_or_gene_product 1138 1145	nm23-H2
+T28	Gene_or_gene_product 1217 1229	ribonuclease
+T29	Organism 1259 1264	human
+T30	Cancer 1265 1277	colon tumors
+T31	Gene_or_gene_product 1295 1302	nm23-H1
+T32	Cancer 1307 1314	samples
+T33	Gene_or_gene_product 1320 1327	nm23-H2
+T34	Cancer 1332 1339	samples
+T35	Gene_or_gene_product 1489 1496	nm23-H1
+T36	Gene_or_gene_product 1501 1508	nm23-H2
+T37	Gene_or_gene_product 1529 1536	nm23-H1
+T38	Cancer 1564 1576	colon tumors
+T39	Gene_or_gene_product 1596 1603	nm23-H2
+T40	Cancer 1634 1646	colon tumors
+T41	Multi-tissue_structure 1682 1688	mucosa
+T42	Cancer 1737 1743	tumors
+T43	Gene_or_gene_product 1851 1858	nm23-H1
+T44	Cancer 1882 1895	colon cancers
+T45	Gene_or_gene_product 1928 1935	nm23-H1
+T46	Gene_or_gene_product 1940 1947	nm23-H2
+T47	Cancer 2006 2021	colon carcinoma
+T48	Gene_or_gene_product 2074 2081	nm23-H1
+T49	Cancer 2139 2155	colon carcinomas
+T50	Gene_or_gene_product 2226 2230	nm23
+T51	Organism 2265 2271	murine
+T52	Cancer 2272 2280	melanoma
+T53	Gene_or_gene_product 2317 2321	nm23
+T54	Cancer 2336 2349	breast cancer
+T55	Gene_or_gene_product 2416 2420	nm23
+T56	Tissue 2431 2437	tissue

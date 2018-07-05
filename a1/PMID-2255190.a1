@@ -1,0 +1,48 @@
+T1	Gene_or_gene_product 14 44	basic fibroblast growth factor
+T2	Organism 55 60	human
+T3	Tissue 61 68	tissues
+T4	Gene_or_gene_product 90 120	basic fibroblast growth factor
+T5	Gene_or_gene_product 122 126	bFGF
+T6	Organism 197 202	human
+T7	Tissue 203 210	tissues
+T8	Gene_or_gene_product 263 267	bFGF
+T9	Organism 268 273	mouse
+T10	Organism 335 340	human
+T11	Gene_or_gene_product 341 345	bFGF
+T12	Gene_or_gene_product 429 433	bFGF
+T13	Organism 437 443	bovine
+T14	Cell 444 470	vascular endothelial cells
+T15	Gene_or_gene_product 486 490	bFGF
+T16	Organism 501 506	human
+T17	Tissue 507 514	tissues
+T18	Cellular_component 548 566	basement membranes
+T19	Multi-tissue_structure 579 592	blood vessels
+T20	Cellular_component 615 624	epidermal
+T21	Cellular_component 628 657	epithelial basement membranes
+T22	Tissue 674 681	tissues
+T23	Multi-tissue_structure 732 745	blood vessels
+T24	Tissue 772 779	tissues
+T25	Multi-tissue_structure 823 835	vascular bed
+T26	Multi-tissue_structure 931 944	blood vessels
+T27	Tissue 987 998	capillaries
+T28	Tissue 1060 1071	capillaries
+T29	Cell 1073 1089	Endothelial cell
+T30	Gene_or_gene_product 1170 1174	bFGF
+T31	Cell 1193 1214	cardiac muscle fibers
+T32	Cell 1216 1235	smooth muscle cells
+T33	Multi-tissue_structure 1248 1261	blood vessels
+T34	Organism_subdivision 1267 1270	gut
+T35	Multi-tissue_structure 1279 1289	myometrium
+T36	Cell 1294 1324	central nervous system neurons
+T37	Cell 1329 1354	cerebellar Purkinje cells
+T38	Cell 1363 1379	epithelial cells
+T39	Multi-tissue_structure 1387 1394	bronchi
+T40	Multi-tissue_structure 1396 1401	colon
+T41	Multi-tissue_structure 1403 1414	endometrium
+T42	Multi-tissue_structure 1420 1437	sweat gland ducts
+T43	Organ 1445 1449	skin
+T44	Gene_or_gene_product 1467 1471	bFGF
+T45	Immaterial_anatomical_entity 1479 1504	extracellular compartment
+T46	Organ 1529 1535	organs
+T47	Gene_or_gene_product 1594 1598	bFGF
+T48	Cell 1602 1619	parenchymal cells

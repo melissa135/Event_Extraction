@@ -1,0 +1,30 @@
+T1	Gene_or_gene_product 0 8	Vimentin
+T2	Organism 40 45	human
+T3	Cancer 46 63	breast carcinomas
+T4	Gene_or_gene_product 73 90	estrogen receptor
+T5	Gene_or_gene_product 100 105	Ki-67
+T6	Gene_or_gene_product 124 132	Vimentin
+T7	Gene_or_gene_product 172 189	estrogen receptor
+T8	Gene_or_gene_product 191 193	ER
+T9	Cancer 243 260	breast carcinomas
+T10	Gene_or_gene_product 278 285	keratin
+T11	Gene_or_gene_product 290 298	vimentin
+T12	Cancer 337 343	tumors
+T13	Gene_or_gene_product 377 385	Vimentin
+T14	Cell 418 429	tumor cells
+T15	Cancer 433 468	high-grade ductal breast carcinomas
+T16	Gene_or_gene_product 527 535	Vimentin
+T17	Cancer 575 581	tumors
+T18	Gene_or_gene_product 613 618	Ki-67
+T19	Gene_or_gene_product 631 647	immunoperoxidase
+T20	Gene_or_gene_product 666 668	ER
+T21	Cancer 767 773	tumors
+T22	Gene_or_gene_product 793 801	vimentin
+T23	Gene_or_gene_product 826 834	vimentin
+T24	Cancer 844 850	tumors
+T25	Cell 897 908	tumor cells
+T26	Gene_or_gene_product 921 929	vimentin
+T27	Gene_or_gene_product 934 941	keratin
+T28	Gene_or_gene_product 949 957	vimentin
+T29	Gene_or_gene_product 1023 1025	ER
+T30	Cancer 1038 1055	breast carcinomas

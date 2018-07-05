@@ -1,0 +1,33 @@
+T1	Gene_or_gene_product 18 47	type II-like tumor hexokinase
+T2	Cell 67 84	cancer cell lines
+T3	Cell 154 159	cells
+T4	Gene_or_gene_product 206 224	glycolytic enzymes
+T5	Simple_chemical 232 239	glucose
+T6	Gene_or_gene_product 289 299	hexokinase
+T7	Gene_or_gene_product 301 303	HK
+T8	Gene_or_gene_product 330 347	glycolytic enzyme
+T9	Cellular_component 407 420	mitochondrial
+T10	Gene_or_gene_product 421 442	type II-like tumor HK
+T11	Cancer 483 492	hepatomas
+T12	Simple_chemical 538 545	glucose
+T13	Cell 585 597	cancer cells
+T14	Simple_chemical 626 633	glucose
+T15	Cell 661 673	cancer cells
+T16	Gene_or_gene_product 811 832	type II-like tumor HK
+T17	Cell 851 868	cancer cell lines
+T18	Tissue 885 891	tissue
+T19	Gene_or_gene_product 973 994	type II-like tumor HK
+T20	Cell 1050 1068	cancer cells lines
+T21	Organ 1080 1086	muscle
+T22	Cell 1095 1112	L6 myoblast cells
+T23	Cell 1153 1165	muscle cells
+T24	Gene_or_gene_product 1202 1212	type II HK
+T25	Gene_or_gene_product 1253 1262	type I HK
+T26	Cell 1295 1312	cancer cell lines
+T27	Gene_or_gene_product 1327 1338	glucokinase
+T28	Gene_or_gene_product 1340 1342	GK
+T29	Gene_or_gene_product 1357 1359	HK
+T30	Cell 1387 1399	cancer cells
+T31	Organ 1417 1422	liver
+T32	Organ 1427 1435	pancreas
+T33	Gene_or_gene_product 1451 1453	GK

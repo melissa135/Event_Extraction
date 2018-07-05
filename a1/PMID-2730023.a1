@@ -1,0 +1,34 @@
+T1	Cancer 1 6	Tumor
+T2	Cancer 70 85	malignant tumor
+T3	Cancer 215 235	Lewis lung carcinoma
+T4	Organism 239 243	mice
+T5	Cancer 311 316	tumor
+T6	Organ 328 337	pulmonary
+T7	Organ 449 453	lung
+T8	Pathological_formation 480 488	thrombus
+T9	Cancer 529 534	tumor
+T10	Gene_or_gene_product 570 591	Plasminogen activator
+T11	Gene_or_gene_product 593 595	PA
+T12	Cancer 616 622	tumors
+T13	Gene_or_gene_product 661 663	PA
+T14	Gene_or_gene_product 680 689	urokinase
+T15	Gene_or_gene_product 691 693	UK
+T16	Cell 765 776	tumor cells
+T17	Gene_or_gene_product 803 805	UK
+T18	Gene_or_gene_product 807 814	laminin
+T19	Gene_or_gene_product 819 835	type IV collagen
+T20	Cellular_component 855 872	basement membrane
+T21	Tissue 891 904	tumor tissues
+T22	Gene_or_gene_product 934 936	PA
+T23	Cancer 978 983	tumor
+T24	Organism 1021 1029	patients
+T25	Cancer 1035 1050	advanced cancer
+T26	Gene_or_gene_product 1104 1114	fibrinogen
+T27	Gene_or_gene_product 1120 1126	fibrin
+T28	Cancer 1145 1150	tumor
+T29	Cancer 1180 1186	cancer
+T30	Gene_or_gene_product 1201 1203	UK
+T31	Simple_chemical 1222 1236	5-fluorouracil
+T32	Tissue 1247 1253	tissue
+T33	Cancer 1275 1280	tumor
+T34	Immaterial_anatomical_entity 1409 1422	intravascular

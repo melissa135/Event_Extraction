@@ -1,0 +1,25 @@
+T1	Cellular_component 9 12	DNA
+T2	Gene_or_gene_product 35 40	Stat3
+T3	Cell 60 65	cells
+T4	Gene_or_gene_product 85 88	Src
+T5	Gene_or_gene_product 103 112	Cytokines
+T6	Gene_or_gene_product 117 131	growth factors
+T7	Amino_acid 139 147	tyrosine
+T8	Gene_or_gene_product 167 217	signal transducers and activators of transcription
+T9	Gene_or_gene_product 219 224	STATs
+T10	Cell 266 271	Cells
+T11	Gene_or_gene_product 298 301	Src
+T12	Amino_acid 311 319	tyrosine
+T13	Gene_or_gene_product 345 349	STAT
+T14	Cellular_component 406 409	DNA
+T15	Gene_or_gene_product 463 468	Stat3
+T16	Gene_or_gene_product 490 494	STAT
+T17	Gene_or_gene_product 545 548	Src
+T18	Cellular_component 580 583	DNA
+T19	Amino_acid 620 628	tyrosine
+T20	Gene_or_gene_product 648 653	Stat3
+T21	Gene_or_gene_product 674 677	Src
+T22	Gene_or_gene_product 726 729	Src
+T23	Gene_or_gene_product 743 747	STAT
+T24	Gene_or_gene_product 798 803	Stat3
+T25	Gene_or_gene_product 834 837	Src

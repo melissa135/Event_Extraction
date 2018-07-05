@@ -1,0 +1,13 @@
+T1	Organ 0 10	Pancreatic
+T2	Gene_or_gene_product 11 23	somatostatin
+T3	Cancer 34 60	gangliocytic paraganglioma
+T4	Multi-tissue_structure 66 76	lymph node
+T5	Cancer 90 116	Gangliocytic paraganglioma
+T6	Cancer 118 121	GPG
+T7	Multi-tissue_structure 134 144	lymph node
+T8	Organ 173 181	pancreas
+T9	Organism 197 203	female
+T10	Organism_subdivision 268 277	abdominal
+T11	Gene_or_gene_product 379 392	stomatostatin
+T12	Cancer 443 446	GPG
+T13	Cancer 504 507	GPG

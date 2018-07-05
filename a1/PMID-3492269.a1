@@ -1,0 +1,46 @@
+T1	Gene_or_gene_product 37 53	protein kinase C
+T2	Organism 80 86	murine
+T3	Cell 87 92	cells
+T4	Gene_or_gene_product 158 174	protein kinase C
+T5	Gene_or_gene_product 188 204	protein kinase C
+T6	Cell 275 280	cells
+T7	Gene_or_gene_product 318 334	protein kinase C
+T8	Cell 352 357	cells
+T9	Gene_or_gene_product 376 399	epidermal growth factor
+T10	Gene_or_gene_product 401 404	EGF
+T11	Simple_chemical 429 447	phorbol dibutyrate
+T12	Simple_chemical 449 453	PDBu
+T13	Organism_substance 479 487	extracts
+T14	Simple_chemical 498 505	calcium
+T15	Simple_chemical 507 519	phospholipid
+T16	Organism_substance 550 558	extracts
+T17	Cell 585 600	Swiss 3T3 cells
+T18	Gene_or_gene_product 622 638	protein kinase C
+T19	Cell 732 736	cell
+T20	Cell 765 780	Swiss 3T3 cells
+T21	Gene_or_gene_product 800 816	protein kinase C
+T22	Simple_chemical 899 903	PDBu
+T23	Gene_or_gene_product 918 921	EGF
+T24	Cell 1026 1031	cells
+T25	Simple_chemical 1060 1064	PDBu
+T26	Cell 1140 1145	cells
+T27	Simple_chemical 1170 1174	PDBu
+T28	Gene_or_gene_product 1190 1206	protein kinase C
+T29	Organism_substance 1293 1302	antiserum
+T30	Gene_or_gene_product 1306 1322	protein kinase C
+T31	Cell 1429 1434	cells
+T32	Gene_or_gene_product 1436 1452	Protein kinase C
+T33	Cell 1483 1493	cell lines
+T34	Gene_or_gene_product 1597 1600	EGF
+T35	Cancer 1612 1617	tumor
+T36	Cell 1661 1676	Swiss 3T3 cells
+T37	Simple_chemical 1682 1686	PDBu
+T38	Cell 1744 1749	cells
+T39	Simple_chemical 1751 1755	PDBu
+T40	Gene_or_gene_product 1793 1796	EGF
+T41	Cell 1843 1848	cells
+T42	Gene_or_gene_product 1872 1875	EGF
+T43	Simple_chemical 1887 1891	PDBu
+T44	Cancer 1958 1963	tumor
+T45	Cell 2000 2005	cells
+T46	Gene_or_gene_product 2023 2039	protein kinase C

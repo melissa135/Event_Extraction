@@ -1,0 +1,30 @@
+T1	Gene_or_gene_product 0 10	E mu-bcl-2
+T2	Cell 69 74	pre-B
+T3	Gene_or_gene_product 79 93	immunoglobulin
+T4	Cell 104 109	cells
+T5	Cell 118 125	T cells
+T6	Cell 142 150	lymphoid
+T7	Gene_or_gene_product 176 181	bcl-2
+T8	Organism 183 187	mice
+T9	Gene_or_gene_product 229 234	bcl-2
+T10	Cell 248 249	B
+T11	Cell 257 264	T cells
+T12	Cancer 316 324	Lymphoma
+T13	Cell 355 364	T lineage
+T14	Cell 411 420	B lineage
+T15	Cancer 445 451	tumors
+T16	Cancer 457 470	plasmacytomas
+T17	Gene_or_gene_product 481 495	immunoglobulin
+T18	Cancer 506 515	lymphomas
+T19	Gene_or_gene_product 547 552	Sca-1
+T20	Gene_or_gene_product 554 557	CD4
+T21	Gene_or_gene_product 559 564	Thy-1
+T22	Gene_or_gene_product 566 570	CD34
+T23	Gene_or_gene_product 575 579	CD45
+T24	Gene_or_gene_product 580 584	B220
+T25	Cell 627 637	B-lymphoid
+T26	Gene_or_gene_product 672 677	c-myc
+T27	Cancer 701 714	plasmacytomas
+T28	Gene_or_gene_product 748 751	myc
+T29	Gene_or_gene_product 756 761	bcl-2
+T30	Cancer 809 818	lymphomas

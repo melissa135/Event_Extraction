@@ -1,0 +1,38 @@
+T1	Gene_or_gene_product 0 4	CD40
+T2	Organism 19 24	human
+T3	Cancer 25 36	lung cancer
+T4	Cancer 117 128	lung cancer
+T5	Organism 404 409	human
+T6	Cell 410 432	lung cancer cell lines
+T7	Cancer 484 496	lung cancers
+T8	Gene_or_gene_product 555 587	epidermal growth factor receptor
+T9	Gene_or_gene_product 589 593	EGFR
+T10	Gene_or_gene_product 596 629	intercellular adhesion molecule 1
+T11	Gene_or_gene_product 631 637	ICAM-1
+T12	Gene_or_gene_product 640 643	Fas
+T13	Gene_or_gene_product 648 652	CD40
+T14	Cancer 696 701	tumor
+T15	Gene_or_gene_product 716 720	EGFR
+T16	Gene_or_gene_product 722 728	ICAM-1
+T17	Gene_or_gene_product 732 735	Fas
+T18	Cellular_component 808 815	surface
+T19	Gene_or_gene_product 830 834	CD40
+T20	Cancer 868 873	tumor
+T21	Cell 899 921	lung cancer cell lines
+T22	Gene_or_gene_product 938 942	CD40
+T23	Cellular_component 952 959	surface
+T24	Cancer 974 980	tumors
+T25	Gene_or_gene_product 991 995	CD40
+T26	Cancer 1019 1025	tumors
+T27	Cancer 1093 1099	tumors
+T28	Gene_or_gene_product 1115 1119	CD40
+T29	Multi-tissue_structure 1148 1153	nodal
+T30	Organism 1203 1211	Patients
+T31	Cancer 1218 1224	tumors
+T32	Gene_or_gene_product 1230 1234	CD40
+T33	Organism 1337 1345	patients
+T34	Gene_or_gene_product 1351 1355	CD40
+T35	Organism 1365 1373	patients
+T36	Cancer 1442 1447	tumor
+T37	Gene_or_gene_product 1559 1563	CD40
+T38	Cancer 1578 1589	lung cancer

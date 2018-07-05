@@ -1,0 +1,43 @@
+T1	Gene_or_gene_product 24 29	Evi-1
+T2	Gene_or_gene_product 49 54	Evi-1
+T3	Cell 117 121	cell
+T4	Gene_or_gene_product 217 222	Evi-1
+T5	Gene_or_gene_product 268 273	Evi-1
+T6	Gene_or_gene_product 299 330	transforming growth factor beta
+T7	Gene_or_gene_product 332 340	TGF-beta
+T8	Cell 391 401	cell types
+T9	Gene_or_gene_product 481 486	Evi-1
+T10	Gene_or_gene_product 497 505	TGF-beta
+T11	Gene_or_gene_product 587 592	Evi-1
+T60	Protein_domain_or_region 656 674	zinc-finger domain
+T12	Gene_or_gene_product 697 702	Evi-1
+T13	Gene_or_gene_product 729 734	Smad3
+T14	Immaterial_anatomical_entity 739 752	intracellular
+T15	Gene_or_gene_product 765 773	TGF-beta
+T16	Gene_or_gene_product 837 842	Smad3
+T17	Gene_or_gene_product 885 890	Evi-1
+T18	Gene_or_gene_product 933 941	TGF-beta
+T19	Gene_or_gene_product 969 974	Evi-1
+T20	Gene_or_gene_product 985 989	Smad
+T21	Gene_or_gene_product 1039 1043	CtBP
+T22	Gene_or_gene_product 1062 1067	Evi-1
+T23	Gene_or_gene_product 1084 1089	CtBP1
+T24	Gene_or_gene_product 1109 1113	CtBP
+T25	Amino_acid 1162 1176	amino acid 544
+T70	Protein_domain_or_region 1180 1183	607
+T26	Amino_acid 1180 1183	607
+T27	Gene_or_gene_product 1250 1258	TGF-beta
+T28	Gene_or_gene_product 1281 1300	histone deacetylase
+T29	Gene_or_gene_product 1302 1306	HDAc
+T30	Simple_chemical 1319 1333	trichostatin A
+T31	Simple_chemical 1335 1338	TSA
+T32	Gene_or_gene_product 1352 1357	Evi-1
+T33	Gene_or_gene_product 1381 1389	TGF-beta
+T34	Gene_or_gene_product 1417 1421	HDAc
+T35	Gene_or_gene_product 1467 1472	Evi-1
+T36	Gene_or_gene_product 1510 1515	Evi-1
+T37	Gene_or_gene_product 1645 1650	Evi-1
+T38	Gene_or_gene_product 1712 1716	HDAc
+T39	Gene_or_gene_product 1762 1767	Evi-1
+T40	Cancer 1776 1793	neoplastic tumors
+T41	Cancer 1805 1822	myeloid leukemias

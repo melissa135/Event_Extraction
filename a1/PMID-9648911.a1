@@ -1,0 +1,42 @@
+T1	Gene_or_gene_product 13 18	Ets-1
+T2	Cell 22 39	endothelial cells
+T3	Gene_or_gene_product 91 96	Ets-1
+T4	Cell 136 153	endothelial cells
+T5	Cell 155 158	ECs
+T6	Gene_or_gene_product 221 226	Ets-1
+T7	Cell 273 282	monolayer
+T8	Cell 286 328	human umbilical vein endothelial cell line
+T9	Cell 330 336	ECV304
+T10	Cell 351 357	ECV304
+T11	Pathological_formation 365 375	wound edge
+T12	Gene_or_gene_product 386 391	Ets-1
+T13	Gene_or_gene_product 439 444	Ets-1
+T14	Cell 460 475	migrating cells
+T15	Pathological_formation 483 493	wound edge
+T16	Gene_or_gene_product 584 589	Ets-1
+T17	Organism 635 638	rat
+T18	Tissue 639 657	aortic endothelium
+T19	Gene_or_gene_product 698 703	Ets-1
+T20	Cell 707 710	ECs
+T21	Gene_or_gene_product 765 780	humeral factors
+T22	Cell 803 806	ECs
+T23	Gene_or_gene_product 833 865	Mitogen-activated protein kinase
+T24	Gene_or_gene_product 867 871	MAPK
+T25	Gene_or_gene_product 955 1002	extracellular signal-regulated protein kinase 1
+T26	Gene_or_gene_product 1003 1004	2
+T27	Gene_or_gene_product 1006 1010	ERK1
+T28	Gene_or_gene_product 1011 1012	2
+T29	Gene_or_gene_product 1015 1040	c-Jun N-terminal kinase 1
+T30	Gene_or_gene_product 1042 1046	JNK1
+T31	Gene_or_gene_product 1053 1056	p38
+T32	Gene_or_gene_product 1108 1112	ERK1
+T33	Gene_or_gene_product 1117 1120	p38
+T34	Simple_chemical 1151 1158	PD98059
+T35	Gene_or_gene_product 1171 1194	MAPK/ERK kinase (MEK) 1
+T36	Gene_or_gene_product 1238 1243	ets-1
+T37	Simple_chemical 1258 1266	SB203580
+T38	Gene_or_gene_product 1279 1282	p38
+T39	Gene_or_gene_product 1365 1370	Ets-1
+T40	Cell 1385 1388	ECs
+T41	Gene_or_gene_product 1428 1431	p38
+T42	Gene_or_gene_product 1451 1456	Ets-1

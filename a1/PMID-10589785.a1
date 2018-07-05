@@ -1,0 +1,23 @@
+T1	Simple_chemical 25 33	linomide
+T2	Cancer 62 104	von Hippel-Lindau paraganglioma xenografts
+T3	Organism 108 112	mice
+T4	Simple_chemical 209 217	linomide
+T5	Cancer 235 273	von Hippel-Lindau (VHL)-related tumors
+T6	Tissue 275 305	Paraganglioma tissue fragments
+T7	Organism 345 352	patient
+T8	Organism 384 408	BALB/c nu/nu (nude) mice
+T9	Simple_chemical 576 584	linomide
+T10	Cancer 646 651	tumor
+T11	Cancer 771 776	tumor
+T12	Cancer 882 887	tumor
+T13	Organism_substance 888 893	blood
+T14	Simple_chemical 902 910	linomide
+T15	Multi-tissue_structure 950 963	blood vessels
+T16	Cancer 1027 1033	tumors
+T17	Multi-tissue_structure 1071 1079	vascular
+T18	Cancer 1140 1146	tumors
+T19	Simple_chemical 1152 1160	linomide
+T20	Cancer 1262 1267	tumor
+T21	Gene_or_gene_product 1268 1302	vascular endothelial growth factor
+T22	Gene_or_gene_product 1430 1434	VEGF
+T23	Cancer 1464 1474	VHL tumors

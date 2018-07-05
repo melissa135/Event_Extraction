@@ -1,0 +1,27 @@
+T1	Cell 29 56	neoplastic endothelial cell
+T2	Organism 76 81	human
+T3	Gene_or_gene_product 96 109	ribonucleases
+T4	Cell 187 203	endothelial cell
+T5	Multi-tissue_structure 212 225	blood vessels
+T6	Cancer 286 292	tumors
+T7	Cancer 358 363	tumor
+T8	Cell 452 469	endothelial cells
+T9	Simple_chemical 535 543	onconase
+T10	Simple_chemical 548 557	(-4)rhEDN
+T11	Cell 594 610	endothelial cell
+T12	Cell 655 672	endothelial cells
+T13	Organism 685 694	HPV-16 E6
+T14	Organism 695 697	E7
+T15	Cell 711 749	human umbilical vein endothelial cells
+T16	Cell 751 757	HUVECs
+T17	Gene_or_gene_product 762 766	Kras
+T18	Organism 779 788	HPV-16 E6
+T19	Organism 789 791	E7
+T20	Cell 792 797	HUVEC
+T21	Cell 858 864	HUVECs
+T22	Simple_chemical 866 874	Onconase
+T23	Cell 922 932	cell lines
+T24	Simple_chemical 965 974	(-4)rhEDN
+T25	Cell 1010 1026	HUVEC cell lines
+T26	Cell 1071 1077	HUVECs
+T27	Cell 1169 1190	endothelial cell type

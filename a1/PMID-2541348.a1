@@ -1,0 +1,31 @@
+T1	Simple_chemical 48 51	Na+
+T2	Simple_chemical 52 54	H+
+T3	Cancer 67 81	ascites tumors
+T4	Simple_chemical 101 104	Na+
+T5	Simple_chemical 141 148	protons
+T6	Simple_chemical 160 167	glucose
+T7	Simple_chemical 184 191	lactate
+T8	Simple_chemical 196 199	Na+
+T9	Simple_chemical 233 236	Na+
+T10	Simple_chemical 237 239	H+
+T11	Simple_chemical 316 323	glucose
+T12	Simple_chemical 346 349	Na+
+T13	Cell 402 406	cell
+T14	Cellular_component 428 444	plasma membranes
+T15	Simple_chemical 449 451	K+
+T16	Simple_chemical 499 502	Na+
+T17	Simple_chemical 532 534	O2
+T18	Cell 557 568	tumor cells
+T19	Simple_chemical 615 621	cation
+T20	Cell 657 662	cells
+T21	Cell 810 818	cultures
+T22	Simple_chemical 870 873	ATP
+T23	Simple_chemical 1024 1030	cation
+T24	Cellular_component 1048 1064	plasma membranes
+T25	Simple_chemical 1105 1108	ATP
+T26	Simple_chemical 1224 1227	Na+
+T27	Simple_chemical 1228 1230	K+
+T28	Cell 1248 1259	tumor cells
+T29	Simple_chemical 1315 1326	lactic acid
+T30	Immaterial_anatomical_entity 1390 1403	intracellular
+T31	Simple_chemical 1425 1432	cations

@@ -1,0 +1,40 @@
+T1	Gene_or_gene_product 0 33	Transforming growth factor beta 1
+T2	Organism 82 85	rat
+T3	Cell 86 108	liver epithelial cells
+T4	Organism 153 156	rat
+T5	Cell 157 179	liver epithelial cells
+T6	Gene_or_gene_product 298 329	transforming growth factor beta
+T7	Gene_or_gene_product 331 339	TGF-beta
+T8	Cell 433 438	cells
+T9	Gene_or_gene_product 478 486	TGF-beta
+T10	Cell 544 551	WB-F344
+T11	Organism 568 571	rat
+T12	Cell 572 594	liver epithelial cells
+T13	Gene_or_gene_product 649 657	TGF-beta
+T14	Cell 663 679	control WB cells
+T15	Gene_or_gene_product 719 727	TGF-beta
+T16	Cell 763 768	cells
+T17	Gene_or_gene_product 808 816	TGF-beta
+T18	Gene_or_gene_product 875 883	TGF-beta
+T19	Cell 912 917	Cells
+T20	Gene_or_gene_product 968 976	TGF-beta
+T21	Gene_or_gene_product 1035 1058	epidermal growth factor
+T22	Cell 1060 1065	Cells
+T23	Gene_or_gene_product 1118 1126	TGF-beta
+T24	Gene_or_gene_product 1215 1238	epidermal growth factor
+T25	Organism 1271 1275	rats
+T26	Gene_or_gene_product 1283 1291	TGF-beta
+T27	Cell 1302 1307	cells
+T28	Gene_or_gene_product 1376 1381	c-fos
+T29	Gene_or_gene_product 1390 1393	myc
+T30	Simple_chemical 1448 1458	Adriamycin
+T31	Simple_chemical 1463 1472	melphalan
+T32	Gene_or_gene_product 1534 1539	mdr-1
+T33	Cell 1557 1565	cellular
+T34	Simple_chemical 1566 1577	glutathione
+T35	Gene_or_gene_product 1589 1614	glutathione S-transferase
+T36	Gene_or_gene_product 1692 1700	TGF-beta
+T37	Organism 1764 1767	rat
+T38	Cell 1768 1790	liver epithelial cells
+T39	Cell 1853 1861	cellular
+T40	Cell 1953 1969	epithelial cells

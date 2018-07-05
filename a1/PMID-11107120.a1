@@ -1,0 +1,37 @@
+T1	Gene_or_gene_product 0 3	p75
+T2	Cell 26 45	neuroblastoma cells
+T3	Gene_or_gene_product 76 80	TrkA
+T4	Gene_or_gene_product 95 108	Neurotrophins
+T5	Gene_or_gene_product 160 163	Trk
+T6	Gene_or_gene_product 253 256	p75
+T7	Gene_or_gene_product 258 277	Nerve growth factor
+T8	Gene_or_gene_product 279 282	NGF
+T9	Cell 349 373	neuroblastoma (NB) cells
+T10	Gene_or_gene_product 395 399	TrkA
+T11	Gene_or_gene_product 414 417	p75
+T12	Gene_or_gene_product 442 463	tumor necrosis factor
+T13	Gene_or_gene_product 465 468	TNF
+T14	Cell 560 568	neuronal
+T15	Cell 573 581	NB cells
+T16	Gene_or_gene_product 623 626	p75
+T17	Cancer 641 643	NB
+T18	Gene_or_gene_product 664 667	p75
+T19	Cell 678 691	SH-SY5Y cells
+T20	Cell 696 708	NB cell line
+T21	Gene_or_gene_product 736 739	p75
+T22	Gene_or_gene_product 744 748	TrkA
+T23	Cell 759 770	Cell clones
+T24	Gene_or_gene_product 801 804	p75
+T25	Organism_substance 851 856	serum
+T26	Gene_or_gene_product 901 904	p75
+T27	Gene_or_gene_product 944 951	caspase
+T28	Gene_or_gene_product 1065 1068	p75
+T29	Cell 1086 1090	cell
+T30	Gene_or_gene_product 1151 1155	TrkA
+T31	Gene_or_gene_product 1161 1165	SY5Y
+T32	Cell 1161 1175	SY5Y-p75 cells
+T33	Gene_or_gene_product 1166 1169	p75
+T34	Gene_or_gene_product 1253 1256	NGF
+T35	Gene_or_gene_product 1295 1299	TrkA
+T36	Gene_or_gene_product 1325 1328	p75
+T37	Cell 1351 1359	NB cells

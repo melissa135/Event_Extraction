@@ -1,0 +1,14 @@
+T1	Cancer 34 40	cancer
+T2	Cell 153 157	cell
+T3	Cancer 200 206	cancer
+T4	Cancer 364 370	cancer
+T5	Organism_substance 788 793	serum
+T6	Gene_or_gene_product 799 804	IGF-I
+T7	Simple_chemical 832 846	mevalonic acid
+T8	Simple_chemical 892 904	arachidonate
+T9	Gene_or_gene_product 930 944	5-lipoxygenase
+T10	Gene_or_gene_product 946 961	12-lipoxygenase
+T11	Gene_or_gene_product 966 971	COX-2
+T12	Gene_or_gene_product 1002 1006	AP-1
+T13	Gene_or_gene_product 1056 1066	PPAR-gamma
+T14	Cancer 1197 1203	cancer

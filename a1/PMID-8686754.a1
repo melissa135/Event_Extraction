@@ -1,0 +1,66 @@
+T1	Cell 15 31	endothelial cell
+T2	Gene_or_gene_product 45 73	vascular permeability factor
+T3	Gene_or_gene_product 74 108	vascular endothelial growth factor
+T4	Gene_or_gene_product 154 174	alphavbeta3 integrin
+T5	Gene_or_gene_product 176 187	osteopontin
+T6	Gene_or_gene_product 193 201	thrombin
+T7	Gene_or_gene_product 274 302	vascular permeability factor
+T8	Gene_or_gene_product 303 337	vascular endothelial growth factor
+T9	Gene_or_gene_product 339 342	VPF
+T10	Gene_or_gene_product 343 347	VEGF
+T11	Cell 366 383	endothelial cells
+T12	Cell 385 387	EC
+T13	Gene_or_gene_product 400 403	VPF
+T14	Gene_or_gene_product 404 408	VEGF
+T15	Cell 417 440	dermal microvascular EC
+T16	Gene_or_gene_product 474 480	alphav
+T17	Gene_or_gene_product 485 508	beta3 integrin subunits
+T18	Gene_or_gene_product 546 557	alphavbeta3
+T19	Cellular_component 577 589	cell surface
+T20	Gene_or_gene_product 595 598	VPF
+T21	Gene_or_gene_product 599 603	VEGF
+T22	Gene_or_gene_product 631 642	osteopontin
+T23	Gene_or_gene_product 644 647	OPN
+T24	Gene_or_gene_product 653 664	alphavbeta3
+T25	Gene_or_gene_product 673 676	OPN
+T26	Cell 686 688	EC
+T27	Gene_or_gene_product 713 716	VPF
+T28	Gene_or_gene_product 717 721	VEGF
+T29	Gene_or_gene_product 735 746	alphavbeta3
+T30	Cell 776 778	EC
+T31	Gene_or_gene_product 796 799	OPN
+T32	Gene_or_gene_product 809 817	thrombin
+T33	Gene_or_gene_product 830 833	OPN
+T34	Gene_or_gene_product 872 875	OPN
+T35	Gene_or_gene_product 911 914	VPF
+T36	Gene_or_gene_product 915 919	VEGF
+T37	Tissue 939 952	microvascular
+T38	Gene_or_gene_product 1055 1058	VPF
+T39	Gene_or_gene_product 1059 1063	VEGF
+T40	Gene_or_gene_product 1076 1084	thrombin
+T41	Gene_or_gene_product 1097 1100	OPN
+T42	Gene_or_gene_product 1159 1162	VPF
+T43	Gene_or_gene_product 1163 1167	VEGF
+T44	Gene_or_gene_product 1182 1185	OPN
+T45	Gene_or_gene_product 1216 1219	OPN
+T46	Gene_or_gene_product 1234 1242	thrombin
+T47	Gene_or_gene_product 1283 1286	OPN
+T48	Gene_or_gene_product 1288 1296	thrombin
+T49	Gene_or_gene_product 1305 1308	OPN
+T50	Cell 1338 1340	EC
+T51	Gene_or_gene_product 1436 1450	alpha v beta 3
+T52	Gene_or_gene_product 1508 1511	VPF
+T53	Gene_or_gene_product 1512 1516	VEGF
+T54	Cell 1531 1533	EC
+T55	Gene_or_gene_product 1558 1578	alphavbeta3 integrin
+T56	Gene_or_gene_product 1584 1595	alphavbeta3
+T57	Gene_or_gene_product 1603 1606	OPN
+T58	Gene_or_gene_product 1612 1620	thrombin
+T59	Gene_or_gene_product 1633 1636	OPN
+T60	Gene_or_gene_product 1697 1700	VPF
+T61	Gene_or_gene_product 1701 1705	VEGF
+T62	Cell 1719 1721	EC
+T63	Gene_or_gene_product 1742 1745	VPF
+T64	Gene_or_gene_product 1746 1750	VEGF
+T65	Tissue 1766 1779	microvascular
+T66	Cell 1880 1882	EC

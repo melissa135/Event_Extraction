@@ -1,0 +1,37 @@
+T1	Gene_or_gene_product 16 19	p53
+T2	Organism 24 43	Helicobacter pylori
+T3	Organism 79 84	human
+T4	Cancer 85 107	remnant stomach cancer
+T5	Organ 114 121	gastric
+T6	Cancer 142 156	gastric cancer
+T7	Cancer 228 242	gastric cancer
+T8	Organ 250 265	remnant stomach
+T9	Cancer 267 270	RSC
+T10	Organism 284 292	patients
+T11	Organ 320 335	remnant stomach
+T12	Cancer 340 343	RSC
+T13	Cancer 382 386	RSCB
+T14	Organism 409 417	patients
+T15	Cancer 478 482	RSCM
+T16	Organism 505 513	patients
+T17	Cancer 552 566	gastric cancer
+T18	Cancer 627 641	gastric cancer
+T19	Organ 649 664	remnant stomach
+T20	Cancer 698 702	RSCM
+T21	Cancer 721 725	RSCB
+T22	Organ 754 760	organs
+T23	Cancer 786 790	RSCM
+T24	Cancer 809 813	RSCB
+T25	Gene_or_gene_product 828 833	Ki-67
+T26	Cancer 856 862	tumors
+T27	Gene_or_gene_product 922 925	p53
+T28	Cancer 944 950	tumors
+T29	Cancer 985 989	RSCM
+T30	Cancer 1006 1010	RSCB
+T31	Organism 1070 1079	H. pylori
+T32	Gene_or_gene_product 1198 1201	p53
+T33	Cancer 1267 1273	tumors
+T34	Cancer 1281 1285	RSCM
+T35	Organism 1296 1305	H. pylori
+T36	Organism 1360 1368	patients
+T37	Cancer 1374 1377	RSC

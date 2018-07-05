@@ -1,0 +1,25 @@
+T1	Gene_or_gene_product 27 48	heat shock protein 27
+T2	Gene_or_gene_product 50 55	HSP27
+T3	Organism 60 68	patients
+T4	Cancer 74 102	oral squamous cell carcinoma
+T5	Gene_or_gene_product 105 124	Heat shock proteins
+T6	Gene_or_gene_product 126 130	HSPs
+T7	Gene_or_gene_product 237 258	Heat shock protein 27
+T8	Gene_or_gene_product 260 265	HSP27
+T9	Gene_or_gene_product 281 306	small heat shock proteins
+T10	Gene_or_gene_product 308 313	HSP27
+T11	Cancer 511 518	cancers
+T12	Tissue 520 536	Archival tissues
+T13	Organism 545 553	patients
+T14	Cancer 559 587	oral squamous cell carcinoma
+T15	Gene_or_gene_product 646 651	HSP27
+T16	Multi-tissue_structure 712 722	lymph node
+T17	Gene_or_gene_product 775 780	HSP27
+T18	Gene_or_gene_product 925 930	HSP27
+T19	Multi-tissue_structure 962 972	lymph node
+T20	Gene_or_gene_product 1084 1089	HSP27
+T21	Gene_or_gene_product 1176 1181	HSP27
+T22	Organism 1208 1216	patients
+T23	Cancer 1222 1250	oral squamous cell carcinoma
+T24	Cancer 1312 1340	oral squamous cell carcinoma
+T25	Organism 1341 1349	patients

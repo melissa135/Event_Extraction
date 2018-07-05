@@ -1,0 +1,40 @@
+T1	Gene_or_gene_product 19 40	glucose transporter-1
+T2	Gene_or_gene_product 42 48	Glut-1
+T3	Simple_chemical 104 111	glucose
+T4	Organism 115 120	human
+T5	Cell 121 135	leukemic cells
+T6	Simple_chemical 222 229	glucose
+T7	Gene_or_gene_product 243 249	Glut-1
+T8	Simple_chemical 309 320	tunicamycin
+T9	Simple_chemical 325 332	glucose
+T10	Organism 346 351	human
+T11	Cell 352 376	leukemic cell lines K562
+T12	Cell 378 382	U937
+T13	Cell 387 391	HL60
+T14	Simple_chemical 408 419	tunicamycin
+T15	Simple_chemical 452 466	2-deoxyglucose
+T16	Simple_chemical 553 560	glucose
+T17	Cell 592 605	Leukemic K562
+T18	Cell 607 611	U937
+T19	Cell 616 626	HL60 cells
+T20	Gene_or_gene_product 637 643	Glut-1
+T21	Cell 670 680	K562 cells
+T22	Gene_or_gene_product 681 687	Glut-1
+T23	Cell 740 744	U937
+T24	Cell 749 759	HL60 cells
+T25	Cell 826 836	K562 cells
+T26	Simple_chemical 842 853	tunicamycin
+T27	Gene_or_gene_product 908 920	glycoprotein
+T28	Cell 999 1009	U937 cells
+T29	Simple_chemical 1011 1022	tunicamycin
+T30	Cell 1126 1136	HL60 cells
+T31	Gene_or_gene_product 1156 1162	Glut-1
+T32	Simple_chemical 1212 1223	Tunicamycin
+T33	Simple_chemical 1267 1278	[3H]mannose
+T34	Simple_chemical 1323 1336	[3H]thymidine
+T35	Simple_chemical 1341 1352	[3H]leucine
+T36	Simple_chemical 1381 1392	tunicamycin
+T37	Simple_chemical 1432 1435	MTT
+T38	Cell 1453 1458	cells
+T39	Cell 1495 1509	leukemic cells
+T40	Gene_or_gene_product 1529 1535	Glut-1

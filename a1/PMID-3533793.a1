@@ -1,0 +1,33 @@
+T1	Gene_or_gene_product 69 77	HA-ras-1
+T2	Cell 90 101	rat-1 cells
+T3	Organism 120 123	rat
+T4	Cell 124 145	embryonic fibroblasts
+T5	Cell 148 159	Rat-1 cells
+T6	Gene_or_gene_product 206 214	Ha-ras-1
+T7	Organism 225 230	human
+T8	Cell 231 257	EJ bladder carcinoma cells
+T9	Organism 292 295	rat
+T10	Cell 296 307	fibroblasts
+T11	Cell 323 335	cell hybrids
+T12	Organism 350 355	human
+T13	Gene_or_gene_product 382 385	p21
+T14	Cell 454 459	cells
+T15	Cell 465 477	hybrid cells
+T16	Organism 624 628	rats
+T17	Cell 642 660	hybrid derivatives
+T18	Cellular_component 688 699	chromosomes
+T19	Cell 720 736	parental hybrids
+T20	Cellular_component 738 741	DNA
+T21	Cell 765 777	cell hybrids
+T22	Cell 790 801	Rat-1 cells
+T23	Organism 874 879	human
+T24	Gene_or_gene_product 880 886	Ha-ras
+T25	Cellular_component 913 916	DNA
+T26	Gene_or_gene_product 980 986	Ha-ras
+T27	Cell 995 1006	Rat-1 cells
+T28	Cellular_component 1080 1086	genome
+T29	Organism 1110 1113	rat
+T30	Cell 1114 1125	fibroblasts
+T31	Cell 1210 1222	Normal cells
+T32	Cell 1272 1277	cells
+T33	Gene_or_gene_product 1336 1344	Ha-ras-1

@@ -1,0 +1,20 @@
+T1	Amino_acid 17 25	tyrosine
+T2	Cell 140 152	NIH3T3 cells
+T3	Cellular_component 170 173	DNA
+T4	Organism 217 224	patient
+T5	Gene_or_gene_product 301 304	UFO
+T6	Gene_or_gene_product 547 550	UFO
+T7	Cellular_component 597 610	transmembrane
+T8	Amino_acid 636 644	tyrosine
+T9	Gene_or_gene_product 666 669	UFO
+T10	Organism 693 698	human
+T11	Organism 773 778	human
+T12	Multi-tissue_structure 779 790	bone marrow
+T13	Organism 795 800	human
+T14	Cell 801 817	tumor cell lines
+T15	Gene_or_gene_product 823 826	UFO
+T16	Organism 910 916	murine
+T17	Gene_or_gene_product 917 920	UFO
+T18	Organism 968 973	mouse
+T19	Tissue 974 981	tissues
+T20	Cell 1083 1087	cell

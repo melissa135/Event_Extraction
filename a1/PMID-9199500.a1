@@ -1,0 +1,26 @@
+T1	Cancer 4 15	Wilms tumor
+T2	Gene_or_gene_product 32 35	WT1
+T3	Cell 71 101	myeloblastic leukemia M1 cells
+T4	Gene_or_gene_product 104 107	WT1
+T5	Cancer 126 131	tumor
+T6	Cancer 151 162	Wilms tumor
+T7	Gene_or_gene_product 192 195	WT1
+T8	Cancer 230 244	acute leukemia
+T9	Gene_or_gene_product 273 276	WT1
+T10	Gene_or_gene_product 291 294	WT1
+T11	Cell 348 362	leukemia cells
+T12	Gene_or_gene_product 380 383	WT1
+T13	Gene_or_gene_product 474 477	WT1
+T14	Cell 490 494	cell
+T15	Gene_or_gene_product 530 533	WT1
+T16	Organism 537 543	murine
+T17	Cell 544 574	M1 myeloblastic leukemia cells
+T18	Simple_chemical 585 617	isopropyl-beta-D-thiogalactoside
+T19	Simple_chemical 619 623	IPTG
+T20	Gene_or_gene_product 706 709	WT1
+T21	Gene_or_gene_product 711 729	WT1-17AA(+)-KTS(-)
+T22	Cell 734 742	M1 cells
+T23	Cell 751 755	cell
+T24	Cell 783 787	cell
+T25	Gene_or_gene_product 834 837	WT1
+T26	Cell 876 889	leukemia cell

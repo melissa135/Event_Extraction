@@ -1,0 +1,41 @@
+T1	Cancer 30 37	MEN IIA
+T2	Gene_or_gene_product 48 58	calcitonin
+T3	Cancer 80 85	tumor
+T4	Organism 119 127	patients
+T5	Cancer 133 174	multiple endocrine neoplasia of type II A
+T6	Cancer 176 184	MEN II A
+T7	Cancer 203 230	medullary thyroid carcinoma
+T8	Organ 386 393	thyroid
+T9	Cancer 422 431	carcinoma
+T10	Cancer 485 493	MEN II A
+T11	Cancer 560 565	tumor
+T12	Gene_or_gene_product 573 583	calcitonin
+T13	Cancer 600 605	tumor
+T14	Organism 644 652	patients
+T15	Cancer 658 666	MEN II A
+T16	Simple_chemical 782 794	pentagastrin
+T17	Gene_or_gene_product 806 816	calcitonin
+T18	Gene_or_gene_product 939 949	calcitonin
+T19	Organism 976 984	patients
+T20	Gene_or_gene_product 1014 1017	RET
+T21	Organism 1061 1069	patients
+T22	Organism 1126 1134	patients
+T23	Cell 1197 1203	C-cell
+T24	Organism 1224 1232	patients
+T25	Cancer 1263 1287	medullary microcarcinoma
+T26	Cancer 1329 1353	medullary microcarcinoma
+T27	Organism 1404 1407	boy
+T28	Cancer 1423 1437	microcarcinoma
+T29	Multi-tissue_structure 1452 1462	lymph node
+T30	Gene_or_gene_product 1493 1503	calcitonin
+T31	Simple_chemical 1605 1617	pentagastrin
+T32	Gene_or_gene_product 1629 1639	calcitonin
+T33	Cancer 1694 1702	MEN II A
+T34	Organism 1703 1711	patients
+T35	Gene_or_gene_product 1779 1789	calcitonin
+T36	Cancer 1835 1840	tumor
+T37	Cell 1881 1887	C-cell
+T38	Cancer 1903 1927	medullary microcarcinoma
+T39	Cell 2009 2015	C-cell
+T40	Cancer 2040 2054	microcarcinoma
+T41	Cancer 2073 2080	MEN IIA

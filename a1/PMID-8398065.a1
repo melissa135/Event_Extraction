@@ -1,0 +1,33 @@
+T1	Simple_chemical 0 8	Vitamins
+T2	Cell 86 98	cancer cells
+T3	Cancer 119 125	cancer
+T4	Organism 171 176	human
+T5	Cell 259 264	cells
+T6	Cell 275 287	cancer cells
+T7	Simple_chemical 392 400	vitamins
+T8	Simple_chemical 409 422	beta-carotene
+T9	Simple_chemical 427 437	vitamins A
+T10	Simple_chemical 439 440	C
+T11	Simple_chemical 446 447	E
+T12	Cancer 478 484	cancer
+T13	Simple_chemical 637 645	vitamins
+T14	Cancer 669 675	cancer
+T15	Organism 696 702	humans
+T16	Simple_chemical 904 912	vitamins
+T17	Cell 920 924	cell
+T18	Cell 969 980	tumor cells
+T19	Simple_chemical 1023 1031	vitamins
+T20	Cancer 1035 1041	cancer
+T21	Cell 1059 1067	cellular
+T22	Cell 1116 1127	tumor cells
+T23	Simple_chemical 1129 1137	vitamins
+T24	Simple_chemical 1146 1172	alpha-tocopheryl succinate
+T25	Simple_chemical 1177 1190	beta-carotene
+T26	Cell 1257 1268	tumor cells
+T27	Simple_chemical 1275 1283	vitamins
+T28	Simple_chemical 1289 1302	beta-carotene
+T29	Simple_chemical 1304 1317	retinoic acid
+T30	Simple_chemical 1319 1345	alpha-tocopheryl succinate
+T31	Simple_chemical 1351 1360	vitamin D
+T32	Cell 1416 1424	cellular
+T33	Simple_chemical 1468 1476	vitamins

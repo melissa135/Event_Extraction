@@ -1,0 +1,21 @@
+T1	Simple_chemical 10 42	fungus polysaccharides compounds
+T2	Simple_chemical 44 47	FPC
+T3	Cell 78 105	liver cancer cell Bel-7402]
+T4	Simple_chemical 136 168	fungus polysaccharides compounds
+T5	Simple_chemical 170 173	FPC
+T6	Organism 187 192	human
+T7	Cell 193 219	liver cancer cell Bel-7402
+T8	Cell 233 237	cell
+T9	Cancer 281 286	tumor
+T10	Gene_or_gene_product 303 306	P53
+T11	Cell 321 329	Bel-7402
+T12	Simple_chemical 415 418	FPC
+T13	Cell 447 455	Bel-7402
+T14	Simple_chemical 491 494	FPC
+T15	Cellular_component 531 540	chromatin
+T16	Cell 736 740	cell
+T17	Cellular_component 848 851	DNA
+T18	Simple_chemical 926 929	FPC
+T19	Simple_chemical 1032 1035	FPC
+T20	Cell 1045 1055	tumor cell
+T21	Gene_or_gene_product 1087 1090	P53

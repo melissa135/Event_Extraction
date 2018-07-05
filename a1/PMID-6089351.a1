@@ -1,0 +1,22 @@
+T1	Organism 59 95	human T-cell leukemia viruses HTLV-I
+T2	Organism 100 107	HTLV-II
+T3	Organism 114 150	human T-cell leukemia viruses HTLV-I
+T4	Organism 155 162	HTLV-II
+T5	Organism 197 209	retroviruses
+T6	Organism 255 260	human
+T7	Cell 261 268	T cells
+T8	Organism 314 319	human
+T9	Cancer 320 332	malignancies
+T10	Cancer 334 350	T-cell lymphomas
+T11	Cancer 355 363	leukemia
+T12	Gene_or_gene_product 424 427	gag
+T13	Gene_or_gene_product 429 432	pol
+T14	Gene_or_gene_product 434 437	env
+T15	Cellular_component 445 454	3' region
+T16	Cellular_component 463 464	X
+T17	Cellular_component 472 481	3' region
+T18	Cellular_component 589 598	3' region
+T19	Organism 765 771	HTLV-I
+T20	Organism 794 801	HTLV-II
+T21	Gene_or_gene_product 863 868	p40xI
+T22	Gene_or_gene_product 873 879	p37xII

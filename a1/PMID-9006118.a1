@@ -1,0 +1,42 @@
+T1	Simple_chemical 32 49	manganese sulfate
+T2	Simple_chemical 54 67	5-azacytidine
+T3	Cell 71 82	Rat 6 cells
+T4	Gene_or_gene_product 102 107	c-myc
+T5	Cell 119 130	Rat 6 cells
+T6	Simple_chemical 196 210	benzo[a]pyrene
+T7	Simple_chemical 212 214	BP
+T8	Simple_chemical 219 255	N-methyl-N-nitro-N'-nitrosoguanidine
+T9	Simple_chemical 257 261	MNNG
+T10	Organism 269 279	retroviral
+T11	Organism 300 305	mouse
+T12	Gene_or_gene_product 306 311	c-myc
+T13	Cell 318 329	Rat 6 cells
+T14	Simple_chemical 444 446	BP
+T15	Simple_chemical 451 455	MNNG
+T16	Gene_or_gene_product 598 603	c-myc
+T17	Cell 598 624	c-myc-overexpressing cells
+T18	Cell 626 637	Rat 6/c-myc
+T19	Gene_or_gene_product 632 637	c-myc
+T20	Simple_chemical 668 681	5-azacytidine
+T21	Simple_chemical 686 691	MnSO4
+T22	Simple_chemical 767 780	5-Azacytidine
+T23	Cellular_component 791 794	DNA
+T24	Cell 876 881	Rat 6
+T25	Cell 885 902	Rat 6/c-myc cells
+T26	Gene_or_gene_product 891 896	c-myc
+T27	Simple_chemical 923 928	MnSO4
+T28	Cell 960 977	Rat 6/c-myc cells
+T29	Gene_or_gene_product 966 971	c-myc
+T30	Cell 1000 1011	Rat 6 cells
+T31	Cell 1013 1026	Transformants
+T32	Simple_chemical 1038 1051	5-azacytidine
+T33	Gene_or_gene_product 1057 1062	c-myc
+T34	Cell 1081 1085	cell
+T35	Simple_chemical 1101 1106	MnSO4
+T36	Cell 1115 1128	transformants
+T37	Cell 1183 1200	Rat 6/c-myc cells
+T38	Gene_or_gene_product 1189 1194	c-myc
+T39	Simple_chemical 1229 1234	MnSO4
+T40	Gene_or_gene_product 1266 1271	c-myc
+T41	Simple_chemical 1306 1319	5-azacytidine
+T42	Gene_or_gene_product 1353 1358	c-myc

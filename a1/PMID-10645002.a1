@@ -1,0 +1,37 @@
+T1	Gene_or_gene_product 0 9	Autotaxin
+T2	Gene_or_gene_product 11 14	ATX
+T3	Cancer 26 31	tumor
+T4	Gene_or_gene_product 87 90	ras
+T5	Cell 103 108	cells
+T6	Gene_or_gene_product 111 120	Autotaxin
+T7	Gene_or_gene_product 122 125	ATX
+T8	Cell 235 245	tumor cell
+T9	Gene_or_gene_product 282 285	ATX
+T10	Gene_or_gene_product 401 404	ATX
+T11	Cell 434 444	cell lines
+T12	Gene_or_gene_product 459 462	ras
+T13	Cell 475 496	NIH3T3 (clone7) cells
+T14	Gene_or_gene_product 512 515	ATX
+T15	Cell 538 542	cell
+T16	Gene_or_gene_product 570 573	ras
+T17	Gene_or_gene_product 587 590	ATX
+T18	Cell 601 610	subclones
+T19	Gene_or_gene_product 636 639	ATX
+T20	Cell 721 733	NIH3T3 cells
+T21	Gene_or_gene_product 751 754	atx
+T22	Cell 833 842	subclones
+T23	Gene_or_gene_product 880 883	ATX
+T24	Gene_or_gene_product 922 925	ATX
+T25	Gene_or_gene_product 1038 1048	gelatinase
+T26	Cell 1101 1114	transfectants
+T27	Organism 1137 1154	athymic nude mice
+T28	Gene_or_gene_product 1186 1189	atx
+T29	Cell 1202 1214	NIH3T3 cells
+T30	Gene_or_gene_product 1304 1307	ATX
+T31	Gene_or_gene_product 1324 1327	ras
+T32	Cell 1352 1357	cells
+T33	Gene_or_gene_product 1432 1435	ras
+T34	Cell 1448 1456	controls
+T35	Gene_or_gene_product 1464 1467	ATX
+T36	Cell 1487 1495	cellular
+T37	Cancer 1526 1531	tumor

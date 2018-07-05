@@ -1,0 +1,48 @@
+T1	Gene_or_gene_product 5 42	transforming growth factor (TGF)-beta
+T2	Cell 62 80	breast cancer cell
+T3	Organism 109 114	mouse
+T4	Cell 115 141	spleen natural killer cell
+T5	Cell 188 198	tumor cell
+T6	Cell 199 203	host
+T7	Gene_or_gene_product 204 212	TGF-beta
+T8	Organism 229 234	human
+T9	Cancer 235 248	breast cancer
+T10	Gene_or_gene_product 263 271	TGF-beta
+T11	Tissue 297 303	stroma
+T12	Cancer 371 376	tumor
+T13	Gene_or_gene_product 431 436	IgG2b
+T14	Gene_or_gene_product 456 466	TGF-beta 1
+T15	Gene_or_gene_product 468 475	-beta 2
+T16	Gene_or_gene_product 481 488	-beta 3
+T17	Cell 498 505	MDA-231
+T18	Organism 506 511	human
+T19	Cell 512 535	breast cancer cell line
+T20	Cell 558 563	cells
+T21	Organism 567 579	athymic mice
+T22	Organism 590 595	mouse
+T23	Cell 596 627	spleen natural killer (NK) cell
+T24	Immaterial_anatomical_entity 638 653	Intraperitoneal
+T25	Immaterial_anatomical_entity 691 706	intraperitoneal
+T26	Cell 722 733	tumor cells
+T27	Cancer 745 765	intraabdominal tumor
+T28	Organ 770 774	lung
+T29	Gene_or_gene_product 820 828	TGF-beta
+T30	Cancer 903 930	MDA-231 subcutaneous tumors
+T31	Cancer 977 983	tumors
+T32	Immaterial_anatomical_entity 1000 1015	Intraperitoneal
+T33	Organism 1071 1076	mouse
+T34	Cell 1077 1091	spleen NK cell
+T35	Cancer 1122 1143	MDA-231 primary tumor
+T36	Cancer 1147 1157	metastases
+T37	Cell 1190 1197	NK cell
+T38	Organism 1223 1251	beige NK-deficient nude mice
+T39	Organism_substance 1262 1267	serum
+T40	Cell 1297 1310	MDA-231 cells
+T41	Cell 1325 1332	NK cell
+T42	Organism 1345 1350	human
+T43	Cell 1351 1368	blood lymphocytes
+T44	Gene_or_gene_product 1423 1431	TGF-beta
+T45	Gene_or_gene_product 1470 1474	IgG2
+T46	Cell 1515 1525	tumor cell
+T47	Gene_or_gene_product 1526 1534	TGF-beta
+T48	Cancer 1557 1575	mammary carcinomas

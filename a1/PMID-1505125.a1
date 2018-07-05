@@ -1,0 +1,46 @@
+T1	Cell 0 19	NIH3T3 transfectant
+T2	Organism 31 36	human
+T3	Gene_or_gene_product 37 42	K-ras
+T4	Cancer 101 106	tumor
+T5	Cell 133 144	fibroblasts
+T6	Cell 149 154	clone
+T7	Cell 158 177	NIH3T3 transformant
+T8	Cell 179 182	H-3
+T9	Cellular_component 218 221	DNA
+T10	Organism 227 232	human
+T11	Cell 233 258	colon carcinoma cell line
+T12	Organism 269 274	human
+T13	Gene_or_gene_product 275 280	K-ras
+T14	Pathological_formation 312 329	pulmonary nodules
+T15	Immaterial_anatomical_entity 336 347	intravenous
+T16	Cell 365 370	cells
+T17	Organism 376 385	nude mice
+T18	Cancer 449 454	tumor
+T19	Cancer 476 481	tumor
+T20	Organism 495 504	nude mice
+T21	Organism 577 582	human
+T22	Gene_or_gene_product 591 596	K-ras
+T23	Cell 753 762	subclones
+T24	Cell 791 800	H-3 cells
+T25	Cell 854 860	clones
+T26	Gene_or_gene_product 948 953	K-ras
+T27	Cancer 1046 1052	tumors
+T28	Organism 1056 1065	nude mice
+T29	Cell 1073 1078	clone
+T30	Gene_or_gene_product 1284 1289	K-ras
+T31	Cancer 1361 1366	tumor
+T32	Simple_chemical 1405 1410	G-418
+T33	Cell 1421 1430	H-3 cells
+T34	Cell 1453 1474	BALB/c3T3 fibroblasts
+T35	Cell 1507 1518	fibroblasts
+T36	Simple_chemical 1534 1539	G-418
+T37	Cell 1545 1556	tumor cells
+T38	Organism 1600 1605	human
+T39	Gene_or_gene_product 1606 1611	K-ras
+T40	Cell 1670 1679	H-3 cells
+T41	Cell 1684 1695	fibroblasts
+T42	Organism 1736 1741	human
+T43	Gene_or_gene_product 1742 1747	K-ras
+T44	Cell 1758 1769	Fibroblasts
+T45	Organism 1782 1788	animal
+T46	Cell 1867 1876	H-3 cells

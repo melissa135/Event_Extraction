@@ -1,0 +1,44 @@
+T1	Gene_or_gene_product 0 36	Alpha-melanocyte-stimulating hormone
+T2	Gene_or_gene_product 61 71	NF-kappa B
+T3	Gene_or_gene_product 76 80	AP-1
+T4	Gene_or_gene_product 98 111	interleukin-8
+T5	Organism 115 120	human
+T6	Cell 121 139	dermal fibroblasts
+T7	Gene_or_gene_product 141 177	Alpha-melanocyte-stimulating hormone
+T8	Gene_or_gene_product 179 188	alpha-MSH
+T9	Cell 278 298	non-melanocytic cell
+T10	Gene_or_gene_product 329 338	alpha-MSH
+T11	Gene_or_gene_product 375 379	AP-1
+T12	Gene_or_gene_product 384 394	NF-kappa B
+T13	Cell 459 470	fibroblasts
+T14	Cellular_component 475 495	extracellular matrix
+T15	Gene_or_gene_product 599 608	alpha-MSH
+T16	Gene_or_gene_product 641 645	AP-1
+T17	Organism 649 654	human
+T18	Cell 655 673	dermal fibroblasts
+T19	Gene_or_gene_product 701 719	interleukin-1 beta
+T20	Gene_or_gene_product 721 730	IL-1 beta
+T21	Gene_or_gene_product 774 783	alpha-MSH
+T22	Gene_or_gene_product 811 821	NF-kappa B
+T23	Cellular_component 844 847	DNA
+T24	Gene_or_gene_product 878 887	IL-1 beta
+T25	Gene_or_gene_product 895 899	AP-1
+T26	Gene_or_gene_product 904 914	NF-kappa B
+T27	Gene_or_gene_product 947 960	interleukin-8
+T28	Gene_or_gene_product 962 966	IL-8
+T29	Organism 983 988	human
+T30	Cell 989 1000	fibroblasts
+T31	Gene_or_gene_product 1019 1028	alpha-MSH
+T32	Gene_or_gene_product 1033 1042	IL-1 beta
+T33	Gene_or_gene_product 1121 1130	alpha-MSH
+T34	Gene_or_gene_product 1182 1191	IL-1 beta
+T35	Gene_or_gene_product 1224 1228	IL-8
+T36	Gene_or_gene_product 1299 1308	IL-1 beta
+T37	Gene_or_gene_product 1362 1371	alpha-MSH
+T38	Gene_or_gene_product 1419 1429	NF-kappa B
+T39	Gene_or_gene_product 1434 1438	AP-1
+T40	Organism 1488 1493	human
+T41	Cell 1494 1512	dermal fibroblasts
+T42	Gene_or_gene_product 1531 1540	alpha-MSH
+T43	Cellular_component 1584 1604	extracellular matrix
+T44	Pathological_formation 1618 1623	wound

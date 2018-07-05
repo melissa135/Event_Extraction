@@ -1,0 +1,22 @@
+T1	Gene_or_gene_product 0 23	Epidermal growth factor
+T2	Gene_or_gene_product 43 66	Epidermal growth factor
+T3	Gene_or_gene_product 68 71	EGF
+T4	Cellular_component 161 174	transmembrane
+T5	Organism_substance 240 251	cytoplasmic
+T6	Gene_or_gene_product 265 277	EGF receptor
+T7	Organism 326 331	human
+T8	Cancer 332 338	tumors
+T9	Gene_or_gene_product 469 474	erb B
+T10	Gene_or_gene_product 509 521	EGF receptor
+T11	Amino_acid 674 681	Tyr1173
+T12	Amino_acid 787 793	Thr654
+T13	Gene_or_gene_product 797 813	protein kinase C
+T14	Gene_or_gene_product 838 841	EGF
+T15	Gene_or_gene_product 854 857	EGF
+T16	Gene_or_gene_product 960 972	EGF receptor
+T17	Cancer 976 981	tumor
+T18	Gene_or_gene_product 1002 1019	ligand X receptor
+T19	Gene_or_gene_product 1172 1177	erb B
+T20	Gene_or_gene_product 1197 1209	EGF receptor
+T21	Organism 1232 1237	human
+T22	Cancer 1238 1244	tumors

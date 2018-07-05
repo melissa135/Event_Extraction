@@ -1,0 +1,29 @@
+T1	Simple_chemical 11 22	doxycycline
+T2	Cell 81 103	breast carcinoma cells
+T3	Cancer 165 171	cancer
+T4	Organism 175 180	human
+T5	Gene_or_gene_product 268 286	metalloproteinases
+T6	Gene_or_gene_product 288 291	MPs
+T7	Gene_or_gene_product 383 385	MP
+T8	Cancer 453 460	cancers
+T9	Cancer 472 485	breast cancer
+T10	Gene_or_gene_product 487 490	MPs
+T11	Cancer 511 516	tumor
+T12	Simple_chemical 531 544	Tetracyclines
+T13	Gene_or_gene_product 588 590	MP
+T14	Tissue 616 623	tissues
+T15	Multi-tissue_structure 635 642	gingiva
+T16	Tissue 644 648	bone
+T17	Tissue 654 663	cartilage
+T18	Simple_chemical 701 714	tetracyclines
+T19	Cancer 728 733	tumor
+T20	Gene_or_gene_product 734 737	MPs
+T21	Simple_chemical 759 771	tetracycline
+T22	Simple_chemical 773 784	doxycycline
+T23	Organism 808 813	human
+T24	Cell 814 852	MDA-MB-435 breast adenocarcinoma cells
+T25	Cellular_component 877 894	basement membrane
+T26	Cancer 973 978	tumor
+T27	Cellular_component 996 1014	basement membranes
+T28	Simple_chemical 1030 1041	doxycycline
+T29	Cell 1079 1102	breast cancer cell line

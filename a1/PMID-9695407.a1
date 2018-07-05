@@ -1,0 +1,28 @@
+T1	Gene_or_gene_product 0 8	Homeobox
+T2	Gene_or_gene_product 53 61	Homeobox
+T3	Amino_acid 99 109	amino acid
+T4	Cellular_component 129 132	DNA
+T5	Gene_or_gene_product 154 162	homeobox
+T6	Gene_or_gene_product 210 215	HOX A
+T7	Gene_or_gene_product 224 225	D
+T8	Gene_or_gene_product 263 271	homeobox
+T9	Cell 319 338	hematopoietic cells
+T10	Gene_or_gene_product 352 360	homeobox
+T11	Organism 533 537	mice
+T12	Gene_or_gene_product 541 549	homeobox
+T13	Gene_or_gene_product 689 697	homeobox
+T14	Cancer 711 720	leukemias
+T15	Organism 724 730	humans
+T16	Cancer 735 769	pre-B acute lymphoblastic leukemia
+T17	Cancer 771 774	ALL
+T18	Gene_or_gene_product 840 843	E2A
+T19	Gene_or_gene_product 850 858	homeobox
+T20	Gene_or_gene_product 864 867	PBX
+T21	Cancer 872 882	T-cell ALL
+T22	Gene_or_gene_product 916 922	HOX 11
+T23	Cancer 947 969	acute myeloid leukemia
+T24	Cancer 971 974	AML
+T25	Gene_or_gene_product 1008 1014	HOX A9
+T26	Gene_or_gene_product 1077 1085	homeobox
+T27	Cell 1110 1119	stem cell
+T28	Gene_or_gene_product 1230 1238	homeobox

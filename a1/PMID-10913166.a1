@@ -1,0 +1,46 @@
+T1	Gene_or_gene_product 0 3	TEL
+T2	Cancer 16 21	tumor
+T3	Cell 44 48	cell
+T4	Cell 60 64	cell
+T5	Gene_or_gene_product 79 82	ras
+T6	Cell 95 100	cells
+T7	Gene_or_gene_product 139 152	stromelysin-1
+T8	Gene_or_gene_product 155 158	TEL
+T9	Gene_or_gene_product 178 181	ETS
+T10	Gene_or_gene_product 238 243	mSin3
+T11	Gene_or_gene_product 248 252	SMRT
+T12	Gene_or_gene_product 293 296	TEL
+T13	Cancer 327 341	acute leukemia
+T14	Gene_or_gene_product 377 380	TEL
+T15	Cancer 416 423	cancers
+T16	Gene_or_gene_product 457 460	TEL
+T17	Gene_or_gene_product 464 467	Ras
+T18	Cell 480 493	NIH 3T3 cells
+T19	Cell 503 507	cell
+T20	Cell 566 571	cells
+T21	Gene_or_gene_product 588 591	Ras
+T22	Gene_or_gene_product 596 599	TEL
+T23	Gene_or_gene_product 658 661	Ras
+T24	Gene_or_gene_product 667 670	TEL
+T25	Cell 682 687	cells
+T26	Gene_or_gene_product 725 763	matrix metalloproteinase stromelysin-1
+T27	Gene_or_gene_product 781 784	TEL
+T28	Gene_or_gene_product 786 789	TEL
+T29	Gene_or_gene_product 813 826	stromelysin-1
+T63	DNA_domain_or_region 827 835	promoter
+T30	Gene_or_gene_product 937 940	TEL
+T31	Gene_or_gene_product 973 976	TEL
+T32	Gene_or_gene_product 1013 1019	mSin3A
+T33	Gene_or_gene_product 1078 1091	stromelysin-1
+T34	Simple_chemical 1098 1103	BB-94
+T35	Gene_or_gene_product 1107 1131	matrix metalloproteinase
+T36	Gene_or_gene_product 1178 1181	Ras
+T37	Cell 1193 1198	cells
+T38	Cell 1212 1216	cell
+T39	Gene_or_gene_product 1265 1268	TEL
+T40	Gene_or_gene_product 1294 1297	TEL
+T41	Gene_or_gene_product 1328 1331	Ras
+T42	Cell 1344 1349	cells
+T43	Gene_or_gene_product 1397 1400	TEL
+T44	Cancer 1411 1416	tumor
+T45	Gene_or_gene_product 1471 1484	stromelysin-1

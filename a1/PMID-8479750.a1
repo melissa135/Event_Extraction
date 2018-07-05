@@ -1,0 +1,28 @@
+T1	Gene_or_gene_product 24 27	rho
+T2	Organism 39 58	Aplysia californica
+T3	Gene_or_gene_product 61 64	rho
+T4	Gene_or_gene_product 224 235	ras GTPases
+T5	Gene_or_gene_product 330 333	ras
+T6	Multi-tissue_structure 360 369	vesicular
+T7	Gene_or_gene_product 405 408	rab
+T8	Gene_or_gene_product 461 464	rho
+T9	Organism 479 498	Aplysia californica
+T10	Gene_or_gene_product 515 522	GTPases
+T11	Organism 553 566	Val-14 mutant
+T31	Protein_domain_or_region 596 602	Val-12
+T12	Gene_or_gene_product 615 618	ras
+T13	Organism 645 650	human
+T14	Cancer 651 657	tumors
+T15	Gene_or_gene_product 685 688	rho
+T16	Organism_substance 734 739	serum
+T17	Organism 791 800	nude mice
+T18	Cancer 865 871	tumors
+T19	Cancer 985 991	tumors
+T20	Cancer 1028 1041	fibrosarcomas
+T21	Cell 1073 1080	bundles
+T22	Cell 1085 1098	spindle cells
+T23	Gene_or_gene_product 1113 1116	ras
+T24	Cancer 1125 1131	tumors
+T25	Cancer 1159 1172	fibrosarcomas
+T26	Gene_or_gene_product 1235 1238	rho
+T27	Cell 1325 1341	fibroblast cells

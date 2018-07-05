@@ -1,0 +1,41 @@
+T1	Gene_or_gene_product 0 5	IL-12
+T2	Cell 20 36	endothelial cell
+T3	Cell 75 85	lymphocyte
+T4	Cell 86 102	endothelial cell
+T5	Gene_or_gene_product 123 128	IL-12
+T6	Cancer 139 144	tumor
+T7	Gene_or_gene_product 180 185	IL-12
+T8	Gene_or_gene_product 200 203	CD8
+T9	Multi-tissue_structure 259 267	vascular
+T10	Cell 368 380	immune cells
+T11	Gene_or_gene_product 403 412	IFN-gamma
+T12	Gene_or_gene_product 526 531	IL-12
+T13	Simple_chemical 572 577	Con A
+T14	Organism 588 593	mouse
+T15	Cell 594 606	spleen cells
+T16	Cell 618 621	spc
+T17	Organism 626 631	human
+T18	Cell 632 636	PBMC
+T19	Cell 648 652	PBMC
+T20	Cell 724 741	endothelial cells
+T21	Cell 743 745	EC
+T22	Gene_or_gene_product 817 843	matrix metalloproteinase-9
+T23	Cell 864 866	EC
+T24	Gene_or_gene_product 880 891	vitronectin
+T25	Gene_or_gene_product 908 914	ICAM-1
+T26	Gene_or_gene_product 919 925	VCAM-1
+T27	Cell 974 978	cell
+T28	Cell 979 983	cell
+T29	Cell 1050 1064	lymphoid cells
+T30	Cell 1069 1071	EC
+T31	Gene_or_gene_product 1115 1139	IFN-inducible protein-10
+T32	Organism 1241 1251	nu/nu mice
+T33	Organism 1253 1280	nonobese diabetic-SCID mice
+T34	Cell 1295 1298	spc
+T35	Cell 1320 1324	cell
+T36	Gene_or_gene_product 1358 1361	CD4
+T37	Cell 1358 1364	CD4(+)
+T38	Gene_or_gene_product 1366 1369	CD8
+T39	Cell 1366 1372	CD8(+)
+T40	Cell 1378 1386	NK cells
+T41	Gene_or_gene_product 1450 1455	IL-12

@@ -1,0 +1,57 @@
+T1	Gene_or_gene_product 0 48	Granulocyte-macrophage colony-stimulating factor
+T2	Gene_or_gene_product 53 66	interleukin-3
+T3	Simple_chemical 96 116	cytosine arabinoside
+T4	Cellular_component 126 129	DNA
+T5	Cell 133 148	leukemic blasts
+T6	Cell 177 193	clonogenic cells
+T7	Organism 199 207	patients
+T8	Cancer 213 235	acute myeloid leukemia
+T9	Gene_or_gene_product 304 352	granulocyte-macrophage colony-stimulating factor
+T10	Gene_or_gene_product 354 360	GM-CSF
+T11	Gene_or_gene_product 376 389	interleukin-3
+T12	Gene_or_gene_product 391 395	IL-3
+T13	Cell 441 455	leukemic cells
+T14	Immaterial_anatomical_entity 467 480	intracellular
+T15	Simple_chemical 554 574	cytosine arabinoside
+T16	Simple_chemical 576 581	ara-C
+T17	Cell 647 664	bone marrow cells
+T18	Organism 673 681	patients
+T19	Cancer 687 709	acute myeloid leukemia
+T20	Gene_or_gene_product 717 723	GM-CSF
+T21	Gene_or_gene_product 727 731	IL-3
+T22	Cell 772 777	cells
+T23	Gene_or_gene_product 805 811	GM-CSF
+T24	Gene_or_gene_product 828 832	IL-3
+T25	Simple_chemical 840 863	3H-Cytosine arabinoside
+T26	Cellular_component 887 890	DNA
+T27	Organism 960 968	patients
+T28	Cell 987 996	specimens
+T29	Simple_chemical 1001 1006	ara-C
+T30	Simple_chemical 1034 1042	3H-ara-C
+T31	Immaterial_anatomical_entity 1093 1106	intracellular
+T32	Simple_chemical 1107 1128	ara-C-5' triphosphate
+T33	Simple_chemical 1130 1137	ara-CTP
+T34	Simple_chemical 1147 1154	ara-CTP
+T35	Gene_or_gene_product 1195 1201	GM-CSF
+T36	Gene_or_gene_product 1205 1209	IL-3
+T37	Simple_chemical 1242 1247	ara-C
+T38	Simple_chemical 1251 1258	ara-CTP
+T39	Gene_or_gene_product 1337 1343	GM-CSF
+T40	Gene_or_gene_product 1348 1352	IL-3
+T41	Simple_chemical 1356 1361	ara-C
+T42	Simple_chemical 1420 1427	ara-CTP
+T43	Cellular_component 1437 1440	DNA
+T44	Cell 1444 1459	leukemic blasts
+T45	Simple_chemical 1550 1555	ara-C
+T46	Cell 1564 1589	clonogenic leukemic cells
+T47	Gene_or_gene_product 1596 1602	GM-CSF
+T48	Gene_or_gene_product 1606 1610	IL-3
+T49	Gene_or_gene_product 1632 1638	GM-CSF
+T50	Gene_or_gene_product 1643 1647	IL-3
+T51	Immaterial_anatomical_entity 1660 1673	intracellular
+T52	Simple_chemical 1688 1693	ara-C
+T53	Cellular_component 1725 1728	DNA
+T54	Cell 1732 1746	leukemic cells
+T55	Simple_chemical 1792 1797	ara-C
+T56	Cell 1801 1826	clonogenic leukemic cells
+T57	Cell 1828 1833	CFU-L

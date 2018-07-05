@@ -1,0 +1,39 @@
+T1	Cancer 0 13	Neuroblastoma
+T2	Cell 18 28	hepatocyte
+T3	Cancer 87 100	Neuroblastoma
+T4	Cancer 116 121	tumor
+T5	Cancer 175 180	tumor
+T6	Cancer 319 324	tumor
+T7	Cell 395 399	cell
+T8	Cancer 464 477	neuroblastoma
+T9	Cell 499 518	neuroblastoma cells
+T10	Tissue 543 550	tissues
+T11	Organism 618 623	Human
+T12	Cell 624 643	neuroblastoma cells
+T13	Organism 648 653	human
+T14	Cell 654 671	Chang hepatocytes
+T15	Cell 797 816	Neuroblastoma cells
+T16	Cell 821 838	Chang hepatocytes
+T17	Cell 964 969	cells
+T18	Gene_or_gene_product 1023 1050	Tumor necrosis factor alpha
+T19	Gene_or_gene_product 1052 1061	TNF-alpha
+T20	Gene_or_gene_product 1064 1074	Fas ligand
+T21	Gene_or_gene_product 1080 1085	Bcl-2
+T22	Cell 1314 1319	cells
+T23	Cell 1441 1458	Chang hepatocytes
+T24	Gene_or_gene_product 1520 1529	TNF-alpha
+T25	Gene_or_gene_product 1534 1544	Fas ligand
+T26	Cell 1550 1569	neuroblastoma cells
+T27	Gene_or_gene_product 1601 1611	Fas ligand
+T28	Cell 1672 1683	hepatocytes
+T29	Cell 1750 1769	neuroblastoma cells
+T30	Gene_or_gene_product 1851 1856	Bcl-2
+T31	Cell 1891 1910	neuroblastoma cells
+T32	Cell 1959 1978	Neuroblastoma cells
+T33	Gene_or_gene_product 2045 2050	Bcl-2
+T34	Gene_or_gene_product 2065 2075	Fas ligand
+T35	Cell 2140 2151	tumor cells
+T36	Cell 2250 2261	hepatocytes
+T37	Cancer 2265 2270	tumor
+T38	Cancer 2356 2361	tumor
+T39	Cancer 2437 2442	tumor

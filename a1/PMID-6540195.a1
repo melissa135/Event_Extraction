@@ -1,0 +1,29 @@
+T1	Organism 72 76	mice
+T2	Cancer 85 105	Lewis lung carcinoma
+T3	Simple_chemical 144 198	p-(3,3-dimethyl-1-triazeno)benzoic acid potassium salt
+T4	Simple_chemical 200 207	DM-COOK
+T5	Simple_chemical 210 260	5-(3,3-dimethyl-1-triazeno)imidazole-4-carboxamide
+T6	Simple_chemical 262 266	DTIC
+T7	Simple_chemical 272 315	(+/-)1,2-di(3,5-dioxopiperazin-1-yl)propane
+T8	Simple_chemical 317 325	ICRF-159
+T9	Cancer 405 415	metastases
+T10	Organism 419 423	mice
+T11	Cancer 437 457	Lewis lung carcinoma
+T12	Cell 506 517	tumor cells
+T13	Simple_chemical 548 555	DM-COOK
+T14	Simple_chemical 557 561	DTIC
+T15	Simple_chemical 566 574	ICRF-159
+T16	Simple_chemical 653 669	cyclophosphamide
+T17	Organism 674 678	mice
+T18	Cancer 692 712	Lewis lung carcinoma
+T19	Cell 758 767	platelets
+T20	Gene_or_gene_product 793 804	prothrombin
+T21	Gene_or_gene_product 817 831	thromboplastin
+T22	Organism_substance 839 845	plasma
+T23	Gene_or_gene_product 846 856	fibrinogen
+T24	Cell 875 885	tumor cell
+T25	Cancer 959 964	tumor
+T26	Organism 973 977	mice
+T27	Cancer 1005 1010	tumor
+T28	Organism 1019 1027	controls
+T29	Simple_chemical 1159 1175	cyclophosphamide

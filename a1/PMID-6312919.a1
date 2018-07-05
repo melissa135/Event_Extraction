@@ -1,0 +1,11 @@
+T1	Organism 34 39	SV 40
+T2	Gene_or_gene_product 64 70	tsA 58
+T3	Organism 85 90	SV 40
+T4	Gene_or_gene_product 91 92	A
+T5	Organism 125 130	SV 40
+T6	Gene_or_gene_product 131 146	large T-antigen
+T7	Cell 233 238	cells
+T8	Immaterial_anatomical_entity 312 326	extra cellular
+T9	Gene_or_gene_product 327 333	factor
+T10	Gene_or_gene_product 378 384	factor
+T11	Gene_or_gene_product 418 419	A

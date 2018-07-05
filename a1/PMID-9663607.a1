@@ -1,0 +1,47 @@
+T1	Organism 0 4	SV40
+T2	Gene_or_gene_product 5 8	Tag
+T3	Cell 47 58	trophoblast
+T4	Gene_or_gene_product 186 193	TGFbeta
+T5	Organ 212 218	uterus
+T6	Organism 238 243	human
+T7	Cell 244 290	placental extravillous trophoblast (EVT) cells
+T8	Cell 323 338	malignant cells
+T9	Cancer 356 361	tumor
+T10	Cell 372 383	trophoblast
+T11	Organ 400 406	uterus
+T12	Gene_or_gene_product 468 504	transforming growth factor (TGF)beta
+T13	Cell 512 521	EVT cells
+T14	Cell 671 684	EVT cell line
+T15	Cancer 729 734	tumor
+T16	Organism 748 763	Simian virus 40
+T17	Gene_or_gene_product 764 779	large T antigen
+T18	Organism 781 785	SV40
+T19	Gene_or_gene_product 786 789	Tag
+T20	Organism 820 825	human
+T21	Cell 851 864	EVT cell line
+T22	Cell 866 870	HTR8
+T23	Cell 913 922	HTR8 line
+T24	Organism 974 978	SV40
+T25	Gene_or_gene_product 979 982	Tag
+T26	Cell 995 1000	cells
+T27	Cell 1063 1067	line
+T28	Cell 1069 1075	RSVT-2
+T29	Cell 1120 1127	RSVT2/C
+T30	Gene_or_gene_product 1337 1344	TGFbeta
+T31	Cell 1430 1436	RSVT-2
+T32	Cell 1441 1459	RSVT2/C cell lines
+T33	Cell 1534 1548	HTR8 cell line
+T34	Gene_or_gene_product 1641 1648	TGFbeta
+T35	Cell 1661 1671	cell lines
+T36	Organism 1700 1709	nude mice
+T37	Cell 1787 1797	cell lines
+T38	Gene_or_gene_product 1827 1872	tissue inhibitor of metalloproteases (TIMP)-1
+T39	Gene_or_gene_product 1880 1886	TIMP-2
+T40	Gene_or_gene_product 1891 1930	plasminogen activator inhibitor (PAI)-I
+T41	Cell 1966 1979	RSVT2/C cells
+T42	Gene_or_gene_product 2075 2082	TGFbeta
+T43	Gene_or_gene_product 2115 2122	TGFbeta
+T44	Gene_or_gene_product 2137 2142	TIMPs
+T45	Gene_or_gene_product 2147 2152	PAI-I
+T46	Gene_or_gene_product 2173 2180	TGFbeta
+T47	Cell 2220 2230	HTR8 cells

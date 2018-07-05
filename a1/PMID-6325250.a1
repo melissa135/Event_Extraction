@@ -1,0 +1,29 @@
+T1	Simple_chemical 37 44	glucose
+T2	Organism 58 76	Rous sarcoma virus
+T3	Cell 89 94	cells
+T4	Organism 115 133	Rous sarcoma virus
+T5	Cell 202 207	cells
+T6	Simple_chemical 218 225	glucose
+T7	Cellular_component 237 250	cell membrane
+T8	Cell 356 361	cells
+T9	Organism 410 415	human
+T10	Cell 416 427	erythrocyte
+T11	Simple_chemical 428 435	glucose
+T12	Simple_chemical 472 479	glucose
+T13	Cellular_component 497 505	membrane
+T14	Simple_chemical 584 591	glucose
+T15	Gene_or_gene_product 634 641	pp60src
+T16	Organism 671 689	Rous sarcoma virus
+T17	Amino_acid 805 813	tyrosine
+T18	Cell 841 849	cellular
+T19	Cell 874 879	cells
+T20	Organism 939 957	Rous sarcoma virus
+T21	Organism 981 984	CU2
+T22	Simple_chemical 1008 1015	glucose
+T23	Cell 1073 1078	cells
+T24	Cell 1184 1189	Cells
+T25	Cell 1308 1313	cells
+T26	Organism 1328 1343	wild-type virus
+T27	Cell 1392 1400	cellular
+T28	Gene_or_gene_product 1412 1419	pp60src
+T29	Simple_chemical 1473 1480	glucose

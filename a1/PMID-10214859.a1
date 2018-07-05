@@ -1,0 +1,33 @@
+T1	Gene_or_gene_product 4 29	TGF-beta type II receptor
+T2	Cancer 33 57	chronic myeloid leukemia
+T3	Cancer 207 231	chronic myeloid leukemia
+T4	Cancer 233 236	CML
+T5	Gene_or_gene_product 269 317	type II transforming growth factor-beta receptor
+T6	Gene_or_gene_product 319 331	TGF-beta RII
+T7	Cancer 380 387	cancers
+T8	Gene_or_gene_product 476 488	TGF-beta RII
+T9	Cancer 502 513	RER+ tumors
+T10	Gene_or_gene_product 550 562	TGF-beta RII
+T11	Gene_or_gene_product 579 587	TGF-beta
+T12	Cell 629 648	hematopoietic cells
+T13	Cancer 800 803	CML
+T14	Gene_or_gene_product 817 829	TGF-beta RII
+T15	Gene_or_gene_product 849 854	RNase
+T16	Cell 886 891	cells
+T17	Cancer 942 945	CML
+T18	Gene_or_gene_product 967 979	TGF-beta RII
+T19	Gene_or_gene_product 1083 1095	TGF-beta RII
+T20	Cell 1133 1152	hematopoietic cells
+T21	Organism 1163 1169	donors
+T22	Cell 1341 1365	leukemia cell lines K562
+T23	Cell 1370 1375	HL-60
+T24	Gene_or_gene_product 1394 1406	TGF-beta RII
+T53	DNA_domain_or_region 1417 1439	microsatellite regions
+T25	Cancer 1457 1475	RER+ colon cancers
+T26	Cancer 1539 1542	CML
+T58	DNA_domain_or_region 1673 1695	microsatellite regions
+T27	Gene_or_gene_product 1703 1715	TGF-beta RII
+T28	Cancer 1760 1763	CML
+T29	Gene_or_gene_product 1789 1801	TGF-beta RII
+T30	Cell 1805 1814	CML cells
+T31	Cell 1819 1838	leukemia cell lines

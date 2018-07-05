@@ -1,0 +1,21 @@
+T1	Gene_or_gene_product 0 33	Interleukin-1 receptor antagonist
+T2	Cell 69 77	neuronal
+T3	Organism 92 95	rat
+T4	Gene_or_gene_product 97 110	Interleukin-1
+T5	Gene_or_gene_product 112 116	IL-1
+T6	Organ 135 140	brain
+T7	Gene_or_gene_product 180 184	IL-1
+T8	Cell 271 279	neuronal
+T9	Organ 307 315	cerebral
+T10	Multi-tissue_structure 334 349	cerebral artery
+T11	Organism 406 410	rats
+T12	Gene_or_gene_product 439 463	IL-1 receptor antagonist
+T13	Gene_or_gene_product 465 471	IL-1ra
+T14	Multi-tissue_structure 561 569	striatal
+T15	Simple_chemical 585 589	NMDA
+T16	Simple_chemical 608 632	cis-2,4-methanoglutamate
+T17	Gene_or_gene_product 688 694	IL-1ra
+T18	Gene_or_gene_product 732 736	IL-1
+T19	Organ 780 785	brain
+T20	Gene_or_gene_product 817 821	IL-1
+T21	Cell 894 902	neuronal

@@ -1,0 +1,52 @@
+T1	Cellular_component 0 3	DNA
+T2	Gene_or_gene_product 34 46	HLA-DR alpha
+T3	Cell 49 61	B-cell lines
+T4	Cancer 100 133	T-cell acute lymphocytic leukemia
+T5	Cancer 135 140	T-ALL
+T6	Gene_or_gene_product 150 165	HLA-DR antigens
+T7	Cell 188 195	T-cells
+T8	Gene_or_gene_product 264 270	HLA-DR
+T9	Gene_or_gene_product 288 296	DR alpha
+T10	Cellular_component 297 300	DNA
+T11	Gene_or_gene_product 332 340	DR alpha
+T12	Gene_or_gene_product 371 376	BglII
+T13	Cellular_component 474 477	DNA
+T14	Cell 487 494	T-cells
+T15	Gene_or_gene_product 510 518	DR alpha
+T16	Gene_or_gene_product 546 551	HpaII
+T60	DNA_domain_or_region 552 557	sites
+T17	Gene_or_gene_product 569 574	BglII
+T18	Cellular_component 575 583	fragment
+T19	Cellular_component 676 679	DNA
+T20	Cell 689 696	B-cells
+T21	Gene_or_gene_product 723 731	DR alpha
+T22	Cell 757 764	T-cells
+T23	Simple_chemical 770 783	5-azacytidine
+T24	Gene_or_gene_product 813 831	DR surface antigen
+T25	Gene_or_gene_product 862 870	DR alpha
+T26	Gene_or_gene_product 914 922	DR alpha
+T27	Cellular_component 923 926	DNA
+T28	Cell 938 950	T-cell lines
+T29	Organism 968 1004	human T-cell leukemia-lymphoma virus
+T30	Pathological_formation 1016 1033	T-cell neoplasias
+T31	Cell 1054 1098	T-cell acute lymphocytic leukemia cell lines
+T32	Gene_or_gene_product 1115 1126	DR antigens
+T33	Gene_or_gene_product 1131 1139	DR alpha
+T34	Gene_or_gene_product 1150 1155	HpaII
+T35	Gene_or_gene_product 1173 1178	BglII
+T36	Cellular_component 1179 1187	fragment
+T37	Gene_or_gene_product 1191 1199	DR alpha
+T38	Cellular_component 1200 1203	DNA
+T39	Organism 1213 1249	human T-cell leukemia-lymphoma virus
+T40	Cell 1259 1271	T-cell lines
+T41	Cell 1334 1358	peripheral blood T-cells
+T42	Organism 1364 1400	human T-cell leukemia-lymphoma virus
+T43	Organism 1410 1421	individuals
+T44	Gene_or_gene_product 1432 1443	DR antigens
+T45	Gene_or_gene_product 1468 1476	DR alpha
+T46	Cellular_component 1477 1482	locus
+T47	Gene_or_gene_product 1534 1544	DR antigen
+T48	Gene_or_gene_product 1648 1656	DR alpha
+T49	Cellular_component 1657 1662	locus
+T50	Gene_or_gene_product 1683 1685	DR
+T51	Gene_or_gene_product 1743 1754	DR antigens

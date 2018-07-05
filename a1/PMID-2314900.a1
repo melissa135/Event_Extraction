@@ -1,0 +1,11 @@
+T1	Gene_or_gene_product 55 58	eph
+T2	Gene_or_gene_product 70 73	eph
+T3	Gene_or_gene_product 98 122	receptor tyrosine kinase
+T4	Organism 158 163	human
+T5	Cell 164 176	cancer cells
+T6	Gene_or_gene_product 208 211	eph
+T7	Cell 264 276	NIH3T3 cells
+T8	Organism 308 317	nude mice
+T9	Gene_or_gene_product 425 428	eph
+T10	Gene_or_gene_product 514 539	receptor tyrosine kinases
+T11	Cell 543 547	cell

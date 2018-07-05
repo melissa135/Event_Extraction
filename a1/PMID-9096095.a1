@@ -1,0 +1,38 @@
+T1	Cancer 32 45	brain tumours
+T2	Simple_chemical 96 122	123I-alpha-methyl tyrosine
+T3	Simple_chemical 136 152	18F-deoxyglucose
+T4	Simple_chemical 161 193	iodine-123-alpha-methyl tyrosine
+T5	Simple_chemical 195 203	123I-IMT
+T6	Amino_acid 233 243	amino acid
+T7	Cancer 262 269	gliomas
+T8	Simple_chemical 339 346	glucose
+T9	Simple_chemical 386 394	123I-IMT
+T10	Cancer 434 447	brain tumours
+T11	Organism 483 491	patients
+T12	Cancer 532 545	brain tumours
+T13	Cancer 554 572	high-grade gliomas
+T14	Cancer 583 608	low-grade brain neoplasms
+T15	Simple_chemical 610 617	Glucose
+T16	Simple_chemical 710 740	fluorine-18 fluorodeoxyglucose
+T17	Simple_chemical 742 749	18F-FDG
+T18	Simple_chemical 752 760	123I-IMT
+T19	Simple_chemical 867 874	18F-FDG
+T20	Simple_chemical 879 887	123I-IMT
+T21	Cancer 946 952	tumour
+T22	Simple_chemical 993 1000	Glucose
+T23	Amino_acid 1016 1026	amino acid
+T24	Cancer 1041 1054	brain tumours
+T25	Cancer 1143 1153	high-grade
+T26	Cancer 1158 1175	low-grade tumours
+T27	Simple_chemical 1187 1194	18F-FDG
+T28	Simple_chemical 1214 1222	123I-IMT
+T29	Simple_chemical 1254 1261	18F-FDG
+T30	Simple_chemical 1270 1278	123I-IMT
+T31	Cancer 1312 1322	high-grade
+T32	Cancer 1327 1344	low-grade tumours
+T33	Simple_chemical 1593 1600	glucose
+T34	Amino_acid 1655 1665	amino acid
+T35	Cancer 1746 1759	brain tumours
+T36	Simple_chemical 1847 1855	123I-IMT
+T37	Organism 1894 1902	patients
+T38	Cancer 1908 1921	brain tumours

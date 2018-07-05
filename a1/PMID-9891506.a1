@@ -1,0 +1,33 @@
+T1	Gene_or_gene_product 10 15	U-995
+T2	Organism 26 31	shark
+T3	Tissue 32 41	cartilage
+T4	Cancer 104 109	tumor
+T5	Gene_or_gene_product 167 172	U-995
+T6	Tissue 201 210	cartilage
+T7	Organism 218 228	blue shark
+T8	Organism 230 245	Prionace glauca
+T9	Gene_or_gene_product 248 253	U-995
+T10	Gene_or_gene_product 364 369	U-995
+T11	Cell 392 429	human umbilical vein endothelial cell
+T12	Cell 431 436	HUVEC
+T13	Gene_or_gene_product 503 512	TNF alpha
+T14	Organism 516 523	chicken
+T15	Multi-tissue_structure 524 548	chorioallantoic membrane
+T16	Multi-tissue_structure 550 553	CAM
+T17	Gene_or_gene_product 598 603	U-995
+T18	Cell 618 628	tumor cell
+T19	Gene_or_gene_product 661 666	U-995
+T20	Cell 712 717	HUVEC
+T21	Simple_chemical 798 807	thymidine
+T22	Gene_or_gene_product 850 855	U-995
+T23	Gene_or_gene_product 871 880	TNF alpha
+T24	Multi-tissue_structure 937 950	blood vessels
+T25	Gene_or_gene_product 962 967	U-995
+T26	Gene_or_gene_product 1006 1017	collagenase
+T27	Gene_or_gene_product 1075 1080	U-995
+T28	Organism 1104 1108	mice
+T29	Cell 1123 1139	sarcoma-180 cell
+T30	Cell 1151 1178	B16-F10 mouse melanoma cell
+T31	Gene_or_gene_product 1270 1275	U-995
+T32	Cell 1346 1352	HUVECs
+T33	Cell 1449 1459	tumor cell

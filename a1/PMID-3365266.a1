@@ -1,0 +1,18 @@
+T1	Amino_acid 0 9	Glutamine
+T2	Simple_chemical 14 21	glucose
+T3	Cell 47 75	Ehrlich ascites tumour cells
+T4	Cell 116 144	Ehrlich ascites tumour cells
+T5	Simple_chemical 169 176	glucose
+T6	Amino_acid 191 200	glutamine
+T7	Simple_chemical 226 232	oxygen
+T8	Amino_acid 287 296	glutamine
+T9	Simple_chemical 303 310	glucose
+T10	Simple_chemical 373 380	glucose
+T11	Amino_acid 385 394	glutamine
+T12	Simple_chemical 461 467	oxygen
+T13	Simple_chemical 480 483	CO2
+T14	Gene_or_gene_product 533 544	cytochromes
+T15	Simple_chemical 559 566	glucose
+T16	Cell 583 611	Ehrlich ascites tumour cells
+T17	Simple_chemical 633 640	Glucose
+T18	Amino_acid 663 672	glutamine

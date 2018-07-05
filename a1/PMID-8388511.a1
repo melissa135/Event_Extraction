@@ -1,0 +1,46 @@
+T1	Gene_or_gene_product 35 38	9E3
+T2	Gene_or_gene_product 39 43	CEF4
+T3	Organism 63 70	chicken
+T4	Cell 71 105	peripheral blood mononuclear cells
+T5	Gene_or_gene_product 108 111	9E3
+T6	Gene_or_gene_product 112 116	CEF4
+T7	Organism 153 160	chicken
+T8	Cell 161 179	embryo fibroblasts
+T9	Cell 181 184	CEF
+T10	Gene_or_gene_product 206 223	platelet factor 4
+T11	Gene_or_gene_product 288 301	interleukin-8
+T12	Gene_or_gene_product 325 328	9E3
+T13	Gene_or_gene_product 329 333	CEF4
+T14	Cell 446 457	fibroblasts
+T15	Cell 462 484	peripheral blood cells
+T16	Gene_or_gene_product 486 489	9E3
+T17	Gene_or_gene_product 490 494	CEF4
+T18	Organism 517 524	chicken
+T19	Organism_substance 525 551	peripheral blood monocytes
+T20	Cell 608 617	monocytes
+T21	Simple_chemical 623 641	lipopolysaccharide
+T22	Simple_chemical 645 669	phorbol myristic acetate
+T23	Gene_or_gene_product 729 732	9E3
+T24	Gene_or_gene_product 733 737	CEF4
+T25	Organism 758 765	chicken
+T26	Cell 766 800	peripheral blood mononuclear cells
+T27	Cell 817 828	heterophils
+T28	Cell 844 847	CEF
+T29	Cell 852 855	CEF
+T30	Organism 873 891	Rous sarcoma virus
+T31	Gene_or_gene_product 909 912	9E3
+T32	Gene_or_gene_product 913 917	CEF4
+T33	Gene_or_gene_product 975 978	9E3
+T34	Gene_or_gene_product 979 983	CEF4
+T35	Cell 1011 1014	CEF
+T36	Simple_chemical 1038 1051	[3H]thymidine
+T37	Organism_substance 1073 1078	serum
+T38	Cell 1087 1090	CEF
+T39	Gene_or_gene_product 1091 1094	9E3
+T40	Gene_or_gene_product 1095 1099	CEF4
+T41	Cell 1139 1143	cell
+T42	Organism 1173 1191	Rous sarcoma virus
+T43	Cell 1204 1207	CEF
+T44	Cellular_component 1226 1246	extracellular matrix
+T45	Gene_or_gene_product 1268 1271	9E3
+T46	Gene_or_gene_product 1272 1276	CEF4

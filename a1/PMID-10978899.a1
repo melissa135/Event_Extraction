@@ -1,0 +1,17 @@
+T1	Gene_or_gene_product 0 18	Urokinase receptor
+T2	Cell 45 53	cellular
+T3	Cell 85 89	cell
+T4	Gene_or_gene_product 101 139	glycolipid-anchored urokinase receptor
+T5	Gene_or_gene_product 141 145	uPAR
+T6	Gene_or_gene_product 200 211	plasminogen
+T7	Gene_or_gene_product 257 261	uPAR
+T8	Gene_or_gene_product 287 295	caveolin
+T9	Gene_or_gene_product 315 341	integrin adhesion receptor
+T10	Gene_or_gene_product 428 432	uPAR
+T11	Cell 481 485	cell
+T12	Cell 559 563	cell
+T13	Gene_or_gene_product 697 701	uPAR
+T14	Cell 728 736	cellular
+T15	Pathological_formation 778 783	wound
+T16	Cancer 795 800	tumor
+T17	Gene_or_gene_product 848 852	uPAR

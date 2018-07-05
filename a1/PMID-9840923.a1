@@ -1,0 +1,56 @@
+T1	Cancer 0 6	Tumors
+T2	Tissue 14 40	retinal pigment epithelium
+T3	Multi-tissue_structure 65 76	lymph nodes
+T4	Organ 81 87	spleen
+T5	Gene_or_gene_product 91 119	tyrosinase-related protein 1
+T6	Organism 91 150	tyrosinase-related protein 1/SV40 T antigen transgenic mice
+T7	Gene_or_gene_product 120 134	SV40 T antigen
+T8	Tissue 157 175	pigment epithelium
+T9	Multi-tissue_structure 183 189	retina
+T10	Tissue 191 194	RPE
+T11	Multi-tissue_structure 216 225	optic cup
+T12	Organ 279 282	eye
+T13	Organism 309 314	mouse
+T14	Organism 335 347	simian virus
+T15	Organism 349 353	SV40
+T16	Gene_or_gene_product 406 434	tyrosinase-related protein 1
+T17	Gene_or_gene_product 436 441	TRP-1
+T18	Gene_or_gene_product 477 486	T antigen
+T19	Gene_or_gene_product 488 491	Tag
+T20	Tissue 500 503	RPE
+T21	Developing_anatomical_structure 519 526	embryos
+T22	Cell 528 537	RPE cells
+T23	Multi-tissue_structure 558 571	anterior part
+T24	Organ 579 582	eye
+T25	Multi-tissue_structure 596 607	optic nerve
+T26	Cancer 639 645	tumors
+T27	Tissue 675 685	epithelial
+T28	Organism 710 714	mice
+T29	Cell 716 731	pigmented cells
+T30	Organ 749 755	spleen
+T31	Multi-tissue_structure 760 780	inguinal lymph nodes
+T32	Organ 785 791	spleen
+T33	Gene_or_gene_product 793 803	tyrosinase
+T34	Gene_or_gene_product 805 810	TRP-1
+T35	Organism 815 819	SV40
+T36	Gene_or_gene_product 820 823	Tag
+T37	Gene_or_gene_product 843 853	tyrosinase
+T38	Tissue 919 929	epithelial
+T39	Gene_or_gene_product 938 949	cytokeratin
+T40	Cell 951 961	Cell lines
+T41	Cancer 984 989	tumor
+T42	Gene_or_gene_product 1100 1110	tyrosinase
+T43	Gene_or_gene_product 1112 1117	TRP-1
+T44	Gene_or_gene_product 1119 1130	cytokeratin
+T45	Organism 1135 1139	SV40
+T46	Gene_or_gene_product 1140 1143	Tag
+T47	Cell 1168 1183	RPE tumor cells
+T48	Multi-tissue_structure 1199 1209	lymph node
+T49	Organ 1214 1220	spleen
+T50	Gene_or_gene_product 1257 1262	TRP-1
+T51	Cancer 1257 1277	TRP-1/Tag RPE tumors
+T52	Gene_or_gene_product 1263 1266	Tag
+T53	Organ 1286 1292	spleen
+T54	Multi-tissue_structure 1297 1308	lymph nodes
+T55	Cancer 1375 1381	tumors
+T56	Tissue 1399 1417	pigment epithelium
