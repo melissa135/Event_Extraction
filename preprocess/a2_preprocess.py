@@ -3,8 +3,9 @@ import csv
 
 if __name__ == '__main__' :
     
-    a2_path = 'E:/corpus/tmp2/a2'
-    target_path = 'E:/corpus/tmp2/a2_table'
+    path_ = os.path.abspath('.')
+    a2_path = path_.replace('preprocess','a2')
+    target_path = path_.replace('preprocess','a2_table')
 
     for root,_,fnames in os.walk(a2_path):
         for fname in fnames :
