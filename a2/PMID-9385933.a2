@@ -1,0 +1,54 @@
+*	Equiv T5 T6
+*	Equiv T22 T23
+T54	Regulation 101 110	mediating
+E1	Regulation:T54 Theme:E2
+M1	Speculation E1
+T55	Cell_death 122 131	apoptosis
+E2	Cell_death:T55 Theme:T3
+T56	Cell_death 134 143	Apoptosis
+E3	Cell_death:T56 
+T57	Regulation 149 158	regulated
+E4	Regulation:T57 Theme:E5
+T58	Death 172 177	death
+E5	Death:T58 Theme:T4
+T59	Positive_regulation 190 199	triggered
+E6	Positive_regulation:T59 Theme:E5 Cause:T5
+E7	Positive_regulation:T59 Theme:E5 Cause:T7
+M2	Speculation E6
+M3	Speculation E7
+T60	Positive_regulation 251 257	effect
+E8	Positive_regulation:T60 Theme:E9 Cause:E3
+T61	Breakdown 270 275	lysis
+E9	Breakdown:T61 Theme:T8
+T62	Death 548 553	death
+E10	Death:T62 Theme:T11
+T63	Gene_expression 571 581	Expression
+E11	Gene_expression:T63 Theme:T13
+E12	Gene_expression:T63 Theme:T14
+E13	Gene_expression:T63 Theme:T16
+M4	Speculation E11
+M5	Speculation E12
+M6	Speculation E13
+T64	Gene_expression 920 929	expressed
+E14	Gene_expression:T64 Theme:T27
+T65	Gene_expression 957 966	expressed
+E15	Gene_expression:T65 Theme:T28
+E16	Gene_expression:T65 Theme:T29
+T66	Gene_expression 1041 1050	expressed
+E17	Gene_expression:T66 Theme:T27
+E18	Gene_expression:T66 Theme:T28
+E19	Gene_expression:T66 Theme:T29
+T67	Gene_expression 1094 1103	expressed
+E20	Gene_expression:T67 Theme:T35
+T68	Gene_expression 1258 1266	positive
+E21	Gene_expression:T68 Theme:T39
+T69	Death 1294 1299	death
+E22	Death:T69 Theme:T40
+E23	Death:T69 Theme:T41
+T70	Death 1437 1442	death
+E24	Death:T70 Theme:T43
+T71	Regulation 1630 1636	effect
+E25	Regulation:T71 Theme:E26
+M7	Speculation E25
+T72	Cell_death 1656 1665	apoptosis
+E26	Cell_death:T72 Theme:T48

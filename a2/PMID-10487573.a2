@@ -1,0 +1,34 @@
+T19	Blood_vessel_development 42 60	neovascularization
+E1	Blood_vessel_development:T19 AtLoc:T1
+T20	Breakdown 84 96	degeneration
+E2	Breakdown:T20 Theme:T2
+T21	Regulation 136 143	Control
+E3	Regulation:T21 Theme:E4
+T22	Blood_vessel_development 180 198	neovascularization
+E4	Blood_vessel_development:T22 AtLoc:T3
+T23	Blood_vessel_development 200 204	SRNV
+E5	Blood_vessel_development:T23 
+T24	Breakdown 229 241	degeneration
+E6	Breakdown:T24 Theme:T4
+T25	Blood_vessel_development 521 539	neovascularization
+E7	Blood_vessel_development:T25 
+T26	Planned_process 585 596	angiography
+E8	Planned_process:T26 Instrument:T7
+T27	Planned_process 617 624	treated
+E9	Planned_process:T27 Theme:T8
+T28	Planned_process 677 685	received
+E10	Planned_process:T28 Theme:T9
+T29	Planned_process 1024 1031	therapy
+E11	Planned_process:T29 Theme:T14
+T30	Blood_vessel_development 1197 1201	SRNV
+E12	Blood_vessel_development:T30 
+T31	Planned_process 1211 1223	radiotherapy
+E13	Planned_process:T31 Theme:T15
+M1	Negation E13
+T32	Planned_process 1275 1285	irradiated
+E14	Planned_process:T32 Theme:T16
+T33	Planned_process 1356 1366	irradiated
+E15	Planned_process:T33 Theme:T17
+T34	Planned_process 1386 1395	untreated
+E16	Planned_process:T34 Theme:T17
+M2	Negation E16

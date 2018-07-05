@@ -1,0 +1,79 @@
+*	Equiv T10 T11
+T39	Negative_regulation 0 10	Inhibition
+E1	Negative_regulation:T39 Cause:T5 Theme:E4
+T40	Positive_regulation 19 29	stimulated
+E2	Positive_regulation:T40 Cause:T1 Theme:E4
+T41	Positive_regulation 41 49	mediated
+E3	Positive_regulation:T41 Cause:T2 Theme:E4
+T42	Cell_proliferation 50 63	proliferation
+E4	Cell_proliferation:T42 Theme:T4
+T43	Regulation 114 125	independent
+E5	Regulation:T43 Theme:E1 Cause:T7
+E6	Regulation:T43 Theme:E1 Cause:E7
+M1	Negation E5
+M2	Negation E6
+T44	Development 129 136	changes
+E7	Development:T44 Theme:T6
+T45	Binding 190 202	Interactions
+E8	Binding:T45 Theme:T9 Theme:T8
+T46	Regulation 257 265	regulate
+E9	Regulation:T46 Theme:E10 Cause:E8
+T47	Cell_proliferation 266 279	proliferation
+E10	Cell_proliferation:T47 Theme:T8
+T48	Binding 417 427	associated
+E11	Binding:T48 Theme:T12 Theme:T10
+T49	Regulation 446 455	modulates
+E12	Regulation:T49 Cause:T10 Theme:E14
+E13	Regulation:T49 Cause:T10 Theme:E15
+T50	Binding 460 468	adhesion
+E14	Binding:T50 Theme:T13
+T51	Cell_proliferation 473 486	proliferation
+E15	Cell_proliferation:T51 Theme:T13
+T52	Negative_regulation 547 555	inhibits
+E16	Negative_regulation:T52 Theme:E17 Cause:T14
+T53	Cell_proliferation 590 603	proliferation
+E17	Cell_proliferation:T53 Theme:T16
+T54	Positive_regulation 604 614	stimulated
+E18	Positive_regulation:T54 Theme:E17 Cause:T17
+E19	Positive_regulation:T54 Theme:E17 Cause:E20
+T55	Binding 655 663	adhesion
+E20	Binding:T55 Theme:T18
+T56	Binding 694 701	Binding
+E21	Binding:T56 Theme:T19
+E22	Binding:T56 Theme:T20
+T57	Binding 772 783	interaction
+E23	Binding:T57 Theme:T20 Site:T58 Theme2:T21
+E24	Binding:T57 Theme:T19 Site:T58 Theme2:T21
+T59	Negative_regulation 900 907	arrests
+E25	Negative_regulation:T59 Theme:E27 Cause:T22
+T60	Positive_regulation 927 936	supported
+E26	Positive_regulation:T60 Cause:T23 Theme:E27
+T61	Cell_proliferation 956 969	proliferation
+E27	Cell_proliferation:T61 Theme:T24
+T62	Regulation 1030 1036	effect
+E28	Regulation:T62 Theme:T26
+E29	Regulation:T62 Theme:T27
+M3	Negation E28
+M4	Negation E29
+T63	Phosphorylation 1192 1207	phosphorylation
+E30	Phosphorylation:T63 Theme:T31
+T64	Negative_regulation 1221 1228	reduced
+E31	Negative_regulation:T64 Theme:E30
+E32	Negative_regulation:T64 Theme:T30
+E33	Negative_regulation:T64 Theme:T29
+E34	Negative_regulation:T64 Theme:T28
+T65	Positive_regulation 1232 1240	response
+E35	Positive_regulation:T65 Cause:E39 Theme:E31
+E36	Positive_regulation:T65 Cause:E39 Theme:E32
+E37	Positive_regulation:T65 Cause:E39 Theme:E33
+E38	Positive_regulation:T65 Cause:E39 Theme:E34
+T66	Planned_process 1248 1256	addition
+E39	Planned_process:T66 Instrument:T32
+T67	Binding 1420 1427	binding
+E40	Binding:T67 Theme:T35
+T68	Negative_regulation 1450 1461	antagonizes
+E41	Negative_regulation:T68 Theme:E42
+T69	Cell_proliferation 1481 1494	proliferation
+E42	Cell_proliferation:T69 Theme:T36
+T70	Regulation 1495 1503	mediated
+E43	Regulation:T70 Theme:E42 Cause:T37

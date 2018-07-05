@@ -1,0 +1,24 @@
+*	Equiv T1 T2
+*	Equiv T5 T6
+*	Equiv T7 T8
+T26	Regulation 487 507	play important roles
+E1	Regulation:T26 Cause:T10 Theme:T11
+T27	Planned_process 601 627	primary surgical resection
+E2	Planned_process:T27 Theme:T13
+T28	Metastasis 723 733	metastasis
+E3	Metastasis:T28 ToLoc:T16 Theme:T14
+T29	Death 758 766	survival
+E4	Death:T29 Theme:T13
+M1	Negation E4
+T30	Gene_expression 781 791	expression
+E5	Gene_expression:T30 Theme:T17
+T31	Gene_expression 931 941	expression
+E6	Gene_expression:T31 Theme:T18
+T32	Metastasis 973 983	metastasis
+E7	Metastasis:T32 ToLoc:T19
+T33	Gene_expression 1070 1080	expression
+E8	Gene_expression:T33 Theme:T20
+T34	Gene_expression 1162 1172	expression
+E9	Gene_expression:T34 Theme:T21
+T35	Positive_regulation 1196 1204	promoted
+E10	Positive_regulation:T35 Theme:E9

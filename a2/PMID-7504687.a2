@@ -1,0 +1,77 @@
+T49	Negative_regulation 54 61	inhibit
+E1	Negative_regulation:T49 Theme:E2
+T50	Carcinogenesis 81 95	tumorigenicity
+E2	Carcinogenesis:T50 
+T51	Positive_regulation 100 108	increase
+E3	Positive_regulation:T51 Theme:T4
+T52	Development 249 260	progression
+E4	Development:T52 Theme:T9
+T53	Regulation 272 279	effects
+E5	Regulation:T53 Cause:T10 Theme:E7
+E6	Regulation:T53 Cause:T10 Theme:E8
+T54	Blood_vessel_development 283 295	angiogenesis
+E7	Blood_vessel_development:T54 
+T55	Development 304 313	formation
+E8	Development:T55 Theme:T11
+T56	Regulation 356 367	involvement
+E9	Regulation:T56 Theme:E10 Cause:T10
+M1	Speculation E9
+T57	Development 377 388	progression
+E10	Development:T57 Theme:T12
+T58	Negative_regulation 444 455	neutralizes
+E11	Negative_regulation:T58 Theme:T14
+E12	Negative_regulation:T58 Theme:T15
+E13	Negative_regulation:T58 Theme:T16
+T59	Planned_process 537 548	Inoculation
+E14	Planned_process:T59 Instrument:T20 Theme:T21
+T60	Negative_regulation 580 589	decreases
+E15	Negative_regulation:T60 Cause:E14 Theme:T23
+T61	Planned_process 654 664	injections
+E16	Planned_process:T61 Theme:T24
+T62	Planned_process 707 718	inoculation
+E17	Planned_process:T62 Instrument:T25 Theme:T26
+T63	Negative_regulation 734 744	suppressed
+E18	Negative_regulation:T63 Cause:E16 Theme:T27
+E19	Negative_regulation:T63 Cause:E16 Theme:E20
+T64	Metastasis 775 785	metastases
+E20	Metastasis:T64 ToLoc:T28
+T65	Regulation 847 853	effect
+E21	Regulation:T65 Theme:T27
+E22	Regulation:T65 Theme:E20
+M2	Negation E21
+M3	Negation E22
+T66	Negative_regulation 871 880	inhibited
+E23	Negative_regulation:T66 Theme:E24
+T67	Growth 881 887	growth
+E24	Growth:T67 Theme:T30
+T68	Planned_process 957 964	treated
+E25	Planned_process:T68 Theme:T31
+T69	Planned_process 1016 1030	administration
+E26	Planned_process:T69 Theme:T32
+T70	Positive_regulation 1038 1046	resulted
+E27	Positive_regulation:T70 Cause:E26 Theme:E28
+T71	Positive_regulation 1059 1067	increase
+E28	Positive_regulation:T71 Theme:T34
+T72	Negative_regulation 1114 1121	inhibit
+E29	Negative_regulation:T72 Theme:E31
+E30	Negative_regulation:T72 Theme:E32
+M4	Negation E29
+M5	Negation E30
+T73	Development 1158 1167	formation
+E31	Development:T73 Theme:T35
+E32	Development:T73 Theme:T36
+T74	Positive_regulation 1180 1189	stimulate
+E33	Positive_regulation:T74 Theme:T37
+M6	Negation E33
+T75	Negative_regulation 1311 1320	inhibited
+E34	Negative_regulation:T75 Theme:T41
+T76	Negative_regulation 1375 1385	inhibition
+E35	Negative_regulation:T76 Theme:T41
+T77	Negative_regulation 1390 1397	blocked
+E36	Negative_regulation:T77 Theme:E35
+E37	Negative_regulation:T77 Theme:E35 Cause:T45
+M7	Negation E37
+T78	Regulation 1506 1510	role
+E38	Regulation:T78 Theme:E39 Cause:T47
+T79	Development 1542 1553	progression
+E39	Development:T79 Theme:T48

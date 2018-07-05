@@ -1,0 +1,37 @@
+*	Equiv T2 T3
+T23	Binding 73 78	binds
+E1	Binding:T23 Theme:T2
+T24	Mutation 286 295	amplified
+E2	Mutation:T24 Theme:T6 AtLoc:T8
+T25	Gene_expression 300 314	over-expressed
+E3	Gene_expression:T25 Theme:T6
+T26	Gene_expression 476 485	Synthesis
+E4	Gene_expression:T26 Theme:T10
+T27	Catabolism 490 501	degradation
+E5	Catabolism:T27 Theme:T10
+T28	Regulation 526 535	regulated
+E6	Regulation:T28 Theme:E5
+E7	Regulation:T28 Theme:E4
+T29	Phosphorylation 575 590	phosphorylation
+E8	Phosphorylation:T29 Theme:T10
+T30	Regulation 591 600	regulates
+E9	Regulation:T30 Cause:E8 Theme:T10
+T31	Phosphorylation 650 670	self-phosphorylation
+E10	Phosphorylation:T31 Site:T11 Theme:T10
+T32	Phosphorylation 768 783	Phosphorylation
+T33	Positive_regulation 768 783	Phosphorylation
+E11	Phosphorylation:T32 Theme:T10 Site:T12
+E12	Positive_regulation:T33 Cause:T13 Theme:E11
+T34	Negative_regulation 814 823	decreases
+E13	Negative_regulation:T34 Cause:E11 Theme:E15
+E14	Negative_regulation:T34 Cause:E11 Theme:T16
+T35	Binding 842 849	binding
+E15	Binding:T35 Theme:T14 Theme2:T16
+T36	Regulation 942 952	regulation
+E16	Regulation:T36 Theme:T16 Cause:T18
+T37	Cell_transformation 1178 1192	transformation
+T38	Positive_regulation 1178 1192	transformation
+E17	Cell_transformation:T37 AtLoc:T22
+E18	Positive_regulation:T38 Theme:E17 Cause:T19
+T39	Mutation 1210 1228	gene amplification
+E19	Mutation:T39 Theme:T20 AtLoc:T22

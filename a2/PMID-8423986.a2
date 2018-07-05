@@ -1,0 +1,26 @@
+T31	Positive_regulation 21 32	facilitates
+E1	Positive_regulation:T31 Cause:T1 Theme:E4
+E2	Positive_regulation:T31 Cause:T1 Theme:E5
+E3	Positive_regulation:T31 Cause:T1 Theme:E6
+M1	Negation E3
+T32	Cell_transformation 45 59	transformation
+E4	Cell_transformation:T32 Theme:T2
+E5	Cell_transformation:T32 Theme:T4
+E6	Cell_transformation:T32 Theme:T5
+T33	Localization 94 103	secreting
+E7	Localization:T33 Theme:T3 FromLoc:T4
+T34	Carcinogenesis 151 162	tumorigenic
+E8	Carcinogenesis:T34 AtLoc:T6
+T35	Positive_regulation 163 172	potential
+E9	Positive_regulation:T35 Cause:T7 Theme:E8
+M2	Speculation E9
+T36	Gene_expression 216 226	expressing
+E10	Gene_expression:T36 Theme:T9
+T37	Localization 471 480	secreting
+E11	Localization:T37 FromLoc:T16 Theme:T17
+T38	Gene_expression 521 530	expressed
+E12	Gene_expression:T38 Theme:T19 Theme2:T20 Theme3:T21 Theme4:T22 Theme5:T23
+T39	Development 638 649	development
+E13	Development:T39 Theme:T25
+T40	Mutation 651 664	Rearrangement
+E14	Mutation:T40 Theme:T26 AtLoc:T27

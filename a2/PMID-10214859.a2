@@ -1,0 +1,75 @@
+*	Equiv T3 T4
+*	Equiv T5 T6
+T32	Gene_expression 98 113	gene expression
+E1	Gene_expression:T32 Theme:T1
+T33	Mutation 116 135	Genomic instability
+E2	Mutation:T33 
+T34	Regulation 165 176	play a role
+E3	Regulation:T34 Cause:E2 Theme:E4
+T35	Development 192 203	progression
+E4	Development:T35 Theme:T3
+T36	Mutation 363 371	mutation
+E5	Mutation:T36 Theme:T5 AtLoc:T7
+T37	Mutation 399 425	microsatellite instability
+E6	Mutation:T37 
+T38	Mutation 489 498	mutations
+E7	Mutation:T38 Theme:T8 AtLoc:T9
+T39	Regulation 524 534	associated
+E8	Regulation:T39 Theme:E9 Cause:E7
+T40	Negative_regulation 540 549	decreased
+E9	Negative_regulation:T40 Theme:T10
+T41	Cell_proliferation 609 615	growth
+E10	Cell_proliferation:T41 Theme:T12
+T42	Negative_regulation 616 625	regulator
+E11	Negative_regulation:T42 Theme:E10 Cause:T11
+M1	Speculation E11
+T43	Negative_regulation 702 714	inactivation
+E12	Negative_regulation:T43 Theme:T10 Cause:E13
+T44	Mutation 734 759	microsatellite alteration
+E13	Mutation:T44 
+T45	Regulation 769 777	involved
+E14	Regulation:T45 Theme:E15 Cause:E12
+M2	Speculation E14
+T46	Development 785 796	progression
+E15	Development:T46 Theme:T13
+T47	Transcription 830 845	mRNA expression
+E16	Transcription:T47 Theme:T14
+T48	Regulation 954 963	no change
+E17	Regulation:T48 Theme:E18
+M3	Negation E17
+T49	Transcription 980 990	transcript
+E18	Transcription:T49 Theme:T18
+T50	Development 1013 1024	progression
+E19	Development:T50 Theme:T17
+T51	Negative_regulation 1189 1198	decreased
+E20	Negative_regulation:T51 Theme:E21
+T52	Transcription 1199 1209	expression
+E21	Transcription:T52 Theme:T19
+T54	Mutation 1446 1453	altered
+E22	Mutation:T54 AtLoc:T25 Site:T53 Theme:T24
+T55	Mutation 1527 1535	aberrant
+E23	Mutation:T55 Theme:T24 Site:T53 AtLoc:T26
+M4	Speculation E23
+T56	Mutation 1547 1557	alteration
+E24	Mutation:T56 
+M5	Negation E24
+T57	Mutation 1654 1665	alterations
+E25	Mutation:T57 Theme:T27 Site:T58
+T59	Regulation 1729 1737	involved
+E26	Regulation:T59 Cause:E25 Theme:E27
+M6	Negation E26
+T60	Development 1745 1756	progression
+E27	Development:T60 Theme:T28
+T61	Negative_regulation 1765 1774	Decreased
+E28	Negative_regulation:T61 Theme:E29
+T62	Gene_expression 1775 1785	expression
+E29	Gene_expression:T62 Theme:T29
+T63	Regulation 1867 1874	altered
+E30	Regulation:T63 Theme:E31
+T64	Gene_expression 1875 1885	expression
+E31	Gene_expression:T64 Theme:T29
+T65	Regulation 1906 1917	play a role
+E32	Regulation:T65 Theme2:E33 Cause:E31
+M7	Speculation E32
+T66	Development 1925 1935	initiation
+E33	Development:T66 Theme:T28

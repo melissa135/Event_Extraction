@@ -1,0 +1,62 @@
+T34	Cell_transformation 78 89	transformed
+T35	Positive_regulation 78 89	transformed
+E1	Cell_transformation:T34 Theme:T2
+E2	Positive_regulation:T35 Cause:T1 Theme:E1
+E3	Cell_transformation:T34 Theme:T4
+E4	Positive_regulation:T35 Cause:T1 Theme:E3
+T36	Cell_transformation 175 186	transformed
+T37	Positive_regulation 175 186	transformed
+E5	Cell_transformation:T36 Theme:T5
+E6	Positive_regulation:T37 Cause:T6 Theme:E5
+T38	Positive_regulation 196 205	activated
+E7	Positive_regulation:T38 Theme:T6
+T39	Planned_process 263 268	fused
+E8	Planned_process:T39 Instrument:T5 Instrument2:T10
+T40	Gene_expression 336 345	expressed
+E9	Gene_expression:T40 Theme:T13
+T41	Cell_transformation 433 444	transformed
+E10	Cell_transformation:T41 Theme:T14
+T42	Cell_proliferation 543 556	proliferation
+E11	Cell_proliferation:T42 Theme:T15
+T43	Carcinogenesis 598 612	tumorigenicity
+E12	Carcinogenesis:T43 
+T44	Carcinogenesis 630 641	Tumorigenic
+E13	Carcinogenesis:T44 AtLoc:T17
+T45	Mutation 709 719	tetraploid
+E14	Mutation:T45 
+T46	Carcinogenesis 749 764	non-tumorigenic
+E15	Carcinogenesis:T46 AtLoc:T21
+M1	Negation E15
+T47	Cell_transformation 778 789	transformed
+T48	Positive_regulation 778 789	transformed
+E16	Cell_transformation:T47 Theme:T22
+E17	Positive_regulation:T48 Theme:E16 Cause:T20
+T49	Regulation 815 826	independent
+E18	Regulation:T49 Theme:E19
+M2	Negation E18
+T50	Cell_proliferation 827 840	proliferation
+E19	Cell_proliferation:T50 Theme:T22
+T51	Cell_transformation 861 873	transforming
+T52	Positive_regulation 861 873	transforming
+E20	Cell_transformation:T51 
+E21	Positive_regulation:T52 Theme:E20 Cause:T24
+T53	Cell_transformation 939 951	transforming
+T54	Positive_regulation 939 951	transforming
+E22	Cell_transformation:T53 Theme:T27
+E23	Positive_regulation:T54 Cause2:T26 Theme:E22
+T55	Positive_regulation 970 979	activated
+E24	Positive_regulation:T55 Theme:T26
+T56	Negative_regulation 1014 1024	suppressed
+E25	Negative_regulation:T56 Theme:E22
+T57	Cell_transformation 1171 1183	transforming
+E26	Cell_transformation:T57 
+T58	Negative_regulation 1278 1285	against
+E27	Negative_regulation:T58 Theme:E28
+T59	Cell_transformation 1286 1300	transformation
+T60	Positive_regulation 1286 1300	transformation
+E28	Cell_transformation:T59 Theme:T32
+E29	Positive_regulation:T60 Theme:E28 Cause:T33
+T61	Cell_transformation 1323 1335	transforming
+T62	Positive_regulation 1323 1335	transforming
+E30	Cell_transformation:T61 
+E31	Positive_regulation:T62 Theme:E30 Cause:T33

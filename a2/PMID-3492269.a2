@@ -1,0 +1,76 @@
+*	Equiv T9 T10
+*	Equiv T11 T12
+T47	Cell_proliferation 0 6	Growth
+E1	Cell_proliferation:T47 Theme:T3
+T48	Positive_regulation 13 22	dependent
+E2	Positive_regulation:T48 Cause:E1 Theme:E3
+T49	Regulation 23 33	regulation
+E3	Regulation:T49 Theme:T1
+T50	Cell_transformation 68 79	transformed
+E4	Cell_transformation:T50 Theme:T3
+T51	Cell_proliferation 117 123	growth
+E5	Cell_proliferation:T51 Theme:T6
+T52	Regulation 134 143	influence
+E6	Regulation:T52 Theme:T4 Cause:E5
+M1	Speculation E6
+T53	Cell_proliferation 217 224	growing
+E7	Cell_proliferation:T53 Theme:T6
+T54	Cell_transformation 263 274	transformed
+E8	Cell_transformation:T54 Theme:T6
+T55	Negative_regulation 362 372	inhibition
+E9	Negative_regulation:T55 Theme:E10
+T56	Binding 406 413	binding
+E10	Binding:T56 Theme:T9 Theme2:T7
+T57	Positive_regulation 417 425	response
+E11	Positive_regulation:T57 Cause:T11 Theme:E9
+T58	Cell_proliferation 562 569	growing
+E12	Cell_proliferation:T58 Theme:T17
+T59	Cell_proliferation 677 683	growth
+E13	Cell_proliferation:T59 Theme:T19
+T60	Regulation 699 704	alter
+E14	Regulation:T60 Cause:E13 Theme:T18
+M2	Negation E14
+T61	Cell_proliferation 852 858	growth
+E15	Cell_proliferation:T61 Theme:T20
+T62	Negative_regulation 904 914	inhibition
+E16	Negative_regulation:T62 Theme:E17 Cause:T22
+T63	Binding 922 929	binding
+E17	Binding:T63 Theme:T23
+T64	Cell_proliferation 978 984	growth
+E18	Cell_proliferation:T64 Theme:T20
+T65	Planned_process 1045 1054	treatment
+E19	Planned_process:T65 Theme:T24 Instrument:T25
+T66	Cell_proliferation 1120 1126	growth
+E20	Cell_proliferation:T66 Theme:T26
+T67	Negative_regulation 1182 1186	loss
+E21	Negative_regulation:T67 Theme:T28 Cause:T27
+T68	Cell_proliferation 1421 1428	growing
+E22	Cell_proliferation:T68 Theme:T31
+T69	Cell_transformation 1471 1482	transformed
+E23	Cell_transformation:T69 Theme:T33
+T70	Cell_proliferation 1539 1545	growth
+E24	Cell_proliferation:T70 Theme:T33
+T71	Negative_regulation 1583 1593	inhibition
+E25	Negative_regulation:T71 Theme:E26
+T72	Binding 1601 1608	binding
+E26	Binding:T72 Theme:T34
+T73	Planned_process 1648 1657	treatment
+E27	Planned_process:T73 Theme:T36 Instrument:T37
+T74	Regulation 1692 1698	varied
+E28	Regulation:T74 Theme:E29 Cause:E27
+T75	Cell_proliferation 1704 1710	growth
+E29	Cell_proliferation:T75 Theme:T36
+T76	Negative_regulation 1721 1735	down modulated
+E30	Negative_regulation:T76 Theme:E31
+T77	Cell_proliferation 1736 1743	growing
+E31	Cell_proliferation:T77 Theme:T38
+T78	Negative_regulation 1779 1789	inhibition
+E32	Negative_regulation:T78 Theme:E33 Cause:T39
+T79	Binding 1797 1804	binding
+E33	Binding:T79 Theme:T40
+T80	Negative_regulation 1817 1831	down modulated
+E34	Negative_regulation:T80 Theme:T41
+T81	Negative_regulation 1858 1868	inhibition
+E35	Negative_regulation:T81 Theme:E36 Cause:T43
+T82	Binding 1876 1883	binding
+E36	Binding:T82 Theme:T42

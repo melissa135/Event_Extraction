@@ -1,0 +1,23 @@
+T22	Metabolism 20 30	metabolism
+E1	Metabolism:T22 Theme:T1
+E2	Metabolism:T22 Theme:T2
+T23	Metabolism 81 92	utilization
+E3	Metabolism:T23 Theme:T4
+T24	Metabolism 220 230	metabolism
+E4	Metabolism:T24 Theme:T8
+E5	Metabolism:T24 Theme:T9
+M1	Speculation E4
+M2	Speculation E5
+T25	Planned_process 286 296	enrichment
+E6	Planned_process:T25 Instrument:T11
+T26	Planned_process 342 352	incubation
+E7	Planned_process:T26 Theme:T12 Instrument:T13 Instrument2:T14
+T27	Planned_process 443 451	labelled
+E8	Planned_process:T27 Theme:T15
+E9	Planned_process:T27 Theme:T16
+T28	Metabolism 575 595	oxidative metabolism
+E10	Metabolism:T28 Theme:T17
+T29	Metabolism 758 778	oxidative metabolism
+E11	Metabolism:T29 Theme:T20
+T30	Glycolysis 822 832	glycolysis
+E12	Glycolysis:T30 

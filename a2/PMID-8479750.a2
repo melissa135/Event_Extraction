@@ -1,0 +1,27 @@
+T28	Carcinogenesis 0 11	Tumorigenic
+E1	Carcinogenesis:T28 
+T29	Regulation 348 356	involved
+E2	Regulation:T29 Cause:T7 Theme:T6
+T30	Carcinogenesis 586 595	oncogenic
+E3	Carcinogenesis:T30 
+T32	Mutation 603 611	mutation
+E4	Mutation:T32 Theme:T12 Site:T31
+T33	Gene_expression 659 674	Over-expression
+E5	Gene_expression:T33 Theme:T15
+T34	Planned_process 775 785	introduced
+E6	Planned_process:T34 Theme:T17
+T35	Development 858 864	induce
+E7	Development:T35 Theme:T18
+T36	Mutation 901 908	mutated
+E8	Mutation:T36 
+T37	Development 975 984	generated
+E9	Development:T37 Theme:T19
+T38	Positive_regulation 1117 1124	induced
+E10	Positive_regulation:T38 Cause:T23 Theme:T24
+T39	Regulation 1275 1286	have a role
+E11	Regulation:T39 Theme:E12 Cause:T26
+M1	Speculation E11
+T40	Regulation 1294 1304	regulation
+E12	Regulation:T40 Theme:E13
+T41	Cell_proliferation 1308 1321	proliferation
+E13	Cell_proliferation:T41 Theme:T27

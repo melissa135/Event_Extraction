@@ -1,0 +1,73 @@
+*	Equiv T6 T7
+*	Equiv T8 T9
+*	Equiv T17 T18
+T43	Planned_process 14 28	transformation
+E1	Planned_process:T43 Instrument:T1 Instrument2:T2 Theme:T3
+T44	Gene_expression 83 97	overexpressing
+T45	Positive_regulation 83 97	overexpressing
+E2	Gene_expression:T44 Theme:T4
+E3	Positive_regulation:T45 Theme:E2
+T46	Planned_process 139 150	transformed
+E4	Planned_process:T46 Theme:T5 Instrument:T6
+E5	Planned_process:T46 Theme:T5 Instrument:T8
+M1	Negation E4
+M2	Negation E5
+T47	Planned_process 280 292	transduction
+E6	Planned_process:T47 Instrument:T10 Instrument2:T12 Theme:T13
+T48	Cell_transformation 344 362	altered morphology
+E7	Cell_transformation:T48 Theme:T13
+T49	Planned_process 429 440	transformed
+E8	Planned_process:T49 Theme:T13 Instrument:T14 Instrument2:T15
+T50	Gene_expression 604 618	overexpressing
+T51	Positive_regulation 604 618	overexpressing
+E9	Gene_expression:T50 Theme:T16
+E10	Positive_regulation:T51 Theme:E9
+T52	DNA_methylation 795 806	methylation
+E11	DNA_methylation:T52 Theme:T23
+T53	Positive_regulation 818 825	induced
+E12	Positive_regulation:T53 Cause:T22 Theme:E14
+E13	Positive_regulation:T53 Cause:T22 Theme:E15
+T54	Cell_proliferation 826 832	growth
+E14	Cell_proliferation:T54 Theme:T24
+E15	Cell_proliferation:T54 Theme:T25
+T55	Positive_regulation 934 941	induced
+E16	Positive_regulation:T55 Cause:T27 Theme:E17
+T56	Cell_transformation 942 956	transformation
+E17	Cell_transformation:T56 
+T57	Planned_process 1027 1034	induced
+E18	Planned_process:T57 Instrument:T32 Theme:T31
+T58	Positive_regulation 1063 1070	induced
+E19	Positive_regulation:T58 Cause:T33 Theme:E20
+T59	Death 1086 1091	death
+E20	Death:T59 Theme:T34
+T60	Planned_process 1107 1114	induced
+E21	Planned_process:T60 Theme:T36 Instrument:T35
+T61	Cell_death 1155 1164	apoptosis
+E22	Cell_death:T61 Theme:T36
+E23	Cell_death:T61 Theme:T37
+T62	Regulation 1235 1246	co-operates
+E24	Regulation:T62 Cause:E25 Theme:E27
+T63	Gene_expression 1252 1265	overexpressed
+T64	Positive_regulation 1252 1265	overexpressed
+E25	Gene_expression:T63 Theme:T40
+E26	Positive_regulation:T64 Theme:E25
+T65	Positive_regulation 1275 1283	inducing
+E27	Positive_regulation:T65 Theme:E28
+T66	Planned_process 1284 1298	transformation
+E28	Planned_process:T66 Instrument:T39
+T67	Planned_process 1320 1334	transformation
+E29	Planned_process:T67 Instrument:T41
+T68	Regulation 1338 1349	independent
+E30	Regulation:T68 Cause:E31 Theme:E29
+M3	Negation E30
+T69	Gene_expression 1359 1373	overexpression
+T70	Positive_regulation 1359 1373	overexpression
+E31	Gene_expression:T69 Theme:T42
+E32	Positive_regulation:T70 Theme:E31
+T71	Regulation 1390 1401	alterations
+E33	Regulation:T71 Theme:E34 Cause:T41
+M4	Speculation E33
+T72	Regulation 1409 1419	regulation
+E34	Regulation:T72 Theme:E35
+T73	Cell_death 1423 1432	apoptosis
+E35	Cell_death:T73 

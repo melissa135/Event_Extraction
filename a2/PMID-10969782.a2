@@ -1,0 +1,65 @@
+T34	Positive_regulation 13 22	essential
+E1	Positive_regulation:T34 Cause:T1 Theme:E5
+E2	Positive_regulation:T34 Cause:T1 Theme:E3
+T35	Protein_processing 40 50	processing
+E3	Protein_processing:T35 Theme:T2
+T36	Positive_regulation 65 72	induced
+E4	Positive_regulation:T36 Cause:T3 Theme:E5
+T37	Cell_death 73 82	apoptosis
+E5	Cell_death:T37 Theme:T4
+T38	Regulation 173 177	role
+E6	Regulation:T38 Cause:T5 Theme:E8
+E7	Regulation:T38 Cause:T5 Theme:E9
+M1	Speculation E6
+M2	Speculation E7
+T39	Cell_death 194 213	apoptotic processes
+E8	Cell_death:T39 Theme:T6
+E9	Cell_death:T39 Theme:T9
+T40	Planned_process 217 225	cultured
+E10	Planned_process:T40 Theme:T6
+T41	Cell_death 307 316	apoptosis
+E11	Cell_death:T41 Theme:T11
+T42	Negative_regulation 369 378	defective
+E12	Negative_regulation:T42 Cause:E11 Theme:E13
+T43	Regulation 382 390	response
+E13	Regulation:T43 Cause:E14 Theme:T11
+T44	Planned_process 404 413	treatment
+E14	Planned_process:T44 Theme:T12
+T45	Breakdown 442 454	condensation
+E15	Breakdown:T45 Theme:T13
+T46	Breakdown 464 477	fragmentation
+E16	Breakdown:T46 Theme:T14
+T47	Breakdown 483 496	fragmentation
+E17	Breakdown:T47 Theme:T15
+T48	Localization 502 509	release
+E18	Localization:T48 Theme:T16 FromLoc:T17
+T49	Planned_process 549 563	Reconstitution
+E19	Planned_process:T49 Theme:T18
+T50	Planned_process 589 601	transfection
+E20	Planned_process:T50 Instrument:T19 Theme:T18
+T51	Positive_regulation 648 658	results in
+E21	Positive_regulation:T51 Theme:E22
+T52	Cell_death 672 681	apoptosis
+E22	Cell_death:T52 
+T53	Planned_process 698 707	treatment
+E23	Planned_process:T53 Instrument:T20
+T54	Protein_processing 793 803	processing
+E24	Protein_processing:T54 Theme:T24
+T55	Negative_regulation 816 824	impaired
+E25	Negative_regulation:T55 Theme:E24
+T56	Positive_regulation 831 842	stimulation
+E26	Positive_regulation:T56 Cause:T25 Theme:T23
+T57	Planned_process 894 908	Reconstitution
+E27	Planned_process:T57 Instrument:T28 Theme:T27
+T58	Negative_regulation 964 970	defect
+E28	Negative_regulation:T58 Theme:T24
+T59	Positive_regulation 972 984	resulting in
+E29	Positive_regulation:T59 Theme:T29
+T60	Positive_regulation 1081 1101	important integrator
+E30	Positive_regulation:T60 Cause:T30 Theme:E31
+T61	Cell_death 1109 1126	apoptotic process
+E31	Cell_death:T61 
+T62	Positive_regulation 1170 1188	essential function
+E32	Positive_regulation:T62 Cause:T32 Theme:E33
+T63	Protein_processing 1219 1229	processing
+E33	Protein_processing:T63 Theme:T33

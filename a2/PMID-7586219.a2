@@ -1,0 +1,80 @@
+*	Equiv T4 T3
+*	Equiv T7 T8
+*	Equiv T9 T10
+*	Equiv T15 T16
+*	Equiv T17 T18
+T80	Gene_expression 8 17	expressed
+E1	Gene_expression:T80 Theme:T1
+T81	Positive_regulation 75 82	induces
+E2	Positive_regulation:T81 Cause:E1 Theme:E3
+T82	Blood_vessel_development 83 95	angiogenesis
+E3	Blood_vessel_development:T82 
+T83	Blood_vessel_development 156 166	angiogenic
+E4	Blood_vessel_development:T83 
+T84	Blood_vessel_development 479 489	angiogenic
+E5	Blood_vessel_development:T84 
+T85	Planned_process 613 621	infected
+E6	Planned_process:T85 Theme:T17 Instrument:T19
+E7	Planned_process:T85 Theme:T15 Instrument:T19
+T86	Transcription 711 721	expression
+E8	Transcription:T86 Theme:T22
+T87	Localization 734 743	secretion
+E9	Localization:T87 Theme:T22
+T88	Positive_regulation 819 827	enhanced
+E10	Positive_regulation:T88 Theme:T24
+T89	Localization 894 902	secreted
+E11	Localization:T89 Theme:T25
+T90	Planned_process 924 934	uninfected
+E12	Planned_process:T90 Theme:T26
+E13	Planned_process:T90 Theme:T27
+M1	Negation E12
+M2	Negation E13
+T91	Planned_process 964 972	infected
+E14	Planned_process:T91 Instrument:T29 Theme:T28
+T92	Planned_process 1142 1150	infected
+E15	Planned_process:T92 Instrument:T35 Theme:T37
+T93	Planned_process 1192 1200	infected
+E16	Planned_process:T93 Theme:T39
+T94	Planned_process 1204 1214	uninfected
+E17	Planned_process:T94 Theme:T39
+M3	Negation E17
+T95	Cell_proliferation 1236 1249	proliferation
+E18	Cell_proliferation:T95 Theme:T40
+T96	Regulation 1254 1264	unaffected
+E19	Regulation:T96 Cause:E20 Theme:E18
+M4	Negation E19
+T97	Planned_process 1268 1277	infection
+E20	Planned_process:T97 Instrument:T41
+T98	Planned_process 1303 1309	plated
+E21	Planned_process:T98 Theme:T45
+T99	Planned_process 1332 1341	precoated
+E22	Planned_process:T99 Instrument:T44
+T100	Planned_process 1398 1406	infected
+E23	Planned_process:T100 Theme:T45 Instrument:T46
+T101	Cell_differentiation 1444 1458	differentiated
+E24	Cell_differentiation:T101 Theme:T45
+T102	Planned_process 1522 1532	uninfected
+E25	Planned_process:T102 Theme:T50
+M5	Negation E25
+T103	Planned_process 1551 1559	infected
+E26	Planned_process:T103 Theme:T51 Instrument:T52
+T104	Cell_differentiation 1588 1601	differentiate
+E27	Cell_differentiation:T104 Theme:T51
+M6	Negation E27
+T105	Planned_process 1726 1737	resuspended
+E28	Planned_process:T105 Theme:T58
+T106	Planned_process 1761 1769	injected
+E29	Planned_process:T106 Instrument:T58 Theme:T60
+T107	Planned_process 1796 1824	Immunohistochemical staining
+E30	Planned_process:T107 Theme:T61
+T108	Planned_process 1934 1943	injection
+E31	Planned_process:T108 Instrument:T63
+T109	Blood_vessel_development 2075 2093	neovascularization
+E32	Blood_vessel_development:T109 AtLoc:T68
+T110	Blood_vessel_development 2183 2195	angiogenesis
+E33	Blood_vessel_development:T110 AtLoc:T68
+T111	Regulation 2212 2220	response
+E34	Regulation:T111 Cause:T71 Theme:E33
+M7	Negation E34
+T112	Localization 2518 2526	delivery
+E35	Localization:T112 Theme:T79

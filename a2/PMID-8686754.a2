@@ -1,0 +1,98 @@
+*	Equiv T2 T3
+*	Equiv T7 T8 T9 T10
+*	Equiv T11 T12
+*	Equiv T13 T14
+*	Equiv T20 T21
+*	Equiv T22 T23
+*	Equiv T27 T28
+*	Equiv T35 T36
+*	Equiv T38 T39
+*	Equiv T42 T43
+*	Equiv T52 T53
+*	Equiv T60 T61
+*	Equiv T63 T64
+T67	Positive_regulation 0 11	Stimulation
+E1	Positive_regulation:T67 Theme:E2 Cause:T2
+T68	Localization 32 41	migration
+E2	Localization:T68 Theme:T1
+T69	Blood_vessel_development 254 264	angiogenic
+E3	Blood_vessel_development:T69 
+T70	Regulation 356 365	regulates
+E4	Regulation:T70 Cause:T7 Theme:E5
+T71	Localization 389 398	migration
+E5	Localization:T71 Theme:T11
+T72	Positive_regulation 409 416	induced
+E6	Positive_regulation:T72 Theme:E7 Cause:T13
+T73	Transcription 441 451	expression
+E7	Transcription:T73 Theme:T16
+T74	Positive_regulation 522 531	increased
+E8	Positive_regulation:T74 Theme:T18 Cause:T17
+E9	Positive_regulation:T74 Theme:T18 Cause:T16
+T75	Positive_regulation 609 616	induced
+E10	Positive_regulation:T75 Theme:T22 Cause:T20
+T76	Positive_regulation 677 685	promoted
+E11	Positive_regulation:T76 Cause:T25 Theme:E12
+T77	Localization 689 698	migration
+E12	Localization:T77 Theme:T26
+T78	Positive_regulation 722 731	induction
+E13	Positive_regulation:T78 Cause:T27 Theme:T29
+T79	Positive_regulation 766 775	increased
+E14	Positive_regulation:T79 Theme:E15
+T80	Localization 779 788	migration
+E15	Localization:T80 Theme:T30
+T81	Catabolism 818 826	cleavage
+T82	Positive_regulation 818 826	cleavage
+E16	Catabolism:T81 Theme:T33
+E17	Positive_regulation:T82 Cause:T32 Theme:E16
+T83	Positive_regulation 857 868	enhancement
+E18	Positive_regulation:T83 Theme:T34
+T84	Positive_regulation 920 928	promotes
+E19	Positive_regulation:T84 Cause:T35 Theme:E20
+T85	Positive_regulation 929 938	increased
+E20	Positive_regulation:T85 Theme:T37
+T86	Positive_regulation 977 987	activation
+E21	Positive_regulation:T86 Theme:E22
+T87	Pathway 995 1024	extrinsic coagulation pathway
+E22	Pathway:T87 
+T88	Regulation 1064 1075	facilitates
+E23	Regulation:T88 Cause:T38 Theme:E25
+M1	Speculation E23
+T89	Catabolism 1085 1093	cleavage
+T90	Positive_regulation 1085 1093	cleavage
+E24	Catabolism:T89 Theme:T41
+E25	Positive_regulation:T90 Cause:T40 Theme:E24
+M2	Speculation E25
+T91	Planned_process 1143 1155	co-injection
+E26	Planned_process:T91 Instrument:T42 Instrument:T44
+T92	Catabolism 1204 1212	cleavage
+T93	Positive_regulation 1204 1212	cleavage
+E27	Catabolism:T92 Theme:T45
+E28	Positive_regulation:T93 Cause:T46 Theme:E27
+T94	Catabolism 1297 1304	cleaved
+T95	Positive_regulation 1297 1304	cleaved
+E29	Catabolism:T94 Theme:T49
+E30	Positive_regulation:T95 Cause:T48 Theme:E29
+T96	Positive_regulation 1309 1319	stimulated
+E31	Positive_regulation:T96 Theme:E33 Cause:T49
+E32	Positive_regulation:T96 Theme:E33 Cause:T47
+M3	Negation E32
+T97	Localization 1341 1350	migration
+E33	Localization:T97 Theme:T50
+T98	Positive_regulation 1423 1432	induction
+E34	Positive_regulation:T98 Theme:T51
+T99	Regulation 1517 1527	regulation
+E35	Regulation:T99 Cause:T52 Theme:E36
+T100	Localization 1534 1543	migration
+E36	Localization:T100 Theme:T54
+T101	Catabolism 1621 1629	cleavage
+T102	Positive_regulation 1621 1629	cleavage
+E37	Catabolism:T101 Theme:T59
+E38	Positive_regulation:T102 Cause:T58 Theme:E37
+T103	Positive_regulation 1751 1762	enhancement
+E39	Positive_regulation:T103 Cause:T63 Theme:T65
+T104	Positive_regulation 1870 1879	stimulate
+E40	Positive_regulation:T104 Theme:E41
+T105	Localization 1883 1892	migration
+E41	Localization:T105 Theme:T66
+T106	Blood_vessel_development 1900 1912	angiogenesis
+E42	Blood_vessel_development:T106 

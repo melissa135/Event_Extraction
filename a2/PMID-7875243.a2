@@ -1,0 +1,79 @@
+*	Equiv T6 T7
+*	Equiv T13 T14
+*	Equiv T20 T21
+*	Equiv T33 T34
+*	Equiv T35 T36
+T47	Regulation 0 10	Modulation
+E1	Regulation:T47 Theme:E2 Cause:T3
+T48	Cell_death 14 23	apoptosis
+E2	Cell_death:T48 Theme:T2
+T49	Cell_death 68 77	Apoptosis
+E3	Cell_death:T49 
+T50	Death 95 100	death
+E4	Death:T50 Theme:T4
+T51	Regulation 102 111	regulates
+E5	Regulation:T51 Cause:E3 Theme:T5
+T52	Regulation 206 214	modulate
+E6	Regulation:T52 Cause:T6 Theme:E7
+T53	Cell_death 215 224	apoptosis
+E7	Cell_death:T53 Theme:T9
+T54	Regulation 315 323	altering
+E8	Regulation:T54 Theme:E9
+T55	Cell_death 324 333	apoptosis
+E9	Cell_death:T55 
+T56	Positive_regulation 351 361	stimulated
+E10	Positive_regulation:T56 Theme:T10
+T57	Positive_regulation 480 489	dependent
+E11	Positive_regulation:T57 Cause:T13 Theme:T15
+T58	Breakdown 611 621	fragmented
+E12	Breakdown:T58 Theme:T17
+T59	Localization 705 712	absence
+E13	Localization:T59 Theme:T19
+M1	Negation E13
+T60	Breakdown 777 787	fragmented
+E14	Breakdown:T60 Theme:T22
+T61	Cell_death 835 844	apoptotic
+E15	Cell_death:T61 
+T62	Breakdown 987 997	fragmented
+E16	Breakdown:T62 Theme:T24
+T63	Planned_process 1007 1016	incubated
+E17	Planned_process:T63 Theme:T25 Instrument:T26 Instrument2:T27
+E18	Planned_process:T63 Theme:T25 Instrument:T28
+T64	Planned_process 1063 1071	addition
+E19	Planned_process:T64 Instrument:T29 Theme:T31
+E20	Planned_process:T64 Instrument:T30 Theme:T31
+M2	Negation E20
+T65	Negative_regulation 1135 1145	inhibiting
+E21	Negative_regulation:T65 Theme:E22 Cause:E20
+T66	Positive_regulation 1146 1156	increasing
+E22	Positive_regulation:T66 Theme:E23
+T67	Breakdown 1182 1192	fragmented
+E23	Breakdown:T67 Theme:T32
+T68	Localization 1292 1299	present
+E24	Localization:T68 Theme:T33 Theme2:T35
+T69	Localization 1320 1327	absence
+E25	Localization:T69 Theme:T37 Theme2:T38
+M3	Negation E25
+T70	Cell_death 1347 1356	apoptosis
+E26	Cell_death:T70 
+T71	Negative_regulation 1361 1370	inhibited
+E27	Negative_regulation:T71 Theme:E26
+T72	Localization 1392 1400	presence
+E28	Localization:T72 Theme:T39
+E29	Localization:T72 Theme:T40
+T73	Cell_death 1419 1428	apoptosis
+E30	Cell_death:T73 
+T74	Positive_regulation 1433 1441	enhanced
+E31	Positive_regulation:T74 Theme:E30 Cause:E33
+E32	Positive_regulation:T74 Theme:E30 Cause:E34
+T75	Planned_process 1447 1455	addition
+E33	Planned_process:T75 Instrument:T41
+E34	Planned_process:T75 Instrument:T42
+T76	Planned_process 1520 1528	addition
+E35	Planned_process:T76 Instrument:T43
+T77	Positive_regulation 1590 1599	enhancing
+E36	Positive_regulation:T77 Theme:E38
+T78	Negative_regulation 1603 1613	inhibiting
+E37	Negative_regulation:T78 Theme:E38
+T79	Cell_death 1614 1623	apoptosis
+E38	Cell_death:T79 Theme:T44

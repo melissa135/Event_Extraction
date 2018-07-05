@@ -1,0 +1,28 @@
+*	Equiv T10 T11
+T42	Regulation 270 277	mediate
+E1	Regulation:T42 Theme:E3 Cause:T10
+E2	Regulation:T42 Theme:E4 Cause:T10
+M1	Speculation E1
+M2	Speculation E2
+T43	Negative_regulation 278 288	regression
+E3	Negative_regulation:T43 Theme:T12
+T44	Positive_regulation 292 303	progression
+E4	Positive_regulation:T44 Theme:T12
+T45	Metastasis 355 365	metastatic
+E5	Metastasis:T45 
+T46	Metastasis 630 640	metastases
+E6	Metastasis:T46 ToLoc:T21
+E7	Metastasis:T46 ToLoc:T22
+T47	Metastasis 877 887	metastatic
+E8	Metastasis:T47 
+T48	Metastasis 1074 1084	metastatic
+E9	Metastasis:T48 
+T49	Positive_regulation 1177 1185	elevated
+E10	Positive_regulation:T49 Theme:T34
+E11	Positive_regulation:T49 Theme:T35
+E12	Positive_regulation:T49 Theme:T36
+T50	Metastasis 1261 1271	metastases
+E13	Metastasis:T50 Theme:T39 ToLoc:T37
+E14	Metastasis:T50 Theme:T39 ToLoc:T38
+T51	Planned_process 1337 1349	Pretreatment
+E15	Planned_process:T51 Instrument:T41

@@ -1,0 +1,44 @@
+*	Equiv T5 T6
+*	Equiv T13 T14
+T35	Planned_process 81 92	transformed
+E1	Planned_process:T35 Theme:T4 Instrument:T3
+T36	Regulation 127 147	plays a central role
+E2	Regulation:T36 Cause:T5 Theme:E3
+T37	Metabolism 164 174	metabolism
+E3	Metabolism:T37 Theme:T7
+T38	Positive_regulation 196 205	activator
+E4	Positive_regulation:T38 Theme:T8 Cause:T5
+T39	Positive_regulation 263 273	activation
+E5	Positive_regulation:T39 Theme:T8
+T40	Planned_process 325 334	transform
+E6	Planned_process:T40 Theme:T9
+T41	Regulation 454 463	modulates
+E7	Regulation:T41 Theme:E8 Cause:T12
+T42	Metabolism 490 498	turnover
+E8	Metabolism:T42 Theme:T13
+T43	Metabolism 536 546	metabolism
+E9	Metabolism:T43 Theme:T15
+T44	Cell_transformation 574 585	transformed
+T45	Positive_regulation 574 585	transformed
+E10	Cell_transformation:T44 Theme:T17
+E11	Positive_regulation:T45 Theme:E10 Cause:T16
+T46	Cell_transformation 663 674	established
+E12	Cell_transformation:T46 Theme:T18
+T47	Planned_process 737 751	transformation
+E13	Planned_process:T47 Instrument:T19 Theme:T18
+T48	Cell_proliferation 785 792	growing
+E14	Cell_proliferation:T48 Theme:T20
+T49	Planned_process 822 833	transformed
+E15	Planned_process:T49 Theme:T20 Instrument:T21
+E16	Planned_process:T49 Theme:T20 Instrument:T22
+T50	Planned_process 1121 1132	transformed
+E17	Planned_process:T50 Instrument:T26 Theme:T27
+T51	Binding 1286 1293	binding
+E18	Binding:T51 Theme:T30 Theme2:T31
+E19	Binding:T51 Theme:T32 Theme2:T31
+T52	Positive_regulation 1347 1356	elevation
+E20	Positive_regulation:T52 Theme:T33
+T53	Negative_regulation 1378 1393	down-regulation
+E21	Negative_regulation:T53 Theme:T34 Cause:E20
+T54	Positive_regulation 1409 1419	activation
+E22	Positive_regulation:T54 Theme:T34 Cause:E20

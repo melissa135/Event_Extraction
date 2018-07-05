@@ -1,0 +1,28 @@
+*	Equiv T4 T3
+*	Equiv T6 T5
+*	Equiv T7 T8
+T30	Metastasis 52 62	metastatic
+E1	Metastasis:T30 
+T31	Metastasis 126 136	metastatic
+E2	Metastasis:T31 
+T32	Negative_regulation 355 362	depress
+E3	Negative_regulation:T32 Theme:E6 Cause:T7
+E4	Negative_regulation:T32 Theme:E6 Cause:T5
+E5	Negative_regulation:T32 Theme:E6 Cause:T3
+T33	Development 367 376	formation
+E6	Development:T33 Theme:T9
+T34	Binding 778 791	aggregability
+E7	Binding:T34 Theme:T19
+T35	Binding 886 898	procoagulant
+E8	Binding:T35 Theme:T24
+T36	Planned_process 946 955	treatment
+E9	Planned_process:T36 Theme:T26
+T37	Planned_process 995 1004	untreated
+E10	Planned_process:T37 Theme:T28
+M1	Negation E10
+T38	Metastasis 1073 1083	metastatic
+E11	Metastasis:T38 
+T39	Metastasis 1299 1309	metastatic
+E12	Metastasis:T39 
+T40	Metastasis 1417 1427	metastasis
+E13	Metastasis:T40 

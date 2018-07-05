@@ -1,0 +1,35 @@
+*	Equiv T8 T9
+T26	Positive_regulation 0 8	Enhanced
+E1	Positive_regulation:T26 Theme:E2
+T27	Binding 13 20	binding
+E2	Binding:T27 Theme:T1
+T28	Cell_transformation 66 77	transformed
+E3	Cell_transformation:T28 Theme:T3
+T29	Positive_regulation 132 138	induce
+E4	Positive_regulation:T29 Theme:E6 Cause:T6
+E5	Positive_regulation:T29 Theme:E6 Cause:T5
+T30	Phosphorylation 148 163	phosphorylation
+E6	Phosphorylation:T30 Theme:T8 Site:T7
+T31	Cell_transformation 279 290	transformed
+E7	Cell_transformation:T31 Theme:T10
+T32	Positive_regulation 358 368	activation
+E8	Positive_regulation:T32 Theme:T13
+T33	Binding 410 417	binding
+E9	Binding:T33 Theme:T14
+T34	Positive_regulation 528 537	activated
+E10	Positive_regulation:T34 Cause:T17 Theme:T15
+E11	Positive_regulation:T34 Cause:T17 Theme:T16
+T35	Positive_regulation 562 571	Induction
+E12	Positive_regulation:T35 Theme:E13
+T36	Binding 584 591	binding
+E13	Binding:T36 Theme:T18
+T37	Phosphorylation 629 644	phosphorylation
+E14	Phosphorylation:T37 Theme:T20 Site:T19
+T38	Cell_transformation 678 692	transformation
+E15	Cell_transformation:T38 
+T39	Positive_regulation 734 742	activate
+E16	Positive_regulation:T39 Cause:T22 Theme:E17
+T40	Pathway 748 766	signaling pathways
+E17	Pathway:T40 Participant:T23
+T41	Carcinogenesis 819 830	oncogenesis
+E18	Carcinogenesis:T41 

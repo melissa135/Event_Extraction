@@ -1,0 +1,38 @@
+*	Equiv T18 T19
+T38	Gene_expression 9 23	overexpression
+T39	Positive_regulation 9 23	overexpression
+E1	Gene_expression:T38 Theme:T1
+E2	Positive_regulation:T39 Theme:E1
+T40	Negative_regulation 24 33	decreases
+E3	Negative_regulation:T40 Cause:E1 Theme:T2
+T41	Metastasis 125 135	metastases
+E4	Metastasis:T41 ToLoc:T4 Theme:T3
+T42	Gene_expression 206 220	overexpression
+T43	Positive_regulation 206 220	overexpression
+E5	Gene_expression:T42 Theme:T5
+E6	Positive_regulation:T43 Theme:E5
+T44	Gene_expression 522 535	overexpressed
+T45	Positive_regulation 522 535	overexpressed
+E7	Gene_expression:T44 Theme:T10
+E8	Positive_regulation:T45 Theme:E7
+T46	Gene_expression 888 901	overexpressed
+T47	Positive_regulation 888 901	overexpressed
+E9	Gene_expression:T46 Theme:T15
+E10	Positive_regulation:T47 Theme:E9
+T48	Gene_expression 1048 1062	overexpression
+T49	Positive_regulation 1048 1062	overexpression
+E11	Gene_expression:T48 Theme:T20
+E12	Positive_regulation:T49 Theme:E11
+T50	Binding 1423 1434	interaction
+E13	Binding:T50 Theme:T25 Theme2:T26
+T51	Binding 1598 1609	interaction
+E14	Binding:T51 Theme:T28 Theme2:T29
+T52	Gene_expression 1685 1693	negative
+E15	Gene_expression:T52 Theme:T31
+M1	Negation E15
+T53	Gene_expression 1752 1760	positive
+E16	Gene_expression:T53 Theme:T32
+T54	Gene_expression 1822 1836	overexpression
+T55	Positive_regulation 1822 1836	overexpression
+E17	Gene_expression:T54 Theme:T36
+E18	Positive_regulation:T55 Theme:E17

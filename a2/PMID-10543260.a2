@@ -1,0 +1,22 @@
+*	Equiv T6 T7
+*	Equiv T12 T13
+T42	Positive_regulation 0 9	Increased
+E1	Positive_regulation:T42 Theme:T2
+T43	Blood_vessel_development 100 118	Neovascularization
+E2	Blood_vessel_development:T43 
+T44	Positive_regulation 123 132	essential
+E3	Positive_regulation:T44 Cause:E2 Theme:E4
+T45	Growth 147 153	growth
+E4	Growth:T45 Theme:T5
+T46	Regulation 174 183	regulated
+E5	Regulation:T46 Theme:E2
+T47	Blood_vessel_development 199 209	angiogenic
+E6	Blood_vessel_development:T47 
+T48	Positive_regulation 296 301	exert
+E7	Positive_regulation:T48 Cause:T6 Theme:E8
+T49	Blood_vessel_development 311 321	angiogenic
+E8	Blood_vessel_development:T49 
+T50	Metastasis 1237 1247	metastasis
+E9	Metastasis:T50 
+T51	Localization 1620 1629	liberates
+E10	Localization:T51 Theme:T38 ToLoc:T39 FromLoc:T36

@@ -1,0 +1,62 @@
+*	Equiv T16 T18
+*	Equiv T17 T19
+T48	Cell_transformation 9 23	transformation
+E1	Cell_transformation:T48 Theme:T3
+T49	Localization 196 204	Invasion
+E2	Localization:T49 Theme:T7 ToLoc:T5
+T50	Localization 362 370	invasion
+E3	Localization:T50 Theme:T9
+T51	Localization 384 392	invasion
+E4	Localization:T51 Theme:T10 ToLoc:T11
+T52	Regulation 422 432	controlled
+E5	Regulation:T52 Theme:E4 Cause:T12
+T53	Carcinogenesis 571 585	nontumorigenic
+E6	Carcinogenesis:T53 
+T54	Development 735 746	progression
+E7	Development:T54 Theme:T15
+T55	Planned_process 795 805	introduced
+E8	Planned_process:T55 Instrument:T19 Theme:T22
+E9	Planned_process:T55 Instrument:T19 Theme:T21
+T56	Planned_process 872 883	established
+E10	Planned_process:T56 Theme:T22
+E11	Planned_process:T56 Theme:T21
+T57	Planned_process 983 994	transformed
+E12	Planned_process:T57 Instrument:T25 Theme:T26
+T58	Cell_transformation 1097 1109	immortalized
+E13	Cell_transformation:T58 Theme:T29
+T59	Cell_proliferation 1230 1243	proliferative
+E14	Cell_proliferation:T59 Theme:T29
+M1	Speculation E14
+T60	Localization 1248 1256	invasive
+E15	Localization:T60 Theme:T29
+M2	Speculation E15
+T61	Cell_proliferation 1465 1483	hyperproliferative
+E16	Cell_proliferation:T61 Theme:T32
+E17	Cell_proliferation:T61 Theme:T31
+T62	Localization 1488 1501	hyperinvasive
+E18	Localization:T62 Theme:T32
+E19	Localization:T62 Theme:T31
+T63	Carcinogenesis 1681 1696	non-tumorigenic
+E20	Carcinogenesis:T63 AtLoc:T35
+M3	Negation E20
+T64	Negative_regulation 1805 1812	reduced
+E21	Negative_regulation:T64 Theme:E22
+T65	Gene_expression 1813 1823	expression
+E22	Gene_expression:T65 Theme:T38
+T66	Gene_expression 1931 1941	expression
+E23	Gene_expression:T66 Theme:T40
+E24	Gene_expression:T66 Theme:T39
+T67	Negative_regulation 1955 1962	reduced
+E25	Negative_regulation:T67 Theme:E24
+E26	Negative_regulation:T67 Theme:E23
+T68	Regulation 1986 1998	contributing
+E27	Regulation:T68 Theme:E28 Cause:T37
+T69	Localization 2008 2025	hyperinvasiveness
+E28	Localization:T69 Theme:T37
+T70	Positive_regulation 2126 2136	upregulate
+E29	Positive_regulation:T70 Cause:T43 Theme:T44
+E30	Positive_regulation:T70 Cause:T43 Theme:T45
+M4	Negation E29
+M5	Negation E30
+T71	Positive_regulation 2189 2201	upregulation
+E31	Positive_regulation:T71 Cause:T46 Theme:T47

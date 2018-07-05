@@ -1,0 +1,111 @@
+*	Equiv T6 T7
+T46	Regulation 0 10	Regulation
+E1	Regulation:T46 Theme:E2
+T47	Positive_regulation 18 27	dependent
+E2	Positive_regulation:T47 Cause:T1 Theme:E3
+T48	Cell_death 28 37	apoptosis
+E3	Cell_death:T48 
+T49	Cell_transformation 76 90	transformation
+T50	Positive_regulation 76 90	transformation
+E4	Cell_transformation:T49 Theme:T2
+E5	Positive_regulation:T50 Cause:E6 Theme:E4
+T51	Phosphorylation 94 109	phosphorylation
+E6	Phosphorylation:T51 Theme:T3
+T52	Positive_regulation 262 268	induce
+E7	Positive_regulation:T52 Theme:E9 Cause:T8
+E8	Positive_regulation:T52 Theme:E9 Cause:T6
+T53	Cell_transformation 274 288	transformation
+E9	Cell_transformation:T53 Theme:T9
+T54	Positive_regulation 303 312	stimulate
+E10	Positive_regulation:T54 Cause:T10 Theme:E12
+E11	Positive_regulation:T54 Cause:T10 Theme:E13
+T55	Synthesis 317 326	synthesis
+E12	Synthesis:T55 Theme:T11
+T56	Cell_proliferation 336 349	proliferation
+E13	Cell_proliferation:T56 Theme:T12
+T57	Positive_regulation 370 375	cause
+E14	Positive_regulation:T57 Cause:T10 Theme:E19
+E15	Positive_regulation:T57 Cause:T10 Theme:E16
+T58	Death 387 392	death
+E16	Death:T58 Theme:T13
+T59	Positive_regulation 400 409	dependent
+E17	Positive_regulation:T59 Cause:T14 Theme:E19
+T60	Regulation 418 429	independent
+E18	Regulation:T60 Cause:T15 Theme:E19
+M1	Negation E18
+T61	Cell_death 430 439	apoptosis
+E19	Cell_death:T61 
+T62	Cell_transformation 498 512	transformation
+E20	Cell_transformation:T62 
+T63	Negative_regulation 519 526	protect
+E21	Negative_regulation:T63 Theme:E24 Cause:E25
+E22	Negative_regulation:T63 Theme:E24 Cause:E26
+T64	Positive_regulation 539 548	dependent
+E23	Positive_regulation:T64 Cause:T17 Theme:E24
+T65	Cell_death 549 558	apoptosis
+E24	Cell_death:T65 
+T66	Binding 562 569	binding
+E25	Binding:T66 Theme:T16 Theme2:T18
+T67	Negative_regulation 577 589	inactivating
+E26	Negative_regulation:T67 Cause:T16 Theme:T18
+T68	Binding 725 732	binding
+E27	Binding:T68 Theme:T21 Theme2:T19
+T69	Regulation 747 756	cooperate
+E28	Regulation:T69 Cause:T19 Theme:E29
+M2	Negation E28
+T70	Cell_transformation 769 783	transformation
+E29	Cell_transformation:T70 
+T71	Phosphorylation 811 826	phosphorylation
+E30	Phosphorylation:T71 Theme:T23 Site:T24
+E31	Phosphorylation:T71 Theme:T23 Site:T25
+T72	Planned_process 963 973	Conversion
+E32	Planned_process:T72 Instrument:T27 Theme:T24
+E33	Planned_process:T72 Instrument:T27 Theme:T25
+T73	Negative_regulation 1017 1024	reduced
+E34	Negative_regulation:T73 Theme:E36 Cause:E32
+E35	Negative_regulation:T73 Theme:E36 Cause:E33
+T74	Cell_transformation 1025 1037	transforming
+E36	Cell_transformation:T74 
+T75	Binding 1100 1108	interact
+E37	Binding:T75 Theme:T28 Theme2:T29
+T76	Negative_regulation 1152 1161	defective
+E38	Negative_regulation:T76 Theme:E39 Cause:T28
+T77	Negative_regulation 1166 1177	suppression
+E39	Negative_regulation:T77 Theme:T30
+T78	Cell_transformation 1185 1200	transactivation
+T79	Positive_regulation 1185 1200	transactivation
+E40	Cell_transformation:T78 
+E41	Positive_regulation:T79 Cause:T30 Theme:E40
+T80	Phosphorylation 1276 1290	phosphorylated
+E42	Phosphorylation:T80 Theme:T28 Site:T31
+T81	Negative_regulation 1361 1366	block
+E43	Negative_regulation:T81 Cause:T32 Theme:E46
+T82	Positive_regulation 1371 1378	induced
+E44	Positive_regulation:T82 Theme:E46 Cause:T33
+T83	Positive_regulation 1383 1392	dependent
+E45	Positive_regulation:T83 Theme:E46 Cause:T34
+T84	Cell_death 1393 1402	apoptosis
+E46	Cell_death:T84 
+T85	Infection 1418 1426	infected
+E47	Infection:T85 Theme:T35 Participant:T36
+T86	Phosphorylation 1494 1509	phosphorylation
+E48	Phosphorylation:T86 Site:T37 Theme:T32
+T87	Breakdown 1541 1554	fragmentation
+E49	Breakdown:T87 Theme:T38
+T88	Death 1582 1587	death
+E50	Death:T88 Theme:T39
+T89	Planned_process 1723 1729	fusion
+E51	Planned_process:T89 Instrument:T41 Instrument2:T40
+T90	Gene_expression 1776 1783	absence
+E52	Gene_expression:T90 Theme:T43
+M3	Negation E52
+T91	Negative_regulation 1886 1896	inhibition
+E53	Negative_regulation:T91 Theme:E55
+T92	Positive_regulation 1904 1913	dependent
+E54	Positive_regulation:T92 Cause:T44 Theme:E55
+T93	Cell_death 1914 1923	apoptosis
+E55	Cell_death:T93 
+T94	Regulation 2021 2030	regulated
+E56	Regulation:T94 Theme:E57
+T95	Phosphorylation 2034 2049	phosphorylation
+E57	Phosphorylation:T95 Site:T96 Theme:T45

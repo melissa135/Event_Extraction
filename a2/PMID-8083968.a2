@@ -1,0 +1,21 @@
+*	Equiv T3 T4
+T26	Cell_transformation 324 335	transformed
+T27	Positive_regulation 324 335	transformed
+E1	Cell_transformation:T26 Theme:T9
+E2	Positive_regulation:T27 Cause:T8 Theme:E1
+T28	Cell_transformation 422 433	transformed
+T29	Positive_regulation 422 433	transformed
+E3	Cell_transformation:T28 Theme:T11
+E4	Positive_regulation:T29 Cause:T10 Theme:E3
+T30	Positive_regulation 456 467	reactivated
+E5	Positive_regulation:T30 Theme:T12
+T31	Planned_process 471 480	treatment
+E6	Planned_process:T31 Theme:T13 Instrument:T14
+T32	Infection 679 687	infected
+E7	Infection:T32 Theme:T16
+T33	Infection 720 733	postinfection
+E8	Infection:T33 Theme:T16
+T34	Infection 769 782	postinfection
+E9	Infection:T34 Theme:T16
+T35	Translation 932 945	translational
+E10	Translation:T35 Theme:T19

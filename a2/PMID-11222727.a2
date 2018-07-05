@@ -1,0 +1,63 @@
+*	Equiv T6 T7
+*	Equiv T8 T9
+*	Equiv T11 T12
+*	Equiv T31 T32
+T33	Cell_transformation 35 47	transforming
+E1	Cell_transformation:T33 
+T34	Positive_regulation 78 86	inducing
+E2	Positive_regulation:T34 Cause:T3 Theme:E3
+T35	Cell_transformation 87 102	immortalization
+E3	Cell_transformation:T35 Theme:T5
+T36	Mutation 162 170	Mutation
+E4	Mutation:T36 Theme:T6 Site:T40
+E5	Mutation:T36 Theme:T6 Site:T41
+T37	Positive_regulation 244 251	induced
+E6	Positive_regulation:T37 Cause:T8 Theme:E7
+T38	Cell_transformation 259 274	immortalization
+E7	Cell_transformation:T38 Theme:T10
+T39	Cell_transformation 288 302	transformation
+E8	Cell_transformation:T39 
+T43	Binding 352 363	interaction
+E9	Binding:T43 Theme:T6 Site:T42 Theme2:T11
+T44	Regulation 444 460	plays a key role
+E10	Regulation:T44 Cause:T6 CSite:T42 Theme:E12
+E11	Regulation:T44 Cause:T6 CSite:T42 Theme:E13
+T45	Positive_regulation 464 479	transactivating
+E12	Positive_regulation:T45 Theme:T13
+E13	Positive_regulation:T45 Theme:T14
+T47	Mutation 543 550	deleted
+E14	Mutation:T47 Site:T46 Theme:T16
+T48	Positive_regulation 551 558	induces
+E15	Positive_regulation:T48 Theme:E16 Cause:T15
+T49	Negative_regulation 561 568	limited
+E16	Negative_regulation:T49 Theme:E17
+T50	Cell_proliferation 569 582	proliferation
+E17	Cell_proliferation:T50 Theme:T17
+T51	Mutation 660 668	mutation
+E18	Mutation:T51 Site:T52 Theme:T18
+T53	Positive_regulation 701 711	stimulates
+E19	Positive_regulation:T53 Cause:E18 Theme:E21
+E20	Positive_regulation:T53 Cause:E18 Theme:T22
+T54	Cell_proliferation 717 723	growth
+E21	Cell_proliferation:T54 Theme:T21
+T55	Cell_transformation 810 825	immortalization
+E22	Cell_transformation:T55 Theme:T23
+E23	Cell_transformation:T55 Theme:T24
+T56	Cell_proliferation 877 883	growth
+E24	Cell_proliferation:T56 Theme:T24
+E25	Cell_proliferation:T56 Theme:T23
+T57	Negative_regulation 884 890	arrest
+E26	Negative_regulation:T57 Theme:E24
+E27	Negative_regulation:T57 Theme:E25
+T58	Positive_regulation 943 951	promotes
+E28	Positive_regulation:T58 Theme:E30 Cause:T28
+E29	Positive_regulation:T58 Theme:E30 Cause:T27
+T59	Cell_proliferation 957 963	growth
+E30	Cell_proliferation:T59 Theme:T29
+T60	Negative_regulation 977 984	prevent
+E31	Negative_regulation:T60 Theme:E33 Cause:T27
+E32	Negative_regulation:T60 Theme:E33 Cause:T28
+M1	Negation E31
+M2	Negation E32
+T61	Gene_expression 1026 1036	expression
+E33	Gene_expression:T61 Theme:T31

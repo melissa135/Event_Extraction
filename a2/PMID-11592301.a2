@@ -1,0 +1,80 @@
+*	Equiv T4 T5
+T45	Localization 30 38	invasive
+E1	Localization:T45 Theme:T3
+T46	Localization 43 52	migratory
+E2	Localization:T46 Theme:T3
+T47	Positive_regulation 125 133	elevated
+E3	Positive_regulation:T47 Theme:T4
+T48	Regulation 190 200	contribute
+E4	Regulation:T48 Cause:T4 Theme:E5
+M1	Speculation E4
+T49	Development 211 222	progression
+E5	Development:T49 Theme:T6
+T50	Negative_regulation 400 409	inhibited
+E6	Negative_regulation:T50 Theme:E8
+E7	Negative_regulation:T50 Theme:E9
+T51	Localization 414 422	invasive
+E8	Localization:T51 Theme:T10
+T52	Localization 427 436	migratory
+E9	Localization:T52 Theme:T10
+T53	Localization 546 554	Invasion
+E10	Localization:T53 Theme:T16
+T54	Negative_regulation 602 612	attenuated
+E11	Negative_regulation:T54 Theme:E10
+T55	Localization 667 675	invasive
+E12	Localization:T55 Theme:T20
+M2	Negation E12
+T56	Gene_expression 722 729	express
+E13	Gene_expression:T56 Theme:T21
+M3	Negation E13
+T57	Planned_process 798 810	transfection
+E14	Planned_process:T57 Instrument:T24 Theme:T25
+T58	Localization 848 856	invasive
+E15	Localization:T58 Theme:T25
+T59	Negative_regulation 884 894	attenuated
+E16	Negative_regulation:T59 Theme:E15
+T60	Regulation 943 949	affect
+E17	Regulation:T60 Theme:E18
+M4	Negation E17
+T61	Binding 954 962	adhesion
+E18	Binding:T61 Theme:T27 Theme2:T28
+T62	Negative_regulation 1015 1022	reduced
+E19	Negative_regulation:T62 Theme:E20
+T63	Binding 1029 1039	attachment
+E20	Binding:T63 Theme:T27 Theme2:T28
+T64	Planned_process 1041 1049	Addition
+E21	Planned_process:T64 Instrument:T30
+T65	Negative_regulation 1079 1088	prevented
+E22	Negative_regulation:T65 Theme:E23 Cause:E21
+T66	Binding 1101 1109	adhesion
+E23	Binding:T66 Theme:T31
+T67	Positive_regulation 1128 1136	promoted
+E24	Positive_regulation:T67 Cause:E21 Theme:E25
+T68	Dissociation 1142 1152	detachment
+E25	Dissociation:T68 Theme:T32 Theme2:T33
+T69	Planned_process 1198 1209	transfected
+E26	Planned_process:T69 Theme:T34 Instrument:T35
+T70	Negative_regulation 1243 1251	impaired
+E27	Negative_regulation:T70 Theme:E28
+T71	Binding 1252 1263	interaction
+E28	Binding:T71 Theme:T35 Theme2:T36
+T72	Localization 1285 1293	invasive
+E29	Localization:T72 Theme:T34
+M5	Negation E29
+T73	Negative_regulation 1302 1310	impaired
+E30	Negative_regulation:T73 Theme:E31
+T74	Binding 1311 1318	binding
+E31	Binding:T74 Theme:T37 Theme2:T34
+T75	Positive_regulation 1524 1534	co-operate
+E32	Positive_regulation:T75 Cause:T40 Theme:E35
+E33	Positive_regulation:T75 Cause:T39 Theme:E34
+M6	Speculation E32
+M7	Speculation E33
+T76	Binding 1593 1603	attachment
+E34	Binding:T76 Theme:T41
+T77	Dissociation 1623 1633	detachment
+E35	Dissociation:T77 Theme:T41
+T78	Regulation 1743 1753	modulation
+E36	Regulation:T78 Theme:T43
+T79	Planned_process 1810 1819	treatment
+E37	Planned_process:T79 Theme:T44

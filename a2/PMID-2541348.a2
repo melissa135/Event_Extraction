@@ -1,0 +1,36 @@
+T32	Localization 55 63	antiport
+E1	Localization:T32 Theme:T1 Theme2:T2 AtLoc:T3
+T33	Positive_regulation 87 97	activation
+E2	Positive_regulation:T33 Theme:E3
+T34	Localization 105 114	transport
+E3	Localization:T34 Theme:T4
+T35	Positive_regulation 214 225	stimulation
+E4	Positive_regulation:T35 Theme:E5
+T36	Localization 240 248	antiport
+E5	Localization:T36 Theme:T9 Theme2:T10
+T37	Localization 350 359	transport
+E6	Localization:T37 Theme:T12
+T38	Positive_regulation 360 369	increases
+E7	Positive_regulation:T38 Theme:E6
+T39	Localization 491 495	flux
+E8	Localization:T39 Theme:T16
+T40	Negative_regulation 503 513	diminishes
+E9	Negative_regulation:T40 Theme:E8
+T41	Glycolysis 707 717	glycolysis
+E10	Glycolysis:T41 
+T42	Negative_regulation 718 727	decreases
+E11	Negative_regulation:T42 Theme:E10
+T43	Synthesis 874 887	resynthesized
+E12	Synthesis:T43 Theme:T22
+T44	Glycolysis 892 902	glycolysis
+E13	Glycolysis:T44 
+T45	Localization 1031 1040	transport
+E14	Localization:T45 Theme:T23
+T46	Synthesis 1109 1122	resynthesized
+E15	Synthesis:T46 Theme:T25
+T47	Glycolysis 1127 1137	glycolysis
+E16	Glycolysis:T47 
+T48	Synthesis 1304 1314	synthesize
+E17	Synthesis:T48 Theme:T29
+T49	Glycolysis 1340 1350	glycolysis
+E18	Glycolysis:T49 

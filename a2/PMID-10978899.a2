@@ -1,0 +1,30 @@
+*	Equiv T4 T5
+T18	Localization 150 161	colocalized
+E1	Localization:T18 Theme:T4 Theme:T6 AtLoc:T3
+T19	Gene_expression 270 281	coexpressed
+E2	Gene_expression:T19 Theme:T7 Theme:T8 Theme:T9
+T20	Positive_regulation 468 476	required
+E3	Positive_regulation:T20 Theme:E5
+E4	Positive_regulation:T20 Theme:E6
+T21	Localization 486 495	migration
+E5	Localization:T21 Theme:T11
+T22	Localization 500 508	invasion
+E6	Localization:T22 Theme:T11
+T23	Regulation 516 526	contribute
+E7	Regulation:T23 Cause:T10 Theme:E8
+T24	Binding 564 582	adhesive processes
+E8	Binding:T24 Theme:T12
+T25	Positive_regulation 651 661	initiation
+E9	Positive_regulation:T25 Theme:E10 Cause:T13
+T26	Pathway 665 693	signal transduction pathways
+E10	Pathway:T26 
+T27	Regulation 718 727	influence
+E11	Regulation:T27 Cause:E9 Theme:E14
+E12	Regulation:T27 Cause:E9 Theme:E15
+E13	Regulation:T27 Cause:E9 Theme:E16
+T28	Blood_vessel_development 750 762	angiogenesis
+E14	Blood_vessel_development:T28 
+T29	Development 801 812	progression
+E15	Development:T29 Theme:T16
+T30	Metastasis 813 823	metastasis
+E16	Metastasis:T30 Theme:T16

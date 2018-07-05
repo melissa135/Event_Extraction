@@ -1,0 +1,40 @@
+*	Equiv T4 T5
+T49	Gene_expression 0 10	Expression
+E1	Gene_expression:T49 Theme:T1
+T50	Localization 74 86	distribution
+E2	Localization:T50 Theme:T4
+T51	Planned_process 212 227	Immunodetection
+E3	Planned_process:T51 Theme:T8
+T52	Negative_regulation 392 402	neutralize
+E4	Negative_regulation:T52 Theme:T12
+T53	Gene_expression 472 482	Expression
+E5	Gene_expression:T53 Theme:T15
+T54	Localization 519 540	ubiquitously detected
+E6	Localization:T54 Theme:T15 AtLoc:T18
+E7	Localization:T54 Theme:T15 AtLoc:T19
+T55	Localization 716 728	localization
+E8	Localization:T55 Theme:T15 AtLoc:T23
+E9	Localization:T55 Theme:T15 AtLoc:T25
+T56	Gene_expression 963 973	expression
+E10	Gene_expression:T56 Theme:T15
+T57	Development 1050 1059	branching
+E11	Development:T57 Theme:T28
+T58	Localization 1184 1189	found
+E12	Localization:T58 Theme:T30 AtLoc:T31
+E13	Localization:T58 Theme:T30 AtLoc:T32
+E14	Localization:T58 Theme:T30 AtLoc:T34
+E15	Localization:T58 Theme:T30 AtLoc:T35
+E16	Localization:T58 Theme:T30 AtLoc:T36
+E17	Localization:T58 Theme:T30 AtLoc:T37
+E18	Localization:T58 Theme:T30 AtLoc:T39
+E19	Localization:T58 Theme:T30 AtLoc:T40
+E20	Localization:T58 Theme:T30 AtLoc:T41
+E21	Localization:T58 Theme:T30 AtLoc:T42
+E22	Localization:T58 Theme:T30 AtLoc:T43
+T59	Localization 1455 1463	presence
+E23	Localization:T59 Theme:T44 AtLoc:T45
+T60	Regulation 1540 1551	play a role
+E24	Regulation:T60 Cause:T44 Theme:E25
+M1	Speculation E24
+T61	Blood_vessel_development 1555 1567	angiogenesis
+E25	Blood_vessel_development:T61 

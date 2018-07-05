@@ -1,0 +1,47 @@
+*	Equiv T8 T9
+*	Equiv T10 T11
+T39	Gene_expression 5 15	expression
+E1	Gene_expression:T39 Theme:T1
+T40	Metastasis 53 63	metastatic
+E2	Metastasis:T40 Theme:T3
+T41	Metastasis 186 196	metastasis
+E3	Metastasis:T41 
+T42	Metastasis 276 286	metastatic
+E4	Metastasis:T42 
+T43	Gene_expression 441 451	expression
+E5	Gene_expression:T43 Theme:T8
+E6	Gene_expression:T43 Theme:T10
+E7	Gene_expression:T43 Theme:T12
+E8	Gene_expression:T43 Theme:T13
+T44	Gene_expression 816 826	expression
+E9	Gene_expression:T44 Theme:T19
+T45	Metastasis 843 853	metastatic
+E10	Metastasis:T45 Theme:T20
+T46	Gene_expression 928 937	expressed
+E11	Gene_expression:T46 Theme:T22
+T47	Gene_expression 996 1004	negative
+E12	Gene_expression:T47 Theme:T25
+M1	Negation E12
+T48	Metastasis 1071 1081	metastasis
+E13	Metastasis:T48 
+T49	Gene_expression 1105 1114	expressed
+E14	Gene_expression:T49 Theme:T28
+T50	Metastasis 1166 1176	metastasis
+E15	Metastasis:T50 ToLoc:T29
+T51	Gene_expression 1235 1243	negative
+E16	Gene_expression:T51 Theme:T32
+M2	Negation E16
+T52	Death 1317 1325	survival
+E17	Death:T52 Theme:T33
+E18	Death:T52 Theme:T35
+M3	Negation E17
+M4	Negation E18
+T53	Gene_expression 1356 1364	positive
+E19	Gene_expression:T53 Theme:T34
+T54	Gene_expression 1564 1574	expression
+E20	Gene_expression:T54 Theme:T37
+T55	Regulation 1594 1605	play a role
+E21	Regulation:T55 Cause:E20 Theme:E22
+M5	Speculation E21
+T56	Metastasis 1609 1619	metastatic
+E22	Metastasis:T56 Theme:T38

@@ -1,0 +1,36 @@
+*	Equiv T6 T7
+*	Equiv T27 T28
+T34	Transcription 0 10	Expression
+E1	Transcription:T34 Theme:T1
+T35	Positive_regulation 101 109	elevated
+E2	Positive_regulation:T35 Theme:E3
+T36	Glycolysis 110 120	glycolytic
+E3	Glycolysis:T36 
+T37	Cell_proliferation 140 153	proliferating
+E4	Cell_proliferation:T37 Theme:T3
+T38	Regulation 160 165	alter
+E5	Regulation:T38 Theme:E6
+T39	Gene_expression 170 180	expression
+E6	Gene_expression:T39 Theme:T4
+T40	Phosphorylation 240 255	phosphorylation
+E7	Phosphorylation:T40 Theme:T5
+T41	Glycolysis 277 287	glycolysis
+E8	Glycolysis:T41 
+T42	Regulation 353 379	play a key regulatory role
+E9	Regulation:T42 Cause:T6 Theme:E8
+T43	Phosphorylation 546 561	phosphorylating
+E10	Phosphorylation:T43 Theme:T12
+T44	Phosphorylation 634 649	phosphorylating
+E11	Phosphorylation:T44 Theme:T14
+T45	Positive_regulation 777 786	induction
+E12	Positive_regulation:T45 Theme:T16
+T46	Positive_regulation 791 805	overexpression
+T47	Transcription 791 805	overexpression
+E13	Positive_regulation:T46 Theme:E14
+E14	Transcription:T47 Theme:T16
+T48	Transcription 1166 1173	express
+E15	Transcription:T48 Theme:T24
+T49	Transcription 1282 1291	expressed
+E16	Transcription:T49 Theme:T25
+T50	Transcription 1443 1450	express
+E17	Transcription:T50 Theme:T33

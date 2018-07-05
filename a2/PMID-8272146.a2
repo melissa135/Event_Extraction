@@ -1,0 +1,20 @@
+*	Equiv T11 T12
+T19	Synthesis 207 216	producing
+E1	Synthesis:T19 Theme:T4
+T20	Metabolism 309 320	consumption
+E2	Metabolism:T20 Theme:T7
+M1	Speculation E2
+T21	Metabolism 334 343	formation
+E3	Metabolism:T21 Theme:T8
+M2	Speculation E3
+T22	Metabolism 418 429	respiration
+E4	Metabolism:T22 Theme:T9
+M3	Speculation E4
+T23	Planned_process 466 475	incubated
+E5	Planned_process:T23 Theme:T10
+T24	Planned_process 595 603	addition
+E6	Planned_process:T24 Theme:T13 Instrument:T11
+T25	Negative_regulation 655 664	decreased
+E7	Negative_regulation:T25 Theme:T14
+T26	Negative_regulation 815 823	decrease
+E8	Negative_regulation:T26 Theme:T16

@@ -1,0 +1,22 @@
+T12	Gene_expression 0 14	Overexpression
+T13	Positive_regulation 0 14	Overexpression
+E1	Gene_expression:T12 Theme:T1
+E2	Positive_regulation:T13 Theme:E1
+T14	Transcription 196 207	overexpress
+T15	Positive_regulation 196 207	overexpress
+E3	Transcription:T14 Theme:T6
+E4	Positive_regulation:T15 Theme:E3
+T16	Mutation 226 244	gene amplification
+E5	Mutation:T16 Theme:T6
+T17	Carcinogenesis 285 296	tumorigenic
+E6	Carcinogenesis:T17 AtLoc:T7
+T18	Planned_process 407 417	expression
+E7	Planned_process:T18 Instrument:T9 Theme:T7
+T19	Regulation 484 496	contribution
+E8	Regulation:T19 Cause:T10 Theme:E11
+T20	Gene_expression 500 513	overexpressed
+T21	Positive_regulation 500 513	overexpressed
+E9	Gene_expression:T20 Theme:T10
+E10	Positive_regulation:T21 Theme:E9
+T22	Cell_transformation 548 562	transformation
+E11	Cell_transformation:T22 Theme:T11

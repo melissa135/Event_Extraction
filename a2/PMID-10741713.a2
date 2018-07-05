@@ -1,0 +1,93 @@
+T63	Positive_regulation 14 22	mediated
+E1	Positive_regulation:T63 Cause:T1 Theme:E3
+T64	Cell_proliferation 28 34	growth
+E2	Cell_proliferation:T64 Theme:T2
+T65	Negative_regulation 35 45	inhibition
+E3	Negative_regulation:T65 Theme:E2
+T66	Pathway 59 64	cycle
+E4	Pathway:T66 Theme:T3
+T67	Negative_regulation 65 71	arrest
+E5	Negative_regulation:T67 Theme:E4
+T68	Cell_death 77 86	apoptosis
+E6	Cell_death:T68 
+T69	Planned_process 736 748	administered
+E7	Planned_process:T69 Instrument:T19
+T70	Regulation 775 781	effect
+E8	Regulation:T70 Cause:E7 Theme:T20
+M1	Speculation E8
+T71	Positive_regulation 966 975	dependent
+E9	Positive_regulation:T71 Theme:E10
+T72	Negative_regulation 976 986	inhibition
+E10	Negative_regulation:T72 Cause:T25 Theme:E11
+T73	Cell_proliferation 995 1001	growth
+E11	Cell_proliferation:T73 Theme:T24
+T74	Regulation 1162 1169	effects
+E12	Regulation:T74 Cause:T28 Theme:T29
+M2	Speculation E12
+T75	Cell_proliferation 1291 1297	growth
+E13	Cell_proliferation:T75 Theme:T30
+T76	Negative_regulation 1298 1308	inhibition
+E14	Negative_regulation:T76 Theme:E13
+T77	Positive_regulation 1397 1406	induction
+E15	Positive_regulation:T77 Theme:E17
+T78	Pathway 1415 1420	cycle
+E16	Pathway:T78 Theme:T33
+T79	Negative_regulation 1421 1427	arrest
+E17	Negative_regulation:T79 Theme:E16
+T80	Negative_regulation 1477 1492	down-regulation
+E18	Negative_regulation:T80 Theme:T34
+E19	Negative_regulation:T80 Theme:T35
+T81	Dephosphorylation 1520 1537	dephosphorylation
+E20	Dephosphorylation:T81 Theme:T36
+T82	Planned_process 1563 1570	treated
+E21	Planned_process:T82 Instrument:T37 Theme:T38
+T83	Positive_regulation 1610 1623	up-regulation
+E22	Positive_regulation:T83 Theme:T39
+T84	Regulation 1740 1748	involved
+E23	Regulation:T84 Theme:E24
+T85	Positive_regulation 1762 1771	induction
+E24	Positive_regulation:T85 Theme:E25
+T86	Cell_death 1775 1784	apoptosis
+E25	Cell_death:T86 
+T87	Negative_regulation 1854 1863	decreased
+E26	Negative_regulation:T87 Theme:T44
+T88	Planned_process 1893 1902	treatment
+E27	Planned_process:T88 Instrument:T45
+T89	Localization 1907 1918	disappeared
+E28	Localization:T89 Theme:T44
+M3	Negation E28
+T90	Planned_process 1951 1958	treated
+E29	Planned_process:T90 Theme:T46 Instrument:T47
+T91	Negative_regulation 2006 2021	down-regulation
+E30	Negative_regulation:T91 Theme:T48
+T92	Positive_regulation 2104 2114	activation
+E31	Positive_regulation:T92 Theme:T50
+T93	Negative_regulation 2153 2161	protects
+E32	Negative_regulation:T93 Theme:E33 Cause:E34
+T94	Cell_death 2173 2182	apoptosis
+E33	Cell_death:T94 Theme:T52
+T95	Binding 2219 2224	binds
+E34	Binding:T95 Theme:T53 Theme2:T51
+T96	Negative_regulation 2243 2253	preventing
+E35	Negative_regulation:T96 Theme:E36 Cause:E34
+T97	Positive_regulation 2258 2268	activation
+E36	Positive_regulation:T97 Theme:T51
+T98	Negative_regulation 2279 2289	inhibiting
+E37	Negative_regulation:T98 Theme:E38
+T99	Pathway 2294 2311	apoptotic cascade
+E38	Pathway:T99 
+T100	Negative_regulation 2324 2339	down-regulation
+E39	Negative_regulation:T100 Theme:T54
+T101	Regulation 2370 2381	alterations
+E40	Regulation:T101 Theme:T55
+E41	Regulation:T101 Theme:T56
+T102	Negative_regulation 2478 2486	inhibits
+E42	Negative_regulation:T102 Cause:T57 Theme:E43
+T103	Cell_proliferation 2498 2504	growth
+E43	Cell_proliferation:T103 Theme:T58
+T104	Positive_regulation 2509 2516	induces
+E44	Positive_regulation:T104 Cause:T57 Theme:E45
+T105	Death 2532 2537	death
+E45	Death:T105 Theme:T59
+T106	Regulation 2699 2709	management
+E46	Regulation:T106 Theme:T61

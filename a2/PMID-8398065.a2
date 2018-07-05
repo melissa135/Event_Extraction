@@ -1,0 +1,58 @@
+T34	Positive_regulation 38 44	induce
+E1	Positive_regulation:T34 Cause:T1 Theme:E3
+E2	Positive_regulation:T34 Cause:T1 Theme:E5
+T35	Cell_differentiation 45 60	differentiation
+E3	Cell_differentiation:T35 Theme:T2
+T36	Cell_proliferation 65 71	growth
+E4	Cell_proliferation:T36 Theme:T2
+T37	Negative_regulation 72 82	inhibition
+E5	Negative_regulation:T37 Theme:E4
+T38	Negative_regulation 126 136	prevention
+E6	Negative_regulation:T38 Theme:T3
+T39	Carcinogenesis 177 191	carcinogenesis
+E7	Carcinogenesis:T39 
+T40	Mutation 225 240	genetic changes
+E8	Mutation:T40 
+T41	Positive_regulation 246 251	cause
+E9	Positive_regulation:T41 Theme:E10 Cause:E8
+M1	Speculation E9
+T42	Carcinogenesis 268 274	become
+E10	Carcinogenesis:T42 AtLoc:T6
+T43	Regulation 354 364	mechanisms
+E11	Regulation:T43 Theme:E12
+T44	Carcinogenesis 368 382	carcinogenesis
+E12	Carcinogenesis:T44 
+T45	Negative_regulation 459 465	reduce
+E13	Negative_regulation:T45 Theme:E17 Cause:T11
+E14	Negative_regulation:T45 Theme:E17 Cause:T10
+E15	Negative_regulation:T45 Theme:E17 Cause:T9
+E16	Negative_regulation:T45 Theme:E17 Cause:T8
+T46	Carcinogenesis 470 474	risk
+E17	Carcinogenesis:T46 Theme:T12
+T47	Carcinogenesis 544 558	carcinogenesis
+E18	Carcinogenesis:T47 
+T48	Negative_regulation 650 656	reduce
+E19	Negative_regulation:T48 Cause:T13 Theme:E20
+M2	Speculation E19
+T49	Carcinogenesis 661 665	risk
+E20	Carcinogenesis:T49 Theme:T14
+T50	Positive_regulation 913 919	induce
+E21	Positive_regulation:T50 Cause:T16 Theme:E23
+E22	Positive_regulation:T50 Cause:T16 Theme:E25
+T51	Cell_differentiation 925 940	differentiation
+E23	Cell_differentiation:T51 Theme:T18
+T52	Cell_proliferation 948 954	growth
+E24	Cell_proliferation:T52 Theme:T18
+T53	Negative_regulation 955 965	inhibition
+E25	Negative_regulation:T53 Theme:E24
+T54	Negative_regulation 1042 1052	prevention
+E26	Negative_regulation:T54 Theme:T20
+T55	Regulation 1106 1112	effect
+E27	Regulation:T55 Theme:T22
+T56	Positive_regulation 1191 1198	enhance
+E28	Positive_regulation:T56 Theme:E30 Cause:T25
+E29	Positive_regulation:T56 Theme:E30 Cause:T24
+T57	Positive_regulation 1231 1237	induce
+E30	Positive_regulation:T57 Theme:E31
+T58	Cell_differentiation 1238 1253	differentiation
+E31	Cell_differentiation:T58 Theme:T26

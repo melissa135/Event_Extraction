@@ -1,0 +1,29 @@
+*	Equiv T5 T6
+T42	Localization 86 92	spread
+E1	Localization:T42 Theme:T3
+T43	Planned_process 373 381	removing
+E2	Planned_process:T43 Theme:T8
+T44	Planned_process 405 418	manifestation
+E3	Planned_process:T44 Theme:T9
+T45	Planned_process 468 484	thyroidectomized
+E4	Planned_process:T45 Theme:T10
+T46	Localization 606 612	spread
+E5	Localization:T46 Theme:T13
+T47	Planned_process 716 729	thyroidectomy
+E6	Planned_process:T47 Theme:T14
+T48	Positive_regulation 795 805	stimulated
+E7	Positive_regulation:T48 Cause:T16 Theme:T17
+T49	Mutation 1033 1041	mutation
+E8	Mutation:T49 Theme:T20
+T50	Planned_process 1150 1163	thyroidectomy
+E9	Planned_process:T50 Theme:T22
+T51	Metastasis 1463 1473	metastasis
+E10	Metastasis:T51 ToLoc:T29 Theme:T28
+T52	Positive_regulation 1618 1628	stimulated
+E11	Positive_regulation:T52 Cause:T31 Theme:T32
+T53	Planned_process 1736 1749	thyroidectomy
+E12	Planned_process:T53 Theme:T34
+T54	Positive_regulation 1768 1778	stimulated
+E13	Positive_regulation:T54 Theme:T35
+T55	Localization 2031 2039	invasive
+E14	Localization:T55 Theme:T40

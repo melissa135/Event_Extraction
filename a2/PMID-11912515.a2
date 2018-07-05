@@ -1,0 +1,45 @@
+*	Equiv T5 T4
+T44	Positive_regulation 0 12	Upregulation
+E1	Positive_regulation:T44 Theme:T1
+T45	Regulation 64 74	associated
+E2	Regulation:T45 Cause:T2 Theme:E1
+T46	Blood_vessel_development 116 128	Angiogenesis
+E3	Blood_vessel_development:T46 
+T47	Positive_regulation 132 141	essential
+E4	Positive_regulation:T47 Cause:E3 Theme:E5
+T48	Growth 152 158	growth
+E5	Growth:T48 Theme:T3
+T49	Blood_vessel_development 191 201	angiogenic
+E6	Blood_vessel_development:T49 
+T50	Blood_vessel_development 277 289	angiogenesis
+E7	Blood_vessel_development:T50 
+T51	Binding 295 300	binds
+E8	Binding:T51 Theme:T6 Theme:T4
+E9	Binding:T51 Theme:T7 Theme:T4
+T52	Binding 349 360	interaction
+E10	Binding:T52 Theme:T8
+T53	Transcription 906 915	expressed
+E11	Transcription:T53 Theme:T24
+T54	Gene_expression 1117 1127	detectable
+E12	Gene_expression:T54 Theme:T30
+E13	Gene_expression:T54 Theme:T29
+E14	Gene_expression:T54 Theme:T28
+E15	Gene_expression:T54 Theme:T27
+M1	Negation E12
+M2	Negation E13
+M3	Negation E14
+M4	Negation E15
+T55	Positive_regulation 1166 1175	increased
+E16	Positive_regulation:T55 Theme:T32
+T56	Gene_expression 1209 1223	protein levels
+E17	Gene_expression:T56 Theme:T34
+T57	Positive_regulation 1229 1240	upregulated
+E18	Positive_regulation:T57 Theme:E17
+T58	Blood_vessel_development 1300 1312	angiogenesis
+E19	Blood_vessel_development:T58 
+T59	Blood_vessel_development 1447 1457	angiogenic
+E20	Blood_vessel_development:T59 
+T60	Regulation 1563 1574	contributes
+E21	Regulation:T60 Cause:T40 Theme:E22
+T61	Positive_regulation 1578 1587	increased
+E22	Positive_regulation:T61 Theme:T42

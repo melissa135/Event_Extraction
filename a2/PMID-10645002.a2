@@ -1,0 +1,81 @@
+*	Equiv T1 T2
+*	Equiv T6 T7
+T38	Positive_regulation 41 49	augments
+E1	Positive_regulation:T38 Cause:T1 Theme:E3
+E2	Positive_regulation:T38 Cause:T1 Theme:E4
+T39	Localization 50 58	invasive
+E3	Localization:T39 Theme:T5
+T40	Metastasis 63 73	metastatic
+E4	Metastasis:T40 
+T41	Cell_transformation 91 102	transformed
+T42	Positive_regulation 91 102	transformed
+E5	Cell_transformation:T41 Theme:T5
+E6	Positive_regulation:T42 Theme:E5 Cause:T4
+T43	Localization 246 254	motility
+E7	Localization:T43 Theme:T8
+T44	Gene_expression 286 296	expression
+E8	Gene_expression:T44 Theme:T9
+T45	Regulation 297 304	affects
+E9	Regulation:T45 Cause:E8 Theme:E10
+M1	Speculation E9
+T46	Metastasis 355 365	metastasis
+E10	Metastasis:T46 
+T47	Planned_process 377 388	transfected
+E11	Planned_process:T47 Instrument:T10 Theme:T11
+T48	Gene_expression 423 433	expressing
+E12	Gene_expression:T48 Theme:T10
+M2	Negation E12
+T49	Cell_transformation 463 474	transformed
+T50	Positive_regulation 463 474	transformed
+E13	Cell_transformation:T49 Theme:T13
+E14	Positive_regulation:T50 Cause:T12 Theme:E13
+T51	Positive_regulation 502 508	effect
+E15	Positive_regulation:T51 Cause:E16 Theme:E17
+T52	Localization 516 525	secretion
+E16	Localization:T52 Theme:T14
+T53	Localization 543 551	motility
+E17	Localization:T53 Theme:T15
+T54	Cell_transformation 574 585	transformed
+T55	Positive_regulation 574 585	transformed
+E18	Cell_transformation:T54 Theme:T18
+E19	Positive_regulation:T55 Cause:T16 Theme:E18
+T56	Localization 591 600	secreting
+E20	Localization:T56 Theme:T17 FromLoc:T18
+T57	Planned_process 734 745	transfected
+E21	Planned_process:T57 Theme:T20 Instrument:T21
+T58	Localization 850 858	secreted
+E22	Localization:T58 FromLoc:T22 Theme:T23
+T59	Positive_regulation 926 936	stimulated
+E23	Positive_regulation:T59 Cause:T24 Theme:E24
+T60	Localization 937 945	invasion
+E24	Localization:T60 Theme:T22
+T61	Gene_expression 1049 1059	production
+E25	Gene_expression:T61 Theme:T25
+T62	Planned_process 1173 1182	injection
+E26	Planned_process:T62 Instrument:T29 Theme:T27
+T63	Planned_process 1190 1201	transfected
+E27	Planned_process:T63 Instrument:T28 Theme:T29
+T64	Positive_regulation 1215 1223	resulted
+E28	Positive_regulation:T64 Cause:E26 Theme:E29
+T65	Carcinogenesis 1234 1245	tumorigenic
+E29	Carcinogenesis:T65 
+T66	Metastasis 1277 1287	metastases
+E30	Metastasis:T66 
+T67	Gene_expression 1308 1318	expression
+E31	Gene_expression:T67 Theme:T30
+T68	Cell_transformation 1328 1342	transformation
+T69	Positive_regulation 1328 1342	transformation
+E32	Cell_transformation:T68 Theme:T32
+E33	Positive_regulation:T69 Theme:E32 Cause:T31
+T70	Positive_regulation 1371 1380	amplified
+E34	Positive_regulation:T70 Theme:E35
+T71	Carcinogenesis 1381 1394	tumorigenesis
+E35	Carcinogenesis:T71 
+T72	Metastasis 1399 1409	metastatic
+E36	Metastasis:T72 
+T73	Cell_transformation 1436 1447	transformed
+T74	Positive_regulation 1436 1447	transformed
+E37	Cell_transformation:T73 Theme:T34
+E38	Positive_regulation:T74 Theme:E37 Cause:T33
+T75	Positive_regulation 1479 1486	augment
+E39	Positive_regulation:T75 Cause:T35 Theme:T36

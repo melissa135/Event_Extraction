@@ -1,0 +1,63 @@
+*	Equiv T20 T21
+*	Equiv T24 T25
+T42	Localization 23 28	entry
+E1	Localization:T42 Theme:T1
+T43	Positive_regulation 29 37	promotes
+E2	Positive_regulation:T43 Theme:E3 Cause:E1
+T44	Development 38 50	shape change
+E3	Development:T44 Theme:T2
+T45	Gene_expression 82 92	expressing
+E4	Gene_expression:T45 Theme:T3
+T46	Positive_regulation 99 109	Activation
+E5	Positive_regulation:T46 Theme:E6
+T47	Localization 118 123	entry
+E6	Localization:T47 Theme:T4
+T48	Regulation 136 143	produce
+E7	Regulation:T48 Cause:E5 Theme:E10
+E8	Regulation:T48 Cause:E5 Theme:E11
+E9	Regulation:T48 Cause:E5 Theme:E12
+T49	Development 161 173	shape change
+E10	Development:T49 Theme:T5
+T50	Localization 220 229	migration
+E11	Localization:T50 Theme:T6
+T51	Positive_regulation 235 245	initiation
+E12	Positive_regulation:T51 Theme:E13
+T52	Blood_vessel_development 249 261	angiogenesis
+E13	Blood_vessel_development:T52 
+T53	Localization 316 321	entry
+E14	Localization:T53 Theme:T8
+T54	Regulation 322 332	regulating
+E15	Regulation:T54 Theme:T9 Cause:E14
+T55	Positive_regulation 444 451	promote
+E16	Positive_regulation:T55 Theme:E17
+T56	Development 457 469	shape change
+E17	Development:T56 Theme:T11
+T57	Positive_regulation 560 569	increased
+E18	Positive_regulation:T57 Theme:T15
+T58	Positive_regulation 599 608	dependent
+E19	Positive_regulation:T58 Cause:T16 Theme:E18
+T59	Development 695 702	Changes
+E20	Development:T59 Theme:T17
+T60	Positive_regulation 765 774	dependent
+E21	Positive_regulation:T60 Theme:E20 Cause:E24
+T61	Localization 783 788	entry
+E22	Localization:T61 Theme:T18
+T62	Positive_regulation 789 796	induced
+E23	Positive_regulation:T62 Cause:E22 Theme:E24
+T63	Regulation 797 812	reconfiguration
+E24	Regulation:T63 Theme:T20
+T64	Localization 1058 1063	entry
+E25	Localization:T64 Theme:T26
+T65	Gene_expression 1240 1247	express
+E26	Gene_expression:T65 Theme:T33
+T66	Gene_expression 1266 1275	expressed
+E27	Gene_expression:T66 Theme:T34
+E28	Gene_expression:T66 Theme:T35
+M1	Negation E27
+M2	Negation E28
+T67	Localization 1324 1329	entry
+E29	Localization:T67 Theme:T36
+T68	Regulation 1374 1382	produces
+E30	Regulation:T68 Theme:E31 Cause:E29
+T69	Development 1388 1400	shape change
+E31	Development:T69 Theme:T38

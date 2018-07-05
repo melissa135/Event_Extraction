@@ -1,0 +1,39 @@
+*	Equiv T16 T17
+*	Equiv T23 T24
+T29	Carcinogenesis 36 50	leukemogenesis
+E1	Carcinogenesis:T29 
+T30	Gene_expression 339 346	express
+E2	Gene_expression:T30 Theme:T10
+T31	Positive_regulation 368 375	Induced
+E3	Positive_regulation:T31 Theme:E4
+T32	Gene_expression 392 402	expression
+E4	Gene_expression:T32 Theme:T10
+T33	Regulation 453 459	affect
+E5	Regulation:T33 Theme:E6 Cause:T10
+T34	Carcinogenesis 497 511	leukemogenesis
+E6	Carcinogenesis:T34 
+T35	Planned_process 523 532	knock-out
+E7	Planned_process:T35 Theme:T11 Instrument:T12
+T36	Gene_expression 673 683	expression
+E8	Gene_expression:T36 Theme:T13
+T37	Positive_regulation 703 710	causing
+E9	Positive_regulation:T37 Theme:T14 Cause:E8
+T38	Mutation 781 802	t(1;19) translocation
+E10	Mutation:T38 
+T39	Mutation 888 910	t(10;14) translocation
+E11	Mutation:T39 
+T40	Regulation 931 942	deregulated
+E12	Regulation:T40 Theme:T22 Cause:E11
+M1	Negation E12
+T41	Mutation 981 1002	t(7;11) translocation
+E13	Mutation:T41 
+T42	Mutation 1023 1033	rearranged
+E14	Mutation:T42 Theme:T25
+T43	Regulation 1064 1073	functions
+E15	Regulation:T43 Cause:T26 Theme:E16
+T44	Cell_differentiation 1174 1189	differentiation
+E16	Cell_differentiation:T44 Theme:T27
+T45	Carcinogenesis 1199 1211	leukemogenic
+E17	Carcinogenesis:T45 
+T46	Mutation 1222 1229	altered
+E18	Mutation:T46 Theme:T28

@@ -1,0 +1,76 @@
+*	Equiv T8 T9
+T38	Negative_regulation 4 14	inhibition
+E1	Negative_regulation:T38 Theme:E2 Cause:T3
+T39	Cell_differentiation 36 51	differentiation
+E2	Cell_differentiation:T39 Theme:T1
+T40	Gene_expression 113 123	expression
+E3	Gene_expression:T40 Theme:T4
+T41	Positive_regulation 131 144	up-regulation
+E4	Positive_regulation:T41 Theme:T5
+T42	Negative_regulation 301 311	interferes
+E5	Negative_regulation:T42 Cause:T8 Theme:E6
+T43	Cell_differentiation 321 336	differentiation
+E6	Cell_differentiation:T43 Theme:T10
+T44	Binding 395 402	binding
+E7	Binding:T44 Theme:T12
+T45	Regulation 451 458	affects
+E8	Regulation:T45 Theme:E9
+T46	Binding 459 466	binding
+E9	Binding:T46 Theme:T13
+T47	Negative_regulation 669 678	inhibited
+E10	Negative_regulation:T47 Cause:T14 Theme:E11
+T48	Cell_differentiation 692 707	differentiation
+E11	Cell_differentiation:T48 Theme:T16
+T49	Negative_regulation 740 746	arrest
+E12	Negative_regulation:T49 Theme:E11
+T50	Gene_expression 771 780	synthesis
+E13	Gene_expression:T50 Theme:T17
+T51	Gene_expression 854 863	synthesis
+E14	Gene_expression:T51 Theme:T18
+T52	Regulation 913 921	affected
+E15	Regulation:T52 Theme:E14 Cause:T19
+E16	Regulation:T52 Theme:T18 Cause:T19
+M1	Negation E15
+M2	Negation E16
+T53	Positive_regulation 988 996	increase
+E17	Positive_regulation:T53 Theme:T21
+T54	Positive_regulation 1070 1078	promoted
+E18	Positive_regulation:T54 Cause:T23 Theme:E19
+T55	Phosphorylation 1083 1098	phosphorylation
+E19	Phosphorylation:T55 Theme:T24
+T56	Positive_regulation 1122 1129	induced
+E20	Positive_regulation:T56 Theme:T24
+T57	Mutation 1134 1143	Mutations
+E21	Mutation:T57 
+T58	Regulation 1144 1153	affecting
+E22	Regulation:T58 Cause:E21 Theme:E23
+T59	Localization 1162 1171	transport
+E23	Localization:T59 ToLoc:T25 Theme:T27
+T60	Positive_regulation 1186 1194	critical
+E24	Positive_regulation:T60 Cause:E21 Theme:E25
+T61	Negative_regulation 1214 1223	interfere
+E25	Negative_regulation:T61 Theme:E26
+T62	Cell_differentiation 1238 1253	differentiation
+E26	Cell_differentiation:T62 Theme:T28
+T63	Regulation 1270 1279	affecting
+E27	Regulation:T63 Theme:E28 Cause:E21
+T64	Cell_transformation 1284 1296	transforming
+E28	Cell_transformation:T64 
+T65	Gene_expression 1325 1335	expression
+E29	Gene_expression:T65 Theme:T27
+T66	Cell_differentiation 1375 1390	differentiation
+E30	Cell_differentiation:T66 Theme:T28
+T67	Cell_proliferation 1429 1433	grow
+E31	Cell_proliferation:T67 Theme:T28
+T68	Negative_regulation 1488 1498	inhibiting
+E32	Negative_regulation:T68 Theme:T28 Cause:T27
+T69	Negative_regulation 1626 1633	inhibit
+E33	Negative_regulation:T69 Theme:E34
+T70	Cell_differentiation 1634 1649	differentiation
+E34	Cell_differentiation:T70 Theme:T28
+T71	Binding 1765 1772	binding
+E35	Binding:T71 Theme:T32
+T72	Positive_regulation 1799 1806	promote
+E36	Positive_regulation:T72 Theme:E37
+T73	Phosphorylation 1828 1843	phosphorylation
+E37	Phosphorylation:T73 Theme:T33

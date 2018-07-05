@@ -1,0 +1,9 @@
+*	Equiv T5 T6
+T14	Localization 24 33	secreting
+E1	Localization:T14 Theme:T2
+T15	Metastasis 77 87	metastases
+E2	Metastasis:T15 Theme:T3 ToLoc:T4
+T16	Metastasis 145 155	metastasis
+E3	Metastasis:T16 ToLoc:T7 Theme:T5
+T17	Positive_regulation 370 378	elevated
+E4	Positive_regulation:T17 Theme:T11

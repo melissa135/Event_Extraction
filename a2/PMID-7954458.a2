@@ -1,0 +1,71 @@
+*	Equiv T6 T7
+T41	Positive_regulation 34 42	promotes
+E1	Positive_regulation:T41 Theme:E2 Cause:T1
+T42	Cell_transformation 55 69	transformation
+E2	Cell_transformation:T42 Theme:T3
+T43	Planned_process 73 81	cultured
+E3	Planned_process:T43 Theme:T3
+T44	Cell_transformation 115 140	neoplastic transformation
+E4	Cell_transformation:T44 Theme:T5
+T45	Planned_process 144 152	cultured
+E5	Planned_process:T45 Theme:T5
+T46	Regulation 219 229	associated
+E6	Regulation:T46 Theme:E4 Cause:T6
+T47	Regulation 373 397	plays a mechanistic role
+E7	Regulation:T47 Theme:E8
+T48	Cell_transformation 409 423	transformation
+E8	Cell_transformation:T48 Theme:T8
+T49	Planned_process 559 567	cultured
+E9	Planned_process:T49 Theme:T12
+T50	Cell_proliferation 600 613	proliferation
+E10	Cell_proliferation:T50 Theme:T12
+T51	Negative_regulation 636 645	inhibited
+E11	Negative_regulation:T51 Theme:E10 Cause:T13
+T52	Planned_process 694 701	culture
+E12	Planned_process:T52 Theme:T14
+T53	Positive_regulation 709 718	developed
+E13	Positive_regulation:T53 Theme:E14
+T54	Regulation 728 738	resistance
+E14	Regulation:T54 Cause:T15 Theme:T14
+M1	Negation E14
+T55	Planned_process 774 781	exposed
+E15	Planned_process:T55 Theme:T16 Instrument:T17
+T56	Regulation 884 894	resistance
+E16	Regulation:T56 Cause:T18 Theme:T16
+M2	Negation E16
+T57	Positive_regulation 899 910	accelerated
+E17	Positive_regulation:T57 Theme:E16
+M3	Negation E17
+T58	Cell_proliferation 933 938	grown
+E18	Cell_proliferation:T58 Theme:T19
+T59	Carcinogenesis 1243 1257	tumorigenicity
+E19	Carcinogenesis:T59 AtLoc:T22
+T60	Regulation 1292 1301	resistant
+E20	Regulation:T60 Cause:T26 Theme:T27
+M4	Negation E20
+T61	Positive_regulation 1337 1347	increasing
+E21	Positive_regulation:T61 Theme:E23
+E22	Positive_regulation:T61 Theme:E24
+T62	Transcription 1358 1368	expression
+E23	Transcription:T62 Theme:T28
+E24	Transcription:T62 Theme:T29
+T63	Positive_regulation 1404 1413	increased
+E25	Positive_regulation:T63 Theme:E27
+E26	Positive_regulation:T63 Theme:E28
+T64	Regulation 1414 1424	resistance
+E27	Regulation:T64 Theme:T27 Cause:T30
+E28	Regulation:T64 Theme:T27 Cause:T31
+M5	Negation E27
+M6	Negation E28
+T65	Positive_regulation 1518 1526	increase
+E29	Positive_regulation:T65 Theme:E30
+T66	Transcription 1540 1555	mRNA expression
+E30	Transcription:T66 Theme:T32
+T67	Planned_process 1658 1666	exposure
+E31	Planned_process:T67 Instrument:T36
+T68	Positive_regulation 1701 1709	promotes
+E32	Positive_regulation:T68 Theme:E33 Cause:E31
+T69	Cell_transformation 1726 1751	neoplastic transformation
+E33	Cell_transformation:T69 AtLoc:T38
+T70	Carcinogenesis 1935 1949	carcinogenesis
+E34	Carcinogenesis:T70 AtLoc:T40

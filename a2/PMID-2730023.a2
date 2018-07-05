@@ -1,0 +1,55 @@
+*	Equiv T10 T11
+*	Equiv T14 T15
+T35	Metastasis 7 17	metastasis
+E1	Metastasis:T35 Theme:T1
+T36	Metastasis 49 66	Metastatic spread
+E2	Metastasis:T36 Theme:T2
+T37	Regulation 153 157	role
+E3	Regulation:T37 Theme:E5
+E4	Regulation:T37 Theme:E6
+M1	Speculation E3
+M2	Speculation E4
+T38	Growth 177 183	growth
+E5	Growth:T38 Theme:T3
+T39	Metastasis 188 198	metastasis
+E6	Metastasis:T39 Theme:T3
+T40	Negative_regulation 289 298	decreased
+E7	Negative_regulation:T40 Theme:E9
+E8	Negative_regulation:T40 Theme:E10
+T41	Growth 317 323	growth
+E9	Growth:T41 Theme:T5
+T42	Metastasis 338 348	metastasis
+E10	Metastasis:T42 ToLoc:T6 Theme:T5
+T43	Positive_regulation 402 411	increased
+E11	Positive_regulation:T43 Theme:E12
+T44	Metastasis 426 436	metastatic
+E12	Metastasis:T44 ToLoc:T7
+T45	Development 489 498	formation
+E13	Development:T45 Theme:T8
+T46	Negative_regulation 519 528	prevented
+E14	Negative_regulation:T46 Cause:E13 Theme:E16
+E15	Negative_regulation:T46 Cause:E13 Theme:E17
+T47	Localization 535 543	invasion
+E16	Localization:T47 Theme:T9
+T48	Metastasis 548 558	metastasis
+E17	Metastasis:T48 Theme:T9
+T49	Localization 874 885	disappeared
+E18	Localization:T49 AtLoc:T21 Theme:T17
+E19	Localization:T49 AtLoc:T21 Theme:T18
+E20	Localization:T49 AtLoc:T21 Theme:T19
+M3	Negation E18
+M4	Negation E19
+M5	Negation E20
+T50	Regulation 962 974	plays a role
+E21	Regulation:T50 Cause:T22 Theme:E23
+E22	Regulation:T50 Cause:T22 Theme:E24
+T51	Localization 984 992	invasion
+E23	Localization:T51 Theme:T23
+T52	Metastasis 997 1007	metastasis
+E24	Metastasis:T52 Theme:T23
+T53	Positive_regulation 1095 1103	elevated
+E25	Positive_regulation:T53 Theme:T26
+T54	Localization 1127 1137	deposition
+E26	Localization:T54 Theme:T27 ToLoc:T28
+T55	Planned_process 1187 1199	chemotherapy
+E27	Planned_process:T55 Theme:T29

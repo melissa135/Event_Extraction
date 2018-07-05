@@ -1,0 +1,33 @@
+*	Equiv T15 T16
+T56	Regulation 8 15	effects
+E1	Regulation:T56 Cause:T1 Theme:E2
+T57	Metabolism 64 74	metabolism
+E2	Metabolism:T57 Theme:T4
+T58	Positive_regulation 274 282	critical
+E3	Positive_regulation:T58 Cause:T10 Theme:E4
+T59	Planned_process 292 302	treatments
+E4	Planned_process:T59 Theme:T9
+T60	Localization 675 681	uptake
+E5	Localization:T60 Theme:T21
+T61	Localization 815 821	uptake
+E6	Localization:T61 Theme:T25 ToLoc:T26
+T62	Localization 1043 1049	uptake
+E7	Localization:T62 Theme:T30
+T63	Localization 1209 1215	uptake
+E8	Localization:T63 Theme:T31 ToLoc:T32
+T64	Positive_regulation 1239 1248	increased
+E9	Positive_regulation:T64 Cause:T33 Theme:E8
+T65	Positive_regulation 1391 1401	stimulated
+E10	Positive_regulation:T65 Cause:T34 Theme:E11
+T66	Localization 1474 1480	uptake
+E11	Localization:T66 ToLoc:T35 Theme:T36
+T67	Positive_regulation 1772 1778	induce
+E12	Positive_regulation:T67 Cause:T44 Theme:E13
+M1	Negation E12
+T68	Regulation 1785 1792	changes
+E13	Regulation:T68 Theme:E14
+T69	Localization 1804 1810	uptake
+E14	Localization:T69 Theme:T45 ToLoc:T46
+T70	Localization 1991 1997	uptake
+E15	Localization:T70 Theme:T52 ToLoc:T53
+E16	Localization:T70 Theme:T52 ToLoc:T54

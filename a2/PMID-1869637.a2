@@ -1,0 +1,39 @@
+T48	Planned_process 0 22	Intracerebral grafting
+E1	Planned_process:T48 Instrument:T1 Theme:T3
+T49	Planned_process 260 268	isolated
+E2	Planned_process:T49 Theme:T7
+T50	Planned_process 365 373	grafting
+E3	Planned_process:T50 Theme:T13 Instrument:T10
+T51	Planned_process 456 464	cultured
+E4	Planned_process:T51 Theme:T14
+T52	Cell_proliferation 499 510	proliferate
+E5	Cell_proliferation:T52 Theme:T14
+T53	Binding 560 567	contact
+E6	Binding:T53 Theme:T15
+T54	Negative_regulation 568 577	inhibited
+E7	Negative_regulation:T54 Theme:E6
+T55	Planned_process 598 610	implantation
+E8	Planned_process:T55 Theme:T16 Instrument:T17
+T56	Planned_process 881 889	passages
+E9	Planned_process:T56 Theme:T21
+T57	Planned_process 921 928	culture
+E10	Planned_process:T57 Theme:T21
+T58	Planned_process 938 946	grafting
+E11	Planned_process:T58 Instrument:T21
+T59	Blood_vessel_development 1256 1268	vascularized
+E12	Blood_vessel_development:T59 AtLoc:T30
+T60	Death 1470 1477	survive
+E13	Death:T60 Theme:T36
+M1	Negation E13
+T61	Planned_process 1523 1535	implantation
+E14	Planned_process:T61 Instrument:T36 Theme:T37
+T62	Gene_expression 1552 1562	synthesize
+E15	Gene_expression:T62 Theme:T38
+E16	Gene_expression:T62 Theme:T39
+T63	Development 1720 1727	produce
+E17	Development:T63 Theme:T42
+M2	Negation E17
+T64	Blood_vessel_development 1876 1888	angiogenesis
+E18	Blood_vessel_development:T64 
+T65	Planned_process 1974 1981	grafted
+E19	Planned_process:T65 Instrument:T45 Theme:T47

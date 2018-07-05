@@ -1,0 +1,20 @@
+T19	Planned_process 106 115	harvested
+E1	Planned_process:T19 Theme:T4
+T20	Localization 152 160	presence
+E2	Localization:T20 Theme:T5 Theme2:T6
+T21	Localization 356 364	presence
+E3	Localization:T21 Theme:T10 Theme2:T11
+T22	Localization 468 474	uptake
+E4	Localization:T22 Theme:T12
+T23	Regulation 502 509	changes
+E5	Regulation:T23 Theme:T14
+T24	Negative_regulation 641 650	decreased
+E6	Negative_regulation:T24 Cause:T17 Theme:E7
+T25	Metabolism 673 684	utilization
+E7	Metabolism:T25 Theme:T18
+T26	Amino_acid_catabolism 712 726	glutaminolysis
+E8	Amino_acid_catabolism:T26 
+T27	Negative_regulation 735 742	inhibit
+E9	Negative_regulation:T27 Cause:E8 Theme:E10
+T28	Glycolysis 743 753	glycolysis
+E10	Glycolysis:T28 

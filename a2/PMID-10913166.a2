@@ -1,0 +1,65 @@
+T46	Regulation 34 43	modulates
+E1	Regulation:T46 Cause:T1 Theme:E2
+T47	Cell_proliferation 49 55	growth
+E2	Cell_proliferation:T47 Theme:T3
+T48	Planned_process 83 94	transformed
+E3	Planned_process:T48 Instrument:T5 Theme:T6
+T49	Negative_regulation 107 117	repressing
+E4	Negative_regulation:T49 Theme:E5 Cause:T1
+T50	Transcription 122 135	transcription
+E5	Transcription:T50 Theme:T7
+T51	Binding 219 228	interacts
+E6	Binding:T51 Theme:T10 Theme2:T11 Theme3:T8
+T52	Mutation 314 323	disrupted
+E7	Mutation:T52 Theme:T12 AtLoc:T13
+T53	Mutation 347 369	loss of heterozygosity
+E8	Mutation:T53 Theme:T14 AtLoc:T15
+T54	Gene_expression 443 453	expression
+E9	Gene_expression:T54 Theme:T16
+T55	Planned_process 468 479	transformed
+E10	Planned_process:T55 Instrument:T17 Theme:T18
+T56	Negative_regulation 494 502	inhibits
+E11	Negative_regulation:T56 Cause:E9 Theme:E12
+T57	Cell_proliferation 508 514	growth
+E12	Cell_proliferation:T57 Theme:T19
+T58	Gene_expression 572 582	expressing
+E13	Gene_expression:T58 Theme:T21 Theme2:T22
+T59	Growth 600 604	grew
+E14	Growth:T59 Theme:T20
+T60	Gene_expression 671 681	expressing
+E15	Gene_expression:T60 Theme:T24 Theme2:T23
+T61	Negative_regulation 768 777	repressed
+E16	Negative_regulation:T61 Theme:T26 Cause:T27
+T62	Binding 790 795	bound
+E17	Binding:T62 Theme:T29 Theme2:T28 Site:T63
+T64	Negative_regulation 840 849	repressed
+E18	Negative_regulation:T64 Theme:E19 Cause:T28
+T65	Gene_expression 876 886	expression
+E19	Gene_expression:T65 Theme:T29
+T66	Binding 992 999	binding
+E20	Binding:T66 Theme:T31
+T67	Negative_regulation 1070 1077	repress
+E21	Negative_regulation:T67 Theme:T33
+M1	Negation E21
+T68	Planned_process 1147 1152	added
+E22	Planned_process:T68 Instrument:T34 Theme:T37
+T69	Gene_expression 1182 1192	expressing
+E23	Gene_expression:T69 Theme:T36
+T70	Positive_regulation 1203 1209	caused
+E24	Positive_regulation:T70 Cause:T34 Theme:E25
+T71	Binding 1217 1228	aggregation
+E25	Binding:T71 Theme:T38
+T72	Positive_regulation 1255 1261	caused
+E26	Positive_regulation:T72 Cause:E27 Theme:E25
+T73	Gene_expression 1269 1279	expression
+E27	Gene_expression:T73 Theme:T39
+T74	Negative_regulation 1298 1307	inhibited
+E28	Negative_regulation:T74 Cause:T40 Theme:T42
+T75	Planned_process 1332 1343	transformed
+E29	Planned_process:T75 Instrument:T41 Theme:T42
+T76	Negative_regulation 1417 1427	suppressor
+E30	Negative_regulation:T76 Theme:T44 Cause:E32
+T77	Transcription 1441 1456	transcriptional
+E31	Transcription:T77 Theme:T45
+T78	Negative_regulation 1457 1467	repression
+E32	Negative_regulation:T78 Theme:E31 Cause:T43

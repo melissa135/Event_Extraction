@@ -1,0 +1,16 @@
+T23	Cell_transformation 31 43	transforming
+E1	Cell_transformation:T23 
+T24	Cell_transformation 184 196	transforming
+E2	Cell_transformation:T24 
+T25	Cell_transformation 245 254	transform
+E3	Cell_transformation:T25 Theme:T7
+T26	Regulation 297 308	association
+E4	Regulation:T26 Theme:T10 Cause:T4
+E5	Regulation:T26 Theme:T11 Cause:T3
+E6	Regulation:T26 Theme:T11 Cause:T4
+E7	Regulation:T26 Theme:T10 Cause:T3
+T27	Regulation 489 500	responsible
+E8	Regulation:T27 Theme:E9 Cause:T17
+M1	Speculation E8
+T28	Cell_transformation 509 521	transforming
+E9	Cell_transformation:T28 

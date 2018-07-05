@@ -1,0 +1,53 @@
+*	Equiv T1 T2
+*	Equiv T5 T6
+*	Equiv T8 T9
+*	Equiv T12 T13
+*	Equiv T16 T17
+*	Equiv T23 T24
+*	Equiv T31 T32
+*	Equiv T33 T34
+*	Equiv T39 T40
+T47	Cell_transformation 0 14	Transformation
+E1	Cell_transformation:T47 
+T48	Localization 127 135	released
+E2	Localization:T48 FromLoc:T8 Theme:T5
+T49	Cell_transformation 141 152	transformed
+E3	Cell_transformation:T49 Theme:T8
+T50	Regulation 362 368	effect
+E4	Regulation:T50 Cause:T12 Theme:E6
+E5	Regulation:T50 Cause:T12 Theme:E7
+M1	Speculation E4
+M2	Speculation E5
+T51	Localization 404 414	chemotaxis
+E6	Localization:T51 Theme:T14
+E7	Localization:T51 Theme:T15
+T52	Gene_expression 431 441	expression
+E8	Gene_expression:T52 Theme:T12
+M3	Speculation E8
+T53	Transcription 504 513	expressed
+E9	Transcription:T53 Theme:T16
+T54	Transcription 561 571	expression
+E10	Transcription:T54 Theme:T16
+T55	Positive_regulation 576 586	stimulated
+E11	Positive_regulation:T55 Theme:E10 Cause:E13
+E12	Positive_regulation:T55 Theme:E10 Cause:E14
+T56	Planned_process 590 600	incubation
+E13	Planned_process:T56 Theme:T20 Instrument:T21
+E14	Planned_process:T56 Theme:T20 Instrument:T22
+T57	Cell_transformation 830 843	Untransformed
+E15	Cell_transformation:T57 Theme:T28
+M4	Negation E15
+T58	Cell_transformation 856 867	transformed
+T59	Positive_regulation 856 867	transformed
+E16	Cell_transformation:T58 Theme:T29
+E17	Positive_regulation:T59 Cause:T30 Theme:E16
+T60	Localization 897 905	migrated
+E18	Localization:T60 Theme:T29
+T61	Positive_regulation 1016 1023	causing
+E19	Positive_regulation:T61 Cause:T33 Theme:E20
+T62	Localization 1052 1058	uptake
+E20	Localization:T62 Theme:T36 ToLoc:T38
+T63	Cell_transformation 1192 1203	transformed
+T64	Positive_regulation 1192 1203	transformed
+E21	Cell_transformation:T63 Theme:T43
+E22	Positive_regulation:T64 Theme:E21 Cause:T42

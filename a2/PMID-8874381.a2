@@ -1,0 +1,29 @@
+*	Equiv T4 T5
+T37	Positive_regulation 93 103	stimulates
+E1	Positive_regulation:T37 Theme:E2 Cause:T2
+T38	Development 115 126	development
+E2	Development:T38 Theme:T3
+T39	Localization 193 201	secreted
+E3	Localization:T39 Theme:T4 FromLoc:T6
+T40	Planned_process 341 353	gene therapy
+E4	Planned_process:T40 Instrument:T8
+T41	Positive_regulation 357 366	stimulate
+E5	Positive_regulation:T41 Cause:T8 Theme:E6
+T42	Development 385 396	development
+E6	Development:T42 Theme:T10
+T43	Planned_process 708 719	transfected
+E7	Planned_process:T43 Instrument:T20
+T44	Planned_process 731 757	site-specific transfection
+E8	Planned_process:T44 Instrument:T21
+T45	Positive_regulation 768 776	resulted
+E9	Positive_regulation:T45 Cause:E8 Theme:E10
+T46	Development 808 819	development
+E10	Development:T46 Theme:T22
+T47	Blood_vessel_development 1149 1161	angiogenesis
+E11	Blood_vessel_development:T47 
+T48	Blood_vessel_development 1441 1451	angiogenic
+E12	Blood_vessel_development:T48 
+T49	Positive_regulation 1545 1556	stimulating
+E13	Positive_regulation:T49 Theme:E14
+T50	Development 1575 1586	development
+E14	Development:T50 Theme:T36

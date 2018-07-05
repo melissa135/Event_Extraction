@@ -1,0 +1,24 @@
+*	Equiv T2 T3
+*	Equiv T20 T21
+*	Equiv T27 T28
+T16	Mutation 178 186	deletion
+E1	Mutation:T16 Theme:T2
+T17	Mutation 265 274	amplified
+E2	Mutation:T17 Theme:T5
+T18	Mutation 279 289	rearranged
+E3	Mutation:T18 Theme:T5
+T19	Mutation 416 434	tandem duplication
+E4	Mutation:T19 Theme:T7 Site:T20
+E5	Mutation:T19 Theme:T7 Site:T22
+T23	Mutation 543 561	tandem duplication
+E6	Mutation:T23 Theme:T7
+T24	Mutation 791 811	in-frame duplication
+E7	Mutation:T24 Site:T25 Theme:T7
+T26	Mutation 911 922	duplication
+E8	Mutation:T26 AtLoc:T13 Site:T27 Theme:T7
+T29	Mutation 982 993	duplication
+E9	Mutation:T29 Site:T30 Theme:T7
+T31	Mutation 1039 1060	genomic rearrangement
+E10	Mutation:T31 
+T32	Binding 1356 1363	binding
+E11	Binding:T32 Theme:T15

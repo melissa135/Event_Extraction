@@ -1,0 +1,42 @@
+*	Equiv T18 T19
+T27	Positive_regulation 36 43	induces
+E1	Positive_regulation:T27 Cause:T2 Theme:E2
+T28	Cell_death 58 67	apoptosis
+E2	Cell_death:T28 
+T29	Gene_expression 178 188	expression
+E3	Gene_expression:T29 Theme:T7
+T30	Negative_regulation 258 269	suppression
+E4	Negative_regulation:T30 Theme:E5
+T31	Gene_expression 277 287	expression
+E5	Gene_expression:T31 Theme:T9
+T32	Negative_regulation 322 330	inhibits
+E6	Negative_regulation:T32 Cause:E4 Theme:E7
+T33	Cell_proliferation 331 344	proliferation
+E7	Cell_proliferation:T33 Theme:T11
+T34	Positive_regulation 387 396	important
+E8	Positive_regulation:T34 Cause:T12 Theme:E9
+T35	Cell_proliferation 407 420	proliferation
+E9	Cell_proliferation:T35 Theme:T11
+T36	Cell_proliferation 495 501	growth
+E10	Cell_proliferation:T36 Theme:T14
+T37	Gene_expression 506 519	overexpressed
+T38	Positive_regulation 506 519	overexpressed
+E11	Gene_expression:T37 Theme:T15
+E12	Positive_regulation:T38 Theme:E11
+T39	Regulation 625 635	controlled
+E13	Regulation:T39 Cause:T18 Theme:E14
+T40	Gene_expression 636 646	expression
+E14	Gene_expression:T40 Theme:T15
+T41	Positive_regulation 669 678	induction
+E15	Positive_regulation:T41 Theme:T21
+T42	Positive_regulation 743 750	induces
+E16	Positive_regulation:T42 Cause:E15 Theme:E19
+E17	Positive_regulation:T42 Cause:E15 Theme:E20
+T43	Pathway 756 761	cycle
+E18	Pathway:T43 Theme:T23
+T44	Negative_regulation 762 768	arrest
+E19	Negative_regulation:T44 Theme:E18
+T45	Death 788 793	death
+E20	Death:T45 Theme:T24
+T46	Gene_expression 905 914	expressed
+E21	Gene_expression:T46 Theme:T25

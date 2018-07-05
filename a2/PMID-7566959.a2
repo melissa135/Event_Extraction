@@ -1,0 +1,51 @@
+T50	Positive_regulation 60 66	induce
+E1	Positive_regulation:T50 Cause:T1 Theme:T2
+T51	Positive_regulation 168 174	induce
+E2	Positive_regulation:T51 Theme:E4 Cause:T5
+E3	Positive_regulation:T51 Theme:E4 Cause:T4
+T52	Cell_proliferation 179 192	proliferation
+E4	Cell_proliferation:T52 Theme:T6
+T53	Planned_process 304 314	engineered
+E5	Planned_process:T53 Instrument:T8 Instrument2:T7
+T54	Gene_expression 457 469	coexpression
+E6	Gene_expression:T54 Theme:T7 Theme2:T8
+T55	Cell_transformation 626 637	transformed
+T56	Positive_regulation 626 637	transformed
+E7	Cell_transformation:T55 Theme:T17
+E8	Positive_regulation:T56 Theme:E7 Cause:T15
+E9	Positive_regulation:T56 Theme:E7 Cause:T13
+T57	Infection 660 669	infection
+E10	Infection:T57 Theme:T18 Participant:T15
+E11	Infection:T57 Theme:T19 Participant:T15
+E12	Infection:T57 Theme:T18 Participant:T13
+E13	Infection:T57 Theme:T19 Participant:T13
+T58	Cell_transformation 762 773	transformed
+T59	Positive_regulation 762 773	transformed
+E14	Cell_transformation:T58 Theme:T25
+E15	Positive_regulation:T59 Theme:E14 Cause:T21
+E16	Positive_regulation:T59 Theme:E14 Cause:T24
+T60	Planned_process 869 877	injected
+E17	Planned_process:T60 Theme:T27
+T61	Positive_regulation 945 952	induced
+E18	Positive_regulation:T61 Theme:T28 Cause:T24
+E19	Positive_regulation:T61 Theme:T28 Cause:T21
+T62	Positive_regulation 1031 1039	observed
+E20	Positive_regulation:T62 Theme:T29 Cause:T31
+E21	Positive_regulation:T62 Theme:T29 Cause:T36
+E22	Positive_regulation:T62 Theme:T29 Cause:T38
+M1	Negation E21
+T63	Positive_regulation 1263 1272	induction
+E23	Positive_regulation:T63 Theme:T40 Cause:T42
+E24	Positive_regulation:T63 Theme:T40 Cause:T45
+T64	Cell_proliferation 1452 1458	growth
+E25	Cell_proliferation:T64 Theme:T46
+T65	Positive_regulation 1494 1501	capable
+E26	Positive_regulation:T65 Cause:T47 Theme:E27
+T66	Positive_regulation 1505 1513	inducing
+E27	Positive_regulation:T66 Theme:T48
+T67	Gene_expression 1538 1547	expressed
+E28	Gene_expression:T67 Theme:T47
+T68	Cell_transformation 1657 1669	transforming
+E29	Cell_transformation:T68 
+T69	Positive_regulation 1687 1695	enhanced
+E30	Positive_regulation:T69 Cause:T49 Theme:E29

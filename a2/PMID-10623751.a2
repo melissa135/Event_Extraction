@@ -1,0 +1,73 @@
+*	Equiv T9 T10
+*	Equiv T31 T32
+T46	Positive_regulation 27 34	induces
+E1	Positive_regulation:T46 Theme:E2 Cause:T1
+T47	Cell_proliferation 35 48	proliferation
+E2	Cell_proliferation:T47 Theme:T4
+T48	Positive_regulation 92 105	cooperatively
+E3	Positive_regulation:T48 Theme:E5 Cause:T1
+E4	Positive_regulation:T48 Theme:E5 Cause:T7
+T49	Cell_transformation 106 116	transforms
+E5	Cell_transformation:T49 Theme:T5
+T50	Localization 236 243	present
+E6	Localization:T50 Theme:T8 AtLoc:T13
+E7	Localization:T50 Theme:T8 AtLoc:T14
+T51	Positive_regulation 390 400	sufficient
+E8	Positive_regulation:T51 Cause:T15 Theme:E9
+T52	Cell_transformation 404 413	transform
+E9	Cell_transformation:T52 Theme:T17
+T53	Planned_process 422 433	established
+E10	Planned_process:T53 Theme:T17
+T54	Positive_regulation 470 476	induce
+E11	Positive_regulation:T54 Theme:E12 Cause:T15
+T55	Carcinogenesis 481 495	tumorigenicity
+E12	Carcinogenesis:T55 AtLoc:T19
+T56	Regulation 551 574	plays pleiotropic roles
+E13	Regulation:T56 Cause:T20 Theme:E17
+E14	Regulation:T56 Cause:T20 Theme:E18
+E15	Regulation:T56 Cause:T20 Theme:E19
+T57	Cell_proliferation 583 589	growth
+E16	Cell_proliferation:T57 Theme:T21
+T58	Negative_regulation 590 596	arrest
+E17	Negative_regulation:T58 Theme:E16
+T59	Cell_differentiation 598 613	differentiation
+E18	Cell_differentiation:T59 Theme:T21
+T60	Cell_death 619 628	apoptosis
+E19	Cell_death:T60 
+T61	Regulation 694 699	roles
+E20	Regulation:T61 Cause:T23 Theme:E22
+E21	Regulation:T61 Cause:T23 Theme:E24
+M1	Speculation E20
+M2	Speculation E21
+T62	Cell_proliferation 716 729	proliferation
+E22	Cell_proliferation:T62 Theme:T24
+T63	Cell_proliferation 734 740	growth
+E23	Cell_proliferation:T63 Theme:T25
+T64	Regulation 741 751	regulation
+E24	Regulation:T64 Theme:E23
+T65	Planned_process 781 792	constructed
+E25	Planned_process:T65 Theme:T27
+T66	Positive_regulation 883 892	stimulate
+E26	Positive_regulation:T66 Cause:T29 Theme:E27
+T67	Cell_proliferation 897 910	proliferation
+E27	Cell_proliferation:T67 Theme:T31
+T68	Positive_regulation 1038 1047	induction
+E28	Positive_regulation:T68 Theme:E29 Cause:T29
+T69	Cell_division 1056 1064	doubling
+E29	Cell_division:T69 Theme:T34
+T70	Infection 1174 1183	infection
+E30	Infection:T70 Participant:T36 Theme:T35
+T71	Infection 1215 1225	uninfected
+E31	Infection:T71 Theme:T37
+M3	Negation E31
+T72	Regulation 1255 1265	cooperates
+E32	Regulation:T72 Theme:E34 Cause:T38
+E33	Regulation:T72 Theme:E34 Cause:T40
+T73	Cell_transformation 1312 1324	transforming
+E34	Cell_transformation:T73 Theme:T41
+T74	Positive_regulation 1439 1445	induce
+E35	Positive_regulation:T74 Cause:T42 Theme:E36
+T75	Cell_proliferation 1450 1463	proliferation
+E36	Cell_proliferation:T75 Theme:T43
+T76	Cell_transformation 1544 1556	transforming
+E37	Cell_transformation:T76 Theme:T45

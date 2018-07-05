@@ -1,0 +1,27 @@
+*	Equiv T7 T9
+T38	Planned_process 122 129	surgery
+E1	Planned_process:T38 Theme:T5
+T39	Planned_process 303 312	resection
+E2	Planned_process:T39 Theme:T10
+T40	Planned_process 432 450	distal gastrectomy
+E3	Planned_process:T40 Theme:T14
+T41	Planned_process 528 539	gastrectomy
+E4	Planned_process:T41 Theme:T16
+T42	Localization 733 741	Invasion
+E5	Localization:T42 ToLoc:T22 Theme:T23
+E6	Localization:T42 ToLoc:T22 Theme:T24
+T43	Gene_expression 926 940	overexpression
+T44	Positive_regulation 926 940	overexpression
+E7	Gene_expression:T43 Theme:T27
+E8	Positive_regulation:T44 Theme:E7
+T45	Mutation 1186 1194	Mutation
+E9	Mutation:T45 Theme:T32
+T46	Regulation 1206 1228	play an important role
+E10	Regulation:T46 Theme:E11 Cause:E9
+M1	Speculation E10
+T47	Growth 1241 1254	proliferative
+E11	Growth:T47 Theme:T33
+T48	Infection 1306 1315	infection
+E12	Infection:T48 Participant:T35
+T49	Carcinogenesis 1342 1356	carcinogenesis
+E13	Carcinogenesis:T49 Theme:T37

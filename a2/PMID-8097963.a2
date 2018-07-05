@@ -1,0 +1,113 @@
+*	Equiv T8 T9
+T58	Positive_regulation 0 9	Increased
+E1	Positive_regulation:T58 Theme:E2
+T59	Gene_expression 10 20	expression
+E2	Gene_expression:T59 Theme:T1
+T60	Cell_transformation 111 122	transformed
+E3	Cell_transformation:T60 
+T61	Regulation 230 240	regulation
+E4	Regulation:T61 Theme:E5
+T62	Cell_proliferation 249 262	proliferation
+E5	Cell_proliferation:T62 Theme:T6
+T63	Cell_transformation 278 292	transformation
+E6	Cell_transformation:T63 Theme:T6
+T64	Regulation 440 444	role
+E7	Regulation:T64 Cause:T10 Theme:E8
+M1	Speculation E7
+T65	Cell_transformation 519 532	tumorigenesis
+E8	Cell_transformation:T65 AtLoc:T12
+T66	Regulation 538 542	role
+E9	Regulation:T66 Theme:E8 Cause:T13
+M2	Speculation E9
+T67	Positive_regulation 618 627	activated
+E10	Positive_regulation:T67 Theme:T14
+T68	Planned_process 645 655	introduced
+E11	Planned_process:T68 Instrument:T14 Theme:T17
+T69	Cell_transformation 664 676	immortalized
+E12	Cell_transformation:T69 Theme:T17
+T70	Carcinogenesis 677 691	nontumorigenic
+E13	Carcinogenesis:T70 AtLoc:T17
+M3	Negation E13
+T71	Positive_regulation 766 774	increase
+E14	Positive_regulation:T71 Theme:E15 Cause:E11
+T72	Gene_expression 786 796	expression
+E15	Gene_expression:T72 Theme:T18
+T73	Positive_regulation 804 807	led
+E16	Positive_regulation:T73 Cause:E14 Theme:E17
+T74	Development 815 824	formation
+E17	Development:T74 Theme:T19
+T75	Planned_process 883 893	inoculated
+E18	Planned_process:T75 Instrument:T20 Theme:T21
+T76	Positive_regulation 942 950	increase
+E19	Positive_regulation:T76 Theme:E21
+E20	Positive_regulation:T76 Theme:E22
+T77	Gene_expression 958 968	expression
+E21	Gene_expression:T77 Theme:T23
+E22	Gene_expression:T77 Theme:T24
+T78	Planned_process 1041 1052	transformed
+E23	Planned_process:T78 Theme:T26 Instrument:T25
+T79	Development 1074 1081	derived
+E24	Development:T79 Theme:T27
+T80	Gene_expression 1169 1179	expression
+E25	Gene_expression:T80 Theme:T28
+T81	Positive_regulation 1198 1207	increased
+E26	Positive_regulation:T81 Theme:E25
+T82	Planned_process 1221 1232	transformed
+E27	Planned_process:T82 Instrument:T29 Theme:T30
+T83	Gene_expression 1247 1257	expression
+E28	Gene_expression:T83 Theme:T31
+M4	Negation E28
+T84	Gene_expression 1304 1314	expression
+E29	Gene_expression:T84 Theme:T32
+T85	Gene_expression 1344 1354	expression
+E30	Gene_expression:T85 Theme:T33
+E31	Gene_expression:T85 Theme:T34
+E32	Gene_expression:T85 Theme:T35
+T86	Regulation 1395 1405	correlated
+E33	Regulation:T86 Theme:E37 Cause:E29
+E34	Regulation:T86 Theme:E37 Cause:E32
+E35	Regulation:T86 Theme:E37 Cause:E30
+E36	Regulation:T86 Theme:E37 Cause:E31
+T87	Carcinogenesis 1411 1425	tumorigenicity
+E37	Carcinogenesis:T87 
+T88	Positive_regulation 1468 1476	elevated
+E38	Positive_regulation:T88 Theme:E39
+T89	Gene_expression 1481 1491	expression
+E39	Gene_expression:T89 Theme:T38
+T90	Positive_regulation 1497 1504	induced
+E40	Positive_regulation:T90 Cause:T39 Theme:T37
+T91	Positive_regulation 1523 1531	elevated
+E41	Positive_regulation:T91 Theme:E42
+T92	Gene_expression 1543 1553	expression
+E42	Gene_expression:T92 Theme:T40
+T93	Gene_expression 1616 1626	expression
+E43	Gene_expression:T93 Theme:T43
+E44	Gene_expression:T93 Theme:T43
+M5	Negation E43
+T94	Positive_regulation 1656 1663	induced
+E45	Positive_regulation:T94 Cause:T44 Theme:T42
+T95	Gene_expression 1679 1689	expression
+E46	Gene_expression:T95 Theme:T45
+T96	Regulation 1717 1727	correlated
+E47	Regulation:T96 Theme:E48 Cause:E46
+T97	Gene_expression 1750 1760	expression
+E48	Gene_expression:T97 Theme:T46
+T98	Positive_regulation 1896 1904	increase
+E49	Positive_regulation:T98 Theme:E50
+T99	Gene_expression 1912 1922	expression
+E50	Gene_expression:T99 Theme:T51
+T100	Positive_regulation 1953 1961	increase
+E51	Positive_regulation:T100 Theme:E52
+T101	Gene_expression 1969 1979	expression
+E52	Gene_expression:T101 Theme:T52
+T102	Gene_expression 2065 2075	expression
+E53	Gene_expression:T102 Theme:T54
+E54	Gene_expression:T102 Theme:T53
+T103	Gene_expression 2096 2106	expression
+E55	Gene_expression:T103 Theme:T55
+T104	Regulation 2111 2131	play a critical role
+E56	Regulation:T104 Theme:E59 Cause:E55
+E57	Regulation:T104 Theme:E59 Cause:E53
+E58	Regulation:T104 Theme:E59 Cause:E54
+T105	Carcinogenesis 2148 2161	tumorigenesis
+E59	Carcinogenesis:T105 AtLoc:T57

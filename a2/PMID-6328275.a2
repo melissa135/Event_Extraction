@@ -1,0 +1,78 @@
+*	Equiv T4 T5
+T52	DNA_methylation 4 15	methylation
+E1	DNA_methylation:T52 Theme:T2
+T53	Gene_expression 20 30	expression
+E2	Gene_expression:T53 Theme:T2
+T54	Planned_process 62 73	established
+E3	Planned_process:T54 Theme:T3
+T55	Gene_expression 142 149	express
+E4	Gene_expression:T55 Theme:T6
+T56	Gene_expression 216 226	expression
+E5	Gene_expression:T56 Theme:T6
+M1	Negation E5
+T57	Transcription 253 263	detectable
+E6	Transcription:T57 Theme:T8
+M2	Negation E6
+T58	Planned_process 325 331	cloned
+E7	Planned_process:T58 Theme:T11
+T59	Transcription 499 509	expressing
+E8	Transcription:T59 Theme:T15
+M3	Negation E8
+T61	DNA_methylation 599 609	methylated
+E9	DNA_methylation:T61 Site:T60 Theme:T13
+T62	Transcription 697 707	expressing
+E10	Transcription:T62 Theme:T21
+T63	Planned_process 738 747	Treatment
+E11	Planned_process:T63 Instrument:T23 Theme:T22
+T64	Positive_regulation 784 792	resulted
+E12	Positive_regulation:T64 Cause:E11 Theme:E13
+T65	Positive_regulation 800 809	induction
+E13	Positive_regulation:T65 Theme:E14
+T66	Gene_expression 832 842	expression
+E14	Gene_expression:T66 Theme:T24
+T67	Transcription 848 858	appearance
+E15	Transcription:T67 Theme:T25
+T68	DNA_demethylation 893 906	demethylation
+E16	DNA_demethylation:T68 Theme:T26
+T69	Planned_process 951 962	established
+E17	Planned_process:T69 Theme:T28
+T70	Gene_expression 1100 1109	expressed
+T71	Transcription 1100 1109	expressed
+E18	Gene_expression:T70 Theme:T32
+E19	Transcription:T71 Theme:T33
+T72	Infection 1250 1258	positive
+E20	Infection:T72 Participant:T39 Theme:T40
+T73	DNA_methylation 1309 1321	unmethylated
+E21	DNA_methylation:T73 Theme:T36
+E22	DNA_methylation:T73 Theme:T38
+M4	Negation E21
+M5	Negation E22
+T74	Planned_process 1323 1333	Uncultured
+E23	Planned_process:T74 Theme:T41
+M6	Negation E23
+T75	Infection 1401 1409	infected
+E24	Infection:T75 Participant:T42 Theme:T43
+T76	Gene_expression 1422 1431	expressed
+E25	Gene_expression:T76 Theme:T44
+T77	DNA_methylation 1497 1509	unmethylated
+E26	DNA_methylation:T77 Theme:T46
+M7	Negation E26
+T78	Gene_expression 1545 1555	expression
+E27	Gene_expression:T78 Theme:T47
+T79	Positive_regulation 1574 1583	increased
+E28	Positive_regulation:T79 Theme:E27
+T80	Regulation 1604 1611	changes
+E29	Regulation:T80 Theme:E31
+E30	Regulation:T80 Theme:E32
+M8	Negation E29
+M9	Negation E30
+T81	DNA_methylation 1629 1640	methylation
+E31	DNA_methylation:T81 Theme:T49
+T82	Transcription 1673 1679	amount
+E32	Transcription:T82 Theme:T50
+T83	Gene_expression 1729 1739	expression
+E33	Gene_expression:T83 Theme:T51
+T84	Regulation 1767 1776	modulated
+E34	Regulation:T84 Theme:E33
+T85	Transcription 1782 1799	transcriptionally
+E35	Transcription:T85 Theme:T51

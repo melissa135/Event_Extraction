@@ -1,0 +1,73 @@
+*	Equiv T13 T14
+*	Equiv T27 T28
+*	Equiv T33 T34
+T42	Cell_transformation 0 25	Neoplastic transformation
+T43	Positive_regulation 0 25	Neoplastic transformation
+E1	Cell_transformation:T42 
+E2	Positive_regulation:T43 Theme:E1 Cause:T1
+T44	Positive_regulation 35 43	requires
+E3	Positive_regulation:T44 Cause:E4 Theme:E2
+T45	Localization 52 64	localization
+E4	Localization:T45 AtLoc:T2 Theme:T1
+T46	Regulation 126 133	mediate
+E5	Regulation:T46 Cause:T3 Theme:E8
+E6	Regulation:T46 Cause:T3 Theme:E9
+E7	Regulation:T46 Cause:T3 Theme:E10
+T47	Cell_differentiation 172 187	differentiation
+E8	Cell_differentiation:T47 Theme:T5
+T48	Cell_proliferation 189 202	proliferation
+E9	Cell_proliferation:T48 Theme:T5
+T49	Cell_death 208 217	apoptosis
+E10	Cell_death:T49 Theme:T5
+T50	Regulation 333 341	mediates
+E11	Regulation:T50 Cause:T7 Theme:E12
+T51	Binding 376 383	contact
+E12	Binding:T51 Theme:T8
+T52	Catabolism 516 527	proteolytic
+E13	Catabolism:T52 Theme:T11
+T53	Catabolism 559 570	proteolysis
+E14	Catabolism:T53 Theme:T11
+T54	Localization 634 646	translocates
+E15	Localization:T54 Theme:T13 FromLoc:T12 ToLoc:T15
+T55	Positive_regulation 933 943	Activation
+E16	Positive_regulation:T55 Theme:T21
+T56	Regulation 978 988	associated
+E17	Regulation:T56 Cause:E16 Theme:E18
+T57	Carcinogenesis 994 1007	tumorigenesis
+E18	Carcinogenesis:T57 Theme:T23
+T58	Gene_expression 1095 1105	expression
+E19	Gene_expression:T58 Theme:T24
+T59	Localization 1172 1180	tethered
+E20	Localization:T59 ToLoc:T26 Theme:T25
+M1	Negation E20
+T60	Positive_regulation 1291 1297	induce
+E21	Positive_regulation:T60 Theme:E22 Cause:T27
+M2	Speculation E21
+T61	Cell_transformation 1298 1323	neoplastic transformation
+E22	Cell_transformation:T61 
+T62	Cell_transformation 1394 1403	transform
+T63	Positive_regulation 1394 1403	transform
+E23	Cell_transformation:T62 Theme:T33
+E24	Positive_regulation:T63 Theme:E23 Cause:T30
+E25	Positive_regulation:T63 Theme:E23 Cause:T29
+T64	Cell_transformation 1408 1420	immortalized
+T65	Positive_regulation 1408 1420	immortalized
+E26	Cell_transformation:T64 Theme:T33
+E27	Positive_regulation:T65 Cause:T31 Theme:E26
+T66	Localization 1506 1516	accumulate
+E28	Localization:T66 Theme:T35 AtLoc:T36
+T67	Positive_regulation 1535 1541	induce
+E29	Positive_regulation:T67 Theme:E30 Cause:T35
+T68	Cell_transformation 1542 1556	transformation
+E30	Cell_transformation:T68 Theme:T37
+T69	Positive_regulation 1635 1641	induce
+E31	Positive_regulation:T69 Cause:T38 Theme:E32
+T70	Cell_transformation 1642 1656	transformation
+E32	Cell_transformation:T70 
+T71	Cell_transformation 1683 1697	transformation
+T72	Positive_regulation 1683 1697	transformation
+E33	Cell_transformation:T71 Theme:T39
+E34	Positive_regulation:T72 Theme:E33 Cause:T40
+T73	Regulation 1752 1763	independent
+E35	Regulation:T73 Cause:T41 Theme:E34
+M3	Negation E35

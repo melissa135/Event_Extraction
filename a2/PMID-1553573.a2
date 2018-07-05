@@ -1,0 +1,50 @@
+*	Equiv T9 T10
+*	Equiv T11 T12
+*	Equiv T15 T16
+*	Equiv T32 T33
+*	Equiv T56 T57
+T58	Positive_regulation 67 74	enhance
+E1	Positive_regulation:T58 Theme:E3 Cause:T2
+E2	Positive_regulation:T58 Theme:E3 Cause:T1
+T59	Localization 79 92	incorporation
+E3	Localization:T59 Theme:T3 ToLoc:T5
+T60	Regulation 263 270	effects
+E4	Regulation:T60 Cause:E10 Theme:E11
+E5	Regulation:T60 Cause:E9 Theme:E11
+E6	Regulation:T60 Cause:E10 Theme:E12
+E7	Regulation:T60 Cause:E9 Theme:E12
+E8	Regulation:T60 Cause:E10 Theme:T15
+M1	Speculation E4
+M2	Speculation E5
+M3	Speculation E6
+M4	Speculation E7
+M5	Speculation E8
+T61	Planned_process 286 300	administration
+E9	Planned_process:T61 Theme:T13 Instrument:T9
+E10	Planned_process:T61 Theme:T13 Instrument:T11
+T62	Cell_proliferation 415 428	proliferative
+E11	Cell_proliferation:T62 Theme:T13
+T63	Metabolism 481 491	metabolism
+E12	Metabolism:T63 Theme:T15
+T64	Planned_process 539 550	application
+E13	Planned_process:T64 Instrument:T15 Theme:T17
+T65	Planned_process 1210 1218	exposure
+E14	Planned_process:T65 Instrument:T36
+E15	Planned_process:T65 Instrument:T35
+T66	Positive_regulation 1315 1333	stimulatory effect
+E16	Positive_regulation:T66 Theme:E18 Cause:T39
+E17	Positive_regulation:T66 Theme:E18 Cause:T40
+T67	Phosphorylation 1362 1377	phosphorylating
+E18	Phosphorylation:T67 Theme:T41
+T68	Positive_regulation 1512 1520	increase
+E19	Positive_regulation:T68 Theme:T45
+T69	Planned_process 1611 1623	pretreatment
+E20	Planned_process:T69 Theme:T46 Instrument:T48
+E21	Planned_process:T69 Theme:T46 Instrument:T47
+T70	Positive_regulation 1648 1655	enhance
+E22	Positive_regulation:T70 Theme:E24 Cause:T50
+E23	Positive_regulation:T70 Theme:E24 Cause:T49
+T71	Metabolism 1674 1684	metabolism
+E24	Metabolism:T71 Theme:T52
+T72	Negative_regulation 1767 1788	antileukemic activity
+E25	Negative_regulation:T72 Cause:T55 Theme:T56

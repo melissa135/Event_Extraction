@@ -1,0 +1,66 @@
+*	Equiv T1 T2
+*	Equiv T27 T22
+T41	Glycosylation 0 15	N-glycosylation
+E1	Glycosylation:T41 Theme:T1
+T42	Positive_regulation 69 78	increased
+E2	Positive_regulation:T42 Theme:E3
+T43	Binding 91 99	affinity
+E3	Binding:T43 Theme:T3
+T44	Regulation 154 158	role
+E4	Regulation:T44 Cause:E5 Theme:T7
+M1	Speculation E4
+T45	Glycosylation 162 177	N-glycosylation
+E5	Glycosylation:T45 Theme:T7
+T46	Regulation 267 274	effects
+E6	Regulation:T46 Cause:T8 Theme:E8
+T47	Glycosylation 282 297	N-glycosylation
+E7	Glycosylation:T47 Theme:T7
+T48	Localization 333 342	transport
+E8	Localization:T48 Theme:T9
+T49	Planned_process 393 402	Treatment
+E9	Planned_process:T49 Instrument:T14
+T50	Negative_regulation 438 448	inhibition
+E10	Negative_regulation:T50 Cause:E9 Theme:E11
+T51	Localization 467 473	uptake
+E11	Localization:T51 Theme:T15
+T52	Negative_regulation 516 524	decrease
+E12	Negative_regulation:T52 Theme:E13 Cause:E9
+T53	Binding 540 548	affinity
+E13	Binding:T53 Theme:T16
+T54	Gene_expression 627 636	expressed
+E14	Gene_expression:T54 Theme:T20
+T55	Planned_process 813 822	Treatment
+E15	Planned_process:T55 Theme:T25 Instrument:T26
+T56	Positive_regulation 864 872	resulted
+E16	Positive_regulation:T56 Theme:E17 Cause:E15
+T57	Negative_regulation 886 890	loss
+E17	Negative_regulation:T57 Theme:T27
+T58	Planned_process 1023 1032	treatment
+E18	Planned_process:T58 Instrument:T29 Theme:T28
+E19	Planned_process:T58 Instrument:T29 Theme:T30
+T59	Positive_regulation 1033 1041	resulted
+E20	Positive_regulation:T59 Cause:E19 Theme:E21
+T60	Negative_regulation 1137 1141	loss
+E21	Negative_regulation:T60 Theme:T31
+T61	Planned_process 1224 1233	treatment
+E22	Planned_process:T61 Instrument:T32
+T62	Positive_regulation 1234 1242	resulted
+E23	Positive_regulation:T62 Cause:E22 Theme:E26
+E24	Positive_regulation:T62 Cause:E22 Theme:E28
+E25	Positive_regulation:T62 Cause:E22 Theme:E29
+T63	Negative_regulation 1253 1263	inhibition
+E26	Negative_regulation:T63 Theme:E27
+T64	Localization 1279 1292	incorporation
+E27	Localization:T64 Theme:T33
+T65	Negative_regulation 1309 1319	inhibition
+E28	Negative_regulation:T65 Theme:E30
+E29	Negative_regulation:T65 Theme:E31
+T66	Localization 1353 1366	incorporation
+E30	Localization:T66 Theme:T34
+E31	Localization:T66 Theme:T35
+T67	Regulation 1404 1410	effect
+E32	Regulation:T67 Cause:T36 Theme:T38
+T68	Glycosylation 1510 1525	N-glycosylation
+E33	Glycosylation:T68 Theme:T40
+T69	Regulation 1536 1559	plays an important role
+E34	Regulation:T69 Cause:E33 Theme:T40

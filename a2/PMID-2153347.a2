@@ -1,0 +1,32 @@
+*	Equiv T7 T8
+T31	Gene_expression 27 36	expressed
+E1	Gene_expression:T31 Theme:T1
+T32	Growth 106 112	growth
+E2	Growth:T32 Theme:T3
+T33	Gene_expression 133 143	expression
+E3	Gene_expression:T33 Theme:T6
+M1	Speculation E3
+T34	Planned_process 225 234	untreated
+E4	Planned_process:T34 Theme:T9
+M2	Negation E4
+T35	Gene_expression 262 274	Coexpression
+E5	Gene_expression:T35 Theme:T10 Theme2:T11
+T36	Gene_expression 390 399	expressed
+E6	Gene_expression:T36 Theme:T13
+T37	Gene_expression 536 546	expression
+E7	Gene_expression:T37 Theme:T16
+T38	Gene_expression 619 627	positive
+E8	Gene_expression:T38 Theme:T18
+T39	Gene_expression 669 675	levels
+E9	Gene_expression:T39 Theme:T20
+T40	Gene_expression 802 810	positive
+E10	Gene_expression:T40 Theme:T22
+T41	Gene_expression 835 843	positive
+E11	Gene_expression:T41 Theme:T23
+T42	Gene_expression 909 920	coexpressed
+E12	Gene_expression:T42 Theme:T26 Theme2:T27
+T43	Gene_expression 958 968	expression
+E13	Gene_expression:T43 Theme:T28
+T44	Regulation 1026 1037	independent
+E14	Regulation:T44 Cause:T29 Theme:T30
+M3	Negation E14

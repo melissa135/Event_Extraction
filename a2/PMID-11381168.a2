@@ -1,0 +1,31 @@
+*	Equiv T2 T3
+T24	Regulation 0 7	Effects
+E1	Regulation:T24 Theme:E2
+T25	Localization 56 65	migration
+E2	Localization:T25 Theme:T1
+T26	Localization 71 80	migration
+E3	Localization:T26 Theme:T2
+T27	Regulation 117 140	plays an important role
+E4	Regulation:T27 Cause:E3 Theme:E5
+T28	Remodeling 153 163	remodeling
+E5	Remodeling:T28 Theme:T4
+T29	Localization 219 228	migration
+E6	Localization:T29 Theme:T7
+T30	Planned_process 253 262	culturing
+E7	Planned_process:T30 Theme:T8
+T31	Localization 684 691	migrate
+E8	Localization:T31 Theme:T14
+T32	Localization 992 1001	migration
+E9	Localization:T32 Theme:T18
+T33	Positive_regulation 1047 1054	promote
+E10	Positive_regulation:T33 Theme:E11
+T34	Localization 1058 1067	migration
+E11	Localization:T34 Theme:T19
+T35	Regulation 1119 1123	role
+E12	Regulation:T35 Theme:E13
+T36	Localization 1149 1158	migration
+E13	Localization:T36 Theme:T21
+T37	Localization 1212 1221	migration
+E14	Localization:T37 Theme:T22
+T38	Blood_vessel_development 1229 1241	angiogenesis
+E15	Blood_vessel_development:T38 

@@ -1,0 +1,72 @@
+*	Equiv T16 T15
+*	Equiv T19 T18
+*	Equiv T20 T21
+T42	Negative_regulation 6 16	inhibition
+E1	Negative_regulation:T42 Cause:T1 Theme:T2
+E2	Negative_regulation:T42 Cause:T1 Theme:E3
+T43	Blood_vessel_development 51 63	angiogenesis
+E3	Blood_vessel_development:T43 
+T44	Positive_regulation 129 138	dependent
+E4	Positive_regulation:T44 Cause:T5 Theme:E5
+T45	Negative_regulation 145 155	inhibition
+E5	Negative_regulation:T45 Theme:T6
+T46	Negative_regulation 227 234	inhibit
+E6	Negative_regulation:T46 Cause:T7 Theme:E7
+T47	Blood_vessel_development 235 247	angiogenesis
+E7	Blood_vessel_development:T47 
+T48	Positive_regulation 253 258	cause
+E8	Positive_regulation:T48 Theme:E9 Cause:T7
+T49	Breakdown 268 274	injury
+E9	Breakdown:T49 Theme:T9
+T50	Gene_expression 389 399	production
+E10	Gene_expression:T50 Theme:T11
+T51	Positive_regulation 532 541	activates
+E11	Positive_regulation:T51 Cause:T12 Theme:E13
+T52	Blood_vessel_development 550 560	angiogenic
+E12	Blood_vessel_development:T52 
+T53	Negative_regulation 561 568	program
+E13	Negative_regulation:T53 Theme:E12
+T54	Positive_regulation 578 587	activated
+E14	Positive_regulation:T54 Cause:T13 Theme:T15
+E15	Positive_regulation:T54 Cause:T13 Theme:T18
+T55	Positive_regulation 608 617	activated
+E16	Positive_regulation:T55 Theme:T16
+T56	Positive_regulation 638 647	activated
+E17	Positive_regulation:T56 Theme:T19
+T57	Negative_regulation 704 710	arrest
+E18	Negative_regulation:T57 Theme:T20
+T58	Negative_regulation 748 755	inhibit
+E19	Negative_regulation:T58 Theme:E20
+T59	Blood_vessel_development 765 777	angiogenesis
+E20	Blood_vessel_development:T59 
+T60	Negative_regulation 779 798	negatively modulate
+E21	Negative_regulation:T60 Theme:E23
+E22	Negative_regulation:T60 Theme:E24
+T61	Gene_expression 803 813	production
+E23	Gene_expression:T61 Theme:T22
+T62	Binding 870 876	adhere
+E24	Binding:T62 Theme:T23 Theme:T24
+T63	Positive_regulation 896 907	up-regulate
+E25	Positive_regulation:T63 Theme:E27
+E26	Positive_regulation:T63 Theme:E28
+T64	Gene_expression 926 936	expression
+E27	Gene_expression:T64 Theme:T26
+E28	Gene_expression:T64 Theme:T25
+T65	Regulation 959 966	require
+E29	Regulation:T65 Theme:E30
+M1	Negation E29
+T66	Binding 984 991	contact
+E30	Binding:T66 Theme:T28 Theme:T27
+T67	Binding 1020 1031	interaction
+E31	Binding:T67 Theme:T29 Theme:T30
+T68	Positive_regulation 1040 1049	activated
+E32	Positive_regulation:T68 Theme:T29
+E33	Positive_regulation:T68 Theme:T30
+T69	Positive_regulation 1285 1294	activated
+E34	Positive_regulation:T69 Theme:T34
+T70	Regulation 1405 1412	mediate
+E35	Regulation:T70 Theme:E37
+T71	Blood_vessel_development 1427 1439	angiogenetic
+E36	Blood_vessel_development:T71 
+T72	Regulation 1440 1446	effect
+E37	Regulation:T72 Cause:T41 Theme:E36

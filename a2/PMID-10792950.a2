@@ -1,0 +1,83 @@
+*	Equiv T18 T19
+T40	Planned_process 29 38	coculture
+E1	Planned_process:T40 Theme:T2
+T41	Cell_death 63 72	apoptosis
+E2	Cell_death:T41 
+T42	Metastasis 209 219	metastases
+E3	Metastasis:T42 
+T43	Regulation 229 241	unresponsive
+E4	Regulation:T43 Cause:E5 Theme:E3
+M1	Negation E4
+T44	Planned_process 256 265	treatment
+E5	Planned_process:T44 Theme:T5
+T45	Metastasis 292 302	metastases
+E6	Metastasis:T45 
+T46	Negative_regulation 343 350	regress
+E7	Negative_regulation:T46 Theme:E6
+E8	Negative_regulation:T46 Theme:T6
+T47	Planned_process 359 368	treatment
+E9	Planned_process:T47 Theme:T6
+M2	Negation E9
+T48	Cell_death 370 379	Apoptosis
+E10	Cell_death:T48 
+T49	Death 400 405	death
+E11	Death:T49 Theme:T7
+T50	Binding 524 532	interact
+E12	Binding:T50 Theme:T9 Theme2:T10
+M3	Speculation E12
+T51	Regulation 577 583	affect
+E13	Regulation:T51 Theme:E14
+T52	Cell_death 584 593	apoptosis
+E14	Cell_death:T52 Theme:T9
+T53	Cell_proliferation 676 681	grown
+E15	Cell_proliferation:T53 Theme:T12
+E16	Cell_proliferation:T53 Theme:T14
+T54	Planned_process 848 854	plated
+E17	Planned_process:T54 Theme:T15
+E18	Planned_process:T54 Theme:T16
+T55	Planned_process 974 983	harvested
+E19	Planned_process:T55 Theme:T17
+T56	Planned_process 1007 1021	immunostaining
+E20	Planned_process:T56 Theme:T17
+T57	Cell_death 1127 1136	Apoptosis
+E21	Cell_death:T57 
+T58	Cell_proliferation 1459 1464	grown
+E22	Cell_proliferation:T58 Theme:T23
+T59	Positive_regulation 1508 1516	increase
+E23	Positive_regulation:T59 Theme:T24
+E24	Positive_regulation:T59 Theme:T25
+T60	Negative_regulation 1589 1597	decrease
+E25	Negative_regulation:T60 Theme:T27
+T61	Positive_regulation 1636 1644	increase
+E26	Positive_regulation:T61 Theme:E27
+T62	Cell_death 1662 1671	apoptotic
+E27	Cell_death:T62 Theme:T28
+T63	Planned_process 1698 1706	cultured
+E28	Planned_process:T63 Theme:T28
+T64	Cell_proliferation 1770 1775	grown
+E29	Cell_proliferation:T64 Theme:T29
+T65	Positive_regulation 1819 1827	increase
+E30	Positive_regulation:T65 Theme:E31
+M4	Negation E30
+T66	Cell_death 1831 1840	apoptosis
+E31	Cell_death:T66 Theme:T29
+T67	Positive_regulation 1874 1883	increased
+E32	Positive_regulation:T67 Theme:T30
+T68	Cell_proliferation 1979 1984	grown
+E33	Cell_proliferation:T68 Theme:T32
+T69	Positive_regulation 2021 2030	increased
+E34	Positive_regulation:T69 Theme:E35
+T70	Gene_expression 2031 2041	expression
+E35	Gene_expression:T70 Theme:T33
+T71	Negative_regulation 2055 2064	decreased
+E36	Negative_regulation:T71 Theme:T34
+T72	Negative_regulation 2105 2113	diminish
+E37	Negative_regulation:T72 Theme:E38
+T73	Cell_death 2114 2123	apoptosis
+E38	Cell_death:T73 
+T74	Cell_death 2214 2226	proapoptotic
+E39	Cell_death:T74 
+T75	Metastasis 2297 2308	metastasize
+E40	Metastasis:T75 
+T76	Binding 2367 2378	interaction
+E41	Binding:T76 Theme:T38

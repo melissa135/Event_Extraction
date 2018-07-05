@@ -1,0 +1,81 @@
+*	Equiv T7 T8
+T47	Positive_regulation 58 66	enhanced
+E1	Positive_regulation:T47 Theme:E2
+T48	Metastasis 67 77	metastatic
+E2	Metastasis:T48 
+T49	Growth 107 113	growth
+E3	Growth:T49 Theme:T4
+T50	Planned_process 117 127	co-culture
+E4	Planned_process:T50 Theme:T5 Theme2:T1
+T51	Planned_process 197 209	transfecting
+E5	Planned_process:T51 Theme:T7 Instrument:T9
+T52	Metastasis 301 311	metastatic
+E6	Metastasis:T52 
+T53	Planned_process 348 357	injection
+E7	Planned_process:T53 Instrument:T16 Theme:T15
+T54	Metastasis 392 402	metastatic
+E8	Metastasis:T54 
+T55	Positive_regulation 415 423	enhanced
+E9	Positive_regulation:T55 Theme:E8
+T56	Growth 455 461	growth
+E10	Growth:T56 Theme:T18
+T57	Development 482 491	formation
+E11	Development:T57 Theme:T19
+T58	Positive_regulation 521 530	increased
+E12	Positive_regulation:T58 Theme:E14
+E13	Positive_regulation:T58 Theme:E15
+T59	Transcription 531 546	mRNA expression
+E14	Transcription:T59 Theme:T22
+T60	Mutation 551 569	gene amplification
+E15	Mutation:T60 Theme:T22
+T61	Negative_regulation 696 705	decreases
+E16	Negative_regulation:T61 Theme:E18
+E17	Negative_regulation:T61 Theme:E19
+T62	Mutation 709 727	gene amplification
+E18	Mutation:T62 Theme:T22
+T63	Transcription 732 747	mRNA expression
+E19	Transcription:T63 Theme:T22
+T64	Planned_process 816 827	subcultured
+E20	Planned_process:T64 Theme:T23
+T65	Planned_process 864 871	culture
+E21	Planned_process:T65 Theme:T25
+T66	Metastasis 908 918	metastatic
+E22	Metastasis:T66 
+T67	Mutation 963 976	amplification
+E23	Mutation:T67 Theme:T26
+T68	Transcription 1002 1017	mRNA expression
+E24	Transcription:T68 Theme:T26
+T69	Development 1039 1045	formed
+E25	Development:T69 Theme:T27
+T70	Metastasis 1093 1103	metastatic
+E26	Metastasis:T70 
+T71	Mutation 1120 1138	gene amplification
+E27	Mutation:T71 Theme:T26
+T72	Positive_regulation 1139 1148	increased
+E28	Positive_regulation:T72 Theme:E27
+T73	Positive_regulation 1155 1163	elevated
+E29	Positive_regulation:T73 Theme:E30
+T74	Transcription 1164 1179	mRNA expression
+E30	Transcription:T74 Theme:T26
+T75	Metastasis 1390 1400	metastatic
+E31	Metastasis:T75 
+T76	Planned_process 1436 1447	co-cultured
+E32	Planned_process:T76 Theme:T33 Theme2:T34
+T77	Planned_process 1522 1530	exposure
+E33	Planned_process:T77 Instrument:T36 Theme:T35
+T78	Positive_regulation 1567 1576	increased
+E34	Positive_regulation:T78 Theme:E36
+E35	Positive_regulation:T78 Theme:E37
+T79	Metastasis 1577 1587	metastatic
+E36	Metastasis:T79 
+T80	Transcription 1621 1625	mRNA
+E37	Transcription:T80 Theme:T39
+T81	Regulation 1696 1707	influencing
+E38	Regulation:T81 Theme:T43 Cause:T40
+E39	Regulation:T81 Theme:T43 Cause:T41
+T82	Planned_process 1724 1735	transfected
+E40	Planned_process:T82 Theme:T43
+T83	Positive_regulation 1835 1843	enhanced
+E41	Positive_regulation:T83 Theme:E42
+T84	Metastasis 1844 1854	metastatic
+E42	Metastasis:T84 

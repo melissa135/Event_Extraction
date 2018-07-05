@@ -1,0 +1,112 @@
+T57	Positive_regulation 0 9	Increased
+E1	Positive_regulation:T57 Theme:E3
+E2	Positive_regulation:T57 Theme:E4
+T58	Transcription 30 54	messenger RNA expression
+E3	Transcription:T58 Theme:T1
+E4	Transcription:T58 Theme:T2
+T59	Mutation 70 79	mutations
+E5	Mutation:T59 AtLoc:T3 Theme:T1
+E6	Mutation:T59 AtLoc:T3 Theme:T2
+M1	Negation E6
+M2	Negation E5
+T60	Metastasis 116 126	metastatic
+E7	Metastasis:T60 
+T61	Negative_regulation 172 182	suppresses
+E8	Negative_regulation:T61 Cause:T5 Theme:E9
+T62	Metastasis 187 197	metastatic
+E9	Metastasis:T62 
+T63	Negative_regulation 244 251	reduced
+E10	Negative_regulation:T63 Theme:E11
+T64	Gene_expression 257 267	expression
+E11	Gene_expression:T64 Theme:T7
+T65	Positive_regulation 284 293	increased
+E12	Positive_regulation:T65 Theme:E13
+T66	Metastasis 319 329	metastases
+E13	Metastasis:T66 ToLoc:T8 Theme:T10
+T67	Mutation 480 488	deletion
+E14	Mutation:T67 Theme:T15 AtLoc:T16
+T68	Negative_regulation 620 631	suppression
+E15	Negative_regulation:T68 Cause:T17 Theme:E16
+M3	Speculation E15
+T69	Metastasis 651 661	metastasis
+E16	Metastasis:T69 Theme:T18
+T70	Transcription 720 751	messenger RNA (mRNA) expression
+E17	Transcription:T70 Theme:T19
+T71	Positive_regulation 755 764	increased
+E18	Positive_regulation:T71 Theme:E17
+T72	Metastasis 820 830	metastatic
+E19	Metastasis:T72 Theme:T20
+T73	Mutation 944 960	allelic deletion
+E20	Mutation:T73 Theme:T21 AtLoc:T23
+T74	Negative_regulation 1067 1079	inactivation
+E21	Negative_regulation:T74 Theme:T26 Cause:E28
+E22	Negative_regulation:T74 Theme:T27 Cause:E28
+E23	Negative_regulation:T74 Theme:T26 Cause:E29
+E24	Negative_regulation:T74 Theme:T27 Cause:E29
+E25	Negative_regulation:T74 Theme:T27 Cause:E30
+E26	Negative_regulation:T74 Theme:T26 Cause:E30
+T75	Metastasis 1097 1107	metastasis
+E27	Metastasis:T75 
+T76	Mutation 1157 1165	mutation
+E28	Mutation:T76 
+T77	Transcription 1185 1198	transcription
+E29	Transcription:T77 Theme:T26
+E30	Transcription:T77 Theme:T27
+M4	Negation E29
+M5	Negation E30
+T78	Transcription 1341 1369	transcript (mRNA) expression
+E31	Transcription:T78 Theme:T31
+E32	Transcription:T78 Theme:T33
+T79	Mutation 1390 1399	mutations
+E33	Mutation:T79 Theme:T31 AtLoc:T32
+E34	Mutation:T79 Theme:T33 AtLoc:T34
+T80	Negative_regulation 1411 1421	inactivate
+E35	Negative_regulation:T80 Theme:E37 Cause:E33
+E36	Negative_regulation:T80 Theme:E37 Cause:E34
+T81	Negative_regulation 1432 1442	suppressor
+E37	Negative_regulation:T81 Theme:T30
+T82	Transcription 1465 1473	detected
+E38	Transcription:T82 Theme:T35
+E39	Transcription:T82 Theme:T36
+T83	Transcription 1515 1525	Expression
+E40	Transcription:T83 Theme:T37
+T84	Positive_regulation 1542 1551	increased
+E41	Positive_regulation:T84 Theme:E40
+T85	Transcription 1582 1592	expression
+E42	Transcription:T85 Theme:T39
+T86	Positive_regulation 1613 1621	elevated
+E43	Positive_regulation:T86 Theme:E42
+T87	Positive_regulation 1690 1699	Increases
+E44	Positive_regulation:T87 Theme:E46
+E45	Positive_regulation:T87 Theme:E47
+T88	Transcription 1709 1713	mRNA
+E46	Transcription:T88 Theme:T37
+E47	Transcription:T88 Theme:T39
+T89	Metastasis 1765 1775	metastatic
+E48	Metastasis:T89 Theme:T42
+T90	Mutation 1859 1876	allelic deletions
+E49	Mutation:T90 Theme:T43 AtLoc:T44
+T91	Regulation 1972 1979	mediate
+E50	Regulation:T91 Theme:E53 Cause:T45
+E51	Regulation:T91 Theme:E53 Cause:T46
+M6	Negation E50
+M7	Negation E51
+T92	Metastasis 1980 1990	metastasis
+E52	Metastasis:T92 Theme:T47
+T93	Negative_regulation 1991 2002	suppression
+E53	Negative_regulation:T93 Theme:E52
+T94	Mutation 2082 2098	allelic deletion
+E54	Mutation:T94 Theme:T48
+T95	Metastasis 2115 2125	metastatic
+E55	Metastasis:T95 Theme:T49
+T96	Metastasis 2231 2241	metastasis
+E56	Metastasis:T96 
+T97	Negative_regulation 2242 2252	suppressor
+E57	Negative_regulation:T97 Cause:T50 Theme:E56
+T98	Gene_expression 2322 2332	expression
+E58	Gene_expression:T98 Theme:T53
+M8	Negation E58
+T99	Metastasis 2386 2396	metastasis
+E59	Metastasis:T99 
+T100	Negative_regulation 2397 2408	suppression
+E60	Negative_regulation:T100 Cause:T55 Theme:E59

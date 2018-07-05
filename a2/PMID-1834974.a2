@@ -1,0 +1,19 @@
+T21	Cell_transformation 86 98	transforming
+E1	Cell_transformation:T21 
+T22	Carcinogenesis 113 127	tumorigenicity
+E2	Carcinogenesis:T22 
+T23	Planned_process 153 164	transfected
+E3	Planned_process:T23 Instrument:T3 Theme:T2
+T24	Transcription 725 736	transcribed
+E4	Transcription:T24 Theme:T9
+T25	Transcription 932 941	expressed
+E5	Transcription:T25 Theme:T17
+T26	Pathway 1038 1055	signaling network
+E6	Pathway:T26 
+T27	Regulation 1072 1079	control
+E7	Regulation:T27 Cause:E6 Theme:E9
+E8	Regulation:T27 Cause:E6 Theme:E10
+T28	Cell_proliferation 1088 1101	proliferation
+E9	Cell_proliferation:T28 Theme:T20
+T29	Cell_differentiation 1106 1121	differentiation
+E10	Cell_differentiation:T29 Theme:T20

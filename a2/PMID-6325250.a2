@@ -1,0 +1,48 @@
+T30	Positive_regulation 28 36	enhanced
+E1	Positive_regulation:T30 Theme:E2
+T31	Localization 45 54	transport
+E2	Localization:T31 Theme:T1
+T32	Cell_transformation 77 88	transformed
+T33	Positive_regulation 77 88	transformed
+E3	Cell_transformation:T32 Theme:T3
+E4	Positive_regulation:T33 Cause:T2 Theme:E3
+T34	Cell_transformation 97 111	Transformation
+T35	Positive_regulation 97 111	Transformation
+E5	Cell_transformation:T34 
+E6	Positive_regulation:T35 Cause:T4 Theme:E5
+T36	Cell_transformation 190 201	transformed
+E7	Cell_transformation:T36 Theme:T5
+T37	Localization 208 217	transport
+E8	Localization:T37 Theme:T6 ToLoc:T5
+T38	Cell_transformation 344 355	transformed
+E9	Cell_transformation:T38 Theme:T8
+T39	Positive_regulation 566 575	increased
+E10	Positive_regulation:T39 Theme:E11
+T40	Localization 592 601	transport
+E11	Localization:T40 Theme:T14
+T41	Positive_regulation 605 614	dependent
+E12	Positive_regulation:T41 Cause:T15 Theme:E10
+T42	Infection 880 888	infected
+E13	Infection:T42 Theme:T19 Participant:T20
+T43	Positive_regulation 986 995	increases
+E14	Positive_regulation:T43 Theme:E15 Cause:T21
+T44	Localization 1016 1025	transport
+E15	Localization:T44 Theme:T22
+T45	Infection 1064 1072	infected
+E16	Infection:T45 Participant:T21 Theme:T23
+T46	Carcinogenesis 1110 1121	tumorigenic
+E17	Carcinogenesis:T46 AtLoc:T23
+T47	Cell_transformation 1138 1152	transformation
+E18	Cell_transformation:T47 Theme:T23
+T48	Positive_regulation 1174 1181	induced
+E19	Positive_regulation:T48 Theme:E18
+T49	Infection 1190 1198	infected
+E20	Infection:T49 Participant:T21 Theme:T24
+T50	Infection 1314 1322	infected
+E21	Infection:T50 Theme:T25 Participant:T26
+T51	Positive_regulation 1445 1454	necessary
+E22	Positive_regulation:T51 Theme:E24
+T52	Positive_regulation 1463 1472	increased
+E23	Positive_regulation:T52 Theme:E24
+T53	Localization 1481 1490	transport
+E24	Localization:T53 Theme:T29

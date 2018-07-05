@@ -1,0 +1,36 @@
+*	Equiv T4 T5
+*	Equiv T16 T17
+T39	Localization 244 253	transport
+E1	Localization:T39 Theme:T6
+T40	Metabolism 347 357	metabolism
+E2	Metabolism:T40 Theme:T8
+T41	Localization 395 401	uptake
+E3	Localization:T41 Theme:T9
+T42	Metabolism 618 628	metabolism
+E4	Metabolism:T42 Theme:T15
+M1	Speculation E4
+T43	Localization 761 767	uptake
+E5	Localization:T43 Theme:T18
+M2	Speculation E5
+T44	Localization 888 894	uptake
+E6	Localization:T44 Theme:T19
+E7	Localization:T44 Theme:T20
+M3	Speculation E7
+M4	Speculation E6
+T45	Localization 932 938	uptake
+E8	Localization:T45 ToLoc:T21 Theme:T20
+E9	Localization:T45 ToLoc:T21 Theme:T19
+T46	Metabolism 1001 1011	metabolism
+E10	Metabolism:T46 Theme:T22
+T47	Localization 1027 1033	uptake
+E11	Localization:T47 Theme:T23 ToLoc:T24
+T48	Localization 1195 1201	uptake
+E12	Localization:T48 Theme:T27
+T49	Localization 1223 1229	uptake
+E13	Localization:T49 Theme:T28
+T50	Metabolism 1601 1611	metabolism
+E14	Metabolism:T50 Theme:T33
+T51	Localization 1666 1672	uptake
+E15	Localization:T51 Theme:T34
+T52	Planned_process 1868 1890	therapeutic management
+E16	Planned_process:T52 Theme:T37

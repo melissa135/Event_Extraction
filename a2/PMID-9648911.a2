@@ -1,0 +1,70 @@
+*	Equiv T4 T5
+*	Equiv T23 T24
+*	Equiv T25 T27
+*	Equiv T28 T26
+*	Equiv T29 T30
+T43	Positive_regulation 0 9	Induction
+E1	Positive_regulation:T43 Theme:T1
+T44	Blood_vessel_development 47 67	reendothelialization
+E2	Blood_vessel_development:T44 
+T45	Positive_regulation 125 132	induced
+E3	Positive_regulation:T45 Theme:T3
+T46	Blood_vessel_development 167 179	angiogenesis
+E4	Blood_vessel_development:T46 
+T47	Gene_expression 207 217	expression
+E5	Gene_expression:T47 Theme:T6
+M1	Speculation E5
+T48	Blood_vessel_development 234 254	reendothelialization
+E6	Blood_vessel_development:T48 
+T49	Planned_process 342 349	denuded
+E7	Planned_process:T49 Theme:T9
+E8	Planned_process:T49 Theme:T8
+T50	Gene_expression 376 385	expressed
+E9	Gene_expression:T50 Theme:T12
+T51	Positive_regulation 445 456	accumulated
+E10	Positive_regulation:T51 Theme:T13
+T52	Blood_vessel_development 527 547	reendothelialization
+E11	Blood_vessel_development:T52 
+T53	Positive_regulation 571 580	induction
+E12	Positive_regulation:T53 Theme:T16
+T54	Positive_regulation 599 609	reproduced
+E13	Positive_regulation:T54 Theme:E12 Cause:E14
+T55	Planned_process 621 631	denudation
+E14	Planned_process:T55 Theme:T18
+T56	Positive_regulation 685 694	induction
+E15	Positive_regulation:T56 Theme:T19
+T57	Planned_process 717 727	denudation
+E16	Planned_process:T57 Theme:T20
+T58	Regulation 732 741	regulated
+E17	Regulation:T58 Theme:E15
+T59	Localization 781 789	released
+E18	Localization:T59 FromLoc:T22 Theme:T21
+T60	Positive_regulation 935 944	induction
+E19	Positive_regulation:T60 Theme:T19
+T61	Positive_regulation 1062 1071	activated
+E20	Positive_regulation:T61 Theme:T31
+E21	Positive_regulation:T61 Theme:T29
+E22	Positive_regulation:T61 Theme:T25
+E23	Positive_regulation:T61 Theme:T26
+T62	Positive_regulation 1094 1104	activation
+E24	Positive_regulation:T62 Theme:T32
+E25	Positive_regulation:T62 Theme:T33
+T63	Regulation 1214 1220	affect
+E26	Regulation:T63 Theme:E27 Cause:T34
+M2	Negation E26
+T64	Positive_regulation 1225 1234	induction
+E27	Positive_regulation:T64 Theme:T36
+T65	Negative_regulation 1312 1321	abrogated
+E28	Negative_regulation:T65 Theme:E29 Cause:T37
+T66	Positive_regulation 1326 1335	induction
+E29	Positive_regulation:T66 Theme:T38
+T67	Positive_regulation 1374 1381	induced
+E30	Positive_regulation:T67 Theme:T39 Cause:E32
+T68	Planned_process 1395 1405	denudation
+E31	Planned_process:T68 Theme:T40
+T69	Positive_regulation 1414 1424	activation
+E32	Positive_regulation:T69 Theme:T41
+T70	Positive_regulation 1438 1447	induction
+E33	Positive_regulation:T70 Theme:T42
+T71	Blood_vessel_development 1477 1497	reendothelialization
+E34	Blood_vessel_development:T71 

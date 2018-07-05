@@ -1,0 +1,67 @@
+*	Equiv T5 T6
+T37	Regulation 41 49	involved
+E1	Regulation:T37 Cause:T1 Theme:E3
+E2	Regulation:T37 Cause:T1 Theme:E4
+T38	Development 86 95	formation
+E3	Development:T38 Theme:T3
+E4	Development:T38 Theme:T2
+T39	Gene_expression 173 182	expressed
+E5	Gene_expression:T39 Theme:T5
+T40	Remodeling 255 269	reorganization
+E6	Remodeling:T40 Theme:T8
+T41	Blood_vessel_development 277 289	angiogenesis
+E7	Blood_vessel_development:T41 
+T42	Regulation 332 339	changes
+E8	Regulation:T42 Theme:T10
+T43	Gene_expression 442 451	expressed
+E9	Gene_expression:T43 Theme:T13
+T44	Mutation 452 461	wild-type
+E10	Mutation:T44 Theme:T13
+M1	Negation E10
+T45	Mutation 466 472	mutant
+E11	Mutation:T45 Theme:T13
+T46	Gene_expression 589 599	Expression
+E12	Gene_expression:T46 Theme:T16
+T47	Mutation 603 612	wild-type
+E13	Mutation:T47 Theme:T16
+M2	Negation E13
+T48	Positive_regulation 618 625	induces
+E14	Positive_regulation:T48 Cause:E12 Theme:E16
+E15	Positive_regulation:T48 Cause:E12 Theme:E17
+T49	Localization 642 650	ruffling
+E16	Localization:T49 Theme:T17
+T50	Development 655 664	formation
+E17	Development:T50 Theme:T18
+T52	Negative_regulation 772 781	abolishes
+E18	Negative_regulation:T52 Theme:E19
+T53	Binding 797 801	bind
+E19	Binding:T53 Theme:T22 Theme:T21
+T54	Regulation 824 830	affect
+E20	Regulation:T54 Theme:E21
+M3	Negation E20
+T55	Development 856 865	formation
+E21	Development:T55 Theme:T23
+T56	Gene_expression 1016 1026	expression
+E22	Gene_expression:T56 Theme:T24
+T57	Binding 1095 1099	bind
+E23	Binding:T57 Theme:T25 Theme:T24 Theme2:T26
+T59	Binding 1182 1186	bind
+E24	Binding:T59 Theme:T27 Site:T58
+T60	Positive_regulation 1209 1215	induce
+E25	Positive_regulation:T60 Cause:T27 Theme:T28
+T61	Development 1346 1355	formation
+E26	Development:T61 Theme:T30
+E27	Development:T61 Theme:T31
+T62	Regulation 1458 1467	influence
+E28	Regulation:T62 Cause:T32 Theme:E30
+E29	Regulation:T62 Cause:T32 Theme:E31
+T63	Localization 1480 1489	migration
+E30	Localization:T63 Theme:T33
+T64	Development 1494 1506	organization
+E31	Development:T64 Theme:T33
+T65	Development 1524 1533	formation
+E32	Development:T65 Theme:T34
+T66	Regulation 1538 1546	modulate
+E33	Regulation:T66 Theme:T35 Cause:E34
+T67	Regulation 1573 1580	effects
+E34	Regulation:T67 Cause:T32 Theme:T36

@@ -1,0 +1,42 @@
+T28	Glycolysis 20 30	glycolysis
+E1	Glycolysis:T28 
+T29	Positive_regulation 31 42	stimulation
+E2	Positive_regulation:T29 Theme:E1
+T30	Glycolysis 106 116	Glycolysis
+E3	Glycolysis:T30 
+T31	Positive_regulation 168 176	enhanced
+E4	Positive_regulation:T31 Theme:E3 Cause:T5
+E5	Positive_regulation:T31 Theme:E3 Cause:T6
+T32	Positive_regulation 255 263	enhanced
+E6	Positive_regulation:T32 Theme:E7
+T33	Glycolysis 264 274	glycolysis
+E7	Glycolysis:T33 
+T34	Regulation 286 295	sensitive
+E8	Regulation:T34 Cause:T8 Theme:E7
+T35	Regulation 320 329	sensitive
+E9	Regulation:T35 Cause:T9 Theme:E7
+T36	Negative_regulation 372 380	released
+E10	Negative_regulation:T36 Cause:T9 Theme:E14
+E11	Negative_regulation:T36 Cause:T8 Theme:E14
+E12	Negative_regulation:T36 Cause:T9 Theme:E15
+E13	Negative_regulation:T36 Cause:T8 Theme:E15
+T37	Regulation 385 392	control
+E14	Regulation:T37 Theme:T10
+E15	Regulation:T37 Theme:T13
+T38	Regulation 488 494	effect
+E16	Regulation:T38 Cause:T14 Theme:E17
+M1	Negation E16
+T39	Glycolysis 498 508	glycolysis
+E17	Glycolysis:T39 
+T40	Planned_process 606 611	added
+E18	Planned_process:T40 Instrument:T18 Theme:T16
+T41	Regulation 671 680	sensitive
+E19	Regulation:T41 Cause:T20 Theme:E20
+T42	Synthesis 689 699	production
+E20	Synthesis:T42 Theme:T21
+T43	Catabolism 720 730	hydrolysis
+T44	Positive_regulation 720 730	hydrolysis
+E21	Catabolism:T43 Theme:T22
+E22	Positive_regulation:T44 Theme:E21 Cause:T23
+T45	Negative_regulation 789 798	decreased
+E23	Negative_regulation:T45 Cause:T24 Theme:T25

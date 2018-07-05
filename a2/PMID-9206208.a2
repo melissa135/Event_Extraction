@@ -1,0 +1,18 @@
+T23	Gene_expression 1 11	Expression
+E1	Gene_expression:T23 Theme:T1
+T24	Metastasis 15 25	metastasis
+E2	Metastasis:T24 
+T25	Metastasis 146 156	metastatic
+E3	Metastasis:T25 Theme:T4
+T26	Transcription 195 205	expression
+E4	Transcription:T26 Theme:T5
+T27	Metastasis 296 306	metastasis
+E5	Metastasis:T27 
+T28	Planned_process 472 479	labeled
+E6	Planned_process:T28 Instrument:T13
+T29	Transcription 666 676	expression
+E7	Transcription:T29 Theme:T17
+T30	Metastasis 705 715	metastatic
+E8	Metastasis:T30 Theme:T19
+T31	Transcription 777 787	expression
+E9	Transcription:T31 Theme:T20

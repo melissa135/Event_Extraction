@@ -1,0 +1,8 @@
+T29	Positive_regulation 166 181	potential cause
+E1	Positive_regulation:T29 Theme:T3
+T30	Negative_regulation 725 734	decreased
+E2	Negative_regulation:T30 Theme:T19
+T31	Positive_regulation 757 766	increased
+E3	Positive_regulation:T31 Theme:T21
+T32	Catabolism 822 830	turnover
+E4	Catabolism:T32 Theme:T22

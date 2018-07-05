@@ -1,0 +1,59 @@
+T23	Growth 12 18	growth
+E1	Growth:T23 Theme:T1
+T24	Regulation 31 41	associated
+E2	Regulation:T24 Cause:E1 Theme:E3
+T25	Blood_vessel_development 47 59	angiogenesis
+E3	Blood_vessel_development:T25 
+T26	Development 90 101	development
+E4	Development:T26 Theme:T2
+T27	Blood_vessel_development 103 115	angiogenesis
+E5	Blood_vessel_development:T27 AtLoc:T5
+T28	Growth 127 133	growth
+E6	Growth:T28 Theme:T3
+T29	Development 301 308	cycling
+E7	Development:T29 Theme:T6
+T30	Regulation 312 322	associated
+E8	Regulation:T30 Theme:E7
+T31	Blood_vessel_development 424 434	angiogenic
+E9	Blood_vessel_development:T31 AtLoc:T8
+T32	Blood_vessel_development 498 508	angiogenic
+E10	Blood_vessel_development:T32 
+T33	Blood_vessel_development 614 626	angiogenesis
+E11	Blood_vessel_development:T33 
+T34	Growth 739 746	resting
+E12	Growth:T34 Theme:T11
+M1	Negation E12
+T35	Growth 767 773	growth
+E13	Growth:T35 Theme:T11
+T36	Cell_proliferation 902 915	proliferating
+E14	Cell_proliferation:T36 Theme:T12
+T37	Development 975 982	cycling
+E15	Development:T37 Theme:T13
+T38	Regulation 1013 1023	associated
+E16	Regulation:T38 Cause:E15 Theme:E17
+T39	Blood_vessel_development 1041 1053	angiogenesis
+E17	Blood_vessel_development:T39 
+T40	Negative_regulation 1064 1074	inhibiting
+E18	Negative_regulation:T40 Theme:E19 Cause:E20
+T41	Blood_vessel_development 1075 1087	angiogenesis
+E19	Blood_vessel_development:T41 
+T42	Planned_process 1119 1130	application
+E20	Planned_process:T42 Instrument:T16 Theme:T15
+T43	Negative_regulation 1158 1165	retards
+E21	Negative_regulation:T43 Theme:E23 Cause:E18
+T44	Positive_regulation 1181 1188	induced
+E22	Positive_regulation:T44 Theme:E23
+T45	Development 1196 1207	development
+E23	Development:T45 Theme:T17
+T46	Blood_vessel_development 1229 1241	angiogenesis
+E24	Blood_vessel_development:T46 AtLoc:T20
+T47	Positive_regulation 1312 1320	dictated
+E25	Positive_regulation:T47 Cause:T21 Theme:E24
+T48	Regulation 1408 1418	associated
+E26	Regulation:T48 Theme:E27
+T49	Blood_vessel_development 1419 1431	angiogenesis
+E27	Blood_vessel_development:T49 
+T50	Blood_vessel_development 1513 1525	angiogenesis
+E28	Blood_vessel_development:T50 AtLoc:T22
+T51	Blood_vessel_development 1596 1606	angiogenic
+E29	Blood_vessel_development:T51 

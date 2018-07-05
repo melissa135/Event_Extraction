@@ -1,0 +1,48 @@
+*	Equiv T10 T9
+*	Equiv T29 T30
+T40	Development 9 22	proliferation
+E1	Development:T40 Theme:T1
+T41	Positive_regulation 27 35	enhanced
+E2	Positive_regulation:T41 Theme:E3
+T42	Gene_expression 36 46	expression
+E3	Gene_expression:T42 Theme:T2
+T43	Positive_regulation 297 306	increased
+E4	Positive_regulation:T43 Theme:T8
+T44	Gene_expression 455 465	expression
+E5	Gene_expression:T44 Theme:T9
+T45	Regulation 512 523	play a role
+E6	Regulation:T45 Theme:E7
+M1	Speculation E6
+T46	Positive_regulation 552 560	enhanced
+E7	Positive_regulation:T46 Theme:E8
+T47	Synthesis 567 577	production
+E8	Synthesis:T47 Theme:T11
+T48	Positive_regulation 921 930	increased
+E9	Positive_regulation:T48 Theme:T17
+T49	Positive_regulation 1080 1089	Increased
+E10	Positive_regulation:T49 Theme:T21
+T50	Regulation 1106 1114	mediated
+E11	Regulation:T50 Theme:T21 Cause:T22
+T51	Positive_regulation 1182 1194	upregulation
+E12	Positive_regulation:T51 Theme:T23
+T52	Positive_regulation 1241 1250	increased
+E13	Positive_regulation:T52 Theme:T24
+T53	Positive_regulation 1291 1299	enhanced
+E14	Positive_regulation:T53 Theme:T25
+T54	Positive_regulation 1349 1357	increase
+E15	Positive_regulation:T54 Theme:T26
+E16	Positive_regulation:T54 Theme:T27
+T55	Positive_regulation 1476 1488	upregulation
+E17	Positive_regulation:T55 Theme:T29
+T56	Localization 1641 1652	colocalized
+E18	Localization:T56 Theme:T34 Theme:T35
+T57	Blood_vessel_development 1749 1761	angiogenesis
+E19	Blood_vessel_development:T57 
+T58	Positive_regulation 1766 1775	increased
+E20	Positive_regulation:T58 Theme:T36
+T59	Positive_regulation 1809 1817	enhanced
+E21	Positive_regulation:T59 Theme:T37
+T60	Positive_regulation 1851 1863	upregulation
+E22	Positive_regulation:T60 Theme:T38
+T61	Localization 2024 2034	liberation
+E23	Localization:T61 Theme:T39

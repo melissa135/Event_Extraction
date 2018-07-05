@@ -1,0 +1,25 @@
+*	Equiv T11 T12
+*	Equiv T20 T21
+T29	Infection 120 129	Infection
+E1	Infection:T29 Participant:T7 Theme:T6
+T30	Positive_regulation 192 201	increases
+E2	Positive_regulation:T30 Cause:E1 Theme:E4
+E3	Positive_regulation:T30 Cause:E1 Theme:E5
+T31	Gene_expression 206 216	expression
+E4	Gene_expression:T31 Theme:T8
+E5	Gene_expression:T31 Theme:T10
+T32	Positive_regulation 317 327	activation
+E6	Positive_regulation:T32 Theme:T9
+T33	Positive_regulation 521 528	induces
+E7	Positive_regulation:T33 Cause:T12 Theme:E11
+E8	Positive_regulation:T33 Cause:T12 Theme:E13
+E9	Positive_regulation:T33 Cause:T12 Theme:E14
+E10	Positive_regulation:T33 Cause:T12 Theme:E12
+T34	Transcription 529 542	transcription
+E11	Transcription:T34 Theme:T14
+E12	Transcription:T34 Theme:T15
+T35	Gene_expression 547 557	expression
+E13	Gene_expression:T35 Theme:T14
+E14	Gene_expression:T35 Theme:T15
+T36	Positive_regulation 1213 1218	cause
+E15	Positive_regulation:T36 Cause:T23 Theme:T24

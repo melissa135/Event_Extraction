@@ -1,0 +1,44 @@
+*	Equiv T1 T2
+*	Equiv T4 T5
+T22	Positive_regulation 52 60	inducing
+E1	Positive_regulation:T22 Cause:T1 Theme:E2
+T23	Cell_death 65 74	apoptosis
+E2	Cell_death:T23 Theme:T3
+T24	Regulation 123 132	influence
+E3	Regulation:T24 Cause:T4 Theme:E4
+M1	Speculation E3
+T25	Positive_regulation 178 186	inducing
+E4	Positive_regulation:T25 Theme:E5
+T26	Cell_death 220 229	apoptosis
+E5	Cell_death:T26 Theme:T7
+T27	Planned_process 238 249	cultivating
+E6	Planned_process:T27 Theme:T8
+T28	Gene_expression 307 317	expression
+E7	Gene_expression:T28 Theme:T10
+T29	Cell_death 330 339	apoptosis
+E8	Cell_death:T29 Theme:T11
+T30	Positive_regulation 440 446	induce
+E9	Positive_regulation:T30 Cause:T12 Theme:E10
+T31	Cell_death 456 465	apoptosis
+E10	Cell_death:T31 Theme:T13
+T32	Positive_regulation 476 487	enhancement
+E11	Positive_regulation:T32 Theme:T14
+T33	Breakdown 541 553	condensation
+E12	Breakdown:T33 Theme:T15
+T34	Cell_death 604 613	apoptosis
+E13	Cell_death:T34 
+T35	Cell_death 741 750	apoptosis
+E14	Cell_death:T35 Theme:T16
+T36	Positive_regulation 751 760	increased
+E15	Positive_regulation:T36 Theme:E14
+T37	Positive_regulation 986 995	induction
+E16	Positive_regulation:T37 Cause:T18 Theme:E17
+T38	Cell_death 999 1008	apoptosis
+E17	Cell_death:T38 
+T39	Positive_regulation 1036 1044	inducing
+E18	Positive_regulation:T39 Cause:T19 Theme:E19
+T40	Cell_death 1056 1065	apoptosis
+E19	Cell_death:T40 Theme:T20
+T41	Regulation 1091 1103	independence
+E20	Regulation:T41 Cause:T21 Theme:E19
+M2	Negation E20

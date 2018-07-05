@@ -1,0 +1,43 @@
+*	Equiv T5 T6
+T30	Regulation 0 7	Effects
+E1	Regulation:T30 Cause:T1 Theme:E3
+E2	Regulation:T30 Cause:T1 Theme:E4
+T31	Cell_proliferation 35 41	growth
+E3	Cell_proliferation:T31 Theme:T2
+T32	Localization 43 52	migration
+E4	Localization:T32 Theme:T2
+T33	Metastasis 105 115	Metastatic
+E5	Metastasis:T33 
+T34	Death 154 159	death
+E6	Death:T34 Theme:T4
+T35	Metastasis 240 258	metastatic process
+E7	Metastasis:T35 
+T36	Regulation 322 330	involved
+E8	Regulation:T36 Cause:T5 Theme:E9
+T37	Metastasis 352 371	neoplastic invasion
+E9	Metastasis:T37 
+T38	Positive_regulation 373 382	Increased
+E10	Positive_regulation:T38 Theme:T7
+T39	Metastasis 424 434	metastatic
+E11	Metastasis:T39 Theme:T9
+T40	Regulation 496 507	play a role
+E12	Regulation:T40 Cause:T10 Theme:E13
+T41	Blood_vessel_development 517 529	angiogenesis
+E13	Blood_vessel_development:T41 AtLoc:T11
+T42	Negative_regulation 579 587	suppress
+E14	Negative_regulation:T42 Cause:T12 Theme:T13
+T43	Negative_regulation 719 727	suppress
+E15	Negative_regulation:T43 Cause:T18 Theme:T20
+T44	Negative_regulation 786 794	inhibits
+E16	Negative_regulation:T44 Theme:E18 Cause:T22
+E17	Negative_regulation:T44 Theme:E18 Cause:T21
+T45	Localization 795 804	migration
+E18	Localization:T45 Theme:T24
+T46	Remodeling 863 876	reconstituted
+E19	Remodeling:T46 Theme:T25
+T47	Localization 979 987	invasion
+E20	Localization:T47 Theme:T26
+T48	Negative_regulation 1042 1052	diminishes
+E21	Negative_regulation:T48 Theme:E22 Cause:T28
+T49	Cell_proliferation 1057 1070	proliferation
+E22	Cell_proliferation:T49 Theme:T29
