@@ -6,7 +6,7 @@ import torch.nn.init as init
 from torch.autograd import Variable
 from pandas.io.parsers import read_csv
 from dataloader_modified import DataLoader
-from define_net import Char_CNN_encode,BiLSTM,Trigger_Recognition,Relation_ClassificationC
+from define_net import Char_CNN_encode,BiLSTM,Trigger_Recognition,Relation_Classification
 from sentence_set_single import Sentence_Set_Single
 
 
@@ -324,10 +324,10 @@ if __name__ == '__main__':
 
                 epoch = 50
                 number = 0
-                char_cnn.load_state_dict(torch.load(path_+'/char_cnn_%d_%d.pth'%(epoch,number)))
-                bilstm.load_state_dict(torch.load(path_+'/bilstm_%d_%d.pth'%(epoch,number)))
-                tr.load_state_dict(torch.load(path_+'/tr_%d_%d.pth'%(epoch,number)))
-                rc.load_state_dict(torch.load(path_+'/rc_%d_%d.pth'%(epoch,number)))
+                char_cnn.load_state_dict(torch.load(path_+'/nets/char_cnn_%d_%d.pth'%(epoch,number)))
+                bilstm.load_state_dict(torch.load(path_+'/nets/bilstm_%d_%d.pth'%(epoch,number)))
+                tr.load_state_dict(torch.load(path_+'/nets/tr_%d_%d.pth'%(epoch,number)))
+                rc.load_state_dict(torch.load(path_+'/nets/rc_%d_%d.pth'%(epoch,number)))
 
                 f = file(path_+'/event_index', 'r')
                 event_index = cPickle.load(f)
