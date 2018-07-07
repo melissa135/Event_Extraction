@@ -7,7 +7,7 @@ import torch.nn.init as init
 from torch.autograd import Variable
 from pandas.io.parsers import read_csv
 from dataloader_modified import DataLoader
-from define_net import Char_CNN_encode,BiLSTM,Trigger_Recognition,Relation_ClassificationC
+from define_net import Char_CNN_encode,BiLSTM,Trigger_Recognition,Relation_Classification
 from sentence_set_single import Sentence_Set_Single
 from define_net_event_evaluation import *
 from entity_event_dict import *
@@ -103,11 +103,11 @@ if __name__ == '__main__':
                 m = 50
 
                 for k in range(0,ensemble):
-                    char_cnn_list[k].load_state_dict(torch.load(path_+'/char_cnn_%d_%d.pth'%(m,k)))
-                    bilstm_list[k].load_state_dict(torch.load(path_+'/bilstm_%d_%d.pth'%(m,k)))
-                    tr_list[k].load_state_dict(torch.load(path_+'/tr_%d_%d.pth'%(m,k)))
-                    rc_list[k].load_state_dict(torch.load(path_+'/rc_%d_%d.pth'%(m,k)))
-                    ee_list[k].load_state_dict(torch.load(path_+'/event_assert_%d_%d.pth'%(m,k)))
+                    char_cnn_list[k].load_state_dict(torch.load(path_+'/nets/char_cnn_%d_%d.pth'%(m,k)))
+                    bilstm_list[k].load_state_dict(torch.load(path_+'/nets/bilstm_%d_%d.pth'%(m,k)))
+                    tr_list[k].load_state_dict(torch.load(path_+'/nets/tr_%d_%d.pth'%(m,k)))
+                    rc_list[k].load_state_dict(torch.load(path_+'/nets/rc_%d_%d.pth'%(m,k)))
+                    ee_list[k].load_state_dict(torch.load(path_+'/nets/event_assert_%d_%d.pth'%(m,k)))
 
                 f = file(path_+'/event_index', 'r')
                 event_index = cPickle.load(f)
