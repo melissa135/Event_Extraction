@@ -148,9 +148,9 @@ class Trigger_Recognition(nn.Module):
         return event_emb
 
 
-class Relation_ClassificationC(nn.Module):
+class Relation_Classification(nn.Module):
     def __init__(self, relation_dim):
-        super(Relation_ClassificationC, self).__init__()
+        super(Relation_Classification, self).__init__()
         self.BiLSTM_hidden_size = 2*128 # must be same as previous
         self.relation_dim = relation_dim
         self.ner_embedding = 16
