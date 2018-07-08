@@ -71,7 +71,7 @@ def remove_subset(valid_combination):
 if __name__ == '__main__':
 
     path_ = os.path.abspath('.')
-    folder = path_+'/table_test/'
+    folder = path_+'/table/'
 
     ensemble = 10
     bias_tr,bias_rc = 0.5,1.0
@@ -97,7 +97,7 @@ if __name__ == '__main__':
                 char_cnn_list = [ Char_CNN_encode(char_dim).cuda() for k in range(0,ensemble) ]
                 bilstm_list = [ BiLSTM(word_dim,entity_dim).cuda() for k in range(0,ensemble) ]
                 tr_list = [ Trigger_Recognition(event_dim).cuda() for k in range(0,ensemble) ]
-                rc_list = [ Relation_ClassificationC(relation_dim).cuda() for k in range(0,ensemble) ]
+                rc_list = [ Relation_Classification(relation_dim).cuda() for k in range(0,ensemble) ]
                 ee_list = [ Event_Evaluation().cuda() for k in range(0,ensemble) ]
 
                 m = 50
@@ -107,7 +107,7 @@ if __name__ == '__main__':
                     bilstm_list[k].load_state_dict(torch.load(path_+'/nets/bilstm_%d_%d.pth'%(m,k)))
                     tr_list[k].load_state_dict(torch.load(path_+'/nets/tr_%d_%d.pth'%(m,k)))
                     rc_list[k].load_state_dict(torch.load(path_+'/nets/rc_%d_%d.pth'%(m,k)))
-                    ee_list[k].load_state_dict(torch.load(path_+'/nets/event_assert_%d_%d.pth'%(m,k)))
+                    ee_list[k].load_state_dict(torch.load(path_+'/nets/ee_%d_%d.pth'%(m,k)))
 
                 f = file(path_+'/event_index', 'r')
                 event_index = cPickle.load(f)
@@ -138,7 +138,7 @@ if __name__ == '__main__':
             base_loc = 0
 
             result_dir = folder+fname
-            result_dir = result_dir.replace('table_test','a2_result')
+            result_dir = result_dir.replace('table','a2_result')
             result_dir = result_dir.replace('.csv','.a2')
             f = file(result_dir,'w')
             
