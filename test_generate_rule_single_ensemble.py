@@ -430,7 +430,7 @@ def incomplete_event_assert(etype,argus):
 if __name__ == '__main__':
 
     path_ = os.path.abspath('.')
-    folder = path_+'/table_test/'
+    folder = path_+'/table/'
 
     ensemble = 10
 
@@ -455,7 +455,7 @@ if __name__ == '__main__':
                 char_cnn_list = [ Char_CNN_encode(char_dim).cuda() for k in range(0,ensemble) ]
                 bilstm_list = [ BiLSTM(word_dim,entity_dim).cuda() for k in range(0,ensemble) ]
                 tr_list = [ Trigger_Recognition(event_dim).cuda() for k in range(0,ensemble) ]
-                rc_list = [ Relation_ClassificationC(relation_dim).cuda() for k in range(0,ensemble) ]
+                rc_list = [ Relation_Classification(relation_dim).cuda() for k in range(0,ensemble) ]
                 
                 m = 50
 
@@ -493,7 +493,7 @@ if __name__ == '__main__':
             base_loc = 0
 
             result_dir = folder+fname
-            result_dir = result_dir.replace('table_test','a2_result')
+            result_dir = result_dir.replace('table','a2_result')
             result_dir = result_dir.replace('.csv','.a2')
             f = file(result_dir,'w')
             
