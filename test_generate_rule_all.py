@@ -294,7 +294,7 @@ def getrate_all_combination(relations) :
 if __name__ == '__main__':
 
     path_ = os.path.abspath('.')
-    folder = path_+'/table_test/'
+    folder = path_+'/table/'
 
     first_load = True
 
@@ -320,7 +320,7 @@ if __name__ == '__main__':
                 char_cnn = Char_CNN_encode(char_dim).cuda()
                 bilstm = BiLSTM(word_dim,entity_dim).cuda()
                 tr = Trigger_Recognition(event_dim).cuda()
-                rc = Relation_ClassificationC(relation_dim).cuda()
+                rc = Relation_Classification(relation_dim).cuda()
 
                 epoch = 50
                 number = 0
