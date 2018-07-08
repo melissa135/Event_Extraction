@@ -83,8 +83,8 @@ if __name__ == '__main__':
     f = file(path_+'/word_index_all', 'r')
     word_index = cPickle.load(f)
 
-    trainset = Sentence_Set(path_+'/table_train/',new_dict=False)
-    testset = Sentence_Set(path_+'/table_test/',new_dict=False)
+    trainset = Sentence_Set(path_+'/table/',new_dict=False)
+    #testset = Sentence_Set(path_+'/table_test/',new_dict=False)
     char_dim = trainset.get_char_dim()
     word_dim = trainset.get_word_dim()
     entity_dim = trainset.get_entity_dim()
@@ -107,7 +107,7 @@ if __name__ == '__main__':
     ee = Event_Evaluation().cuda()
 
     ccp = Char_CNN_pretrain(char_dim,event_dim)
-    ccp.load_state_dict(torch.load(path_+'/char_rnn_pretrain.pth'))
+    ccp.load_state_dict(torch.load(path_+'/nets/char_rnn_pretrain.pth'))
     new_dict = collections.OrderedDict()
     new_dict['embedding.weight'] = ccp.state_dict()['embedding.weight']
     new_dict['conv.weight'] = ccp.state_dict()['conv.weight']
@@ -172,14 +172,11 @@ if __name__ == '__main__':
     for key in relation_index.keys() :
         value = relation_index[key]
         relation_index_r[value] = key
-          
+    '''        
     word_embedding = bilstm.state_dict()['word_embedding.weight'].cpu().numpy()
     word_embedding = load_pretrain_vector(word_index,word_embedding)
     pretrained_weight = np.array(word_embedding)
-    bilstm.word_embedding.weight.data.copy_(torch.from_numpy(pretrained_weight))
-    '''      
-    for p in bilstm.fixed_embedding.parameters():
-	p.requires_grad = False
+    bilstm.word_embedding.weight.data.copy_(torch.from_numpy(pretrained_weight))   
     '''
     class_weight_tr = [ 5 for i in range(0,event_dim) ] #
     class_weight_tr[0] = 1
