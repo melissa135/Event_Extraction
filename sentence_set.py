@@ -26,7 +26,7 @@ def get_all_sentences(folder):
             path = os.path.join(root, fname)
             df = read_csv(path)
 
-            path_a2 = path.replace('table','table_a2') 
+            path_a2 = path.replace('table','a2_table') 
             df_a2 = read_csv(path_a2)
             e2t = dict() # convert Exx to Txx
             
@@ -120,7 +120,7 @@ def get_all_sentences(folder):
                             if not (src,dst) in relation.keys() :
                                 relation[(src,dst)] = 'NONE'
                                 
-                    path_a2m = path.replace('table_','table_a2_m') 
+                    path_a2m = path_a2.replace('a2_','a2_modification_') 
                     df_a2m = read_csv(path_a2m)
 
                     for j in range(0,len(df_a2m)):
