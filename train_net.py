@@ -13,7 +13,7 @@ from random import uniform
 from torch.autograd import Variable
 from sentence_set import Sentence_Set
 from dataloader_modified import DataLoader
-from define_net import Char_CNN_pretrain,Char_CNN_encode,BiLSTM,Trigger_Recognition,Relation_ClassificationC
+from define_net import Char_CNN_pretrain,Char_CNN_encode,BiLSTM,Trigger_Recognition,Relation_Classification
 from define_net_event_evaluation import *
 from entity_event_dict import *
 
@@ -103,7 +103,7 @@ if __name__ == '__main__':
     char_cnn = Char_CNN_encode(char_dim).cuda()
     bilstm = BiLSTM(word_dim,entity_dim).cuda()
     tr = Trigger_Recognition(event_dim).cuda()
-    rc = Relation_ClassificationC(relation_dim).cuda()
+    rc = Relation_Classification(relation_dim).cuda()
     ee = Event_Evaluation().cuda()
 
     ccp = Char_CNN_pretrain(char_dim,event_dim)
