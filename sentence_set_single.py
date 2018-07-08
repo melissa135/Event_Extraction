@@ -22,7 +22,7 @@ def get_all_sentences(fname):
 
     df = read_csv(fname)
 
-    fname_a2 = fname.replace('table','table_a2') 
+    fname_a2 = fname.replace('table','a2_table') 
     df_a2 = read_csv(fname_a2)
     e2t = dict() # convert Exx to Txx
     for j in range(0,len(df_a2)):
