@@ -495,7 +495,7 @@ if __name__ == '__main__':
             base_loc = 0
 
             result_dir = folder+fname
-            result_dir = result_dir.replace('table_test','a2_result')
+            result_dir = result_dir.replace('table','a2_result')
             result_dir = result_dir.replace('.csv','.a2')
             f = file(result_dir,'w')
            
