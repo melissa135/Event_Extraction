@@ -1236,10 +1236,10 @@ if __name__ == '__main__':
                     continue
                 print key,'%d %d %.5f'%(freq_dict[key][0],freq_dict[key][1],float(freq_dict[key][0])/(freq_dict[key][0]+freq_dict[key][1]))
                 
-            torch.save(char_cnn.state_dict(),path_+'/char_cnn_%d_%d.pth'%(epoch+1,number))
-            torch.save(bilstm.state_dict(),path_+'/bilstm_%d_%d.pth'%(epoch+1,number))
-            torch.save(tr.state_dict(),path_+'/tr_%d_%d.pth'%(epoch+1,number))
-            torch.save(rc.state_dict(),path_+'/rc_%d_%d.pth'%(epoch+1,number))
-            torch.save(ee.state_dict(),path_+'/ee_%d_%d.pth'%(epoch+1,number))
+            torch.save(char_cnn.state_dict(),path_+'/nets/char_cnn_%d_%d.pth'%(epoch+1,number))
+            torch.save(bilstm.state_dict(),path_+'/nets/bilstm_%d_%d.pth'%(epoch+1,number))
+            torch.save(tr.state_dict(),path_+'/nets/tr_%d_%d.pth'%(epoch+1,number))
+            torch.save(rc.state_dict(),path_+'/nets/rc_%d_%d.pth'%(epoch+1,number))
+            torch.save(ee.state_dict(),path_+'/nets/ee_%d_%d.pth'%(epoch+1,number))
 
     print('Finished Training')
