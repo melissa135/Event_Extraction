@@ -5,7 +5,7 @@ import torch.nn.init as init
 import torch.optim as optim
 from word_set import Word_Set
 from torch.autograd import Variable
-from define_net import Char_CNN_pretrain
+from define_net_pretrain import Char_CNN_pretrain
 from dataloader_modified import DataLoader
 
 
@@ -25,7 +25,7 @@ def testset_loss(dataset,net):
 	    outputs = net(inputs)   
 	    loss = loss + criterion(outputs,targets)
 
-        all_loss += loss.data[0]
+        all_loss += loss.data[0].item()
 
     return all_loss/i
 
@@ -34,7 +34,7 @@ if __name__ == '__main__':
 	
     path_ = os.path.abspath('.')
 
-    trainset = Word_Set(path_+'/table_train/',new_dict=True)
+    trainset = Word_Set(path_+'/table_train_all/',new_dict=True)
     char_dim = trainset.get_char_dim()
     event_dim = trainset.get_event_dim()
     print 'Total %d samples.' % trainset.__len__()
@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
     optimizer = optim.Adam(net.parameters())
 
-    for epoch in range(20): #
+    for epoch in range(10): #
 
         running_loss = 0.0
         
@@ -77,7 +77,7 @@ if __name__ == '__main__':
 	    loss.backward()
 	    optimizer.step()
 
-            running_loss += loss.data[0]
+            running_loss += loss.data[0].item()
             if i%100 == 99:
                 print('[%d, %3d] loss: %.5f' % (epoch+1,i+1,running_loss/6400)) # step is 10 and batch_size is 16
                 running_loss = 0.0
@@ -86,4 +86,4 @@ if __name__ == '__main__':
         print('[%d ] test loss: %.5f' % (epoch+1,test_loss))
 
     print('Finished Training')
-    torch.save(net.state_dict(),path_+'/char_rnn_pretrain.pth')
+    torch.save(net.state_dict(),path_+'/network/char_rnn_pretrain.pth')

@@ -19,10 +19,10 @@ def get_all_words(folder):
             df = read_csv(path)
             
             for i in range(0,len(df)):
-                if not df['entity_notation'][i] is np.nan :
-                    word = df['entity_notation'][i]
-                else :
-                    word = df['word'][i]
+                #if not df['entity_notation'][i] is np.nan :
+                #    word = df['entity_notation'][i]
+                #else :
+                word = df['word'][i]
 		all_words.append(str(word))
 		if not df['event_notation'][i] is np.nan :
                     all_event.append(df['event_notation'][i])

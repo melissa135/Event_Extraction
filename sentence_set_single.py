@@ -10,7 +10,7 @@ from sentence_set import char_to_onehot
 
 
 def get_all_sentences(fname):
-    
+
     all_sentences = []
     all_entitys = []
     all_events = []
@@ -22,7 +22,7 @@ def get_all_sentences(fname):
 
     df = read_csv(fname)
 
-    fname_a2 = fname.replace('table','a2_table') 
+    fname_a2 = fname.replace('table','table_a2')
     df_a2 = read_csv(fname_a2)
     e2t = dict() # convert Exx to Txx
     for j in range(0,len(df_a2)):
@@ -38,12 +38,12 @@ def get_all_sentences(fname):
     event_loc = dict()
     event_paras = dict() # map event to its parameter set
     start_index = 0
-            
+
     for i in range(0,len(df)):
 
         word = df['word'][i]
-	sentence.append(str(word))
-                
+        sentence.append(str(word))
+
         if not df['entity_notation'][i] is np.nan :
             entitys.append(df['entity_notation'][i])
             key = df['entity_index'][i]
@@ -55,10 +55,10 @@ def get_all_sentences(fname):
         else :
             entitys.append('NONE')
 
-	position = (df['position'][i],df['position'][i]+len(df['word'][i]))
-	word_loc.append(position)
-		
-	if not df['event_notation'][i] is np.nan :
+        position = (df['position'][i],df['position'][i]+len(df['word'][i]))
+        word_loc.append(position)
+
+        if not df['event_notation'][i] is np.nan :
             events.append(df['event_notation'][i])
             key = df['event_index'][i]
             if not key in event_loc.keys() :
@@ -68,12 +68,12 @@ def get_all_sentences(fname):
                 event_loc[key] = (begin,i-start_index) # update the end location
         else :
             events.append('NONE')
-                
+
         if df['is_end'][i] == True :
 
             relation = dict() # (src,dst):relation_type
             id_set = entity_loc.keys() + event_loc.keys()
-                    
+
             for j in range(0,len(df_a2)):  # all valid relations in a single sentence
                 src = df_a2['src'][j]
                 dst = df_a2['dst'][j]
@@ -84,14 +84,14 @@ def get_all_sentences(fname):
                     if src in id_set :
                         event_paras[src] = set()
                     continue
-                        
+
                 if rlt == 'CSite' :
                     rlt = 'Site'
                 if rlt[-1] >= '2' and rlt[-1] <= '9' :
                     rlt = rlt[:len(rlt)-1]
                 if isinstance(dst,basestring) and dst[0] == 'E' :
                     dst = e2t[dst]
-                            
+
                 if (src in id_set) and (dst in id_set) :
                     key = (src,dst)
                     relation[key] = rlt
@@ -149,18 +149,18 @@ class Sentence_Set_Single(data.Dataset):
         self.entity_index = cPickle.load(f)
         f = file(path_+'/event_index', 'r')
         self.event_index = cPickle.load(f)
-        f = file(path_+'/word_index_all', 'r') ###
+        f = file(path_+'/word_index', 'r') ###
         self.word_index = cPickle.load(f)
         f = file(path_+'/relation_index', 'r')
         self.relation_index = cPickle.load(f)
 
         self.sentences = sentences
         self.entitys = entitys
-	self.events = events
-	self.word_loc = word_loc
-	self.entity_loc = entity_loc
-	self.event_loc = event_loc
-	self.event_paras = event_paras
+        self.events = events
+        self.word_loc = word_loc
+        self.entity_loc = entity_loc
+        self.event_loc = event_loc
+        self.event_paras = event_paras
 
         for i in range(0,len(relations)) :
             relation = relations[i]
@@ -186,19 +186,19 @@ class Sentence_Set_Single(data.Dataset):
 
     def __getitem__(self, index):
         sentence = self.sentences[index]
-	sentence_char = self.sentences[index]
-	entity = self.entitys[index]
-	event = self.events[index]
-	relation = self.relations[index]
-	entity_loc = self.entity_loc[index]
-	event_loc = self.event_loc[index]
-	event_para = self.event_paras[index]
-	
+        sentence_char = self.sentences[index]
+        entity = self.entitys[index]
+        event = self.events[index]
+        relation = self.relations[index]
+        entity_loc = self.entity_loc[index]
+        event_loc = self.event_loc[index]
+        event_para = self.event_paras[index]
+
         input_word = word_to_onehot(sentence,self.word_index) # N(=1)*L
         input_entity = word_to_onehot(entity,self.entity_index)
         input_char = char_to_onehot(sentence_char,self.char_index) # L*( N(=1)*Char_L ) list
         target = word_to_onehot(event,self.event_index) # N(=1)*L
-        
+
         return input_word, input_entity, input_char, target, entity_loc, event_loc, relation, event_para
 
     def __len__(self):

@@ -9,7 +9,11 @@ from torch.autograd import Variable
 class Event_Evaluation(nn.Module):
     def __init__(self):
         super(Event_Evaluation, self).__init__()
-        self.role_types = len(relation_index)+1
+        path_ = os.path.abspath('.')
+        f = file(path_+'/relation_index', 'r')
+        self.relation_index = cPickle.load(f)
+
+        self.role_types = len(self.relation_index)+1
         self.role_size = 8
         encoding_size = 2*128 #
         entity_embedding_size = 16
@@ -31,9 +35,23 @@ class Event_Evaluation(nn.Module):
         self.softmaxm = nn.LogSoftmax(dim=1)
 
     def forward(self,bilstm_output,event_emb,entity_emb,s_r,range_list,hidden):
-        
+        '''
+        lower_bound, upper_bound = max(s_r[0]-5, 0), min(s_r[1]+6, bilstm_output.size()[0])
+        for rang in range_list :
+            _,[dst_begin,dst_end] = rang
+            lower_bound = max(min(lower_bound, dst_begin-5), 0)
+            upper_bound = min(max(upper_bound, dst_end+6), bilstm_output.size()[0])
+
+        bilstm_output = bilstm_output[lower_bound:upper_bound]
+        event_emb = event_emb[lower_bound:upper_bound]
+        entity_emb = entity_emb[lower_bound:upper_bound]
+        s_r = [ s_r[0]-lower_bound, s_r[1]-lower_bound ]
+        for i in range(0,len(range_list)):
+            rlt_type,[dst_begin,dst_end] = range_list[i]
+            range_list[i] = rlt_type,[dst_begin-lower_bound,dst_end-lower_bound]
+        '''
         none_variable = torch.LongTensor(1,1).zero_()
-        none_variable[0][0] = relation_index['NONE']
+        none_variable[0][0] = self.relation_index['NONE']
         none_variable = Variable(none_variable).cuda()
         role_vectors = [ self.role_embedding(none_variable) for i in range(0,bilstm_output.size()[0]) ]
 
@@ -46,7 +64,7 @@ class Event_Evaluation(nn.Module):
         for rang in range_list :
             rlt_type,[dst_begin,dst_end] = rang
             rlt_variable = torch.LongTensor(1,1).zero_()
-            rlt_variable[0][0] = relation_index[rlt_type]
+            rlt_variable[0][0] = self.relation_index[rlt_type]
             rlt_variable = Variable(rlt_variable).cuda()
             for i in range(dst_begin,dst_end+1) :
                 role_vectors[i] = self.role_embedding(rlt_variable) # N(=1)*L(=1)*role_size
@@ -69,11 +87,3 @@ class Event_Evaluation(nn.Module):
     def initHidden(self,num_layers=2,batch=1):
         return (Variable(torch.zeros(num_layers*self.num_hidden, batch, self.hidden_size)).cuda(),
                 Variable(torch.zeros(num_layers*self.num_hidden, batch, self.hidden_size)).cuda())
-    
-path_ = os.path.abspath('.')
-f = file(path_+'/relation_index', 'r')
-relation_index = cPickle.load(f)
-relation_index_r = dict()
-for key in relation_index.keys() :
-    value = relation_index[key]
-    relation_index_r[value] = key
