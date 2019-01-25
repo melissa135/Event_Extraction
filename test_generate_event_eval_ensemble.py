@@ -6,84 +6,6 @@ from define_net_event_evaluation import *
 from generate_utils import *
 
 
-class Event :
-    def __init__(self, event_id, paras, support, modification):
-        self.event_id = event_id
-        self.paras = paras
-        self.support = support
-        self.modification = modification
-        self.choosed = False
-
-    def get_modification(self):
-        if self.modification == 0 :
-            return 'None'
-        elif self.modification == 1 :
-            return 'Speculation'
-        elif self.modification == 2 :
-            return 'Negation'
-
-    def get_all_para_nodes(self):
-        para_nodes = set()
-        for para in self.paras :
-            para_nodes.add(para[1])
-        return para_nodes
-
-    def set_choosed(self):
-        self.choosed = True
-
-    def reset_choosed(self):
-        self.choosed = False
-
-        
-def Combination_Strategy(src_key,event_support,relation_support,candidate_event,alpha,beta,gamma):
-    
-    best_penalty = event_support[src_key]*beta
-    best_combination = []
-    best_range = 0
-    related_relation = dict()
-    
-    for key in relation_support.keys() :
-        if key[0] == src_key :
-            related_relation[key] = relation_support[key]
-            best_penalty = best_penalty + related_relation[key]*gamma
-    additional_penalty = best_penalty
-                        
-    for j in range(0,len(candidate_event)) :
-        best_penalty_this_round = 9999.9 # infinite max
-        penalty = 0.0
-                                    
-        for event in candidate_event :
-            if event.choosed == True :
-                penalty = penalty + max(1.0-event.support*alpha,0.0) #-event.support*0.4
-                                    
-        for event in candidate_event :
-            if event.choosed == False :
-                penalty_ = penalty + max(1.0-event.support*alpha,0.0) # -event.support*0.4
-                para_nodes = event.get_all_para_nodes()
-                for key in related_relation.keys() :
-                    if not key[1] in para_nodes :
-                        penalty_ = penalty_ + related_relation[key]*gamma
-                if penalty_ < best_penalty_this_round :
-                    best_penalty_this_round = penalty_
-                    best_event_this_round = event
-
-        key_list = related_relation.keys()
-        para_nodes = best_event_this_round.get_all_para_nodes()
-        for key in key_list :
-            if key[1] in para_nodes :
-                related_relation.pop(key)
-        best_event_this_round.set_choosed()
-        best_combination.append(best_event_this_round)
-        if best_penalty_this_round < best_penalty :
-            best_penalty = best_penalty_this_round
-            best_range = j + 1
-
-    best_combination = best_combination[:best_range]   
-    additional_penalty = additional_penalty - best_penalty
-    
-    return best_combination, additional_penalty  
-
-
 def resolution_recursive(t2e, event_info_paras):
     
     e2e = dict()
@@ -168,14 +90,11 @@ if __name__ == '__main__':
 
     ensemble_epoch = 8
     ensemble_number = 1
-    bias_tr,bias_rc = 2.0, 2.0
-    none_resize_tr,none_resize_rc,none_resize_m = 2.0, 2.0, 3.0
-    alpha, beta, gamma = 0.5, 0.25, 0.125
-
-    have_load = False
-    START_T = 2000
+    threshold = -1.0
     ensemble = ensemble_epoch*ensemble_number
- 
+    first_load = True
+    START_T = 2000
+    
     for root, _, fnames in os.walk(folder):
         for fname in fnames:
             if fname.split('.')[1] != 'csv' :
@@ -185,6 +104,7 @@ if __name__ == '__main__':
             testset = Sentence_Set_Single(folder+fname)
             testloader = DataLoader(testset,batch_size=1,shuffle=False)
             df = read_csv(folder+fname)
+            #df['word'] = df['word'].astype('string') # if not, it will mistake 'null' as nan
 
             char_dim = testset.get_char_dim()
             word_dim = testset.get_word_dim()
@@ -192,7 +112,7 @@ if __name__ == '__main__':
             event_dim = testset.get_event_dim()
             relation_dim = testset.get_relation_dim()
 
-            if not have_load :
+            if first_load :
 
                 char_cnn_list = [ Char_CNN_encode(char_dim) for k in range(0,ensemble) ]
                 bilstm_list = [ BiLSTM(word_dim,entity_dim) for k in range(0,ensemble) ]
@@ -201,10 +121,10 @@ if __name__ == '__main__':
                 ee_list = [ Event_Evaluation() for k in range(0,ensemble) ]
 
                 epoch = 20
-                base = 0
+                base = 2
                 for k in range(0,ensemble_epoch):
                     for l in range(0,ensemble_number):
-                        char_cnn_list[k*ensemble_number+l].load_state_dict(torch.load(path_+'/network/char_cnn_%d_%d.pth'%(epoch+10*k,base+l+2)))
+                        char_cnn_list[k*ensemble_number+l].load_state_dict(torch.load(path_+'/network/char_cnn_%d_%d.pth'%(epoch+10*k,base+l)))
                         bilstm_list[k*ensemble_number+l].load_state_dict(torch.load(path_+'/network/bilstm_%d_%d.pth'%(epoch+10*k,base+l)))
                         tr_list[k*ensemble_number+l].load_state_dict(torch.load(path_+'/network/tr_%d_%d.pth'%(epoch+10*k,base+l)))
                         rc_list[k*ensemble_number+l].load_state_dict(torch.load(path_+'/network/rc_%d_%d.pth'%(epoch+10*k,base+l)))
@@ -231,9 +151,9 @@ if __name__ == '__main__':
                     value = relation_index[key]
                     relation_index_r[value] = key
 
-                have_load = True
+                first_load = False
 
-            t_index = START_T # Entity number is unimportant, begin with a large numberto avoid overlapping with entity numbers
+            t_index = START_T # Entity number is unimportant, begin with a large number
             e_index = 1
             m_index = 0
             base_loc = 0
@@ -245,28 +165,28 @@ if __name__ == '__main__':
                     
                 for data in batch: # due to we have modified the defination of batch, the batch here is a list
 
-                    input_word, input_entity, input_char, target, entity_loc, event_loc, relation, _ = data
+                    input_word, input_entity, input_char, target, entity_loc, event_loc, relation, event_para = data
                     input_word, input_entity, target = Variable(input_word),Variable(input_entity),Variable(target)
 
                     bilstm_output_list = []
                     entity_emb_list = []
                     tr_emb_list = []
                     tr_index = []
-                    
+
                     for k in range(0,ensemble):
                         char_cnn = char_cnn_list[k]
                         bilstm = bilstm_list[k]
                         tr = tr_list[k]
-                        
+
                         char_encode = []
                         for chars in input_char :
                             chars = char_cnn(Variable(chars))
                             char_encode.append(chars)
                         char_encode = torch.cat(char_encode,0) # L*N*conv_out_channel
 
-                        hidden1,hidden2 = bilstm.initHidden()
+                        hidden_ = bilstm.initHidden()
                         bilstm.eval()
-                        bilstm_output,hidden,entity_emb = bilstm((input_word,input_entity,char_encode),(hidden1,hidden2))
+                        bilstm_output,hidden,entity_emb = bilstm((input_word,input_entity,char_encode),hidden_)
                         bilstm_output_list.append(bilstm_output)
                         entity_emb_list.append(entity_emb)
                         '''
@@ -275,10 +195,6 @@ if __name__ == '__main__':
                         tr_emb_list.append(tr_emb)
 
                         row = tr_output.data
-
-                        for x in range(0,row.size()[0]) :
-                            row[x][event_index['NONE']] = row[x][event_index['NONE']]*none_resize_tr
-                        
                         if k == 0 :
                             row_sum = row[:]
                         else :
@@ -286,13 +202,9 @@ if __name__ == '__main__':
                                 for y in range(0,row.size()[1]) :
                                     row_sum[x][y] = row_sum[x][y] + row[x][y]
 
-                    row_sum_new = []
                     for l in range(0,row_sum.size()[0]):
-                        row_sum_new.append(list(row_sum[l]))
-                        for j in range(0,len(row_sum_new[l])) :
-                            row_sum_new[l][j] = float(row_sum_new[l][j].data)
-                        row_sum_new[l][event_index['NONE']] = row_sum_new[l][event_index['NONE']] - bias_tr
-                        index = row_sum_new[l].index(max(row_sum_new[l]))
+                        row = list(row_sum[l])
+                        index = row.index(max(row))
                         tr_index.append(index)
 
                         for k in range(0,ensemble):
@@ -300,10 +212,9 @@ if __name__ == '__main__':
                             vector = tr.get_event_embedding(index)
                             tr_emb_list[k][l] = vector
                     '''
-                    row_sum_new = []
+                    row_sum = []
                     length = bilstm_output_list[0].size()[0]
                     embedding_size = tr_list[0].embedding_size
-
                     for l in range(0,length):
                         for k in range(0,ensemble):
                             if l == 0 :
@@ -316,15 +227,11 @@ if __name__ == '__main__':
                             tr.eval()
                             tr_output,tr_emb,_ = tr(bilstm_output[l:l+1],event_index=last_index)
                             if k == 0 :
-                                row_sum_new.append(tr_output.view(-1).data)
+                                row_sum.append(tr_output.view(-1).data)
                             else :
                                 for j in range(0,tr_output.size()[1]):
-                                    row_sum_new[l][j] = row_sum_new[l][j] + tr_output.view(-1).data[j]
-
-                        row_sum_new[l][event_index['NONE']] = row_sum_new[l][event_index['NONE']]*none_resize_tr
-                        row_sum_new[l][event_index['NONE']] = row_sum_new[l][event_index['NONE']] - bias_tr
-
-                        row = list(row_sum_new[l])
+                                    row_sum[l][j] = row_sum[l][j] + tr_output.view(-1).data[j]
+                        row = list(row_sum[l])
                         index = row.index(max(row))
                         tr_index.append(index)
                         for k in range(0,ensemble):
@@ -336,9 +243,9 @@ if __name__ == '__main__':
 
                     event_loc_ = dict()
                     event_info = dict()
-                    
+
                     for k in range(0,len(tr_index)) :
-                        
+
                         index = tr_index[k]
                         current_type = event_index_r[index].split('-')[0]
                         if current_type == 'OTHER' :
@@ -366,33 +273,33 @@ if __name__ == '__main__':
                         t_index = t_index + 1
                         event_info[t_notation] = ( previous_type,start_postion,end_postion,words )
                         event_loc_[t_notation] = ( start_loc,end_loc )
-
+                    
                     event_support = dict()
                     for key in event_loc_.keys() :
                         support = 0.0
                         start,end = event_loc_[key]
                         for j in range(start,end+1) :
                             index = tr_index[j]
-                            support = support + float(row_sum_new[j][index])/ensemble-\
-                                      float(row_sum_new[j][event_index['NONE']])/ensemble
+                            support = support + (float(row_sum[j][index]) - float(row_sum[j][event_index['NONE']]))/ensemble
                         support = support/(end-start+1)
-                        event_support[key] = support - bias_tr
-
-                    base_loc = base_loc+len(row_sum_new)
+                        event_support[key] = support
+                        #print key,support
+                    
+                    base_loc = base_loc+len(row_sum)
                     
                     e_loc = dict(entity_loc.items()+event_loc_.items()) # event refer to net output
-
+                    
                     event_para_ = dict()
                     src_type = dict()
                     dst_type = dict()
                     relation_support = dict()
-                        
+                    
                     for src_key in event_loc_.keys() :
                        
                         for dst_key in e_loc.keys() :
                             if src_key == dst_key :
                                 continue
-                            
+
                             src_begin,src_end = event_loc_[src_key]
                             dst_begin,dst_end = e_loc[dst_key]
 
@@ -446,20 +353,18 @@ if __name__ == '__main__':
                                     middle = torch.FloatTensor(0)
                                     
                                 rc = rc_list[k]
-                                
                                 rc.eval()
                                 #rc_output = rc(src_event,src,middle,dst,dst_event,reverse_flag,middle_flag)
                                 rc_output = rc(src,middle,dst,reverse_flag)
-
+                            
                                 row = rc_output.data
-                                row[0][relation_index['NONE']] = row[0][relation_index['NONE']]*none_resize_tr
                                 if k == 0 :
                                     row_sum = row[:]
                                 else :
                                     for x in range(0,row.size()[0]) :
                                         for y in range(0,row.size()[1]) :
                                             row_sum[x][y] = row_sum[x][y] + row[x][y]
-                                
+
                             this_row = list(row_sum[0])
                             index = this_row.index(max(this_row))
                             current_type = relation_index_r[index]
@@ -472,13 +377,13 @@ if __name__ == '__main__':
                                 continue
                             if event_flag and current_type == 'Instrument' and src_name == 'Planned_process':
                                 continue
-                            
+
                             if not event_para_.has_key(src_key) : # key point, keep the event with no relations
                                 event_para_[src_key] = set()
                             
                             if current_type != 'NONE' and current_type != 'OTHER' :
                                 support = (this_row[index] - this_row[relation_index['NONE']])/ensemble
-                                relation_support[(src_key,dst_key)] = support - bias_rc
+                                relation_support[(src_key,dst_key)] = support
                                 event_para_[src_key].add((current_type,dst_key))
 
                     for src_key in event_loc_.keys(): # add the isolate event (with no paras)
@@ -494,34 +399,11 @@ if __name__ == '__main__':
                     t2e = dict()
                     e2m = dict()
 
-                    rely_sequence = []
-                    rely_count = dict()
-                    for key in event_para_.keys() :
-                        rely_count[key] = 0
-                    for key in event_para_.keys() :
-                        paras = event_para_[key]
-                        for para in paras :
-                            dst_key = para[1]
-                            if dst_key in rely_count.keys() :
-                                rely_count[dst_key] = rely_count[dst_key] + 1
-                                
-                    while len(rely_sequence) != len(event_para_.keys()) :
-                        min_count = 9999
-                        for key in rely_count.keys() :
-                            if rely_count[key] < min_count :
-                                min_count = rely_count[key]
-                                selected_key = key
-                        rely_count.pop(selected_key)
-                        rely_sequence.append(selected_key)
-                        for para in event_para_[selected_key] :
-                            dst_key = para[1]
-                            if dst_key in rely_count.keys() :
-                                rely_count[dst_key] = rely_count[dst_key] - 1
-
-                    for src_key in rely_sequence :
+                    for src_key in event_para_.keys() :
 
                         s_r = e_loc[src_key]
-                        #range_list = []
+                        valid_combination = []
+
                         range_lists,para_sets = generate_all_combination(src_type[src_key],event_para_[src_key],e_loc)
 
                         for k in range(0,ensemble):
@@ -534,11 +416,11 @@ if __name__ == '__main__':
 
                             support_list = []
                             m_list = []
-                            #dst_set = []
 
                             for j in range(0,len(range_lists)):
                                 range_list = range_lists[j]
                                 para_set = para_sets[j]
+
                                 hidden = event_evaluation.initHidden()
                                 r,m = event_evaluation(bilstm_output,tr_emb,entity_emb,s_r,range_list,hidden)
 
@@ -552,16 +434,16 @@ if __name__ == '__main__':
                                 support_sum = [ support_sum[j] + support_list[j] for j in range(0,len(support_sum)) ]
                                 m_list_sum = [ [ m_list_sum[j][jj]+m_list[j][jj] for jj in range(0,3) ] for j in range(0,len(m_list_sum)) ]
 
-                        candidate_event = []
                         for j in range(0,len(support_sum)) :
-                            m_list_sum[j][0] = m_list_sum[j][0] * none_resize_m
                             m_index_ = m_list_sum[j].index(max(m_list_sum[j]))
-                            event = Event(src_key,para_sets[j],support_sum[j]/ensemble,m_index_)
-                            candidate_event.append(event)
+                            if support_sum[j]/ensemble > threshold:
+                                event = Event(src_key,para_sets[j],support_sum[j]/ensemble,m_index_)
+                                valid_combination.append(event)
 
-                        best_combination, additional_penalty = Combination_Strategy(src_key,event_support,relation_support,candidate_event,alpha,beta,gamma)
+                        #valid_combination = remove_subset(valid_combination)
+                        #  raise the recall but lower the prec, the overall performance is unchanged
                         
-                        for event in best_combination :
+                        for event in valid_combination :
                             v_c = event.paras
                             e_id = 'E%d'%e_index
                             if not t2e.has_key(src_key) :
@@ -570,17 +452,11 @@ if __name__ == '__main__':
                             e2m[e_id] = event.get_modification()
                             event_info_paras[e_id] = v_c
                             e_index = e_index + 1
+                  
+                    key_list = list(t2e.keys())
+                    key_list.sort()
 
-                            for para in v_c :
-                                dst_key = para[1]
-                                if event_support.has_key(dst_key) :
-                                    event_support[dst_key] = event_support[dst_key] + additional_penalty # has the accumulate effect
-                                # result in a sightly decrease, but have to reserve
-
-                    t_key_list = list(t2e.keys())
-                    t_key_list.sort()
-                    
-                    for t_id in t_key_list : #event_info.keys():
+                    for t_id in key_list : #event_info.keys():
                         info = event_info[t_id]
                         string = info[3]
                         string = string.replace(' - ','-')
@@ -599,7 +475,7 @@ if __name__ == '__main__':
                         string = string.replace(' /','/')
                         string = string.replace('/ ','/')
                         f.write(t_id+'\t'+info[0]+' '+str(info[1])+' '+str(info[2])+'\t'+string+'\n')
-                        # begin
+                        '''
                         for e_id in t2e[t_id] :
                             t2e_t_id = t2e[t_id][:]
                             argus = event_info_paras[e_id]
@@ -614,26 +490,25 @@ if __name__ == '__main__':
                                         break
 
                             if not augment_flag :
-                                break
-                                
+                                continue
+                            
                             argus.remove(argu)
 
                             for n in range(1,len(argu_ids)):
-                                new_argus = argus[:]
-                                new_argus.append((argu[0],argu_ids[n]))
+                                new_argus = argus.copy()
+                                new_argus.add((argu[0],argu_ids[n]))
                                 e_id_ = 'E%d'%e_index
                                 e_index = e_index + 1
                                 t2e_t_id.append(e_id_)
-                                e2m[e_id_] = e2m[e_id]
                                 event_info_paras[e_id_] = new_argus
 
-                            argus.append((argu[0],argu_ids[0]))
-                            # end : an effective patch result in a 0.35% improvemnt
-                        t2e[t_id] = t2e_t_id
+                            argus.add((argu[0],argu_ids[0]))
 
+                        t2e[t_id] = t2e_t_id
+                        '''
                     t2e, event_info_paras = resolution_recursive(t2e,event_info_paras)
                     t2e, event_info_paras = delete_unstable(t2e,event_info_paras)
-     
+
                     for t_id in t2e.keys():
                         info = event_info[t_id]
                      
@@ -665,5 +540,4 @@ if __name__ == '__main__':
                             if e2m[e_id] != 'None' : # only for CG and PC
                                 m_index = m_index + 1
                                 f.write('M%d'%m_index+'\t'+e2m[e_id]+' '+e_id+'\n')
-                            
             f.close()
