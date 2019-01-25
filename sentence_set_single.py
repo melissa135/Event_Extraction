@@ -87,8 +87,8 @@ def get_all_sentences(fname):
 
                 if rlt == 'CSite' :
                     rlt = 'Site'
-                if rlt[-1] >= '2' and rlt[-1] <= '9' :
-                    rlt = rlt[:len(rlt)-1]
+                #if rlt[-1] >= '2' and rlt[-1] <= '9' :
+                #    rlt = rlt[:len(rlt)-1]
                 if isinstance(dst,basestring) and dst[0] == 'E' :
                     dst = e2t[dst]
 
