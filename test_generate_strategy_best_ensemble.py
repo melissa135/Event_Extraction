@@ -166,7 +166,7 @@ if __name__ == '__main__':
     folder = path_+'/table_test/'
     dst_folder = path_+'/a2_result/'
 
-    ensemble_epoch = 8
+    ensemble_epoch = 1
     ensemble_number = 1
     bias_tr,bias_rc = 2.0, 2.0
     none_resize_tr,none_resize_rc,none_resize_m = 2.0, 2.0, 3.0
