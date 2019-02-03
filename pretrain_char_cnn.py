@@ -34,7 +34,7 @@ if __name__ == '__main__':
 	
     path_ = os.path.abspath('.')
 
-    trainset = Word_Set(path_+'/table_train_all/',new_dict=True)
+    trainset = Word_Set(path_+'/table/',new_dict=True)
     char_dim = trainset.get_char_dim()
     event_dim = trainset.get_event_dim()
     print 'Total %d samples.' % trainset.__len__()
