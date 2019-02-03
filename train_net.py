@@ -89,8 +89,8 @@ if __name__ == '__main__':
 
     number = int(sys.argv[1])
 
-    trainset = Sentence_Set(path_+'/table_train_all/',new_dict=False) # be True at the first running before the source changed
-    testset = Sentence_Set(path_+'/table_test_all/',new_dict=False)
+    trainset = Sentence_Set(path_+'/table/',new_dict=False) # be True at the first running before the source changed
+    testset = Sentence_Set(path_+'/table_test/',new_dict=False)
     char_dim = trainset.get_char_dim()
     word_dim = trainset.get_word_dim()
     entity_dim = trainset.get_entity_dim()
