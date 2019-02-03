@@ -28,11 +28,11 @@ def read_files(folder):
 ##########################################
 
 path_ = os.path.abspath('.')
-paper_root = path_+'/table_train/'
+paper_root = path_+'/table/'
 sentences = read_files(paper_root)
-paper_root = path_+'/table_test/'
-sentences_ = read_files(paper_root)
-sentences.extend(sentences_)
+#paper_root = path_+'/table_test/'
+#sentences_ = read_files(paper_root)
+#sentences.extend(sentences_)
 
 model = Word2Vec(sentences, size=128, min_count=1, iter=32)
 print len(sentences)
