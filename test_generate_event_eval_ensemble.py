@@ -88,7 +88,7 @@ if __name__ == '__main__':
     folder = path_+'/table_test/'
     dst_folder = path_+'/a2_result/'
 
-    ensemble_epoch = 8
+    ensemble_epoch = 1
     ensemble_number = 1
     threshold = -1.0
     ensemble = ensemble_epoch*ensemble_number
@@ -121,7 +121,7 @@ if __name__ == '__main__':
                 ee_list = [ Event_Evaluation() for k in range(0,ensemble) ]
 
                 epoch = 20
-                base = 2
+                base = 0
                 for k in range(0,ensemble_epoch):
                     for l in range(0,ensemble_number):
                         char_cnn_list[k*ensemble_number+l].load_state_dict(torch.load(path_+'/network/char_cnn_%d_%d.pth'%(epoch+10*k,base+l)))
