@@ -1,7 +1,5 @@
 # Event_Extraction
-Temporal
-
-python BioNLP-evaluation-CG.py -r /home/zhu/biomedical/test/development_data /home/zhu/event_extraction/a2_result/*.a2
+TO BE CONTINUED
 
 ## Uasge
 
@@ -18,6 +16,9 @@ python BioNLP-evaluation-CG.py -r /home/zhu/biomedical/test/development_data /ho
 3. Run `train_net.py` to train the main neural networks, in format `python train_net.py NUMBER` with a argument `NUMBER` which number the trained networks, the trained networks are saved in `/nets`.
 
 ### Testing
-To Be Continued ...
+1. Run `test_generate_strategy_best_ensemble.py` to extract events from testset in `/table_test`, in format `python test_generate_strategy_best_ensemble.py NUM1 NUM2` where `NUM1` denotes the number of ensemble epoches and `NUM2` denotes the number of ensemble training. Meanwhile, the base number for `NUM1` and `NUM2` should be set in codes. The result .a2 files is saved in `/a2_result`.
+(1. The `test_generate_event_eval_ensemble.py` is a variation method with same usage.)
+2. Use `python BioNLP-evaluation-CG.py -r /GOLDEN_STANDARD_DIR /PARENT_DIR/a2_result/*.a2` to evaluate the performance (for CG).
 
 ## Requirements
+TO BE CONTINUED
