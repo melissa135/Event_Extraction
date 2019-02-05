@@ -1,5 +1,6 @@
 # Event_Extraction
-TO BE CONTINUED
+A biomedical event extraction system by a novel Combination Strategy based on hybrid deep neural networks.
+Online demo : http://www.predictor.xin/event_extraction/
 
 ## Uasge
 
@@ -21,4 +22,10 @@ TO BE CONTINUED
 2. Use `python BioNLP-evaluation-CG.py -r /GOLDEN_STANDARD_DIR /PARENT_DIR/a2_result/*.a2` to evaluate the performance (for CG).
 
 ## Requirements
-TO BE CONTINUED
+* Pytorch
+* Gensim
+* NLTK
+* Pandas
+* sklearn
+
+TO BE CONTINUED ..
