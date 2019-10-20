@@ -141,7 +141,6 @@ class Relation_Classification(nn.Module):
         self.BiLSTM_hidden_size = 2*128 # must be same as previous
         self.relation_dim = relation_dim
         self.ner_embedding = 16
-        self.context_relation_dim = 64
         self.position_dim = 8
         self.max_position = 16
         self.conv_out_dim = 128
