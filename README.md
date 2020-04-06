@@ -1,7 +1,7 @@
 # Event_Extraction
 A biomedical event extraction system by a novel Combination Strategy based on hybrid deep neural networks.   
 Online demo : http://www.predictor.xin/event_extraction/
-
+https://rdcu.be/b1Pn1
 ## Uasge
 
 ### Preprocess
